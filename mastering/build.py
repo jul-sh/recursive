@@ -1,6 +1,9 @@
 import os
 import shutil
-import pync
+try:
+    import pync
+except ImportError:
+    pync = None
 from pathlib import Path
 from build_files import buildFiles, getFolders
 from build_variable import build_variable
