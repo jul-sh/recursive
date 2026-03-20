@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="period" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="190" y="72" type="move"/>
-			<point x="176" y="18"/>
-			<point x="208" y="-11"/>
-			<point x="280" y="-11" type="curve"/>
-			<point x="313" y="-11"/>
-			<point x="351" y="-6"/>
-			<point x="380" y="3" type="curve"/>
+			<point x="158.3333" y="69.3333" type="move" />
+			<point x="146.6667" y="17.3333" />
+			<point x="173.3333" y="-9.46" />
+			<point x="233.3333" y="-9.46" type="curve" />
+			<point x="260.8333" y="-9.46" />
+			<point x="292.5" y="-5.16" />
+			<point x="316.6667" y="2.8889" type="curve" />
 		</contour>
 	</outline>
 	<lib>

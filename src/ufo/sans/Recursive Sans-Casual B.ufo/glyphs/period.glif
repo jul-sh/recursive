@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="period" format="2">
-	<unicode hex="002E"/>
-	<advance width="350"/>
+	<unicode hex="002E" />
+	<advance width="292" />
 	<outline>
 		<contour>
-			<point x="264" y="0" type="curve"/>
-			<point x="264" y="111" type="line" smooth="yes"/>
-			<point x="264" y="187"/>
-			<point x="229" y="206"/>
-			<point x="173" y="206" type="curve" smooth="yes"/>
-			<point x="139" y="206"/>
-			<point x="111" y="199"/>
-			<point x="86" y="188" type="curve"/>
-			<point x="86" y="93" type="line" smooth="yes"/>
-			<point x="86" y="4"/>
-			<point x="125" y="-11"/>
-			<point x="196" y="-11" type="curve" smooth="yes"/>
-			<point x="222" y="-11"/>
-			<point x="242" y="-8"/>
+			<point x="220" y="0" type="curve" />
+			<point x="220" y="106.8889" type="line" smooth="yes" />
+			<point x="220" y="180.0741" />
+			<point x="190.8333" y="198.3704" />
+			<point x="144.1667" y="198.3704" type="curve" smooth="yes" />
+			<point x="115.8333" y="198.3704" />
+			<point x="92.5" y="191.6296" />
+			<point x="71.6667" y="181.037" type="curve" />
+			<point x="71.6667" y="89.5556" type="line" smooth="yes" />
+			<point x="71.6667" y="3.8519" />
+			<point x="104.1667" y="-9.46" />
+			<point x="163.3333" y="-9.46" type="curve" smooth="yes" />
+			<point x="185" y="-9.46" />
+			<point x="201.6667" y="-6.88" />
 		</contour>
 	</outline>
 	<lib>

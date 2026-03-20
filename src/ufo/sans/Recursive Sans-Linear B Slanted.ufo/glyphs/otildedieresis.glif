@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="otildedieresis" format="2">
-	<unicode hex="1E4F"/>
-	<advance width="600"/>
+	<unicode hex="1E4F" />
+	<advance width="500" />
 	<outline>
-		<component base="o"/>
-		<component base="tildecomb" xOffset="280" yOffset="-14"/>
-		<component base="dieresiscomb" xOffset="339" yOffset="220"/>
+		<component base="o" />
+		<component base="tildecomb" xOffset="233.3333" yOffset="-12.04" />
+		<component base="dieresiscomb" xOffset="282.5" yOffset="211.8519" />
 	</outline>
 	<lib>
 		<dict>

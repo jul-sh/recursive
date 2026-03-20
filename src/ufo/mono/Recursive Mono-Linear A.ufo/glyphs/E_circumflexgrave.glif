@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflexgrave" format="2">
-	<unicode hex="1EC0"/>
-	<advance width="600"/>
+	<unicode hex="1EC0" />
+	<advance width="500" />
 	<outline>
-		<component base="E"/>
-		<component base="circumflexcomb.case" xOffset="300"/>
-		<component base="gravecombviet.case" xOffset="468" yOffset="134"/>
+		<component base="E" />
+		<component base="circumflexcomb.case" xOffset="250" />
+		<component base="gravecombviet.case" xOffset="390" yOffset="132.4715" />
 	</outline>
 	<lib>
 		<dict>

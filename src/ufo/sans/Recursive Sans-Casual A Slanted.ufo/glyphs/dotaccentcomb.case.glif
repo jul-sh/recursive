@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccentcomb.case" format="2">
 	<outline>
-		<component base="dotaccentcomb" xOffset="34" yOffset="138"/>
+		<component base="dotaccentcomb" xOffset="28.3333" yOffset="136.4259" />
 	</outline>
-	<anchor name="_top" x="112" y="711"/>
-	<anchor name="top" x="147" y="850"/>
-	<anchor name="_dot" x="146" y="848"/>
+	<anchor name="_top" x="93.3333" y="735" />
+	<anchor name="top" x="122.5" y="735" />
+	<anchor name="_dot" x="121.6667" y="735" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

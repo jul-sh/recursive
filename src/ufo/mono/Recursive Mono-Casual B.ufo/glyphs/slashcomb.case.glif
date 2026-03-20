@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="slashcomb.case" format="2">
 	<outline>
 		<contour>
-			<point x="248" y="548" type="curve"/>
-			<point x="82" y="458" type="line" smooth="yes"/>
-			<point x="56" y="444"/>
-			<point x="2" y="445"/>
-			<point x="-24" y="433" type="curve" smooth="yes"/>
-			<point x="-113" y="391" type="line" smooth="yes"/>
-			<point x="-162" y="368"/>
-			<point x="-178" y="344"/>
-			<point x="-178" y="293" type="curve" smooth="yes"/>
-			<point x="-178" y="274"/>
-			<point x="-175" y="243"/>
-			<point x="-171" y="224" type="curve"/>
-			<point x="-26" y="297" type="line" smooth="yes"/>
-			<point x="3" y="312"/>
-			<point x="59" y="312"/>
-			<point x="88" y="326" type="curve" smooth="yes"/>
-			<point x="155" y="358" type="line" smooth="yes"/>
-			<point x="222" y="390"/>
-			<point x="255" y="431"/>
-			<point x="255" y="499" type="curve" smooth="yes"/>
-			<point x="255" y="515"/>
-			<point x="253" y="532"/>
+			<point x="206.6667" y="530.75" type="curve" />
+			<point x="68.3333" y="441.037" type="line" smooth="yes" />
+			<point x="46.6667" y="427.5556" />
+			<point x="1.6667" y="428.5185" />
+			<point x="-20" y="416.963" type="curve" smooth="yes" />
+			<point x="-94.1667" y="376.5185" type="line" smooth="yes" />
+			<point x="-135" y="354.3704" />
+			<point x="-148.3333" y="331.2593" />
+			<point x="-148.3333" y="282.1481" type="curve" smooth="yes" />
+			<point x="-148.3333" y="263.8519" />
+			<point x="-145.8333" y="234" />
+			<point x="-142.5" y="215.7037" type="curve" />
+			<point x="-21.6667" y="286" type="line" smooth="yes" />
+			<point x="2.5" y="300.4444" />
+			<point x="49.1667" y="300.4444" />
+			<point x="73.3333" y="313.9259" type="curve" smooth="yes" />
+			<point x="129.1667" y="344.7407" type="line" smooth="yes" />
+			<point x="185" y="375.5556" />
+			<point x="212.5" y="415.037" />
+			<point x="212.5" y="480.5185" type="curve" smooth="yes" />
+			<point x="212.5" y="495.9259" />
+			<point x="210.8333" y="512.2963" />
 		</contour>
 	</outline>
-	<anchor name="_slash" x="0" y="369"/>
+	<anchor name="_slash" x="0" y="355.3333" />
 </glyph>

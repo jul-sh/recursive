@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rdotbelow.mono" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
-		<component base="r.mono"/>
-		<component base="dotbelowcomb" xOffset="309.7499303373"/>
+		<component base="r.mono" />
+		<component base="dotbelowcomb" xOffset="258.1249" />
 	</outline>
-	<anchor name="top" x="377.7883841675" y="551"/>
+	<anchor name="top" x="314.8237" y="534.7812" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

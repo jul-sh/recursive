@@ -1,38 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eogonek.italic" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="228" y="-123" type="curve"/>
-			<point x="212" y="-203"/>
-			<point x="253" y="-250"/>
-			<point x="330" y="-250" type="curve"/>
-			<point x="393" y="-250"/>
-			<point x="429" y="-224"/>
-			<point x="444" y="-161" type="curve"/>
-			<point x="451" y="-134"/>
-			<point x="448" y="-114"/>
-			<point x="438" y="-93" type="curve"/>
-			<point x="432" y="-93" type="line"/>
-			<point x="419" y="-104"/>
-			<point x="408" y="-106"/>
-			<point x="389" y="-106" type="curve"/>
-			<point x="364" y="-106"/>
-			<point x="351" y="-95"/>
-			<point x="355" y="-76" type="curve"/>
-			<point x="364" y="-43"/>
-			<point x="397" y="-14"/>
-			<point x="445" y="8" type="curve"/>
-			<point x="469" y="18"/>
-			<point x="511" y="49"/>
-			<point x="530" y="147" type="curve"/>
-			<point x="495" y="94"/>
-			<point x="457" y="41"/>
-			<point x="428" y="31" type="curve"/>
-			<point x="309" y="-10"/>
-			<point x="244" y="-53"/>
+			<point x="190" y="-105.78" type="curve" />
+			<point x="176.6667" y="-174.58" />
+			<point x="210.8333" y="-215" />
+			<point x="275" y="-215" type="curve" />
+			<point x="327.5" y="-215" />
+			<point x="357.5" y="-192.64" />
+			<point x="370" y="-138.46" type="curve" />
+			<point x="375.8333" y="-115.24" />
+			<point x="373.3333" y="-98.04" />
+			<point x="365" y="-79.98" type="curve" />
+			<point x="360" y="-79.98" type="line" />
+			<point x="349.1667" y="-89.44" />
+			<point x="340" y="-91.16" />
+			<point x="324.1667" y="-91.16" type="curve" />
+			<point x="303.3333" y="-91.16" />
+			<point x="292.5" y="-81.7" />
+			<point x="295.8333" y="-65.36" type="curve" />
+			<point x="303.3333" y="-36.98" />
+			<point x="330.8333" y="-12.04" />
+			<point x="370.8333" y="7.7037" type="curve" />
+			<point x="390.8333" y="17.3333" />
+			<point x="425.8333" y="47.1852" />
+			<point x="441.6667" y="141.5556" type="curve" />
+			<point x="412.5" y="90.5185" />
+			<point x="380.8333" y="39.4815" />
+			<point x="356.6667" y="29.8519" type="curve" />
+			<point x="257.5" y="-8.6" />
+			<point x="203.3333" y="-45.58" />
 		</contour>
-		<component base="e.italic"/>
+		<component base="e.italic" />
 	</outline>
 	<lib>
 		<dict>

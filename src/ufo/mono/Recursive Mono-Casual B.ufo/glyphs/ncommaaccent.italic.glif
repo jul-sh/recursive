@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ncommaaccent.italic" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
-		<component base="n.italic"/>
-		<component base="commaaccentcomb" xOffset="303" yOffset="10"/>
+		<component base="n.italic" />
+		<component base="commaaccentcomb" xOffset="252.5" yOffset="9.6296" />
 	</outline>
 	<lib>
 		<dict>

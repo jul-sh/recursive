@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotesingle_quotesingle_quotesingle.code" format="2">
-	<advance width="1800"/>
+	<advance width="1500" />
 	<outline>
-		<component base="quotesingle" xOffset="248"/>
-		<component base="quotesingle" xOffset="728"/>
-		<component base="quotesingle" xOffset="1208"/>
+		<component base="quotesingle" xOffset="206.6667" />
+		<component base="quotesingle" xOffset="606.6667" />
+		<component base="quotesingle" xOffset="1006.6667" />
 	</outline>
-	<anchor name="caret_1" x="600" y="0"/>
-	<anchor name="caret_2" x="1200" y="0"/>
+	<anchor name="caret_1" x="500" y="0" />
+	<anchor name="caret_2" x="1000" y="0" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idieresisacute.mono" format="2">
-	<advance width="350"/>
+	<advance width="292" />
 	<outline>
-		<component base="dotlessi.mono"/>
-		<component base="dieresiscomb" xOffset="184" yOffset="2"/>
-		<component base="acutecomb.case" xOffset="184" yOffset="41"/>
+		<component base="dotlessi.mono" />
+		<component base="dieresiscomb" xOffset="153.3333" yOffset="1.9772" />
+		<component base="acutecomb.case" xOffset="153.3333" yOffset="40.5323" />
 	</outline>
 	<lib>
 		<dict>

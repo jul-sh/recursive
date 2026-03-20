@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ccedillaacute" format="2">
-	<unicode hex="1E08"/>
-	<advance width="600"/>
+	<unicode hex="1E08" />
+	<advance width="500" />
 	<outline>
-		<component base="C"/>
-		<component base="cedillacomb.case" xOffset="300" yOffset="-1"/>
-		<component base="acutecomb.case" xOffset="330" yOffset="-1"/>
+		<component base="C" />
+		<component base="cedillacomb.case" xOffset="250" yOffset="-0.86" />
+		<component base="acutecomb.case" xOffset="275" yOffset="-0.86" />
 	</outline>
 	<lib>
 		<dict>

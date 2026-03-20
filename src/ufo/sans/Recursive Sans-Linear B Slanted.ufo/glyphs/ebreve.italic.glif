@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ebreve.italic" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
-		<component base="e.italic"/>
-		<component base="brevecomb" xOffset="300.7883841675" yOffset="2"/>
+		<component base="e.italic" />
+		<component base="brevecomb" xOffset="250.657" yOffset="1.9259" />
 	</outline>
 	<lib>
 		<dict>

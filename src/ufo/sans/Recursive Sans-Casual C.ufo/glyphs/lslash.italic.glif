@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lslash.italic" format="2">
-	<advance width="350"/>
+	<advance width="292" />
 	<outline>
-		<component base="l.italic"/>
-		<component base="slashcomb" xOffset="171" yOffset="-65"/>
+		<component base="l.italic" />
+		<component base="slashcomb" xOffset="142.5" yOffset="-55.9" />
 	</outline>
 	<lib>
 		<dict>

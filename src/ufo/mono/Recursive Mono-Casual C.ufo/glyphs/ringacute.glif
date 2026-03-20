@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ringacute" format="2">
 	<outline>
-		<component base="ringcomb"/>
-		<component base="acutecomb.case" yOffset="47"/>
+		<component base="ringcomb" />
+		<component base="acutecomb.case" yOffset="44.4364" />
 	</outline>
-	<anchor name="_top" x="0" y="561"/>
+	<anchor name="_top" x="0" y="535.7667" />
 </glyph>

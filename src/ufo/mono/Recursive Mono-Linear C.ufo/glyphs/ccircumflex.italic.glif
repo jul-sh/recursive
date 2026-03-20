@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ccircumflex.italic" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
-		<component base="c.italic"/>
-		<component base="circumflexcomb" xOffset="330" yOffset="2"/>
+		<component base="c.italic" />
+		<component base="circumflexcomb" xOffset="275" yOffset="1.8909" />
 	</outline>
 	<lib>
 		<dict>

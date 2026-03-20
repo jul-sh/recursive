@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="verticallinemod" format="2">
-	<unicode hex="02C8"/>
-	<advance width="600"/>
+	<unicode hex="02C8" />
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="386" y="446" type="curve"/>
-			<point x="386" y="704" type="line" smooth="yes"/>
-			<point x="386" y="741"/>
-			<point x="364" y="754"/>
-			<point x="301" y="754" type="curve" smooth="yes"/>
-			<point x="270" y="754"/>
-			<point x="238" y="752"/>
-			<point x="214" y="750" type="curve"/>
-			<point x="218" y="734"/>
-			<point x="220" y="717"/>
-			<point x="220" y="691" type="curve" smooth="yes"/>
-			<point x="220" y="487" type="line" smooth="yes"/>
-			<point x="220" y="451"/>
-			<point x="247" y="440"/>
-			<point x="307" y="440" type="curve" smooth="yes"/>
-			<point x="329" y="440"/>
-			<point x="361" y="442"/>
+			<point x="321.6667" y="429.4815" type="curve" />
+			<point x="321.6667" y="735" type="line" smooth="yes" />
+			<point x="321.6667" y="735" />
+			<point x="303.3333" y="735" />
+			<point x="250.8333" y="735" type="curve" smooth="yes" />
+			<point x="225" y="735" />
+			<point x="198.3333" y="735" />
+			<point x="178.3333" y="735" type="curve" />
+			<point x="181.6667" y="735" />
+			<point x="183.3333" y="735" />
+			<point x="183.3333" y="722.9062" type="curve" smooth="yes" />
+			<point x="183.3333" y="468.963" type="line" smooth="yes" />
+			<point x="183.3333" y="434.2963" />
+			<point x="205.8333" y="423.7037" />
+			<point x="255.8333" y="423.7037" type="curve" smooth="yes" />
+			<point x="274.1667" y="423.7037" />
+			<point x="300.8333" y="425.6296" />
 		</contour>
 	</outline>
 </glyph>

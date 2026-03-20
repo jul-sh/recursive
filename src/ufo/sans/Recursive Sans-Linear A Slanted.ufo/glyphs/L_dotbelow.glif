@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ldotbelow" format="2">
-	<unicode hex="1E36"/>
-	<advance width="550"/>
+	<unicode hex="1E36" />
+	<advance width="458" />
 	<outline>
-		<component base="L"/>
-		<component base="dotbelowcomb.case" xOffset="289.7499303373"/>
+		<component base="L" />
+		<component base="dotbelowcomb.case" xOffset="241.4583" />
 	</outline>
-	<anchor name="top" x="229" y="711"/>
+	<anchor name="top" x="190.8333" y="735" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

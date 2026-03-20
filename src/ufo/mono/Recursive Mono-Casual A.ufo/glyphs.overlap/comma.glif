@@ -1,60 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="comma" format="2">
-	<unicode hex="002C"/>
-	<advance width="600"/>
+	<unicode hex="002C" />
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="241" y="-190" type="curve" smooth="yes"/>
-			<point x="252" y="-190"/>
-			<point x="257" y="-188"/>
-			<point x="263" y="-182" type="curve" smooth="yes"/>
-			<point x="312.823557855" y="-133.1729133021"/>
-			<point x="360" y="-38"/>
-			<point x="360" y="98" type="curve" smooth="yes"/>
-			<point x="360" y="125"/>
-			<point x="335.5434782609" y="133"/>
-			<point x="315" y="133" type="curve" smooth="yes"/>
-			<point x="299.8648648649" y="133"/>
-			<point x="289.6055044446" y="130.7633026668"/>
-			<point x="280" y="125" type="curve"/>
-			<point x="280" y="-26"/>
-			<point x="263.4605532149" y="-83.2707907431"/>
-			<point x="203" y="-179" type="curve"/>
-			<point x="216" y="-187"/>
-			<point x="225" y="-190"/>
+			<point x="200.8333" y="-163.4" type="curve" smooth="yes" />
+			<point x="210" y="-163.4" />
+			<point x="214.1667" y="-161.68" />
+			<point x="219.1667" y="-156.52" type="curve" smooth="yes" />
+			<point x="260.6863" y="-114.5287" />
+			<point x="300" y="-32.68" />
+			<point x="300" y="96.8821" type="curve" smooth="yes" />
+			<point x="300" y="123.5741" />
+			<point x="279.6196" y="131.4829" />
+			<point x="262.5" y="131.4829" type="curve" smooth="yes" />
+			<point x="249.8874" y="131.4829" />
+			<point x="241.3379" y="129.2717" />
+			<point x="233.3333" y="123.5741" type="curve" />
+			<point x="233.3333" y="-22.36" />
+			<point x="219.5505" y="-71.6129" />
+			<point x="169.1667" y="-153.94" type="curve" />
+			<point x="180" y="-160.82" />
+			<point x="187.5" y="-163.4" />
 		</contour>
 	</outline>
-	<guideline x="0" y="0" angle="90"/>
-	<guideline x="50" y="0" angle="90"/>
-	<guideline x="100" y="0" angle="90"/>
-	<guideline x="150" y="0" angle="90"/>
-	<guideline x="200" y="0" angle="90"/>
-	<guideline x="250" y="0" angle="90"/>
-	<guideline x="300" y="0" angle="90"/>
-	<guideline x="350" y="0" angle="90"/>
-	<guideline x="400" y="0" angle="90"/>
-	<guideline x="450" y="0" angle="90"/>
-	<guideline x="500" y="0" angle="90"/>
-	<guideline x="550" y="0" angle="90"/>
-	<guideline x="600" y="0" angle="90"/>
-	<guideline x="0" y="-250" angle="0"/>
-	<guideline x="0" y="-200" angle="0"/>
-	<guideline x="0" y="-150" angle="0"/>
-	<guideline x="0" y="-100" angle="0"/>
-	<guideline x="0" y="-50" angle="0"/>
-	<guideline x="0" y="0" angle="0"/>
-	<guideline x="0" y="50" angle="0"/>
-	<guideline x="0" y="100" angle="0"/>
-	<guideline x="0" y="150" angle="0"/>
-	<guideline x="0" y="200" angle="0"/>
-	<guideline x="0" y="250" angle="0"/>
-	<guideline x="0" y="300" angle="0"/>
-	<guideline x="0" y="350" angle="0"/>
-	<guideline x="0" y="400" angle="0"/>
-	<guideline x="0" y="450" angle="0"/>
-	<guideline x="0" y="500" angle="0"/>
-	<guideline x="0" y="550" angle="0"/>
-	<guideline x="0" y="600" angle="0"/>
-	<guideline x="0" y="650" angle="0"/>
-	<guideline x="0" y="700" angle="0"/>
+	<guideline x="0" y="0" angle="90" />
+	<guideline x="41.6667" y="0" angle="90" />
+	<guideline x="83.3333" y="0" angle="90" />
+	<guideline x="125" y="0" angle="90" />
+	<guideline x="166.6667" y="0" angle="90" />
+	<guideline x="208.3333" y="0" angle="90" />
+	<guideline x="250" y="0" angle="90" />
+	<guideline x="291.6667" y="0" angle="90" />
+	<guideline x="333.3333" y="0" angle="90" />
+	<guideline x="375" y="0" angle="90" />
+	<guideline x="416.6667" y="0" angle="90" />
+	<guideline x="458.3333" y="0" angle="90" />
+	<guideline x="500" y="0" angle="90" />
+	<guideline x="0" y="-215" angle="0" />
+	<guideline x="0" y="-172" angle="0" />
+	<guideline x="0" y="-129" angle="0" />
+	<guideline x="0" y="-86" angle="0" />
+	<guideline x="0" y="-43" angle="0" />
+	<guideline x="0" y="0" angle="0" />
+	<guideline x="0" y="49.4297" angle="0" />
+	<guideline x="0" y="98.8593" angle="0" />
+	<guideline x="0" y="148.289" angle="0" />
+	<guideline x="0" y="197.7186" angle="0" />
+	<guideline x="0" y="247.1483" angle="0" />
+	<guideline x="0" y="296.5779" angle="0" />
+	<guideline x="0" y="346.0076" angle="0" />
+	<guideline x="0" y="395.4373" angle="0" />
+	<guideline x="0" y="444.8669" angle="0" />
+	<guideline x="0" y="494.2966" angle="0" />
+	<guideline x="0" y="549.6552" angle="0" />
+	<guideline x="0" y="611.4368" angle="0" />
+	<guideline x="0" y="673.2184" angle="0" />
+	<guideline x="0" y="735" angle="0" />
 </glyph>

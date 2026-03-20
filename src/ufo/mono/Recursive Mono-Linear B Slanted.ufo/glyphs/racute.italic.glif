@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="racute.italic" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
-		<component base="r.italic"/>
-		<component base="acutecomb" xOffset="311" yOffset="2"/>
+		<component base="r.italic" />
+		<component base="acutecomb" xOffset="259.1667" yOffset="1.9259" />
 	</outline>
 	<lib>
 		<dict>

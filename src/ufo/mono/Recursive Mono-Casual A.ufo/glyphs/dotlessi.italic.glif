@@ -1,56 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotlessi.italic" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="63" y="506" type="curve"/>
-			<point x="61" y="501"/>
-			<point x="60" y="495"/>
-			<point x="60" y="488" type="curve" smooth="yes"/>
-			<point x="60" y="469"/>
-			<point x="68" y="456"/>
-			<point x="83" y="456" type="curve" smooth="yes"/>
-			<point x="108" y="456"/>
-			<point x="164" y="479"/>
-			<point x="269" y="494" type="curve"/>
-			<point x="273" y="491" type="line"/>
-			<point x="273" y="374"/>
-			<point x="273" y="257"/>
-			<point x="273" y="140" type="curve" smooth="yes"/>
-			<point x="273" y="33"/>
-			<point x="325" y="-20"/>
-			<point x="413" y="-20" type="curve" smooth="yes"/>
-			<point x="456" y="-20"/>
-			<point x="495" y="-9"/>
-			<point x="515" y="11" type="curve" smooth="yes"/>
-			<point x="526" y="22"/>
-			<point x="531" y="37"/>
-			<point x="531" y="54" type="curve" smooth="yes"/>
-			<point x="531" y="62"/>
-			<point x="530" y="70"/>
-			<point x="529" y="75" type="curve"/>
-			<point x="523" y="75" type="line"/>
-			<point x="496" y="45"/>
-			<point x="460" y="30"/>
-			<point x="416" y="30" type="curve" smooth="yes"/>
-			<point x="383" y="30"/>
-			<point x="356" y="36"/>
-			<point x="336" y="54" type="curve"/>
-			<point x="326" y="77"/>
-			<point x="323" y="102"/>
-			<point x="323" y="152" type="curve" smooth="yes"/>
-			<point x="323" y="272"/>
-			<point x="323" y="393"/>
-			<point x="323" y="513" type="curve" smooth="yes"/>
-			<point x="323" y="531"/>
-			<point x="303" y="536"/>
-			<point x="276" y="536" type="curve" smooth="yes"/>
-			<point x="225" y="536"/>
-			<point x="156" y="528"/>
+			<point x="52.5" y="500.2281" type="curve" />
+			<point x="50.8333" y="495.2852" />
+			<point x="50" y="489.3536" />
+			<point x="50" y="482.4335" type="curve" smooth="yes" />
+			<point x="50" y="463.6502" />
+			<point x="56.6667" y="450.7985" />
+			<point x="69.1667" y="450.7985" type="curve" smooth="yes" />
+			<point x="90" y="450.7985" />
+			<point x="136.6667" y="473.5361" />
+			<point x="224.1667" y="488.365" type="curve" />
+			<point x="227.5" y="485.3992" type="line" />
+			<point x="227.5" y="369.7338" />
+			<point x="227.5" y="254.0684" />
+			<point x="227.5" y="138.403" type="curve" smooth="yes" />
+			<point x="227.5" y="32.6236" />
+			<point x="270.8333" y="-17.2" />
+			<point x="344.1667" y="-17.2" type="curve" smooth="yes" />
+			<point x="380" y="-17.2" />
+			<point x="412.5" y="-7.74" />
+			<point x="429.1667" y="10.8745" type="curve" smooth="yes" />
+			<point x="438.3333" y="21.749" />
+			<point x="442.5" y="36.5779" />
+			<point x="442.5" y="53.384" type="curve" smooth="yes" />
+			<point x="442.5" y="61.2928" />
+			<point x="441.6667" y="69.2015" />
+			<point x="440.8333" y="74.1445" type="curve" />
+			<point x="435.8333" y="74.1445" type="line" />
+			<point x="413.3333" y="44.4867" />
+			<point x="383.3333" y="29.6578" />
+			<point x="346.6667" y="29.6578" type="curve" smooth="yes" />
+			<point x="319.1667" y="29.6578" />
+			<point x="296.6667" y="35.5894" />
+			<point x="280" y="53.384" type="curve" />
+			<point x="271.6667" y="76.1217" />
+			<point x="269.1667" y="100.8365" />
+			<point x="269.1667" y="150.2662" type="curve" smooth="yes" />
+			<point x="269.1667" y="268.8973" />
+			<point x="269.1667" y="388.5171" />
+			<point x="269.1667" y="507.1483" type="curve" smooth="yes" />
+			<point x="269.1667" y="526.1782" />
+			<point x="252.5" y="532.3563" />
+			<point x="230" y="532.3563" type="curve" smooth="yes" />
+			<point x="187.5" y="532.3563" />
+			<point x="130" y="522.4713" />
 		</contour>
 	</outline>
-	<anchor name="bottom" x="323" y="0"/>
-	<anchor name="top" x="299" y="525"/>
-	<anchor name="hook" x="301" y="584"/>
-	<anchor name="ogonek" x="511" y="11"/>
+	<anchor name="bottom" x="269.1667" y="0" />
+	<anchor name="top" x="249.1667" y="519.0114" />
+	<anchor name="hook" x="250.8333" y="591.6667" />
+	<anchor name="ogonek" x="425.8333" y="10.8745" />
 </glyph>

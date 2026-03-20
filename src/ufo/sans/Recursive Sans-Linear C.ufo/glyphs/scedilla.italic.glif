@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scedilla.italic" format="2">
-	<advance width="550"/>
+	<advance width="458" />
 	<outline>
-		<component base="s.italic"/>
-		<component base="cedillacomb" xOffset="293" yOffset="-1"/>
+		<component base="s.italic" />
+		<component base="cedillacomb" xOffset="244.1667" yOffset="-0.86" />
 	</outline>
 	<lib>
 		<dict>

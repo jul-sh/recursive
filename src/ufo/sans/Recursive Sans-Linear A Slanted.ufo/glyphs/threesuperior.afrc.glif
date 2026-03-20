@@ -1,77 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="threesuperior.afrc" format="2">
-	<advance width="400"/>
+	<advance width="333" />
 	<outline>
 		<contour>
-			<point x="415" y="625" type="curve" smooth="yes"/>
-			<point x="417" y="635" type="line" smooth="yes"/>
-			<point x="427" y="684"/>
-			<point x="394" y="727"/>
-			<point x="304" y="727" type="curve" smooth="yes"/>
-			<point x="252" y="727"/>
-			<point x="212" y="710"/>
-			<point x="190" y="695" type="curve" smooth="yes"/>
-			<point x="181" y="689"/>
-			<point x="176" y="684"/>
-			<point x="175" y="676" type="curve" smooth="yes"/>
-			<point x="174" y="668"/>
-			<point x="172" y="651"/>
-			<point x="171" y="643" type="curve"/>
-			<point x="183" y="643" type="line"/>
-			<point x="214" y="668"/>
-			<point x="251" y="685"/>
-			<point x="302" y="685" type="curve" smooth="yes"/>
-			<point x="360" y="685"/>
-			<point x="379" y="661"/>
-			<point x="370" y="623" type="curve" smooth="yes"/>
-			<point x="361" y="585"/>
-			<point x="324" y="569"/>
-			<point x="217" y="569" type="curve"/>
-			<point x="214" y="558"/>
-			<point x="213" y="553"/>
-			<point x="211" y="546" type="curve" smooth="yes"/>
-			<point x="209" y="540"/>
-			<point x="212" y="535"/>
-			<point x="219" y="535" type="curve" smooth="yes"/>
-			<point x="312" y="535"/>
-			<point x="344" y="511"/>
-			<point x="335" y="469" type="curve" smooth="yes"/>
-			<point x="327" y="432"/>
-			<point x="294" y="412"/>
-			<point x="237" y="412" type="curve" smooth="yes"/>
-			<point x="189" y="412"/>
-			<point x="154" y="422"/>
-			<point x="130" y="448" type="curve"/>
-			<point x="118" y="448" type="line"/>
-			<point x="115" y="436"/>
-			<point x="114" y="432"/>
-			<point x="111" y="420" type="curve" smooth="yes"/>
-			<point x="109" y="413"/>
-			<point x="110" y="410"/>
-			<point x="113" y="406" type="curve" smooth="yes"/>
-			<point x="126" y="390"/>
-			<point x="172" y="372"/>
-			<point x="232" y="372" type="curve" smooth="yes"/>
-			<point x="311" y="372"/>
-			<point x="365" y="400"/>
-			<point x="377" y="459" type="curve" smooth="yes"/>
-			<point x="378" y="464" type="line" smooth="yes"/>
-			<point x="387" y="507"/>
-			<point x="370" y="538"/>
-			<point x="307" y="547" type="curve"/>
-			<point x="330" y="523" type="line"/>
-			<point x="342" y="573" type="line"/>
-			<point x="306" y="543" type="line"/>
-			<point x="373" y="555"/>
-			<point x="407" y="583"/>
+			<point x="345.8333" y="642.3276" type="curve" smooth="yes" />
+			<point x="347.5" y="654.6839" type="line" smooth="yes" />
+			<point x="355.8333" y="715.2299" />
+			<point x="328.3333" y="735" />
+			<point x="253.3333" y="735" type="curve" smooth="yes" />
+			<point x="210" y="735" />
+			<point x="176.6667" y="735" />
+			<point x="158.3333" y="728.8218" type="curve" smooth="yes" />
+			<point x="150.8333" y="721.408" />
+			<point x="146.6667" y="715.2299" />
+			<point x="145.8333" y="705.3448" type="curve" smooth="yes" />
+			<point x="145" y="695.4598" />
+			<point x="143.3333" y="674.454" />
+			<point x="142.5" y="664.569" type="curve" />
+			<point x="152.5" y="664.569" type="line" />
+			<point x="178.3333" y="695.4598" />
+			<point x="209.1667" y="716.4655" />
+			<point x="251.6667" y="716.4655" type="curve" smooth="yes" />
+			<point x="300" y="716.4655" />
+			<point x="315.8333" y="686.8103" />
+			<point x="308.3333" y="639.8563" type="curve" smooth="yes" />
+			<point x="300.8333" y="592.9023" />
+			<point x="270" y="573.1322" />
+			<point x="180.8333" y="573.1322" type="curve" />
+			<point x="178.3333" y="559.5402" />
+			<point x="177.5" y="553.3621" />
+			<point x="175.8333" y="544.7126" type="curve" smooth="yes" />
+			<point x="174.1667" y="537.2989" />
+			<point x="176.6667" y="531.1207" />
+			<point x="182.5" y="531.1207" type="curve" smooth="yes" />
+			<point x="260" y="531.1207" />
+			<point x="286.6667" y="505.1711" />
+			<point x="279.1667" y="463.6502" type="curve" smooth="yes" />
+			<point x="272.5" y="427.0722" />
+			<point x="245" y="407.3004" />
+			<point x="197.5" y="407.3004" type="curve" smooth="yes" />
+			<point x="157.5" y="407.3004" />
+			<point x="128.3333" y="417.1863" />
+			<point x="108.3333" y="442.8897" type="curve" />
+			<point x="98.3333" y="442.8897" type="line" />
+			<point x="95.8333" y="431.0266" />
+			<point x="95" y="427.0722" />
+			<point x="92.5" y="415.2091" type="curve" smooth="yes" />
+			<point x="90.8333" y="408.289" />
+			<point x="91.6667" y="405.3232" />
+			<point x="94.1667" y="401.3688" type="curve" smooth="yes" />
+			<point x="105" y="385.5513" />
+			<point x="143.3333" y="367.7567" />
+			<point x="193.3333" y="367.7567" type="curve" smooth="yes" />
+			<point x="259.1667" y="367.7567" />
+			<point x="304.1667" y="395.4373" />
+			<point x="314.1667" y="453.7643" type="curve" smooth="yes" />
+			<point x="315" y="458.7072" type="line" smooth="yes" />
+			<point x="322.5" y="501.2167" />
+			<point x="308.3333" y="534.8276" />
+			<point x="255.8333" y="545.9483" type="curve" />
+			<point x="275" y="517.0342" type="line" />
+			<point x="285" y="578.0747" type="line" />
+			<point x="255" y="541.0057" type="line" />
+			<point x="310.8333" y="555.8333" />
+			<point x="339.1667" y="590.431" />
 		</contour>
 	</outline>
-	<guideline x="0" y="372" angle="0" identifier="vOebQSoU7k"/>
-	<guideline x="0" y="727" angle="0" identifier="CkZiRLsdaY"/>
-	<guideline x="0" y="382" angle="0" identifier="S25dnsjxJb"/>
-	<guideline x="0" y="717" angle="0" identifier="VRKUB5qC7O"/>
-	<guideline x="0" y="-27" angle="0" identifier="JRYOS4CDzP"/>
-	<guideline x="0" y="328" angle="0" identifier="lvuxqypK5N"/>
-	<guideline x="0" y="-17" angle="0" identifier="IIDP38Q2pZ"/>
-	<guideline x="0" y="318" angle="0" identifier="4kBhvWchM4"/>
+	<guideline x="0" y="367.7567" angle="0" identifier="vOebQSoU7k" />
+	<guideline x="0" y="735" angle="0" identifier="CkZiRLsdaY" />
+	<guideline x="0" y="377.6426" angle="0" identifier="S25dnsjxJb" />
+	<guideline x="0" y="735" angle="0" identifier="VRKUB5qC7O" />
+	<guideline x="0" y="-23.22" angle="0" identifier="JRYOS4CDzP" />
+	<guideline x="0" y="324.2586" angle="0" identifier="lvuxqypK5N" />
+	<guideline x="0" y="-14.62" angle="0" identifier="IIDP38Q2pZ" />
+	<guideline x="0" y="314.3726" angle="0" identifier="4kBhvWchM4" />
 </glyph>

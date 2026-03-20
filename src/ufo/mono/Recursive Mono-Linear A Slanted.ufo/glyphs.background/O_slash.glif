@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Oslash" format="2">
-	<unicode hex="00D8"/>
-	<advance width="600"/>
+	<unicode hex="00D8" />
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="558" y="613" type="line"/>
-			<point x="447" y="507"/>
-			<point x="335" y="402"/>
-			<point x="224" y="296" type="curve"/>
-			<point x="158" y="233"/>
-			<point x="128" y="203"/>
-			<point x="90" y="151" type="curve"/>
-			<point x="130" y="178" type="line"/>
-			<point x="65" y="178" type="line"/>
-			<point x="90" y="109" type="line"/>
-			<point x="201" y="214"/>
-			<point x="314" y="321"/>
-			<point x="422" y="424" type="curve"/>
-			<point x="467" y="465"/>
-			<point x="520" y="514"/>
-			<point x="561" y="576" type="curve"/>
-			<point x="513" y="542" type="line"/>
-			<point x="564" y="542" type="line"/>
+			<point x="465" y="627.5" type="line" />
+			<point x="372.5" y="501.2167" />
+			<point x="279.1667" y="397.4144" />
+			<point x="186.6667" y="292.6236" type="curve" />
+			<point x="131.6667" y="230.3422" />
+			<point x="106.6667" y="200.6844" />
+			<point x="75" y="149.2776" type="curve" />
+			<point x="108.3333" y="175.9696" type="line" />
+			<point x="54.1667" y="175.9696" type="line" />
+			<point x="75" y="107.7567" type="line" />
+			<point x="167.5" y="211.5589" />
+			<point x="261.6667" y="317.3384" />
+			<point x="351.6667" y="419.1635" type="curve" />
+			<point x="389.1667" y="459.6958" />
+			<point x="433.3333" y="508.1369" />
+			<point x="467.5" y="581.7816" type="curve" />
+			<point x="427.5" y="539.7701" type="line" />
+			<point x="470" y="539.7701" type="line" />
 		</contour>
 	</outline>
 </glyph>

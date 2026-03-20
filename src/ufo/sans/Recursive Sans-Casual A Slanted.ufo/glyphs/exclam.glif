@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="exclam" format="2">
-	<unicode hex="0021"/>
-	<advance width="350"/>
+	<unicode hex="0021" />
+	<advance width="292" />
 	<outline>
 		<contour>
-			<point x="210" y="240" type="line"/>
-			<point x="214" y="309"/>
-			<point x="233" y="393"/>
-			<point x="256" y="470" type="curve" smooth="yes"/>
-			<point x="295" y="599" type="line" smooth="yes"/>
-			<point x="316" y="670"/>
-			<point x="294" y="710"/>
-			<point x="257" y="710" type="curve" smooth="yes"/>
-			<point x="240" y="710"/>
-			<point x="229" y="707"/>
-			<point x="222" y="704" type="curve"/>
-			<point x="233" y="671"/>
-			<point x="232" y="637"/>
-			<point x="216" y="566" type="curve" smooth="yes"/>
-			<point x="198" y="488" type="line" smooth="yes"/>
-			<point x="167" y="354"/>
-			<point x="163" y="276"/>
-			<point x="169" y="259" type="curve" smooth="yes"/>
-			<point x="174" y="245"/>
-			<point x="187" y="240"/>
-			<point x="199" y="240" type="curve" smooth="yes"/>
+			<point x="175" y="237.2624" type="line" />
+			<point x="178.3333" y="305.4753" />
+			<point x="194.1667" y="388.5171" />
+			<point x="213.3333" y="464.6388" type="curve" smooth="yes" />
+			<point x="245.8333" y="610.2011" type="line" smooth="yes" />
+			<point x="263.3333" y="697.931" />
+			<point x="245" y="735" />
+			<point x="214.1667" y="735" type="curve" smooth="yes" />
+			<point x="200" y="735" />
+			<point x="190.8333" y="735" />
+			<point x="185" y="735" type="curve" />
+			<point x="194.1667" y="699.1667" />
+			<point x="193.3333" y="657.1552" />
+			<point x="180" y="569.4253" type="curve" smooth="yes" />
+			<point x="165" y="482.4335" type="line" smooth="yes" />
+			<point x="139.1667" y="349.962" />
+			<point x="135.8333" y="272.8517" />
+			<point x="140.8333" y="256.0456" type="curve" smooth="yes" />
+			<point x="145" y="242.2053" />
+			<point x="155.8333" y="237.2624" />
+			<point x="165.8333" y="237.2624" type="curve" smooth="yes" />
 		</contour>
-		<component base="period" xOffset="10"/>
+		<component base="period" xOffset="8.3333" />
 	</outline>
 	<lib>
 		<dict>

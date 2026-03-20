@@ -1,56 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L" format="2">
-	<unicode hex="004C"/>
-	<advance width="550"/>
+	<unicode hex="004C" />
+	<advance width="458" />
 	<outline>
 		<contour>
-			<point x="-31" y="0" type="curve"/>
-			<point x="471" y="0" type="line"/>
-			<point x="498" y="105"/>
-			<point x="434" y="210"/>
-			<point x="342" y="210" type="curve"/>
-			<point x="246" y="210" type="line"/>
-			<point x="285" y="366"/>
-			<point x="325" y="533"/>
-			<point x="364" y="689" type="curve"/>
-			<point x="366" y="694"/>
-			<point x="363" y="700"/>
-			<point x="356" y="700" type="curve"/>
-			<point x="281" y="700"/>
-			<point x="207" y="700"/>
-			<point x="132" y="700" type="curve"/>
-			<point x="124" y="667"/>
-			<point x="115" y="633"/>
-			<point x="107" y="600" type="curve"/>
-			<point x="58" y="404"/>
-			<point x="9" y="207"/>
-			<point x="-40" y="11" type="curve"/>
-			<point x="-42" y="5"/>
-			<point x="-38" y="0"/>
+			<point x="-25.8333" y="0" type="curve" />
+			<point x="392.5" y="0" type="line" />
+			<point x="415" y="99.2727" />
+			<point x="361.6667" y="198.5455" />
+			<point x="285" y="198.5455" type="curve" />
+			<point x="205" y="198.5455" type="line" />
+			<point x="237.5" y="346.0364" />
+			<point x="270.8333" y="503.9273" />
+			<point x="303.3333" y="719.2333" type="curve" />
+			<point x="305" y="726.4" />
+			<point x="302.5" y="735" />
+			<point x="296.6667" y="735" type="curve" />
+			<point x="234.1667" y="735" />
+			<point x="172.5" y="735" />
+			<point x="110" y="735" type="curve" />
+			<point x="103.3333" y="687.7" />
+			<point x="95.8333" y="638.9667" />
+			<point x="89.1667" y="591.6667" type="curve" />
+			<point x="48.3333" y="381.9636" />
+			<point x="7.5" y="195.7091" />
+			<point x="-33.3333" y="10.4" type="curve" />
+			<point x="-35" y="4.7273" />
+			<point x="-31.6667" y="0" />
 		</contour>
 		<contour>
-			<point x="351" y="275" type="curve"/>
-			<point x="344" y="250"/>
-			<point x="337" y="224"/>
-			<point x="330" y="199" type="curve" smooth="yes"/>
-			<point x="302" y="91"/>
-			<point x="367" y="0"/>
-			<point x="471" y="0" type="curve"/>
-			<point x="494" y="88"/>
-			<point x="516" y="176"/>
-			<point x="539" y="264" type="curve"/>
-			<point x="541" y="270"/>
-			<point x="537" y="275"/>
-			<point x="531" y="275" type="curve" smooth="yes"/>
-			<point x="471" y="275"/>
-			<point x="411" y="275"/>
+			<point x="292.5" y="260" type="curve" />
+			<point x="286.6667" y="236.3636" />
+			<point x="280.8333" y="211.7818" />
+			<point x="275" y="188.1455" type="curve" smooth="yes" />
+			<point x="251.6667" y="86.0364" />
+			<point x="305.8333" y="0" />
+			<point x="392.5" y="0" type="curve" />
+			<point x="411.6667" y="83.2" />
+			<point x="430" y="166.4" />
+			<point x="449.1667" y="249.6" type="curve" />
+			<point x="450.8333" y="255.2727" />
+			<point x="447.5" y="260" />
+			<point x="442.5" y="260" type="curve" smooth="yes" />
+			<point x="392.5" y="260" />
+			<point x="342.5" y="260" />
 		</contour>
 	</outline>
-	<anchor name="top" x="250" y="711"/>
-	<anchor name="bottom" x="207" y="-1"/>
-	<anchor name="dot" x="442" y="400"/>
-	<anchor name="caronslovak" x="505" y="600"/>
-	<anchor name="slash" x="169" y="391"/>
+	<anchor name="top" x="208.3333" y="735" />
+	<anchor name="bottom" x="172.5" y="-0.86" />
+	<anchor name="dot" x="368.3333" y="378.1818" />
+	<anchor name="caronslovak" x="420.8333" y="591.6667" />
+	<anchor name="slash" x="140.8333" y="369.6727" />
 	<lib>
 		<dict>
 			<key>com.arrowtype.glyphMarkStatus</key>

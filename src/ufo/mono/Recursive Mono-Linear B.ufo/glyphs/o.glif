@@ -1,53 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="o" format="2">
-	<unicode hex="006F"/>
-	<advance width="600"/>
+	<unicode hex="006F" />
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="300" y="552" type="curve" smooth="yes"/>
-			<point x="153" y="552"/>
-			<point x="53" y="457"/>
-			<point x="53" y="319" type="curve" smooth="yes"/>
-			<point x="53" y="221" type="line" smooth="yes"/>
-			<point x="53" y="83.1829787234"/>
-			<point x="153" y="-12"/>
-			<point x="300" y="-12" type="curve" smooth="yes"/>
-			<point x="447" y="-12"/>
-			<point x="547" y="83.1829787234"/>
-			<point x="547" y="221" type="curve" smooth="yes"/>
-			<point x="547" y="319" type="line" smooth="yes"/>
-			<point x="547" y="457"/>
-			<point x="446" y="552"/>
+			<point x="250" y="536.125" type="curve" smooth="yes" />
+			<point x="127.5" y="536.125" />
+			<point x="44.1667" y="440.0741" />
+			<point x="44.1667" y="307.1852" type="curve" smooth="yes" />
+			<point x="44.1667" y="212.8148" type="line" smooth="yes" />
+			<point x="44.1667" y="80.1021" />
+			<point x="127.5" y="-10.32" />
+			<point x="250" y="-10.32" type="curve" smooth="yes" />
+			<point x="372.5" y="-10.32" />
+			<point x="455.8333" y="80.1021" />
+			<point x="455.8333" y="212.8148" type="curve" smooth="yes" />
+			<point x="455.8333" y="307.1852" type="line" smooth="yes" />
+			<point x="455.8333" y="440.0741" />
+			<point x="371.6667" y="536.125" />
 		</contour>
 		<contour>
-			<point x="300" y="417" type="curve" smooth="yes"/>
-			<point x="332" y="417"/>
-			<point x="356" y="410"/>
-			<point x="372" y="394" type="curve" smooth="yes"/>
-			<point x="389" y="377"/>
-			<point x="397" y="351"/>
-			<point x="397" y="312" type="curve" smooth="yes"/>
-			<point x="397" y="228" type="line" smooth="yes"/>
-			<point x="397" y="160"/>
-			<point x="362" y="123"/>
-			<point x="300" y="123" type="curve" smooth="yes"/>
-			<point x="270" y="123"/>
-			<point x="246" y="132"/>
-			<point x="230" y="148" type="curve" smooth="yes"/>
-			<point x="212" y="166"/>
-			<point x="203" y="193"/>
-			<point x="203" y="228" type="curve" smooth="yes"/>
-			<point x="203" y="312" type="line" smooth="yes"/>
-			<point x="203" y="380"/>
-			<point x="238" y="417"/>
+			<point x="250" y="401.5556" type="curve" smooth="yes" />
+			<point x="276.6667" y="401.5556" />
+			<point x="296.6667" y="394.8148" />
+			<point x="310" y="379.4074" type="curve" smooth="yes" />
+			<point x="324.1667" y="363.037" />
+			<point x="330.8333" y="338" />
+			<point x="330.8333" y="300.4444" type="curve" smooth="yes" />
+			<point x="330.8333" y="219.5556" type="line" smooth="yes" />
+			<point x="330.8333" y="154.0741" />
+			<point x="301.6667" y="118.4444" />
+			<point x="250" y="118.4444" type="curve" smooth="yes" />
+			<point x="225" y="118.4444" />
+			<point x="205" y="127.1111" />
+			<point x="191.6667" y="142.5185" type="curve" smooth="yes" />
+			<point x="176.6667" y="159.8519" />
+			<point x="169.1667" y="185.8519" />
+			<point x="169.1667" y="219.5556" type="curve" smooth="yes" />
+			<point x="169.1667" y="300.4444" type="line" smooth="yes" />
+			<point x="169.1667" y="365.9259" />
+			<point x="198.3333" y="401.5556" />
 		</contour>
 	</outline>
-	<anchor name="top" x="298" y="551"/>
-	<anchor name="bottom" x="298" y="-1"/>
-	<anchor name="horn" x="437" y="514"/>
-	<anchor name="hook" x="299" y="584"/>
-	<anchor name="tildeviet" x="255" y="551"/>
-	<anchor name="ogonek" x="497" y="72"/>
+	<anchor name="top" x="248.3333" y="534.7812" />
+	<anchor name="bottom" x="248.3333" y="-0.86" />
+	<anchor name="horn" x="364.1667" y="494.963" />
+	<anchor name="hook" x="249.1667" y="579.125" />
+	<anchor name="tildeviet" x="212.5" y="534.7812" />
+	<anchor name="ogonek" x="414.1667" y="69.3333" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>

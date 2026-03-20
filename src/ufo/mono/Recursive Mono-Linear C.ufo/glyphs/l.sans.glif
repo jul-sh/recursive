@@ -1,52 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.sans" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="102" y="652" type="curve"/>
-			<point x="102" y="530.452970297"/>
-			<point x="102" y="392"/>
-			<point x="102" y="225" type="curve" smooth="yes"/>
-			<point x="102" y="67"/>
-			<point x="176" y="0"/>
-			<point x="345" y="0" type="curve" smooth="yes"/>
-			<point x="416" y="0"/>
-			<point x="510.9913043478" y="0"/>
-			<point x="534" y="0" type="curve" smooth="yes"/>
-			<point x="540" y="0"/>
-			<point x="545" y="4"/>
-			<point x="545" y="11" type="curve" smooth="yes"/>
-			<point x="545" y="77"/>
-			<point x="545" y="134"/>
-			<point x="545" y="200" type="curve"/>
-			<point x="525" y="200" type="line"/>
-			<point x="492.7358490566" y="200"/>
-			<point x="402" y="200"/>
-			<point x="364" y="200" type="curve" smooth="yes"/>
-			<point x="354" y="200"/>
-			<point x="348" y="201"/>
-			<point x="343" y="206" type="curve" smooth="yes"/>
-			<point x="338" y="211"/>
-			<point x="337" y="218"/>
-			<point x="337" y="229" type="curve"/>
-			<point x="337" y="376"/>
-			<point x="337" y="567"/>
-			<point x="337" y="739" type="curve"/>
-			<point x="337" y="746"/>
-			<point x="333" y="750"/>
-			<point x="326" y="750" type="curve" smooth="yes"/>
-			<point x="277" y="750"/>
-			<point x="161" y="750"/>
-			<point x="102" y="750" type="curve"/>
-			<point x="102" y="722"/>
-			<point x="102" y="688"/>
+			<point x="85" y="666.2" type="curve" />
+			<point x="85" y="501.5192" />
+			<point x="85" y="370.6182" />
+			<point x="85" y="212.7273" type="curve" smooth="yes" />
+			<point x="85" y="63.3455" />
+			<point x="146.6667" y="0" />
+			<point x="287.5" y="0" type="curve" smooth="yes" />
+			<point x="346.6667" y="0" />
+			<point x="425.8261" y="0" />
+			<point x="445" y="0" type="curve" smooth="yes" />
+			<point x="450" y="0" />
+			<point x="454.1667" y="3.7818" />
+			<point x="454.1667" y="10.4" type="curve" smooth="yes" />
+			<point x="454.1667" y="72.8" />
+			<point x="454.1667" y="126.6909" />
+			<point x="454.1667" y="189.0909" type="curve" />
+			<point x="437.5" y="189.0909" type="line" />
+			<point x="410.6132" y="189.0909" />
+			<point x="335" y="189.0909" />
+			<point x="303.3333" y="189.0909" type="curve" smooth="yes" />
+			<point x="295" y="189.0909" />
+			<point x="290" y="190.0364" />
+			<point x="285.8333" y="194.7636" type="curve" smooth="yes" />
+			<point x="281.6667" y="199.4909" />
+			<point x="280.8333" y="206.1091" />
+			<point x="280.8333" y="216.5091" type="curve" />
+			<point x="280.8333" y="355.4909" />
+			<point x="280.8333" y="544.3667" />
+			<point x="280.8333" y="735" type="curve" />
+			<point x="280.8333" y="735" />
+			<point x="277.5" y="735" />
+			<point x="271.6667" y="735" type="curve" smooth="yes" />
+			<point x="230.8333" y="735" />
+			<point x="134.1667" y="735" />
+			<point x="85" y="735" type="curve" />
+			<point x="85" y="735" />
+			<point x="85" y="717.8" />
 		</contour>
 	</outline>
-	<anchor name="top" x="242" y="730"/>
-	<anchor name="bottom" x="335" y="-1"/>
-	<anchor name="dot" x="479" y="460"/>
-	<anchor name="caronslovak" x="473" y="711"/>
-	<anchor name="slash" x="217" y="384"/>
+	<anchor name="top" x="201.6667" y="735" />
+	<anchor name="bottom" x="279.1667" y="-0.86" />
+	<anchor name="dot" x="399.1667" y="434.9091" />
+	<anchor name="caronslovak" x="394.1667" y="735" />
+	<anchor name="slash" x="180.8333" y="363.0545" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.guideline.magnetic.215JfLOIlQ</key>

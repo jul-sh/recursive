@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="less" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="32" y="305" type="move"/>
-			<point x="582" y="305" type="line"/>
+			<point x="26.6667" y="301.5209" type="move" />
+			<point x="485" y="301.5209" type="line" />
 		</contour>
 		<contour>
-			<point x="80" y="25" type="line"/>
-			<point x="520.5" y="23" type="line"/>
-			<point x="520.5" y="257" type="line"/>
-			<point x="80" y="259" type="line"/>
+			<point x="66.6667" y="24.7148" type="line" />
+			<point x="433.75" y="22.7376" type="line" />
+			<point x="433.75" y="254.0684" type="line" />
+			<point x="66.6667" y="256.0456" type="line" />
 		</contour>
 		<contour>
-			<point x="80" y="339" type="line"/>
-			<point x="520.5" y="339" type="line"/>
-			<point x="520.5" y="573" type="line"/>
-			<point x="80" y="573" type="line"/>
+			<point x="66.6667" y="335.1331" type="line" />
+			<point x="433.75" y="335.1331" type="line" />
+			<point x="433.75" y="578.0747" type="line" />
+			<point x="66.6667" y="578.0747" type="line" />
 		</contour>
 	</outline>
 </glyph>

@@ -1,38 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eogonek.italic" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="210" y="-141" type="curve" smooth="yes"/>
-			<point x="194" y="-204"/>
-			<point x="230" y="-250"/>
-			<point x="306" y="-250" type="curve" smooth="yes"/>
-			<point x="357" y="-250"/>
-			<point x="397" y="-232"/>
-			<point x="403" y="-199" type="curve" smooth="yes"/>
-			<point x="405" y="-190"/>
-			<point x="404" y="-181"/>
-			<point x="401" y="-174" type="curve"/>
-			<point x="395" y="-174" type="line"/>
-			<point x="371" y="-193"/>
-			<point x="341" y="-200"/>
-			<point x="311" y="-200" type="curve" smooth="yes"/>
-			<point x="269" y="-200"/>
-			<point x="251" y="-180"/>
-			<point x="261" y="-137" type="curve" smooth="yes"/>
-			<point x="275" y="-83"/>
-			<point x="327" y="-45"/>
-			<point x="421" y="4" type="curve" smooth="yes"/>
-			<point x="458" y="24"/>
-			<point x="470" y="45"/>
-			<point x="478" y="80" type="curve"/>
-			<point x="470" y="76"/>
-			<point x="462" y="63"/>
-			<point x="414" y="37" type="curve" smooth="yes"/>
-			<point x="294" y="-29"/>
-			<point x="228" y="-68"/>
+			<point x="175" y="-121.26" type="curve" smooth="yes" />
+			<point x="161.6667" y="-175.44" />
+			<point x="191.6667" y="-215" />
+			<point x="255" y="-215" type="curve" smooth="yes" />
+			<point x="297.5" y="-215" />
+			<point x="330.8333" y="-199.52" />
+			<point x="335.8333" y="-171.14" type="curve" smooth="yes" />
+			<point x="337.5" y="-163.4" />
+			<point x="336.6667" y="-155.66" />
+			<point x="334.1667" y="-149.64" type="curve" />
+			<point x="329.1667" y="-149.64" type="line" />
+			<point x="309.1667" y="-165.98" />
+			<point x="284.1667" y="-172" />
+			<point x="259.1667" y="-172" type="curve" smooth="yes" />
+			<point x="224.1667" y="-172" />
+			<point x="209.1667" y="-154.8" />
+			<point x="217.5" y="-117.82" type="curve" smooth="yes" />
+			<point x="229.1667" y="-71.38" />
+			<point x="272.5" y="-38.7" />
+			<point x="350.8333" y="3.9544" type="curve" smooth="yes" />
+			<point x="381.6667" y="23.7262" />
+			<point x="391.6667" y="44.4867" />
+			<point x="398.3333" y="79.0875" type="curve" />
+			<point x="391.6667" y="75.1331" />
+			<point x="385" y="62.2814" />
+			<point x="345" y="36.5779" type="curve" smooth="yes" />
+			<point x="245" y="-24.94" />
+			<point x="190" y="-58.48" />
 		</contour>
-		<component base="e.italic"/>
+		<component base="e.italic" />
 	</outline>
 	<lib>
 		<dict>

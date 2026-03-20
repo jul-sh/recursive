@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="j" format="2">
-	<unicode hex="006A"/>
-	<advance width="350"/>
+	<unicode hex="006A" />
+	<advance width="292" />
 	<outline>
-		<component base="dotlessj"/>
-		<component base="dotaccentcomb" xOffset="224"/>
+		<component base="dotlessj" />
+		<component base="dotaccentcomb" xOffset="186.6667" />
 	</outline>
-	<anchor name="bottom" x="175" y="-203.0939955824"/>
+	<anchor name="bottom" x="145.8333" y="-174.6608" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>

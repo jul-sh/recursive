@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Otildemacron" format="2">
-	<unicode hex="022C"/>
-	<advance width="600"/>
+	<unicode hex="022C" />
+	<advance width="500" />
 	<outline>
-		<component base="O"/>
-		<component base="tildecomb.case" xOffset="300"/>
-		<component base="macroncomb.case" xOffset="300" yOffset="154"/>
+		<component base="O" />
+		<component base="tildecomb.case" xOffset="250" />
+		<component base="macroncomb.case" xOffset="250" yOffset="152.2433" />
 	</outline>
 	<lib>
 		<dict>

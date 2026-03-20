@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ccaron.italic" format="2">
-	<advance width="500"/>
+	<advance width="417" />
 	<outline>
-		<component base="c.italic"/>
-		<component base="caroncomb" xOffset="277" yOffset="2"/>
+		<component base="c.italic" />
+		<component base="caroncomb" xOffset="230.8333" yOffset="1.9772" />
 	</outline>
 	<lib>
 		<dict>

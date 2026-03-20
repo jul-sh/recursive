@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ldot" format="2">
-	<unicode hex="013F"/>
-	<advance width="550"/>
+	<unicode hex="013F" />
+	<advance width="458" />
 	<outline>
 		<contour>
-			<point x="348" y="481" type="curve"/>
-			<point x="348" y="332" type="line" smooth="yes"/>
-			<point x="348" y="325"/>
-			<point x="352" y="321"/>
-			<point x="359" y="321" type="curve"/>
-			<point x="412" y="321"/>
-			<point x="465" y="321"/>
-			<point x="518" y="321" type="curve"/>
-			<point x="518" y="470" type="line" smooth="yes"/>
-			<point x="518" y="477"/>
-			<point x="514" y="481"/>
-			<point x="507" y="481" type="curve"/>
-			<point x="454" y="481"/>
-			<point x="401" y="481"/>
+			<point x="290" y="463.1852" type="curve" />
+			<point x="290" y="319.7037" type="line" smooth="yes" />
+			<point x="290" y="312.963" />
+			<point x="293.3333" y="309.1111" />
+			<point x="299.1667" y="309.1111" type="curve" />
+			<point x="343.3333" y="309.1111" />
+			<point x="387.5" y="309.1111" />
+			<point x="431.6667" y="309.1111" type="curve" />
+			<point x="431.6667" y="452.5926" type="line" smooth="yes" />
+			<point x="431.6667" y="459.3333" />
+			<point x="428.3333" y="463.1852" />
+			<point x="422.5" y="463.1852" type="curve" />
+			<point x="378.3333" y="463.1852" />
+			<point x="334.1667" y="463.1852" />
 		</contour>
-		<component base="L"/>
+		<component base="L" />
 	</outline>
 	<lib>
 		<dict>

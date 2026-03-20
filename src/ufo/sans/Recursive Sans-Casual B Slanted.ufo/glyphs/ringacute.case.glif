@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ringacute.case" format="2">
 	<outline>
-		<component base="ringcomb.case"/>
-		<component base="acutecomb.case" xOffset="88" yOffset="110"/>
+		<component base="ringcomb.case" />
+		<component base="acutecomb.case" xOffset="73.3333" yOffset="105.9259" />
 	</outline>
-	<anchor name="_ring" x="107" y="700"/>
+	<anchor name="_ring" x="89.1667" y="735" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaaboverightcomb.case" format="2">
 	<outline>
 		<contour>
-			<point x="-12" y="700" type="curve"/>
-			<point x="-26" y="600"/>
-			<point x="-30" y="575"/>
-			<point x="-45" y="475" type="curve"/>
-			<point x="-37" y="475"/>
-			<point x="-30" y="475"/>
-			<point x="-19" y="475" type="curve" smooth="yes"/>
-			<point x="-10" y="475"/>
-			<point x="-6" y="480"/>
-			<point x="-4" y="486" type="curve" smooth="yes"/>
-			<point x="22" y="568"/>
-			<point x="33" y="601"/>
-			<point x="60" y="683" type="curve" smooth="yes"/>
-			<point x="63" y="691"/>
-			<point x="60" y="700"/>
-			<point x="47" y="700" type="curve" smooth="yes"/>
-			<point x="29" y="700"/>
-			<point x="8" y="700"/>
+			<point x="-10" y="735" type="curve" />
+			<point x="-21.6667" y="611.4368" />
+			<point x="-25" y="580.546" />
+			<point x="-37.5" y="469.5817" type="curve" />
+			<point x="-30.8333" y="469.5817" />
+			<point x="-25" y="469.5817" />
+			<point x="-15.8333" y="469.5817" type="curve" smooth="yes" />
+			<point x="-8.3333" y="469.5817" />
+			<point x="-5" y="474.5247" />
+			<point x="-3.3333" y="480.4563" type="curve" smooth="yes" />
+			<point x="18.3333" y="571.8966" />
+			<point x="27.5" y="612.6724" />
+			<point x="50" y="713.9943" type="curve" smooth="yes" />
+			<point x="52.5" y="723.8793" />
+			<point x="50" y="735" />
+			<point x="39.1667" y="735" type="curve" smooth="yes" />
+			<point x="24.1667" y="735" />
+			<point x="6.6667" y="735" />
 		</contour>
 	</outline>
-	<anchor name="_caronslovak" x="0" y="550"/>
+	<anchor name="_caronslovak" x="0" y="549.6552" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>

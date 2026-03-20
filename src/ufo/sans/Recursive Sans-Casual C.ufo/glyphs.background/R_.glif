@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="R" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="270" y="404" type="move"/>
-			<point x="270" y="443"/>
-			<point x="267" y="468"/>
-			<point x="240" y="494" type="curve"/>
-			<point x="267" y="553" type="line"/>
-			<point x="45" y="553" type="line"/>
+			<point x="225" y="381.9636" type="move" />
+			<point x="225" y="418.8364" />
+			<point x="222.5" y="442.4727" />
+			<point x="200" y="467.0545" type="curve" />
+			<point x="222.5" y="524.3" type="line" />
+			<point x="37.5" y="524.3" type="line" />
 		</contour>
 	</outline>
 </glyph>

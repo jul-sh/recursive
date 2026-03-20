@@ -1,56 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="c" format="2">
-	<unicode hex="0063"/>
-	<advance width="500"/>
+	<unicode hex="0063" />
+	<advance width="417" />
 	<outline>
 		<contour>
-			<point x="376" y="552" type="curve" smooth="yes"/>
-			<point x="232" y="552"/>
-			<point x="100" y="468"/>
-			<point x="53" y="282" type="curve" smooth="yes"/>
-			<point x="49" y="266" type="line" smooth="yes"/>
-			<point x="0" y="69"/>
-			<point x="98" y="-12"/>
-			<point x="237" y="-12" type="curve" smooth="yes"/>
-			<point x="312" y="-12"/>
-			<point x="351" y="0"/>
-			<point x="377" y="21" type="curve" smooth="yes"/>
-			<point x="405" y="44"/>
-			<point x="417" y="64"/>
-			<point x="430" y="116" type="curve" smooth="yes"/>
-			<point x="435" y="137"/>
-			<point x="437" y="161"/>
-			<point x="437" y="180" type="curve"/>
-			<point x="431" y="180" type="line"/>
-			<point x="375" y="145"/>
-			<point x="327" y="133"/>
-			<point x="269" y="133" type="curve" smooth="yes"/>
-			<point x="237" y="133"/>
-			<point x="212" y="137"/>
-			<point x="188" y="147" type="curve"/>
-			<point x="183" y="175"/>
-			<point x="185" y="207"/>
-			<point x="193" y="240" type="curve" smooth="yes"/>
-			<point x="196" y="252" type="line" smooth="yes"/>
-			<point x="218" y="340"/>
-			<point x="270" y="398"/>
-			<point x="348" y="398" type="curve" smooth="yes"/>
-			<point x="398" y="398"/>
-			<point x="431" y="390"/>
-			<point x="462" y="363" type="curve"/>
-			<point x="468" y="363" type="line"/>
-			<point x="486" y="385"/>
-			<point x="494" y="402"/>
-			<point x="503" y="437" type="curve" smooth="yes"/>
-			<point x="513" y="477"/>
-			<point x="509" y="495"/>
-			<point x="497" y="511" type="curve" smooth="yes"/>
-			<point x="485" y="528"/>
-			<point x="455" y="552"/>
+			<point x="313.3333" y="536.125" type="curve" smooth="yes" />
+			<point x="193.3333" y="536.125" />
+			<point x="83.3333" y="450.6667" />
+			<point x="44.1667" y="271.5556" type="curve" smooth="yes" />
+			<point x="40.8333" y="256.1481" type="line" smooth="yes" />
+			<point x="0" y="66.4444" />
+			<point x="81.6667" y="-10.32" />
+			<point x="197.5" y="-10.32" type="curve" smooth="yes" />
+			<point x="260" y="-10.32" />
+			<point x="292.5" y="0" />
+			<point x="314.1667" y="20.2222" type="curve" smooth="yes" />
+			<point x="337.5" y="42.3704" />
+			<point x="347.5" y="61.6296" />
+			<point x="358.3333" y="111.7037" type="curve" smooth="yes" />
+			<point x="362.5" y="131.9259" />
+			<point x="364.1667" y="155.037" />
+			<point x="364.1667" y="173.3333" type="curve" />
+			<point x="359.1667" y="173.3333" type="line" />
+			<point x="312.5" y="139.6296" />
+			<point x="272.5" y="128.0741" />
+			<point x="224.1667" y="128.0741" type="curve" smooth="yes" />
+			<point x="197.5" y="128.0741" />
+			<point x="176.6667" y="131.9259" />
+			<point x="156.6667" y="141.5556" type="curve" />
+			<point x="152.5" y="168.5185" />
+			<point x="154.1667" y="199.3333" />
+			<point x="160.8333" y="231.1111" type="curve" smooth="yes" />
+			<point x="163.3333" y="242.6667" type="line" smooth="yes" />
+			<point x="181.6667" y="327.4074" />
+			<point x="225" y="383.2593" />
+			<point x="290" y="383.2593" type="curve" smooth="yes" />
+			<point x="331.6667" y="383.2593" />
+			<point x="359.1667" y="375.5556" />
+			<point x="385" y="349.5556" type="curve" />
+			<point x="390" y="349.5556" type="line" />
+			<point x="405" y="370.7407" />
+			<point x="411.6667" y="387.1111" />
+			<point x="419.1667" y="420.8148" type="curve" smooth="yes" />
+			<point x="427.5" y="459.3333" />
+			<point x="424.1667" y="476.6667" />
+			<point x="414.1667" y="492.0741" type="curve" smooth="yes" />
+			<point x="404.1667" y="508.4444" />
+			<point x="379.1667" y="536.125" />
 		</contour>
 	</outline>
-	<anchor name="top" x="361" y="551"/>
-	<anchor name="bottom" x="228" y="-1"/>
+	<anchor name="top" x="300.8333" y="534.7812" />
+	<anchor name="bottom" x="190" y="-0.86" />
 	<lib>
 		<dict>
 			<key>com.arrowtype.glyphMarkStatus</key>

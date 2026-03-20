@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gravecomb" format="2">
-	<unicode hex="0300"/>
+	<unicode hex="0300" />
 	<outline>
 		<contour>
-			<point x="35" y="835" type="curve"/>
-			<point x="12" y="835"/>
-			<point x="12" y="835"/>
-			<point x="-7" y="835" type="curve" smooth="yes"/>
-			<point x="-17" y="835"/>
-			<point x="-22" y="825"/>
-			<point x="-18" y="817" type="curve" smooth="yes"/>
-			<point x="14" y="756"/>
-			<point x="31" y="724"/>
-			<point x="67" y="655" type="curve" smooth="yes"/>
-			<point x="69" y="651"/>
-			<point x="74" y="647"/>
-			<point x="82" y="647" type="curve" smooth="yes"/>
-			<point x="96" y="647"/>
-			<point x="107" y="647"/>
-			<point x="119" y="647" type="curve"/>
-			<point x="91" y="707"/>
-			<point x="62" y="773"/>
+			<point x="29.1667" y="735" type="curve" />
+			<point x="10" y="735" />
+			<point x="10" y="735" />
+			<point x="-5.8333" y="735" type="curve" smooth="yes" />
+			<point x="-14.1667" y="735" />
+			<point x="-18.3333" y="735" />
+			<point x="-15" y="735" type="curve" smooth="yes" />
+			<point x="11.6667" y="735" />
+			<point x="25.8333" y="735" />
+			<point x="55.8333" y="679.3966" type="curve" smooth="yes" />
+			<point x="57.5" y="674.454" />
+			<point x="61.6667" y="669.5115" />
+			<point x="68.3333" y="669.5115" type="curve" smooth="yes" />
+			<point x="80" y="669.5115" />
+			<point x="89.1667" y="669.5115" />
+			<point x="99.1667" y="669.5115" type="curve" />
+			<point x="75.8333" y="735" />
+			<point x="51.6667" y="735" />
 		</contour>
 	</outline>
-	<anchor name="_top" x="68" y="537"/>
+	<anchor name="_top" x="56.6667" y="533.592" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

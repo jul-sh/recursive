@@ -1,57 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="z" format="2">
-	<unicode hex="007A"/>
-	<advance width="600"/>
+	<unicode hex="007A" />
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="82" y="526" type="line"/>
-			<point x="82" y="514"/>
-			<point x="82" y="502"/>
-			<point x="82" y="490" type="curve" smooth="yes"/>
-			<point x="82" y="483"/>
-			<point x="86" y="479"/>
-			<point x="93" y="479" type="curve" smooth="yes"/>
-			<point x="351" y="479" type="line" smooth="yes"/>
-			<point x="392" y="479"/>
-			<point x="433" y="479"/>
-			<point x="474" y="479" type="curve"/>
-			<point x="474" y="467" type="line"/>
-			<point x="449" y="445"/>
-			<point x="430" y="429"/>
-			<point x="408" y="406" type="curve" smooth="yes"/>
-			<point x="301" y="295"/>
-			<point x="191" y="181"/>
-			<point x="82" y="67" type="curve"/>
-			<point x="82" y="11" type="line" smooth="yes"/>
-			<point x="82" y="4"/>
-			<point x="86" y="0"/>
-			<point x="93" y="0" type="curve" smooth="yes"/>
-			<point x="522" y="0" type="line"/>
-			<point x="522" y="12"/>
-			<point x="522" y="24"/>
-			<point x="522" y="36" type="curve" smooth="yes"/>
-			<point x="522" y="43"/>
-			<point x="518" y="47"/>
-			<point x="511" y="47" type="curve"/>
-			<point x="242" y="47" type="line" smooth="yes"/>
-			<point x="205" y="47"/>
-			<point x="167" y="47"/>
-			<point x="130" y="47" type="curve"/>
-			<point x="130" y="58" type="line"/>
-			<point x="151" y="74"/>
-			<point x="171" y="93"/>
-			<point x="191" y="114" type="curve" smooth="yes"/>
-			<point x="300" y="228"/>
-			<point x="411" y="343"/>
-			<point x="522" y="459" type="curve"/>
-			<point x="522" y="515" type="line" smooth="yes"/>
-			<point x="522" y="522"/>
-			<point x="518" y="526"/>
-			<point x="511" y="526" type="curve"/>
+			<point x="68.3333" y="520" type="line" />
+			<point x="68.3333" y="508.1369" />
+			<point x="68.3333" y="496.2738" />
+			<point x="68.3333" y="484.4106" type="curve" smooth="yes" />
+			<point x="68.3333" y="477.4905" />
+			<point x="71.6667" y="473.5361" />
+			<point x="77.5" y="473.5361" type="curve" smooth="yes" />
+			<point x="292.5" y="473.5361" type="line" smooth="yes" />
+			<point x="326.6667" y="473.5361" />
+			<point x="360.8333" y="473.5361" />
+			<point x="395" y="473.5361" type="curve" />
+			<point x="395" y="461.673" type="line" />
+			<point x="374.1667" y="439.924" />
+			<point x="358.3333" y="424.1065" />
+			<point x="340" y="401.3688" type="curve" smooth="yes" />
+			<point x="250.8333" y="291.635" />
+			<point x="159.1667" y="178.9354" />
+			<point x="68.3333" y="66.2357" type="curve" />
+			<point x="68.3333" y="10.8745" type="line" smooth="yes" />
+			<point x="68.3333" y="3.9544" />
+			<point x="71.6667" y="0" />
+			<point x="77.5" y="0" type="curve" smooth="yes" />
+			<point x="435" y="0" type="line" />
+			<point x="435" y="11.8631" />
+			<point x="435" y="23.7262" />
+			<point x="435" y="35.5894" type="curve" smooth="yes" />
+			<point x="435" y="42.5095" />
+			<point x="431.6667" y="46.4639" />
+			<point x="425.8333" y="46.4639" type="curve" />
+			<point x="201.6667" y="46.4639" type="line" smooth="yes" />
+			<point x="170.8333" y="46.4639" />
+			<point x="139.1667" y="46.4639" />
+			<point x="108.3333" y="46.4639" type="curve" />
+			<point x="108.3333" y="57.3384" type="line" />
+			<point x="125.8333" y="73.1559" />
+			<point x="142.5" y="91.9392" />
+			<point x="159.1667" y="112.6996" type="curve" smooth="yes" />
+			<point x="250" y="225.3992" />
+			<point x="342.5" y="339.0875" />
+			<point x="435" y="453.7643" type="curve" />
+			<point x="435" y="509.1255" type="line" smooth="yes" />
+			<point x="435" y="516.0456" />
+			<point x="431.6667" y="520" />
+			<point x="425.8333" y="520" type="curve" />
 		</contour>
 	</outline>
-	<anchor name="top" x="300" y="537"/>
-	<anchor name="bottom" x="305" y="0"/>
+	<anchor name="top" x="250" y="533.592" />
+	<anchor name="bottom" x="254.1667" y="0" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>

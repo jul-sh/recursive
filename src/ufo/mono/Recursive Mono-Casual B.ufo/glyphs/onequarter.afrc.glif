@@ -1,48 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onequarter.afrc" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="351" y="411" type="curve"/>
-			<point x="366" y="402"/>
-			<point x="385" y="397"/>
-			<point x="413" y="397" type="curve" smooth="yes"/>
-			<point x="439" y="397"/>
-			<point x="457" y="401"/>
-			<point x="478" y="426" type="curve" smooth="yes"/>
-			<point x="533" y="491"/>
-			<point x="562" y="581"/>
-			<point x="562" y="650" type="curve" smooth="yes"/>
-			<point x="562" y="691"/>
-			<point x="541" y="713"/>
-			<point x="492" y="713" type="curve" smooth="yes"/>
-			<point x="467" y="713"/>
-			<point x="455" y="712"/>
-			<point x="439" y="707" type="curve"/>
-			<point x="428" y="605"/>
-			<point x="406" y="500"/>
+			<point x="292.5" y="395.7778" type="curve" />
+			<point x="305" y="387.1111" />
+			<point x="320.8333" y="382.2963" />
+			<point x="344.1667" y="382.2963" type="curve" smooth="yes" />
+			<point x="365.8333" y="382.2963" />
+			<point x="380.8333" y="386.1481" />
+			<point x="398.3333" y="410.2222" type="curve" smooth="yes" />
+			<point x="444.1667" y="472.8148" />
+			<point x="468.3333" y="575.0938" />
+			<point x="468.3333" y="667.8125" type="curve" smooth="yes" />
+			<point x="468.3333" y="722.9062" />
+			<point x="450.8333" y="735" />
+			<point x="410" y="735" type="curve" smooth="yes" />
+			<point x="389.1667" y="735" />
+			<point x="379.1667" y="735" />
+			<point x="365.8333" y="735" type="curve" />
+			<point x="356.6667" y="607.3438" />
+			<point x="338.3333" y="481.4815" />
 		</contour>
 		<contour>
-			<point x="249" y="289" type="curve"/>
-			<point x="234" y="298"/>
-			<point x="212" y="303"/>
-			<point x="184" y="303" type="curve" smooth="yes"/>
-			<point x="155" y="303"/>
-			<point x="143" y="299"/>
-			<point x="122" y="274" type="curve" smooth="yes"/>
-			<point x="67" y="209"/>
-			<point x="38" y="119"/>
-			<point x="38" y="50" type="curve" smooth="yes"/>
-			<point x="38" y="9"/>
-			<point x="59" y="-13"/>
-			<point x="108" y="-13" type="curve" smooth="yes"/>
-			<point x="133" y="-13"/>
-			<point x="145" y="-12"/>
-			<point x="161" y="-7" type="curve"/>
-			<point x="172" y="95"/>
-			<point x="194" y="200"/>
+			<point x="207.5" y="278.2963" type="curve" />
+			<point x="195" y="286.963" />
+			<point x="176.6667" y="291.7778" />
+			<point x="153.3333" y="291.7778" type="curve" smooth="yes" />
+			<point x="129.1667" y="291.7778" />
+			<point x="119.1667" y="287.9259" />
+			<point x="101.6667" y="263.8519" type="curve" smooth="yes" />
+			<point x="55.8333" y="201.2593" />
+			<point x="31.6667" y="114.5926" />
+			<point x="31.6667" y="48.1481" type="curve" smooth="yes" />
+			<point x="31.6667" y="8.6667" />
+			<point x="49.1667" y="-11.18" />
+			<point x="90" y="-11.18" type="curve" smooth="yes" />
+			<point x="110.8333" y="-11.18" />
+			<point x="120.8333" y="-10.32" />
+			<point x="134.1667" y="-6.02" type="curve" />
+			<point x="143.3333" y="91.4815" />
+			<point x="161.6667" y="192.5926" />
 		</contour>
-		<component base="onesuperior.afrc" xOffset="-140" yOffset="-20"/>
-		<component base="fourinferior.afrc" xOffset="110" yOffset="10"/>
+		<component base="onesuperior.afrc" xOffset="-116.6667" yOffset="-17.2" />
+		<component base="fourinferior.afrc" xOffset="91.6667" yOffset="9.6296" />
 	</outline>
 </glyph>

@@ -1,61 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.mono" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="26" y="45" type="line"/>
-			<point x="23" y="33"/>
-			<point x="20" y="23"/>
-			<point x="17" y="12" type="curve" smooth="yes"/>
-			<point x="15" y="4"/>
-			<point x="19" y="0"/>
-			<point x="27" y="0" type="curve"/>
-			<point x="464" y="0" type="line"/>
-			<point x="467" y="12"/>
-			<point x="470" y="22"/>
-			<point x="473" y="34" type="curve" smooth="yes"/>
-			<point x="475" y="40"/>
-			<point x="471" y="45"/>
-			<point x="465" y="45" type="curve"/>
+			<point x="21.6667" y="44.4867" type="line" />
+			<point x="19.1667" y="32.6236" />
+			<point x="16.6667" y="22.7376" />
+			<point x="14.1667" y="11.8631" type="curve" smooth="yes" />
+			<point x="12.5" y="3.9544" />
+			<point x="15.8333" y="0" />
+			<point x="22.5" y="0" type="curve" />
+			<point x="386.6667" y="0" type="line" />
+			<point x="389.1667" y="11.8631" />
+			<point x="391.6667" y="21.749" />
+			<point x="394.1667" y="33.6122" type="curve" smooth="yes" />
+			<point x="395.8333" y="39.5437" />
+			<point x="392.5" y="44.4867" />
+			<point x="387.5" y="44.4867" type="curve" />
 		</contour>
 		<contour>
-			<point x="205" y="750" type="curve"/>
-			<point x="202" y="738"/>
-			<point x="199" y="728"/>
-			<point x="196" y="716" type="curve" smooth="yes"/>
-			<point x="194" y="708"/>
-			<point x="198" y="705"/>
-			<point x="204" y="705" type="curve" smooth="yes"/>
-			<point x="265" y="705"/>
-			<point x="327" y="705"/>
-			<point x="388" y="705" type="curve"/>
-			<point x="394" y="705" type="line"/>
-			<point x="338" y="484"/>
-			<point x="289" y="289"/>
-			<point x="232" y="68" type="curve" smooth="yes"/>
-			<point x="229" y="58"/>
-			<point x="227" y="49"/>
-			<point x="224" y="39" type="curve"/>
-			<point x="212" y="24" type="line"/>
-			<point x="271" y="24" type="line"/>
-			<point x="331" y="261"/>
-			<point x="391" y="499"/>
-			<point x="451" y="736" type="curve" smooth="yes"/>
-			<point x="454" y="747"/>
-			<point x="449" y="750"/>
-			<point x="443" y="750" type="curve" smooth="yes"/>
-			<point x="364" y="750"/>
-			<point x="284" y="750"/>
+			<point x="170.8333" y="735" type="curve" />
+			<point x="168.3333" y="735" />
+			<point x="165.8333" y="735" />
+			<point x="163.3333" y="735" type="curve" smooth="yes" />
+			<point x="161.6667" y="735" />
+			<point x="165" y="735" />
+			<point x="170" y="735" type="curve" smooth="yes" />
+			<point x="220.8333" y="735" />
+			<point x="272.5" y="735" />
+			<point x="323.3333" y="735" type="curve" />
+			<point x="328.3333" y="735" type="line" />
+			<point x="281.6667" y="478.4791" />
+			<point x="240.8333" y="285.7034" />
+			<point x="193.3333" y="67.2243" type="curve" smooth="yes" />
+			<point x="190.8333" y="57.3384" />
+			<point x="189.1667" y="48.4411" />
+			<point x="186.6667" y="38.5551" type="curve" />
+			<point x="176.6667" y="23.7262" type="line" />
+			<point x="225.8333" y="23.7262" type="line" />
+			<point x="275.8333" y="258.0228" />
+			<point x="325.8333" y="493.308" />
+			<point x="375.8333" y="735" type="curve" smooth="yes" />
+			<point x="378.3333" y="735" />
+			<point x="374.1667" y="735" />
+			<point x="369.1667" y="735" type="curve" smooth="yes" />
+			<point x="303.3333" y="735" />
+			<point x="236.6667" y="735" />
 		</contour>
 	</outline>
-	<anchor name="top" x="422" y="730"/>
-	<anchor name="bottom" x="238.7499303373" y="-1"/>
-	<anchor name="dot" x="539" y="400"/>
-	<anchor name="caronslovak" x="644" y="711"/>
-	<anchor name="slash" x="335" y="384"/>
-	<guideline x="268" y="24" angle="75.8265542572" identifier="bTWKojcdjh"/>
-	<guideline x="345" y="526" angle="0" identifier="t8NSbDI7c1"/>
-	<guideline x="345" y="526" angle="255.7447579635" identifier="ZmVlybhTpu"/>
+	<anchor name="top" x="351.6667" y="735" />
+	<anchor name="bottom" x="198.9583" y="-0.86" />
+	<anchor name="dot" x="449.1667" y="395.4373" />
+	<anchor name="caronslovak" x="536.6667" y="735" />
+	<anchor name="slash" x="279.1667" y="379.6198" />
+	<guideline x="223.3333" y="23.7262" angle="75.8265542572" identifier="bTWKojcdjh" />
+	<guideline x="287.5" y="520" angle="0" identifier="t8NSbDI7c1" />
+	<guideline x="287.5" y="520" angle="255.7447579635" identifier="ZmVlybhTpu" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>

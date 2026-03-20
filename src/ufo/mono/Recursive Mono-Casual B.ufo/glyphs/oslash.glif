@@ -1,61 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oslash" format="2">
-	<unicode hex="00F8"/>
-	<advance width="600"/>
+	<unicode hex="00F8" />
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="481" y="592" type="curve"/>
-			<point x="462" y="601"/>
-			<point x="446" y="605"/>
-			<point x="419" y="605" type="curve" smooth="yes"/>
-			<point x="373" y="605"/>
-			<point x="344" y="588"/>
-			<point x="339" y="557" type="curve" smooth="yes"/>
-			<point x="335" y="535"/>
-			<point x="331" y="514"/>
-			<point x="326" y="494" type="curve"/>
-			<point x="331.1304365966" y="480.6608648489"/>
-			<point x="339.8695634034" y="467.3391351511"/>
-			<point x="345" y="454" type="curve"/>
-			<point x="317" y="394"/>
-			<point x="286" y="337"/>
-			<point x="250" y="280" type="curve" smooth="yes"/>
-			<point x="220" y="234"/>
-			<point x="207" y="200"/>
-			<point x="200" y="145" type="curve"/>
-			<point x="238" y="175" type="line"/>
-			<point x="140" y="175" type="line"/>
-			<point x="137" y="62" type="line"/>
-			<point x="124" y="41"/>
-			<point x="104" y="15"/>
-			<point x="62" y="-17" type="curve"/>
-			<point x="84" y="-37"/>
-			<point x="106" y="-45"/>
-			<point x="134" y="-45" type="curve" smooth="yes"/>
-			<point x="157" y="-45"/>
-			<point x="180" y="-34"/>
-			<point x="200" y="-14" type="curve" smooth="yes"/>
-			<point x="212" y="-1"/>
-			<point x="224" y="15"/>
-			<point x="234" y="35" type="curve"/>
-			<point x="237" y="48"/>
-			<point x="241" y="62"/>
-			<point x="244" y="75" type="curve"/>
-			<point x="286" y="132"/>
-			<point x="322" y="191"/>
-			<point x="358" y="260" type="curve"/>
-			<point x="380" y="299"/>
-			<point x="390" y="336"/>
-			<point x="395" y="394" type="curve"/>
-			<point x="361" y="364" type="line"/>
-			<point x="451" y="364" type="line"/>
-			<point x="451" y="458" type="line"/>
-			<point x="461" y="499"/>
-			<point x="470" y="544"/>
+			<point x="400.8333" y="589.875" type="curve" />
+			<point x="385" y="601.9688" />
+			<point x="371.6667" y="607.3438" />
+			<point x="349.1667" y="607.3438" type="curve" smooth="yes" />
+			<point x="310.8333" y="607.3438" />
+			<point x="286.6667" y="584.5" />
+			<point x="282.5" y="542.8438" type="curve" smooth="yes" />
+			<point x="279.1667" y="515.1852" />
+			<point x="275.8333" y="494.963" />
+			<point x="271.6667" y="475.7037" type="curve" />
+			<point x="275.942" y="462.8586" />
+			<point x="283.2246" y="450.0303" />
+			<point x="287.5" y="437.1852" type="curve" />
+			<point x="264.1667" y="379.4074" />
+			<point x="238.3333" y="324.5185" />
+			<point x="208.3333" y="269.6296" type="curve" smooth="yes" />
+			<point x="183.3333" y="225.3333" />
+			<point x="172.5" y="192.5926" />
+			<point x="166.6667" y="139.6296" type="curve" />
+			<point x="198.3333" y="168.5185" type="line" />
+			<point x="116.6667" y="168.5185" type="line" />
+			<point x="114.1667" y="59.7037" type="line" />
+			<point x="103.3333" y="39.4815" />
+			<point x="86.6667" y="14.4444" />
+			<point x="51.6667" y="-14.62" type="curve" />
+			<point x="70" y="-31.82" />
+			<point x="88.3333" y="-38.7" />
+			<point x="111.6667" y="-38.7" type="curve" smooth="yes" />
+			<point x="130.8333" y="-38.7" />
+			<point x="150" y="-29.24" />
+			<point x="166.6667" y="-12.04" type="curve" smooth="yes" />
+			<point x="176.6667" y="-0.86" />
+			<point x="186.6667" y="14.4444" />
+			<point x="195" y="33.7037" type="curve" />
+			<point x="197.5" y="46.2222" />
+			<point x="200.8333" y="59.7037" />
+			<point x="203.3333" y="72.2222" type="curve" />
+			<point x="238.3333" y="127.1111" />
+			<point x="268.3333" y="183.9259" />
+			<point x="298.3333" y="250.3704" type="curve" />
+			<point x="316.6667" y="287.9259" />
+			<point x="325" y="323.5556" />
+			<point x="329.1667" y="379.4074" type="curve" />
+			<point x="300.8333" y="350.5185" type="line" />
+			<point x="375.8333" y="350.5185" type="line" />
+			<point x="375.8333" y="441.037" type="line" />
+			<point x="384.1667" y="480.5185" />
+			<point x="391.6667" y="525.375" />
 		</contour>
-		<component base="o"/>
+		<component base="o" />
 	</outline>
-	<anchor name="top" x="300" y="566"/>
+	<anchor name="top" x="250" y="554.9375" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>

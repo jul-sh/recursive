@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bullet.case" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
-		<component base="bullet" yOffset="40"/>
+		<component base="bullet" yOffset="38.5185" />
 	</outline>
 	<lib>
 		<dict>

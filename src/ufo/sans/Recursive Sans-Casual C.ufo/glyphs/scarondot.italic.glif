@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scarondot.italic" format="2">
-	<advance width="550"/>
+	<advance width="458" />
 	<outline>
-		<component base="s.italic"/>
-		<component base="caroncomb" xOffset="276" yOffset="2"/>
-		<component base="dotaccentcomb" xOffset="276" yOffset="248"/>
+		<component base="s.italic" />
+		<component base="caroncomb" xOffset="230" yOffset="1.8909" />
+		<component base="dotaccentcomb" xOffset="230" yOffset="234.4727" />
 	</outline>
 	<lib>
 		<dict>

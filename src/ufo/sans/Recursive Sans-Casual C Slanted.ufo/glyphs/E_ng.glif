@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Eng" format="2">
-	<unicode hex="014A"/>
-	<advance width="700"/>
+	<unicode hex="014A" />
+	<advance width="583" />
 	<outline>
 		<contour>
-			<point x="254" y="-71" type="curve" smooth="yes"/>
-			<point x="216" y="-71"/>
-			<point x="190" y="-67"/>
-			<point x="161" y="-57" type="curve"/>
-			<point x="155" y="-57" type="line"/>
-			<point x="142" y="-81"/>
-			<point x="132" y="-107"/>
-			<point x="125" y="-134" type="curve" smooth="yes"/>
-			<point x="114" y="-173"/>
-			<point x="117" y="-201"/>
-			<point x="134" y="-219" type="curve" smooth="yes"/>
-			<point x="153" y="-238"/>
-			<point x="188" y="-247"/>
-			<point x="241" y="-247" type="curve" smooth="yes"/>
-			<point x="399" y="-247"/>
-			<point x="533" y="-147"/>
-			<point x="570" y="0" type="curve"/>
-			<point x="567" y="28"/>
-			<point x="551" y="54"/>
-			<point x="442" y="54" type="curve"/>
-			<point x="388" y="-38"/>
-			<point x="339" y="-71"/>
+			<point x="211.6667" y="-61.06" type="curve" smooth="yes" />
+			<point x="180" y="-61.06" />
+			<point x="158.3333" y="-57.62" />
+			<point x="134.1667" y="-49.02" type="curve" />
+			<point x="129.1667" y="-49.02" type="line" />
+			<point x="118.3333" y="-69.66" />
+			<point x="110" y="-92.02" />
+			<point x="104.1667" y="-115.24" type="curve" smooth="yes" />
+			<point x="95" y="-148.78" />
+			<point x="97.5" y="-172.86" />
+			<point x="111.6667" y="-188.34" type="curve" smooth="yes" />
+			<point x="127.5" y="-204.68" />
+			<point x="156.6667" y="-212.42" />
+			<point x="200.8333" y="-212.42" type="curve" smooth="yes" />
+			<point x="332.5" y="-212.42" />
+			<point x="444.1667" y="-126.42" />
+			<point x="475" y="0" type="curve" />
+			<point x="472.5" y="26.4727" />
+			<point x="459.1667" y="51.0545" />
+			<point x="368.3333" y="51.0545" type="curve" />
+			<point x="323.3333" y="-32.68" />
+			<point x="282.5" y="-61.06" />
 		</contour>
-		<component base="N" xOffset="20"/>
+		<component base="N" xOffset="16.6667" />
 	</outline>
 	<lib>
 		<dict>

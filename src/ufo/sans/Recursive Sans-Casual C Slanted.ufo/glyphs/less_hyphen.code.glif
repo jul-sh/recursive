@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="less_hyphen.code" format="2">
-	<advance width="1200"/>
+	<advance width="1000" />
 	<outline>
 		<contour>
-			<point x="355" y="383" type="curve"/>
-			<point x="343" y="368"/>
-			<point x="338" y="356"/>
-			<point x="334" y="340" type="curve" smooth="yes"/>
-			<point x="328" y="316"/>
-			<point x="336" y="297"/>
-			<point x="375" y="282" type="curve" smooth="yes"/>
-			<point x="419" y="266"/>
-			<point x="487" y="252"/>
-			<point x="531" y="252" type="curve" smooth="yes"/>
-			<point x="1116" y="252" type="line"/>
-			<point x="1136" y="279"/>
-			<point x="1146" y="299"/>
-			<point x="1152" y="324" type="curve" smooth="yes"/>
-			<point x="1172" y="405"/>
-			<point x="1155" y="442"/>
-			<point x="1099" y="442" type="curve" smooth="yes"/>
-			<point x="581" y="442" type="line" smooth="yes"/>
-			<point x="528" y="442"/>
-			<point x="456" y="423"/>
+			<point x="295.8333" y="362.1091" type="curve" />
+			<point x="285.8333" y="347.9273" />
+			<point x="281.6667" y="336.5818" />
+			<point x="278.3333" y="321.4545" type="curve" smooth="yes" />
+			<point x="273.3333" y="298.7636" />
+			<point x="280" y="280.8" />
+			<point x="312.5" y="266.6182" type="curve" smooth="yes" />
+			<point x="349.1667" y="251.4909" />
+			<point x="405.8333" y="238.2545" />
+			<point x="442.5" y="238.2545" type="curve" smooth="yes" />
+			<point x="930" y="238.2545" type="line" />
+			<point x="946.6667" y="263.7818" />
+			<point x="955" y="282.6909" />
+			<point x="960" y="306.3273" type="curve" smooth="yes" />
+			<point x="976.6667" y="382.9091" />
+			<point x="962.5" y="417.8909" />
+			<point x="915.8333" y="417.8909" type="curve" smooth="yes" />
+			<point x="484.1667" y="417.8909" type="line" smooth="yes" />
+			<point x="440" y="417.8909" />
+			<point x="380" y="399.9273" />
 		</contour>
-		<component base="_arrowhead" xScale="-0.2425992308" xyScale="-0.9701265965" yxScale="-0.9701265965" yScale="0.2425992308" xOffset="868" yOffset="578"/>
+		<component base="_arrowhead" xScale="-0.2425992308" xyScale="-0.9701265965" yxScale="-0.9701265965" yScale="0.2425992308" xOffset="723.3333" yOffset="560.1333" />
 	</outline>
-	<anchor name="caret_1" x="600" y="0"/>
+	<anchor name="caret_1" x="500" y="0" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

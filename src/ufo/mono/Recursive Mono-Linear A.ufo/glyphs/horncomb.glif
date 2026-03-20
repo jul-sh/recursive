@@ -1,36 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="horncomb" format="2">
-	<unicode hex="031B"/>
+	<unicode hex="031B" />
 	<outline>
 		<contour>
-			<point x="38" y="692" type="curve"/>
-			<point x="38" y="664"/>
-			<point x="38" y="623"/>
-			<point x="38" y="602" type="curve" smooth="yes"/>
-			<point x="38" y="579"/>
-			<point x="35" y="573"/>
-			<point x="25" y="562" type="curve" smooth="yes"/>
-			<point x="14" y="549"/>
-			<point x="7" y="543"/>
-			<point x="1" y="536" type="curve"/>
-			<point x="1" y="511"/>
-			<point x="1" y="496"/>
-			<point x="1" y="478" type="curve"/>
-			<point x="23" y="497"/>
-			<point x="44" y="516"/>
-			<point x="62" y="532" type="curve" smooth="yes"/>
-			<point x="87" y="554"/>
-			<point x="90" y="567"/>
-			<point x="90" y="606" type="curve" smooth="yes"/>
-			<point x="90" y="635"/>
-			<point x="90" y="668"/>
-			<point x="90" y="676" type="curve" smooth="yes"/>
-			<point x="90" y="687"/>
-			<point x="86" y="692"/>
-			<point x="74" y="692" type="curve" smooth="yes"/>
-			<point x="64" y="692"/>
-			<point x="54" y="692"/>
+			<point x="31.6667" y="725.1149" type="curve" />
+			<point x="31.6667" y="690.5172" />
+			<point x="31.6667" y="639.8563" />
+			<point x="31.6667" y="613.908" type="curve" smooth="yes" />
+			<point x="31.6667" y="585.4885" />
+			<point x="29.1667" y="578.0747" />
+			<point x="20.8333" y="564.4828" type="curve" smooth="yes" />
+			<point x="11.6667" y="548.4195" />
+			<point x="5.8333" y="541.0057" />
+			<point x="0.8333" y="532.3563" type="curve" />
+			<point x="0.8333" y="505.1711" />
+			<point x="0.8333" y="490.3422" />
+			<point x="0.8333" y="472.5475" type="curve" />
+			<point x="19.1667" y="491.3308" />
+			<point x="36.6667" y="510.1141" />
+			<point x="51.6667" y="527.4138" type="curve" smooth="yes" />
+			<point x="72.5" y="554.5977" />
+			<point x="75" y="570.6609" />
+			<point x="75" y="618.8506" type="curve" smooth="yes" />
+			<point x="75" y="654.6839" />
+			<point x="75" y="695.4598" />
+			<point x="75" y="705.3448" type="curve" smooth="yes" />
+			<point x="75" y="718.9368" />
+			<point x="71.6667" y="725.1149" />
+			<point x="61.6667" y="725.1149" type="curve" smooth="yes" />
+			<point x="53.3333" y="725.1149" />
+			<point x="45" y="725.1149" />
 		</contour>
 	</outline>
-	<anchor name="_horn" x="0" y="526"/>
+	<anchor name="_horn" x="0" y="520" />
 </glyph>

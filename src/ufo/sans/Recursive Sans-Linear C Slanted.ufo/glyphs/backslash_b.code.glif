@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="backslash_b.code" format="2">
-	<advance width="1200"/>
+	<advance width="1000" />
 	<outline>
-		<component base="backslash" xOffset="20"/>
-		<component base="b" xOffset="560"/>
+		<component base="backslash" xOffset="16.6667" />
+		<component base="b" xOffset="466.6667" />
 	</outline>
-	<anchor name="caret_1" x="600" y="0"/>
+	<anchor name="caret_1" x="500" y="0" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

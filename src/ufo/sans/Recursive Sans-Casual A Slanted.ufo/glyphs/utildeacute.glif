@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="utildeacute" format="2">
-	<unicode hex="1E79"/>
-	<advance width="600"/>
+	<unicode hex="1E79" />
+	<advance width="500" />
 	<outline>
-		<component base="u"/>
-		<component base="tildecomb" xOffset="300.2874088892" yOffset="2"/>
-		<component base="acutecomb" xOffset="339.2874088892" yOffset="157"/>
+		<component base="u" />
+		<component base="tildecomb" xOffset="250.2395" yOffset="1.9772" />
+		<component base="acutecomb" xOffset="282.7395" yOffset="155.2091" />
 	</outline>
 	<lib>
 		<dict>
