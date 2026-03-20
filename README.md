@@ -1,20 +1,8 @@
-<p align="center">
-<strong>Want (infrequent) updates on new fonts from Arrow Type?</strong>
- </p>
-<p align="center">
-💌 <strong>Sign up for the <a href="https://arrowtype.com/" target="_blank">Arrow Type newsletter!</a></strong> 💌
-</p>
-<p align="center">
-📝 <strong>Follow <a href="https://instagram.com/arrowtype" target="_blank">@ArrowType</a> on Instagram!</strong> 📝
-</p>
+# Recursive Charon
+
+Recursive Charon is a fork of [Recursive](https://github.com/arrowtype/recursive) with narrower proportions, closer to [Iosevka](https://typeof.net/Iosevka/). It retains all of Recursive's variable axes and OpenType features while providing a more compact typographic footprint.
 
 ---
-
-# Recursive Sans & Mono
-
-Learn more on the [Recursive web specimen →](https://recursive.design)
-
-![Recursive Sans & Mono Repo Artwork](specimens/repo-artwork/recursive-repo-artwork.png)
 
 Recursive Sans & Mono is a variable type family built for better code & UI. It is inspired by casual script signpainting, but designed primarily to meet the needs of programming environments and application interfaces.
 
