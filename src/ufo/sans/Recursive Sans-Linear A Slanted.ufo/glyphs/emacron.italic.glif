@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="emacron.italic" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
-		<component base="e.italic"/>
-		<component base="macroncomb" xOffset="307.2874088892"/>
+		<component base="e.italic" />
+		<component base="macroncomb" xOffset="256.0728" />
 	</outline>
 	<lib>
 		<dict>

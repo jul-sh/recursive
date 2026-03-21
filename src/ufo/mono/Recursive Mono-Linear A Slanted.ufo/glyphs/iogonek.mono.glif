@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iogonek.mono" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
-		<component base="dotlessi.mono"/>
-		<component base="ogonekcomb" xOffset="484" yOffset="-12"/>
-		<component base="dotaccentcomb" xOffset="333"/>
+		<component base="dotlessi.mono" />
+		<component base="ogonekcomb" xOffset="403.3333" yOffset="-12" />
+		<component base="dotaccentcomb" xOffset="277.5" />
 	</outline>
 	<lib>
 		<dict>

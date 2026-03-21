@@ -1,39 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L.sans" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="47" y="0" type="curve" smooth="yes"/>
-			<point x="437" y="0" type="line"/>
-			<point x="438" y="9"/>
-			<point x="439" y="17"/>
-			<point x="440" y="28" type="curve" smooth="yes"/>
-			<point x="441" y="39"/>
-			<point x="437" y="43"/>
-			<point x="428" y="43" type="curve" smooth="yes"/>
-			<point x="97" y="43" type="line"/>
-			<point x="151" y="257"/>
-			<point x="204" y="475"/>
-			<point x="258" y="689" type="curve" smooth="yes"/>
-			<point x="260" y="694"/>
-			<point x="258" y="700"/>
-			<point x="250" y="700" type="curve" smooth="yes"/>
-			<point x="237" y="700"/>
-			<point x="224" y="700"/>
-			<point x="211" y="700" type="curve"/>
-			<point x="203" y="667"/>
-			<point x="194" y="634"/>
-			<point x="186" y="601" type="curve" smooth="yes"/>
-			<point x="136" y="405"/>
-			<point x="88" y="207"/>
-			<point x="39" y="11" type="curve" smooth="yes"/>
-			<point x="37" y="4"/>
-			<point x="40" y="0"/>
+			<point x="39.1667" y="0" type="curve" smooth="yes" />
+			<point x="364.1667" y="0" type="line" />
+			<point x="365" y="9" />
+			<point x="365.8333" y="17" />
+			<point x="366.6667" y="28" type="curve" smooth="yes" />
+			<point x="367.5" y="39" />
+			<point x="364.1667" y="43" />
+			<point x="356.6667" y="43" type="curve" smooth="yes" />
+			<point x="80.8333" y="43" type="line" />
+			<point x="125.8333" y="257" />
+			<point x="170" y="475" />
+			<point x="215" y="689" type="curve" smooth="yes" />
+			<point x="216.6667" y="694" />
+			<point x="215" y="700" />
+			<point x="208.3333" y="700" type="curve" smooth="yes" />
+			<point x="197.5" y="700" />
+			<point x="186.6667" y="700" />
+			<point x="175.8333" y="700" type="curve" />
+			<point x="169.1667" y="667" />
+			<point x="161.6667" y="634" />
+			<point x="155" y="601" type="curve" smooth="yes" />
+			<point x="113.3333" y="405" />
+			<point x="73.3333" y="207" />
+			<point x="32.5" y="11" type="curve" smooth="yes" />
+			<point x="30.8333" y="4" />
+			<point x="33.3333" y="0" />
 		</contour>
 	</outline>
-	<anchor name="caronslovak" x="482" y="628"/>
-	<anchor name="top" x="239" y="711"/>
-	<anchor name="dot" x="484" y="400"/>
-	<anchor name="bottom" x="234" y="-1"/>
-	<anchor name="slash" x="144" y="340"/>
+	<anchor name="caronslovak" x="401.6667" y="628" />
+	<anchor name="top" x="199.1667" y="711" />
+	<anchor name="dot" x="403.3333" y="400" />
+	<anchor name="bottom" x="195" y="-1" />
+	<anchor name="slash" x="120" y="340" />
 </glyph>

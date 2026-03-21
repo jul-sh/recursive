@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ndot" format="2">
-	<unicode hex="1E45"/>
-	<advance width="600"/>
+	<unicode hex="1E45" />
+	<advance width="500" />
 	<outline>
-		<component base="n"/>
-		<component base="dotaccentcomb" xOffset="300.2874088892"/>
+		<component base="n" />
+		<component base="dotaccentcomb" xOffset="250.2395" />
 	</outline>
 	<lib>
 		<dict>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lcaron.mono" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
-		<component base="l.mono"/>
-		<component base="caronslovakcomb" xOffset="536" yOffset="-40"/>
+		<component base="l.mono" />
+		<component base="caronslovakcomb" xOffset="446.6667" yOffset="-40" />
 	</outline>
 	<lib>
 		<dict>

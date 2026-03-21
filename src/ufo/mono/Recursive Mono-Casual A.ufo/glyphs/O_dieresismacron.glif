@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Odieresismacron" format="2">
-	<unicode hex="022A"/>
-	<advance width="600"/>
+	<unicode hex="022A" />
+	<advance width="500" />
 	<outline>
-		<component base="O"/>
-		<component base="dieresiscomb.case" xOffset="300"/>
-		<component base="macroncomb.case" xOffset="300" yOffset="169"/>
+		<component base="O" />
+		<component base="dieresiscomb.case" xOffset="250" />
+		<component base="macroncomb.case" xOffset="250" yOffset="169" />
 	</outline>
 	<lib>
 		<dict>

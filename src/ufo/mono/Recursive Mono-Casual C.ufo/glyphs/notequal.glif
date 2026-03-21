@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="notequal" format="2">
-	<unicode hex="2260"/>
-	<advance width="600"/>
+	<unicode hex="2260" />
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="488" y="627" type="curve"/>
-			<point x="464" y="634"/>
-			<point x="443" y="637"/>
-			<point x="406" y="637" type="curve" smooth="yes"/>
-			<point x="341" y="637"/>
-			<point x="311" y="612"/>
-			<point x="302" y="573" type="curve" smooth="yes"/>
-			<point x="265" y="388"/>
-			<point x="215" y="215"/>
-			<point x="137" y="57" type="curve"/>
-			<point x="121" y="26"/>
-			<point x="108" y="6"/>
-			<point x="88" y="-17" type="curve"/>
-			<point x="116" y="-34"/>
-			<point x="138" y="-40"/>
-			<point x="172" y="-40" type="curve" smooth="yes"/>
-			<point x="225" y="-40"/>
-			<point x="266" y="-11"/>
-			<point x="297" y="46" type="curve" smooth="yes"/>
-			<point x="385" y="206"/>
-			<point x="444" y="407"/>
+			<point x="406.6667" y="627" type="curve" />
+			<point x="386.6667" y="634" />
+			<point x="369.1667" y="637" />
+			<point x="338.3333" y="637" type="curve" smooth="yes" />
+			<point x="284.1667" y="637" />
+			<point x="259.1667" y="612" />
+			<point x="251.6667" y="573" type="curve" smooth="yes" />
+			<point x="220.8333" y="388" />
+			<point x="179.1667" y="215" />
+			<point x="114.1667" y="57" type="curve" />
+			<point x="100.8333" y="26" />
+			<point x="90" y="6" />
+			<point x="73.3333" y="-17" type="curve" />
+			<point x="96.6667" y="-34" />
+			<point x="115" y="-40" />
+			<point x="143.3333" y="-40" type="curve" smooth="yes" />
+			<point x="187.5" y="-40" />
+			<point x="221.6667" y="-11" />
+			<point x="247.5" y="46" type="curve" smooth="yes" />
+			<point x="320.8333" y="206" />
+			<point x="370" y="407" />
 		</contour>
-		<component base="equal"/>
+		<component base="equal" />
 	</outline>
 	<lib>
 		<dict>

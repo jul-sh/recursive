@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ygrave.italic" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
-		<component base="y.italic"/>
-		<component base="gravecomb" xOffset="295"/>
+		<component base="y.italic" />
+		<component base="gravecomb" xOffset="245.8333" />
 	</outline>
 	<lib>
 		<dict>

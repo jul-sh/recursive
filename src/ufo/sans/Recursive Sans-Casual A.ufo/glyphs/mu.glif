@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="mu" format="2">
-	<unicode hex="03BC"/>
-	<advance width="600"/>
+	<unicode hex="03BC" />
+	<advance width="500" />
 	<outline>
-		<component base="mu.math"/>
+		<component base="mu.math" />
 	</outline>
 	<lib>
 		<dict>

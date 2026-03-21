@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="question_colon.code" format="2">
-	<advance width="1200"/>
+	<advance width="1000" />
 	<outline>
-		<component base="question" xOffset="107"/>
-		<component base="colon" xOffset="607"/>
+		<component base="question" xOffset="89.1667" />
+		<component base="colon" xOffset="505.8333" />
 	</outline>
-	<anchor name="caret_1" x="600" y="0"/>
+	<anchor name="caret_1" x="500" y="0" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

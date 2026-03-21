@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb_hookabovecomb" format="2">
 	<outline>
-		<component base="circumflexcomb.case"/>
-		<component base="hookcomb.case" xOffset="237" yOffset="169"/>
+		<component base="circumflexcomb.case" />
+		<component base="hookcomb.case" xOffset="197.5" yOffset="169" />
 	</outline>
 	<lib>
 		<dict>
