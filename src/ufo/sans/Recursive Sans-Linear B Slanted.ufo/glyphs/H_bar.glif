@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hbar" format="2">
-	<unicode hex="0126"/>
-	<advance width="542"/>
-	<outline>
-		<contour>
-			<point x="89" y="620" type="line"/>
-			<point x="82" y="585"/>
-			<point x="76" y="557"/>
-			<point x="68" y="521" type="curve" smooth="yes"/>
-			<point x="67" y="514"/>
-			<point x="69" y="510"/>
-			<point x="75" y="510" type="curve" smooth="yes"/>
-			<point x="574" y="510" type="line"/>
-			<point x="582" y="546"/>
-			<point x="588" y="573"/>
-			<point x="595" y="609" type="curve" smooth="yes"/>
-			<point x="597" y="616"/>
-			<point x="594" y="620"/>
-			<point x="588" y="620" type="curve" smooth="yes"/>
-		</contour>
-		<component base="H"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.25</string>
-		</dict>
-	</lib>
+  <advance width="542"/>
+  <unicode hex="0126"/>
+  <outline>
+    <contour>
+      <point x="89" y="620" type="line"/>
+      <point x="82" y="582"/>
+      <point x="76" y="560"/>
+      <point x="68" y="521" type="curve" smooth="yes"/>
+      <point x="68" y="514"/>
+      <point x="69" y="512"/>
+      <point x="75" y="510" type="curve" smooth="yes"/>
+      <point x="574" y="510" type="line"/>
+      <point x="582" y="549"/>
+      <point x="588" y="570"/>
+      <point x="595" y="609" type="curve" smooth="yes"/>
+      <point x="595" y="616"/>
+      <point x="594" y="618"/>
+      <point x="588" y="620" type="curve" smooth="yes"/>
+    </contour>
+    <component base="H"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
 </glyph>

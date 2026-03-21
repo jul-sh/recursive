@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaturnedabovecomb.case" format="2">
-	<outline>
-		<contour>
-			<point x="204" y="922" type="curve"/>
-			<point x="199" y="928"/>
-			<point x="192" y="932"/>
-			<point x="184" y="932" type="curve" smooth="yes"/>
-			<point x="175" y="932"/>
-			<point x="169" y="929"/>
-			<point x="161" y="921" type="curve" smooth="yes"/>
-			<point x="133" y="894"/>
-			<point x="102" y="840"/>
-			<point x="97" y="797" type="curve" smooth="yes"/>
-			<point x="94" y="777"/>
-			<point x="99" y="771"/>
-			<point x="112" y="771" type="curve" smooth="yes"/>
-			<point x="122" y="771"/>
-			<point x="129" y="774"/>
-			<point x="137" y="779" type="curve"/>
-			<point x="148" y="837"/>
-			<point x="167" y="872"/>
-		</contour>
-	</outline>
-	<anchor name="_top" x="93" y="711"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.25</string>
-		</dict>
-	</lib>
+  <anchor x="93" y="711" name="_top"/>
+  <outline>
+    <contour>
+      <point x="204" y="922" type="curve"/>
+      <point x="198" y="928"/>
+      <point x="192" y="931"/>
+      <point x="184" y="932" type="curve" smooth="yes"/>
+      <point x="175" y="930"/>
+      <point x="169" y="929"/>
+      <point x="161" y="921" type="curve" smooth="yes"/>
+      <point x="133" y="886"/>
+      <point x="108" y="844"/>
+      <point x="97" y="797" type="curve" smooth="yes"/>
+      <point x="96" y="779"/>
+      <point x="101" y="774"/>
+      <point x="112" y="771" type="curve" smooth="yes"/>
+      <point x="122" y="771"/>
+      <point x="128" y="774"/>
+      <point x="137" y="779" type="curve"/>
+      <point x="153" y="840"/>
+      <point x="167" y="867"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
 </glyph>

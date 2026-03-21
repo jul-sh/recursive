@@ -1,36 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ogonekcombo" format="2">
-	<outline>
-		<contour>
-			<point x="-72" y="-119" type="curve" smooth="yes"/>
-			<point x="-72" y="-209"/>
-			<point x="-34" y="-250"/>
-			<point x="28" y="-250" type="curve" smooth="yes"/>
-			<point x="77" y="-250"/>
-			<point x="104" y="-224"/>
-			<point x="104" y="-161" type="curve" smooth="yes"/>
-			<point x="104" y="-134"/>
-			<point x="101" y="-117"/>
-			<point x="91" y="-93" type="curve"/>
-			<point x="86" y="-93" type="line"/>
-			<point x="72" y="-102"/>
-			<point x="62" y="-106"/>
-			<point x="48" y="-106" type="curve" smooth="yes"/>
-			<point x="26" y="-106"/>
-			<point x="14" y="-85"/>
-			<point x="14" y="-53" type="curve" smooth="yes"/>
-			<point x="14" y="-21"/>
-			<point x="26" y="18"/>
-			<point x="52" y="44" type="curve" smooth="yes"/>
-			<point x="60" y="51"/>
-			<point x="68" y="61"/>
-			<point x="72" y="67" type="curve"/>
-			<point x="50" y="75"/>
-			<point x="40" y="76"/>
-			<point x="35" y="75" type="curve"/>
-			<point x="-20" y="66"/>
-			<point x="-72" y="-31"/>
-		</contour>
-	</outline>
-	<anchor name="_ogonek" x="72" y="67"/>
+  <anchor x="72" y="67" name="_ogonek"/>
+  <outline>
+    <contour>
+      <point x="-72" y="-119" type="curve" smooth="yes"/>
+      <point x="-61" y="-203"/>
+      <point x="-32" y="-235"/>
+      <point x="28" y="-250" type="curve" smooth="yes"/>
+      <point x="75" y="-240"/>
+      <point x="95" y="-220"/>
+      <point x="104" y="-161" type="curve" smooth="yes"/>
+      <point x="102" y="-132"/>
+      <point x="101" y="-119"/>
+      <point x="91" y="-93" type="curve"/>
+      <point x="86" y="-93" type="line"/>
+      <point x="71" y="-102"/>
+      <point x="63" y="-104"/>
+      <point x="48" y="-106" type="curve" smooth="yes"/>
+      <point x="27" y="-100"/>
+      <point x="18" y="-83"/>
+      <point x="14" y="-53" type="curve" smooth="yes"/>
+      <point x="18" y="-17"/>
+      <point x="28" y="13"/>
+      <point x="52" y="44" type="curve" smooth="yes"/>
+      <point x="60" y="52"/>
+      <point x="66" y="59"/>
+      <point x="72" y="67" type="curve"/>
+      <point x="50" y="75"/>
+      <point x="43" y="75"/>
+      <point x="35" y="75" type="curve"/>
+      <point x="-20" y="46"/>
+      <point x="-60" y="-29"/>
+    </contour>
+  </outline>
 </glyph>

@@ -1,54 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotlessi" format="2">
-	<unicode hex="0131"/>
-	<advance width="292"/>
-	<outline>
-		<contour>
-			<point x="71" y="11" type="curve" smooth="yes"/>
-			<point x="71" y="5"/>
-			<point x="75" y="0"/>
-			<point x="80" y="0" type="curve" smooth="yes"/>
-			<point x="139" y="0"/>
-			<point x="199" y="0"/>
-			<point x="258" y="0" type="curve"/>
-			<point x="258" y="29"/>
-			<point x="258" y="59"/>
-			<point x="258" y="88" type="curve" smooth="yes"/>
-			<point x="258" y="238"/>
-			<point x="258" y="389"/>
-			<point x="258" y="539" type="curve" smooth="yes"/>
-			<point x="258" y="545"/>
-			<point x="254" y="550"/>
-			<point x="249" y="550" type="curve" smooth="yes"/>
-			<point x="172" y="550"/>
-			<point x="94" y="550"/>
-			<point x="17" y="550" type="curve"/>
-			<point x="17" y="482"/>
-			<point x="17" y="414"/>
-			<point x="17" y="346" type="curve" smooth="yes"/>
-			<point x="17" y="340"/>
-			<point x="21" y="335"/>
-			<point x="26" y="335" type="curve" smooth="yes"/>
-			<point x="37" y="335"/>
-			<point x="48" y="335"/>
-			<point x="58" y="335" type="curve"/>
-			<point x="71" y="335" type="line"/>
-			<point x="71" y="227"/>
-			<point x="71" y="119"/>
-		</contour>
-	</outline>
-	<anchor name="top" x="167" y="550"/>
-	<anchor name="bottom" x="166" y="-1"/>
-	<anchor name="ogonek" x="259" y="0"/>
-	<anchor name="hook" x="165" y="584"/>
-	<lib>
-		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>workInProgress</string>
-			<key>com.arrowtype.numberOfIterations</key>
-			<integer>1</integer>
-			<key>public.markColor</key>
-			<string>0,0,0,0.25</string>
-		</dict>
-	</lib>
+  <advance width="292"/>
+  <unicode hex="0131"/>
+  <anchor x="167" y="550" name="top"/>
+  <anchor x="166" y="-1" name="bottom"/>
+  <anchor x="259" y="0" name="ogonek"/>
+  <anchor x="165" y="584" name="hook"/>
+  <outline>
+    <contour>
+      <point x="71" y="11" type="curve" smooth="yes"/>
+      <point x="72" y="5"/>
+      <point x="75" y="2"/>
+      <point x="80" y="0" type="curve" smooth="yes"/>
+      <point x="146" y="0"/>
+      <point x="192" y="0"/>
+      <point x="258" y="0" type="curve"/>
+      <point x="258" y="33"/>
+      <point x="258" y="55"/>
+      <point x="258" y="88" type="curve" smooth="yes"/>
+      <point x="258" y="255"/>
+      <point x="258" y="372"/>
+      <point x="258" y="539" type="curve" smooth="yes"/>
+      <point x="257" y="545"/>
+      <point x="254" y="548"/>
+      <point x="249" y="550" type="curve" smooth="yes"/>
+      <point x="163" y="550"/>
+      <point x="103" y="550"/>
+      <point x="17" y="550" type="curve"/>
+      <point x="17" y="474"/>
+      <point x="17" y="422"/>
+      <point x="17" y="346" type="curve" smooth="yes"/>
+      <point x="18" y="340"/>
+      <point x="21" y="337"/>
+      <point x="26" y="335" type="curve" smooth="yes"/>
+      <point x="38" y="335"/>
+      <point x="46" y="335"/>
+      <point x="58" y="335" type="curve"/>
+      <point x="71" y="335" type="line"/>
+      <point x="71" y="215"/>
+      <point x="71" y="131"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.glyphMarkStatus</key>
+      <string>workInProgress</string>
+      <key>com.arrowtype.numberOfIterations</key>
+      <integer>1</integer>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tbar" format="2">
-	<unicode hex="0166"/>
-	<advance width="500"/>
-	<outline>
-		<contour>
-			<point x="58" y="392" type="line"/>
-			<point x="58" y="350"/>
-			<point x="58" y="311"/>
-			<point x="58" y="269" type="curve" smooth="yes"/>
-			<point x="58" y="262"/>
-			<point x="62" y="258"/>
-			<point x="68" y="258" type="curve" smooth="yes"/>
-			<point x="442" y="258" type="line"/>
-			<point x="442" y="300"/>
-			<point x="442" y="339"/>
-			<point x="442" y="381" type="curve" smooth="yes"/>
-			<point x="442" y="388"/>
-			<point x="438" y="392"/>
-			<point x="432" y="392" type="curve"/>
-		</contour>
-		<component base="T"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.25</string>
-		</dict>
-	</lib>
+  <advance width="500"/>
+  <unicode hex="0166"/>
+  <outline>
+    <contour>
+      <point x="58" y="392" type="line"/>
+      <point x="58" y="346"/>
+      <point x="58" y="315"/>
+      <point x="58" y="269" type="curve" smooth="yes"/>
+      <point x="59" y="262"/>
+      <point x="62" y="260"/>
+      <point x="68" y="258" type="curve" smooth="yes"/>
+      <point x="442" y="258" type="line"/>
+      <point x="442" y="304"/>
+      <point x="442" y="335"/>
+      <point x="442" y="381" type="curve" smooth="yes"/>
+      <point x="441" y="388"/>
+      <point x="438" y="390"/>
+      <point x="432" y="392" type="curve"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
 </glyph>

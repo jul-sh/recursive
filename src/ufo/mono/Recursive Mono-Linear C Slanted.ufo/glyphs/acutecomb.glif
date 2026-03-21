@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acutecomb" format="2">
-	<unicode hex="0301"/>
-	<outline>
-		<contour>
-			<point x="99" y="805" type="curve"/>
-			<point x="56" y="741"/>
-			<point x="13" y="679"/>
-			<point x="-29" y="617" type="curve"/>
-			<point x="10" y="617"/>
-			<point x="68" y="617"/>
-			<point x="110" y="617" type="curve" smooth="yes"/>
-			<point x="119" y="617"/>
-			<point x="125" y="619"/>
-			<point x="129" y="624" type="curve" smooth="yes"/>
-			<point x="192" y="689"/>
-			<point x="233" y="732"/>
-			<point x="288" y="789" type="curve" smooth="yes"/>
-			<point x="294" y="796"/>
-			<point x="292" y="805"/>
-			<point x="286" y="805" type="curve" smooth="yes"/>
-			<point x="226" y="805"/>
-			<point x="161" y="805"/>
-		</contour>
-	</outline>
-	<anchor name="_top" x="57" y="549"/>
-	<anchor name="_dot" x="59" y="560"/>
-	<anchor name="dot" x="-121" y="710"/>
+  <unicode hex="0301"/>
+  <anchor x="57" y="549" name="_top"/>
+  <anchor x="59" y="560" name="_dot"/>
+  <anchor x="-121" y="710" name="dot"/>
+  <outline>
+    <contour>
+      <point x="99" y="805" type="curve"/>
+      <point x="51" y="734"/>
+      <point x="18" y="686"/>
+      <point x="-29" y="617" type="curve"/>
+      <point x="17" y="617"/>
+      <point x="62" y="617"/>
+      <point x="110" y="617" type="curve" smooth="yes"/>
+      <point x="119" y="617"/>
+      <point x="123" y="619"/>
+      <point x="129" y="624" type="curve" smooth="yes"/>
+      <point x="196" y="693"/>
+      <point x="227" y="726"/>
+      <point x="288" y="789" type="curve" smooth="yes"/>
+      <point x="292" y="796"/>
+      <point x="291" y="803"/>
+      <point x="286" y="805" type="curve" smooth="yes"/>
+      <point x="218" y="805"/>
+      <point x="168" y="805"/>
+    </contour>
+  </outline>
 </glyph>

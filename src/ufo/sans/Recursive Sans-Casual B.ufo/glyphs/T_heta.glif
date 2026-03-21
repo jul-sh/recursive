@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Theta" format="2">
-	<unicode hex="0398"/>
-	<advance width="542"/>
-	<outline>
-		<contour>
-			<point x="208" y="425" type="line"/>
-			<point x="203" y="403"/>
-			<point x="201" y="379"/>
-			<point x="201" y="348" type="curve" smooth="yes"/>
-			<point x="201" y="291"/>
-			<point x="211" y="275"/>
-			<point x="264" y="275" type="curve" smooth="yes"/>
-			<point x="334" y="275" type="line"/>
-			<point x="338" y="296"/>
-			<point x="341" y="319"/>
-			<point x="341" y="338" type="curve" smooth="yes"/>
-			<point x="341" y="406"/>
-			<point x="328" y="425"/>
-			<point x="281" y="425" type="curve" smooth="yes"/>
-		</contour>
-		<component base="O"/>
-	</outline>
-	<guideline x="0" y="349" angle="0" identifier="W3BlhDPrYo"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.5,0,1</string>
-		</dict>
-	</lib>
+  <advance width="542"/>
+  <unicode hex="0398"/>
+  <guideline x="0" y="349" angle="0" identifier="W3BlhDPrYo"/>
+  <outline>
+    <contour>
+      <point x="208" y="425" type="line"/>
+      <point x="203" y="399"/>
+      <point x="201" y="381"/>
+      <point x="201" y="348" type="curve" smooth="yes"/>
+      <point x="208" y="295"/>
+      <point x="216" y="283"/>
+      <point x="264" y="275" type="curve" smooth="yes"/>
+      <point x="334" y="275" type="line"/>
+      <point x="338" y="298"/>
+      <point x="341" y="317"/>
+      <point x="341" y="338" type="curve" smooth="yes"/>
+      <point x="334" y="400"/>
+      <point x="324" y="415"/>
+      <point x="281" y="425" type="curve" smooth="yes"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
 </glyph>

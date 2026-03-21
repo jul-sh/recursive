@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bullet" format="2">
-	<unicode hex="2022"/>
-	<advance width="500"/>
-	<outline>
-		<contour>
-			<point x="375" y="150" type="curve"/>
-			<point x="375" y="439" type="line" smooth="yes"/>
-			<point x="375" y="446"/>
-			<point x="372" y="450"/>
-			<point x="366" y="450" type="curve"/>
-			<point x="302" y="450"/>
-			<point x="188" y="450"/>
-			<point x="125" y="450" type="curve"/>
-			<point x="125" y="161" type="line" smooth="yes"/>
-			<point x="125" y="154"/>
-			<point x="128" y="150"/>
-			<point x="134" y="150" type="curve"/>
-			<point x="198" y="150"/>
-			<point x="312" y="150"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.25</string>
-		</dict>
-	</lib>
+  <advance width="500"/>
+  <unicode hex="2022"/>
+  <outline>
+    <contour>
+      <point x="375" y="150" type="curve"/>
+      <point x="375" y="439" type="line" smooth="yes"/>
+      <point x="374" y="446"/>
+      <point x="372" y="448"/>
+      <point x="366" y="450" type="curve"/>
+      <point x="289" y="450"/>
+      <point x="201" y="450"/>
+      <point x="125" y="450" type="curve"/>
+      <point x="125" y="161" type="line" smooth="yes"/>
+      <point x="126" y="154"/>
+      <point x="128" y="152"/>
+      <point x="134" y="150" type="curve"/>
+      <point x="211" y="150"/>
+      <point x="299" y="150"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
 </glyph>

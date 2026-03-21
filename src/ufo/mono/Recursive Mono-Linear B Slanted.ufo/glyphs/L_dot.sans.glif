@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ldot.sans" format="2">
-	<advance width="500"/>
-	<outline>
-		<contour>
-			<point x="328" y="501" type="curve"/>
-			<point x="297" y="352" type="line" smooth="yes"/>
-			<point x="295" y="345"/>
-			<point x="298" y="341"/>
-			<point x="303" y="341" type="curve"/>
-			<point x="348" y="341"/>
-			<point x="392" y="341"/>
-			<point x="436" y="341" type="curve"/>
-			<point x="467" y="490" type="line" smooth="yes"/>
-			<point x="468" y="497"/>
-			<point x="466" y="501"/>
-			<point x="460" y="501" type="curve"/>
-			<point x="416" y="501"/>
-			<point x="372" y="501"/>
-		</contour>
-		<component base="L.sans"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.4229,0,0.8271,1</string>
-		</dict>
-	</lib>
+  <advance width="500"/>
+  <outline>
+    <contour>
+      <point x="328" y="501" type="curve"/>
+      <point x="297" y="352" type="line" smooth="yes"/>
+      <point x="296" y="345"/>
+      <point x="298" y="343"/>
+      <point x="303" y="341" type="curve"/>
+      <point x="353" y="341"/>
+      <point x="387" y="341"/>
+      <point x="436" y="341" type="curve"/>
+      <point x="467" y="490" type="line" smooth="yes"/>
+      <point x="467" y="497"/>
+      <point x="466" y="499"/>
+      <point x="460" y="501" type="curve"/>
+      <point x="411" y="501"/>
+      <point x="377" y="501"/>
+    </contour>
+    <component base="L.sans"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4229,0,0.8271,1</string>
+    </dict>
+  </lib>
 </glyph>

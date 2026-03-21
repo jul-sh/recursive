@@ -1,36 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bar" format="2">
-	<unicode hex="007C"/>
-	<advance width="250"/>
-	<outline>
-		<contour>
-			<point x="160" y="760" type="curve"/>
-			<point x="152" y="724"/>
-			<point x="145" y="689"/>
-			<point x="138" y="653" type="curve" smooth="yes"/>
-			<point x="82" y="386"/>
-			<point x="26" y="118"/>
-			<point x="-29" y="-149" type="curve" smooth="yes"/>
-			<point x="-31" y="-156"/>
-			<point x="-28" y="-160"/>
-			<point x="-22" y="-160" type="curve"/>
-			<point x="19" y="-160"/>
-			<point x="60" y="-160"/>
-			<point x="102" y="-160" type="curve"/>
-			<point x="165" y="143"/>
-			<point x="228" y="446"/>
-			<point x="291" y="749" type="curve" smooth="yes"/>
-			<point x="292" y="756"/>
-			<point x="290" y="760"/>
-			<point x="284" y="760" type="curve" smooth="yes"/>
-			<point x="242" y="760"/>
-			<point x="202" y="760"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0,0,1</string>
-		</dict>
-	</lib>
+  <advance width="250"/>
+  <unicode hex="007C"/>
+  <outline>
+    <contour>
+      <point x="160" y="760" type="curve"/>
+      <point x="152" y="720"/>
+      <point x="145" y="693"/>
+      <point x="138" y="653" type="curve" smooth="yes"/>
+      <point x="76" y="356"/>
+      <point x="32" y="148"/>
+      <point x="-29" y="-149" type="curve" smooth="yes"/>
+      <point x="-29" y="-156"/>
+      <point x="-28" y="-158"/>
+      <point x="-22" y="-160" type="curve"/>
+      <point x="24" y="-160"/>
+      <point x="56" y="-160"/>
+      <point x="102" y="-160" type="curve"/>
+      <point x="172" y="177"/>
+      <point x="221" y="412"/>
+      <point x="291" y="749" type="curve" smooth="yes"/>
+      <point x="291" y="756"/>
+      <point x="290" y="758"/>
+      <point x="284" y="760" type="curve" smooth="yes"/>
+      <point x="238" y="760"/>
+      <point x="206" y="760"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

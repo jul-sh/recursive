@@ -1,52 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zerosuperior.sans" format="2">
-	<advance width="333"/>
-	<outline>
-		<contour>
-			<point x="166" y="797" type="curve" smooth="yes"/>
-			<point x="99" y="797"/>
-			<point x="46" y="755"/>
-			<point x="46" y="631" type="curve" smooth="yes"/>
-			<point x="46" y="520" type="line" smooth="yes"/>
-			<point x="46" y="411"/>
-			<point x="91" y="362"/>
-			<point x="164" y="362" type="curve" smooth="yes"/>
-			<point x="241" y="362"/>
-			<point x="288" y="411"/>
-			<point x="288" y="520" type="curve" smooth="yes"/>
-			<point x="288" y="631" type="line" smooth="yes"/>
-			<point x="288" y="755"/>
-			<point x="232" y="797"/>
-		</contour>
-		<contour>
-			<point x="166" y="753" type="curve" smooth="yes"/>
-			<point x="202" y="753"/>
-			<point x="223" y="739"/>
-			<point x="234" y="721" type="curve" smooth="yes"/>
-			<point x="243" y="705"/>
-			<point x="249" y="678"/>
-			<point x="249" y="652" type="curve" smooth="yes"/>
-			<point x="249" y="500" type="line" smooth="yes"/>
-			<point x="249" y="444"/>
-			<point x="218" y="406"/>
-			<point x="163" y="406" type="curve" smooth="yes"/>
-			<point x="128" y="406"/>
-			<point x="108" y="420"/>
-			<point x="98" y="434" type="curve" smooth="yes"/>
-			<point x="88" y="449"/>
-			<point x="84" y="463"/>
-			<point x="84" y="500" type="curve" smooth="yes"/>
-			<point x="84" y="650" type="line" smooth="yes"/>
-			<point x="84" y="716"/>
-			<point x="113" y="753"/>
-		</contour>
-	</outline>
-	<guideline x="0" y="362" angle="0" identifier="b8fPGogqyN"/>
-	<guideline x="0" y="797" angle="0" identifier="Bt3QXFVrjT"/>
-	<guideline x="0" y="372" angle="0" identifier="Qgx1MyWkQP"/>
-	<guideline x="0" y="787" angle="0" identifier="Ahh3YhLWkP"/>
-	<guideline x="0" y="-97" angle="0" identifier="koxGJ1frDh"/>
-	<guideline x="0" y="338" angle="0" identifier="fbd6QPwqZp"/>
-	<guideline x="0" y="-87" angle="0" identifier="myeKs9H0oo"/>
-	<guideline x="0" y="328" angle="0" identifier="GQVQA1mfJn"/>
+  <advance width="333"/>
+  <guideline x="0" y="362" angle="0" identifier="b8fPGogqyN"/>
+  <guideline x="0" y="797" angle="0" identifier="Bt3QXFVrjT"/>
+  <guideline x="0" y="372" angle="0" identifier="Qgx1MyWkQP"/>
+  <guideline x="0" y="787" angle="0" identifier="Ahh3YhLWkP"/>
+  <guideline x="0" y="-97" angle="0" identifier="koxGJ1frDh"/>
+  <guideline x="0" y="338" angle="0" identifier="fbd6QPwqZp"/>
+  <guideline x="0" y="-87" angle="0" identifier="myeKs9H0oo"/>
+  <guideline x="0" y="328" angle="0" identifier="GQVQA1mfJn"/>
+  <outline>
+    <contour>
+      <point x="166" y="797" type="curve" smooth="yes"/>
+      <point x="101" y="778"/>
+      <point x="59" y="746"/>
+      <point x="46" y="631" type="curve" smooth="yes"/>
+      <point x="46" y="520" type="line" smooth="yes"/>
+      <point x="59" y="418"/>
+      <point x="94" y="379"/>
+      <point x="164" y="362" type="curve" smooth="yes"/>
+      <point x="237" y="379"/>
+      <point x="274" y="418"/>
+      <point x="288" y="520" type="curve" smooth="yes"/>
+      <point x="288" y="631" type="line" smooth="yes"/>
+      <point x="275" y="746"/>
+      <point x="231" y="778"/>
+    </contour>
+    <contour>
+      <point x="166" y="753" type="curve" smooth="yes"/>
+      <point x="202" y="749"/>
+      <point x="218" y="739"/>
+      <point x="234" y="721" type="curve" smooth="yes"/>
+      <point x="243" y="701"/>
+      <point x="247" y="680"/>
+      <point x="249" y="652" type="curve" smooth="yes"/>
+      <point x="249" y="500" type="line" smooth="yes"/>
+      <point x="239" y="446"/>
+      <point x="216" y="417"/>
+      <point x="163" y="406" type="curve" smooth="yes"/>
+      <point x="128" y="409"/>
+      <point x="113" y="420"/>
+      <point x="98" y="434" type="curve" smooth="yes"/>
+      <point x="88" y="453"/>
+      <point x="86" y="463"/>
+      <point x="84" y="500" type="curve" smooth="yes"/>
+      <point x="84" y="650" type="line" smooth="yes"/>
+      <point x="93" y="712"/>
+      <point x="115" y="742"/>
+    </contour>
+  </outline>
 </glyph>

@@ -1,38 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="slash" format="2">
-	<unicode hex="002F"/>
-	<advance width="500"/>
-	<outline>
-		<contour>
-			<point x="478" y="750" type="curve"/>
-			<point x="418" y="750"/>
-			<point x="362" y="750"/>
-			<point x="303" y="750" type="curve" smooth="yes"/>
-			<point x="298" y="750"/>
-			<point x="295" y="748"/>
-			<point x="293" y="743" type="curve" smooth="yes"/>
-			<point x="216" y="489"/>
-			<point x="137" y="233"/>
-			<point x="58" y="-21" type="curve" smooth="yes"/>
-			<point x="47" y="-57"/>
-			<point x="36" y="-94"/>
-			<point x="25" y="-130" type="curve"/>
-			<point x="83" y="-130"/>
-			<point x="139" y="-130"/>
-			<point x="198" y="-130" type="curve" smooth="yes"/>
-			<point x="203" y="-130"/>
-			<point x="208" y="-127"/>
-			<point x="211" y="-119" type="curve" smooth="yes"/>
-			<point x="300" y="170"/>
-			<point x="388" y="461"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>fromComponents</string>
-			<key>public.markColor</key>
-			<string>0,0,0,0.25</string>
-		</dict>
-	</lib>
+  <advance width="500"/>
+  <unicode hex="002F"/>
+  <outline>
+    <contour>
+      <point x="478" y="750" type="curve"/>
+      <point x="412" y="750"/>
+      <point x="368" y="750"/>
+      <point x="303" y="750" type="curve" smooth="yes"/>
+      <point x="298" y="750"/>
+      <point x="295" y="748"/>
+      <point x="293" y="743" type="curve" smooth="yes"/>
+      <point x="207" y="460"/>
+      <point x="146" y="262"/>
+      <point x="58" y="-21" type="curve" smooth="yes"/>
+      <point x="45" y="-61"/>
+      <point x="38" y="-90"/>
+      <point x="25" y="-130" type="curve"/>
+      <point x="89" y="-130"/>
+      <point x="133" y="-130"/>
+      <point x="198" y="-130" type="curve" smooth="yes"/>
+      <point x="203" y="-128"/>
+      <point x="208" y="-127"/>
+      <point x="211" y="-119" type="curve" smooth="yes"/>
+      <point x="310" y="202"/>
+      <point x="378" y="429"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.glyphMarkStatus</key>
+      <string>fromComponents</string>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gravecomb" format="2">
-	<unicode hex="0300"/>
-	<outline>
-		<contour>
-			<point x="80" y="812" type="curve"/>
-			<point x="48" y="812"/>
-			<point x="15" y="807"/>
-			<point x="-8" y="794" type="curve" smooth="yes"/>
-			<point x="-27" y="784"/>
-			<point x="-35" y="765"/>
-			<point x="-35" y="745" type="curve" smooth="yes"/>
-			<point x="-35" y="699"/>
-			<point x="-16" y="655"/>
-			<point x="8" y="633" type="curve" smooth="yes"/>
-			<point x="26" y="617"/>
-			<point x="46" y="611"/>
-			<point x="76" y="611" type="curve" smooth="yes"/>
-			<point x="100" y="611"/>
-			<point x="116" y="615"/>
-			<point x="135" y="630" type="curve"/>
-			<point x="96" y="687"/>
-			<point x="81" y="733"/>
-		</contour>
-	</outline>
-	<anchor name="_top" x="58" y="549"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.25</string>
-		</dict>
-	</lib>
+  <unicode hex="0300"/>
+  <anchor x="58" y="549" name="_top"/>
+  <outline>
+    <contour>
+      <point x="80" y="812" type="curve"/>
+      <point x="46" y="810"/>
+      <point x="20" y="807"/>
+      <point x="-8" y="794" type="curve" smooth="yes"/>
+      <point x="-25" y="780"/>
+      <point x="-32" y="766"/>
+      <point x="-35" y="745" type="curve" smooth="yes"/>
+      <point x="-30" y="697"/>
+      <point x="-16" y="663"/>
+      <point x="8" y="633" type="curve" smooth="yes"/>
+      <point x="30" y="618"/>
+      <point x="46" y="613"/>
+      <point x="76" y="611" type="curve" smooth="yes"/>
+      <point x="102" y="613"/>
+      <point x="114" y="617"/>
+      <point x="135" y="630" type="curve"/>
+      <point x="98" y="695"/>
+      <point x="87" y="731"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
 </glyph>
