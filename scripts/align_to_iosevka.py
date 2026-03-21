@@ -238,21 +238,23 @@ def adjust_e_rounder(glyph, weight="B"):
     2. Pulling inward slightly on the right side for a rounder shape
     """
     # How much to drop the terminal (the part that curves up on the right)
-    drop = {"A": 30, "B": 45, "C": 55}.get(weight, 45)
+    # Needs to be large — Iosevka's terminal is at ~y=145 while Recursive's
+    # goes up to ~y=89. We need to drop aggressively.
+    drop = {"A": 55, "B": 70, "C": 85}.get(weight, 70)
     # How much to pull rightmost bowl points inward
-    inward = {"A": 8, "B": 12, "C": 16}.get(weight, 12)
+    inward = {"A": 10, "B": 15, "C": 20}.get(weight, 15)
 
     changed = False
     for contour in glyph:
         for pt in contour:
-            # Terminal area: right side, below the crossbar (y < 120),
-            # where the stroke end curves up. Pull these DOWN.
-            if pt.x > 380 and 40 <= pt.y <= 120:
+            # Terminal cap: the topmost points of the terminal on the right
+            # These are the points that make the opening narrow. Drop them hard.
+            if pt.x > 390 and 30 <= pt.y <= 100:
                 pt.y -= drop
                 changed = True
-            # Also drop the off-curve points leading into the terminal
-            elif pt.x > 350 and 30 <= pt.y <= 100 and pt.segmentType is None:
-                pt.y -= drop // 2
+            # Off-curve points approaching the terminal from above
+            elif pt.x > 340 and 20 <= pt.y <= 90 and pt.segmentType is None:
+                pt.y -= drop * 2 // 3
                 changed = True
             # Pull rightmost bowl points inward for rounder shape
             elif pt.x > 400 and 200 <= pt.y <= 340:
