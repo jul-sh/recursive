@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scaron.italic" format="2">
-	<advance width="500"/>
+	<advance width="500" />
 	<outline>
-		<component base="s.italic"/>
-		<component base="caroncomb" xOffset="262"/>
+		<component base="s.italic" />
+		<component base="caroncomb" xOffset="261.6667" />
 	</outline>
 	<lib>
 		<dict>

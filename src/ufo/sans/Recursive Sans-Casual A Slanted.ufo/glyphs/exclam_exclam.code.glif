@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="exclam_exclam.code" format="2">
-	<advance width="1000"/>
+	<advance width="1000" />
 	<outline>
-		<component base="exclam" xOffset="196"/>
-		<component base="exclam" xOffset="478"/>
+		<component base="exclam" xOffset="195.8333" />
+		<component base="exclam" xOffset="478.3333" />
 	</outline>
-	<anchor name="caret_1" x="500" y="0"/>
+	<anchor name="caret_1" x="500" y="0" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

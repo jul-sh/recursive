@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="emacronacute.italic" format="2">
-	<advance width="500"/>
+	<advance width="500" />
 	<outline>
-		<component base="e.italic"/>
-		<component base="macroncomb" xOffset="251" yOffset="2"/>
-		<component base="acutecomb.case" xOffset="260" yOffset="41"/>
+		<component base="e.italic" />
+		<component base="macroncomb" xOffset="250.657" yOffset="2" />
+		<component base="acutecomb.case" xOffset="259.8237" yOffset="41" />
 	</outline>
 	<lib>
 		<dict>

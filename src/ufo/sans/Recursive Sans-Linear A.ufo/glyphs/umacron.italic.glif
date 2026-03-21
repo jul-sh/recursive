@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="umacron.italic" format="2">
-	<advance width="500"/>
+	<advance width="500" />
 	<outline>
-		<component base="u.italic"/>
-		<component base="macroncomb" xOffset="248" yOffset="-11"/>
+		<component base="u.italic" />
+		<component base="macroncomb" xOffset="248.3333" yOffset="-11" />
 	</outline>
 	<lib>
 		<dict>

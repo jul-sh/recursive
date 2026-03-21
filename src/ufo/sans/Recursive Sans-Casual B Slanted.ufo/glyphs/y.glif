@@ -1,64 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="y" format="2">
-	<unicode hex="0079"/>
-	<advance width="500"/>
+	<unicode hex="0079" />
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="418" y="548" type="curve" smooth="yes"/>
-			<point x="407" y="548"/>
-			<point x="387" y="545"/>
-			<point x="361" y="540" type="curve"/>
-			<point x="325" y="224"/>
-			<point x="231" y="56"/>
-			<point x="173" y="2" type="curve" smooth="yes"/>
-			<point x="133" y="-36"/>
-			<point x="87" y="-41"/>
-			<point x="49" y="-41" type="curve" smooth="yes"/>
-			<point x="25" y="-41"/>
-			<point x="5" y="-35"/>
-			<point x="-8" y="-25" type="curve"/>
-			<point x="-13" y="-25" type="line"/>
-			<point x="-14" y="-29" type="line" smooth="yes"/>
-			<point x="-28" y="-98"/>
-			<point x="-21" y="-155"/>
-			<point x="-4" y="-175" type="curve" smooth="yes"/>
-			<point x="12" y="-194"/>
-			<point x="32" y="-200"/>
-			<point x="54" y="-200" type="curve" smooth="yes"/>
-			<point x="105" y="-200"/>
-			<point x="167" y="-181"/>
-			<point x="224" y="-121" type="curve" smooth="yes"/>
-			<point x="325" y="-17"/>
-			<point x="428" y="172"/>
-			<point x="504" y="466" type="curve" smooth="yes"/>
-			<point x="520" y="528"/>
-			<point x="484" y="548"/>
+			<point x="418.3333" y="548" type="curve" smooth="yes" />
+			<point x="406.6667" y="548" />
+			<point x="386.6667" y="545" />
+			<point x="360.8333" y="540" type="curve" />
+			<point x="325" y="224" />
+			<point x="230.8333" y="56" />
+			<point x="173.3333" y="2" type="curve" smooth="yes" />
+			<point x="133.3333" y="-36" />
+			<point x="86.6667" y="-41" />
+			<point x="49.1667" y="-41" type="curve" smooth="yes" />
+			<point x="25" y="-41" />
+			<point x="5" y="-35" />
+			<point x="-8.3333" y="-25" type="curve" />
+			<point x="-13.3333" y="-25" type="line" />
+			<point x="-14.1667" y="-29" type="line" smooth="yes" />
+			<point x="-28.3333" y="-98" />
+			<point x="-20.8333" y="-155" />
+			<point x="-4.1667" y="-175" type="curve" smooth="yes" />
+			<point x="11.6667" y="-194" />
+			<point x="31.6667" y="-200" />
+			<point x="54.1667" y="-200" type="curve" smooth="yes" />
+			<point x="105" y="-200" />
+			<point x="166.6667" y="-181" />
+			<point x="224.1667" y="-121" type="curve" smooth="yes" />
+			<point x="325" y="-17" />
+			<point x="427.5" y="172" />
+			<point x="504.1667" y="466" type="curve" smooth="yes" />
+			<point x="520" y="528" />
+			<point x="484.1667" y="548" />
 		</contour>
 		<contour>
-			<point x="133" y="547" type="curve" smooth="yes"/>
-			<point x="118" y="547"/>
-			<point x="102" y="545"/>
-			<point x="88" y="540" type="curve"/>
-			<point x="45" y="256"/>
-			<point x="62" y="167"/>
-			<point x="105" y="97" type="curve" smooth="yes"/>
-			<point x="133" y="51"/>
-			<point x="178" y="26"/>
-			<point x="222" y="26" type="curve" smooth="yes"/>
-			<point x="228" y="26" type="line"/>
-			<point x="266" y="98" type="line"/>
-			<point x="234" y="98" type="line"/>
-			<point x="184" y="154.6345399881"/>
-			<point x="181" y="276.0427676584"/>
-			<point x="211" y="466" type="curve" smooth="yes"/>
-			<point x="221" y="527"/>
-			<point x="201" y="547"/>
+			<point x="133.3333" y="547" type="curve" smooth="yes" />
+			<point x="117.5" y="547" />
+			<point x="102.5" y="545" />
+			<point x="87.5" y="540" type="curve" />
+			<point x="45" y="256" />
+			<point x="62.5" y="167" />
+			<point x="105" y="97" type="curve" smooth="yes" />
+			<point x="133.3333" y="51" />
+			<point x="178.3333" y="26" />
+			<point x="221.6667" y="26" type="curve" smooth="yes" />
+			<point x="227.5" y="26" type="line" />
+			<point x="265.8333" y="98" type="line" />
+			<point x="234.1667" y="98" type="line" />
+			<point x="183.6001" y="154.6345399881" />
+			<point x="180.945" y="276.0427676584" />
+			<point x="210.8333" y="466" type="curve" smooth="yes" />
+			<point x="220.8333" y="527" />
+			<point x="200.8333" y="547" />
 		</contour>
 	</outline>
-	<anchor name="top" x="308" y="551"/>
-	<anchor name="dot" x="379" y="-161"/>
-	<anchor name="hook" x="315" y="584"/>
-	<anchor name="bottom" x="250" y="-201"/>
+	<anchor name="top" x="308.3333" y="551" />
+	<anchor name="dot" x="379.1667" y="-161" />
+	<anchor name="hook" x="315" y="584" />
+	<anchor name="bottom" x="250" y="-201" />
 	<lib>
 		<dict>
 			<key>com.arrowtype.glyphMarkStatus</key>

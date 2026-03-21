@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="i.italic" format="2">
-	<advance width="500"/>
+	<advance width="500" />
 	<outline>
-		<component base="dotlessi.italic"/>
-		<component base="dotaccentcomb" xOffset="245"/>
+		<component base="dotlessi.italic" />
+		<component base="dotaccentcomb" xOffset="245" />
 	</outline>
-	<anchor name="bottom" x="250" y="-17"/>
+	<anchor name="bottom" x="250" y="-17" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>

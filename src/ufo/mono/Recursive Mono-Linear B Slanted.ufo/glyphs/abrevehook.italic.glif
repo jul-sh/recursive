@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevehook.italic" format="2">
-	<advance width="500"/>
+	<advance width="500" />
 	<outline>
-		<component base="a.italic"/>
-		<component base="brevecomb" xOffset="225" yOffset="-14"/>
-		<component base="hookcomb.case" xOffset="239" yOffset="58"/>
+		<component base="a.italic" />
+		<component base="brevecomb" xOffset="225" yOffset="-14" />
+		<component base="hookcomb.case" xOffset="239.1667" yOffset="58" />
 	</outline>
 	<lib>
 		<dict>

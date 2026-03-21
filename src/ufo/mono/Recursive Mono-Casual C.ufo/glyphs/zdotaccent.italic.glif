@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zdotaccent.italic" format="2">
-	<advance width="500"/>
+	<advance width="500" />
 	<outline>
-		<component base="z.italic"/>
-		<component base="dotaccentcomb" xOffset="262"/>
+		<component base="z.italic" />
+		<component base="dotaccentcomb" xOffset="262.5" />
 	</outline>
 	<lib>
 		<dict>

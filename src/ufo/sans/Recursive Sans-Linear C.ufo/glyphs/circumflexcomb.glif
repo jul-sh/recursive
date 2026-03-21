@@ -1,47 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb" format="2">
-	<unicode hex="0302"/>
+	<unicode hex="0302" />
 	<outline>
 		<contour>
-			<point x="-62" y="820" type="curve"/>
-			<point x="-83" y="788"/>
-			<point x="-150" y="691"/>
-			<point x="-174" y="655" type="curve" smooth="yes"/>
-			<point x="-188" y="635"/>
-			<point x="-189" y="633"/>
-			<point x="-189" y="627" type="curve" smooth="yes"/>
-			<point x="-189" y="622"/>
-			<point x="-187" y="618"/>
-			<point x="-180" y="618" type="curve" smooth="yes"/>
-			<point x="-66" y="618" type="line"/>
-			<point x="-45" y="642"/>
-			<point x="-24" y="667"/>
-			<point x="17" y="716" type="curve"/>
-			<point x="-26" y="696" type="line"/>
-			<point x="26" y="696" type="line"/>
-			<point x="-18" y="716" type="line"/>
-			<point x="24" y="666"/>
-			<point x="45" y="641"/>
-			<point x="55" y="629" type="curve" smooth="yes"/>
-			<point x="62" y="620"/>
-			<point x="67" y="618"/>
-			<point x="79" y="618" type="curve" smooth="yes"/>
-			<point x="118" y="618"/>
-			<point x="158" y="618"/>
-			<point x="198" y="618" type="curve"/>
-			<point x="158" y="676"/>
-			<point x="91" y="775"/>
-			<point x="75" y="798" type="curve" smooth="yes"/>
-			<point x="62" y="817"/>
-			<point x="58" y="820"/>
-			<point x="50" y="820" type="curve" smooth="yes"/>
-			<point x="12" y="820"/>
-			<point x="-24" y="820"/>
+			<point x="-61.6667" y="820" type="curve" />
+			<point x="-83.3333" y="788" />
+			<point x="-150" y="691" />
+			<point x="-174.1667" y="655" type="curve" smooth="yes" />
+			<point x="-187.5" y="635" />
+			<point x="-189.1667" y="633" />
+			<point x="-189.1667" y="627" type="curve" smooth="yes" />
+			<point x="-189.1667" y="622" />
+			<point x="-186.6667" y="618" />
+			<point x="-180" y="618" type="curve" smooth="yes" />
+			<point x="-65.8333" y="618" type="line" />
+			<point x="-45" y="642" />
+			<point x="-24.1667" y="667" />
+			<point x="16.6667" y="716" type="curve" />
+			<point x="-25.8333" y="696" type="line" />
+			<point x="25.8333" y="696" type="line" />
+			<point x="-17.5" y="716" type="line" />
+			<point x="24.1667" y="666" />
+			<point x="45" y="641" />
+			<point x="55" y="629" type="curve" smooth="yes" />
+			<point x="62.5" y="620" />
+			<point x="66.6667" y="618" />
+			<point x="79.1667" y="618" type="curve" smooth="yes" />
+			<point x="118.3333" y="618" />
+			<point x="158.3333" y="618" />
+			<point x="197.5" y="618" type="curve" />
+			<point x="158.3333" y="676" />
+			<point x="90.8333" y="775" />
+			<point x="75" y="798" type="curve" smooth="yes" />
+			<point x="61.6667" y="817" />
+			<point x="58.3333" y="820" />
+			<point x="50" y="820" type="curve" smooth="yes" />
+			<point x="12.5" y="820" />
+			<point x="-24.1667" y="820" />
 		</contour>
 	</outline>
-	<anchor name="_top" x="0" y="549"/>
-	<anchor name="side" x="167" y="712"/>
-	<anchor name="top" x="0" y="782"/>
+	<anchor name="_top" x="0" y="549" />
+	<anchor name="side" x="166.6667" y="712" />
+	<anchor name="top" x="0" y="782" />
 	<lib>
 		<dict>
 			<key>com.arrowtype.glyphMarkStatus</key>

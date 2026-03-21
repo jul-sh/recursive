@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="equal_equal.code" format="2">
-	<advance width="1000"/>
+	<advance width="1000" />
 	<outline>
 		<contour>
-			<point x="367" y="358" type="line"/>
-			<point x="640" y="358" type="line"/>
-			<point x="640" y="500" type="line"/>
-			<point x="367" y="500" type="line"/>
+			<point x="366.6667" y="358" type="line" />
+			<point x="640" y="358" type="line" />
+			<point x="640" y="500" type="line" />
+			<point x="366.6667" y="500" type="line" />
 		</contour>
 		<contour>
-			<point x="367" y="98" type="line"/>
-			<point x="640" y="98" type="line"/>
-			<point x="640" y="240" type="line"/>
-			<point x="367" y="240" type="line"/>
+			<point x="366.6667" y="98" type="line" />
+			<point x="640" y="98" type="line" />
+			<point x="640" y="240" type="line" />
+			<point x="366.6667" y="240" type="line" />
 		</contour>
-		<component base="equal"/>
-		<component base="equal" xOffset="500"/>
+		<component base="equal" />
+		<component base="equal" xOffset="500" />
 	</outline>
-	<anchor name="caret_1" x="500" y="0"/>
+	<anchor name="caret_1" x="500" y="0" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

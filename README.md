@@ -247,6 +247,48 @@ Recursive is built with a number of OpenType features that make it simple to con
 
 --- 
 
+## Charon Development
+
+### Quick inspect (build + compare)
+
+To quickly build just the SemiCasual Mono Regular and compare against Iosevka Charon:
+
+```bash
+./scripts/build_and_compare.sh
+```
+
+This builds one font instance (~2-3 min) and generates comparison images in `comparison_output/`.
+
+VERY IMPORTANT: ALWAYS USE THIS PATH. FULL BUILDS TAKE WAYYY TOO LONG.
+
+### Glyph modification scripts
+
+These scripts modify UFO sources and should be run before building, if they haven't been run.
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/transform_to_charon_proportions.py` | Core transform: compress to 500-unit width, remap vertical metrics |
+| `scripts/fix_post_transform_metrics.py` | Set consistent hhea/OS2/Win metrics after transform |
+| `scripts/make_dots_round.py` | Copy round dot contours from Casual to Linear masters |
+| `scripts/make_dots_circular.py` | Scale dot contours to equal width/height |
+| `scripts/fix_dotaccentcomb.py` | Replace i/j dot accent with proper circular Bezier curve |
+
+### Comparison scripts
+
+| Script | Output |
+|--------|--------|
+| `scripts/compare_fonts.py` | Full comparison: text, glyph overlay, metrics table |
+| `scripts/compare_closeup.py` | Closeup of problem characters (f, l, i, j, dots) |
+| `scripts/build_and_compare.sh` | All-in-one: build + compare |
+
+### Outstanding issues
+
+- **Dot diameter**: i/j dots and period/ellipsis dots may need diameter tuning to better match Iosevka Charon
+- **CI workflow**: Prerelease workflow was missing `designspaceProblems` dependency (now fixed)
+- **f and l letterforms**: These have different designs from Iosevka (Recursive's casual/decorative style vs Iosevka's geometric). Heights are correct (743 and 742), but shapes differ. This is a design choice, not a bug.
+
+---
+
 ## Building the fonts
 
 ### Set up the environment

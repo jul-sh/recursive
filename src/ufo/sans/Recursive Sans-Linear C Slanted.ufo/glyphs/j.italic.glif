@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="j.italic" format="2">
-	<advance width="292"/>
+	<advance width="292" />
 	<outline>
-		<component base="dotlessj.italic"/>
-		<component base="dotaccentcomb" xOffset="181"/>
+		<component base="dotlessj.italic" />
+		<component base="dotaccentcomb" xOffset="180.8333" />
 	</outline>
-	<anchor name="bottom" x="146" y="-201"/>
+	<anchor name="bottom" x="145.8333" y="-201" />
 	<lib>
 		<dict>
 			<key>com.arrowtype.glyphMarkStatus</key>

@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zeroinferior.slash" format="2">
-	<advance width="333"/>
+	<advance width="333" />
 	<outline>
-		<component base="zeroinferior"/>
+		<component base="zeroinferior" />
 	</outline>
-	<guideline x="0" y="345" angle="0"/>
-	<guideline x="0" y="795" angle="0"/>
-	<guideline x="0" y="355" angle="0"/>
-	<guideline x="0" y="785" angle="0"/>
-	<guideline x="0" y="-95" angle="0"/>
-	<guideline x="0" y="355" angle="0"/>
-	<guideline x="0" y="-85" angle="0"/>
-	<guideline x="0" y="345" angle="0"/>
+	<guideline x="0" y="345" angle="0" />
+	<guideline x="0" y="795" angle="0" />
+	<guideline x="0" y="355" angle="0" />
+	<guideline x="0" y="785" angle="0" />
+	<guideline x="0" y="-95" angle="0" />
+	<guideline x="0" y="355" angle="0" />
+	<guideline x="0" y="-85" angle="0" />
+	<guideline x="0" y="345" angle="0" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

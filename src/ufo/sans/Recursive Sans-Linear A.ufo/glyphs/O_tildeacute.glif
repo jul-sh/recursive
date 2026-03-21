@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Otildeacute" format="2">
-	<unicode hex="1E4C"/>
-	<advance width="542"/>
+	<unicode hex="1E4C" />
+	<advance width="542" />
 	<outline>
-		<component base="O"/>
-		<component base="tildecomb.case" xOffset="271"/>
-		<component base="acutecomb.case" xOffset="271" yOffset="154"/>
+		<component base="O" />
+		<component base="tildecomb.case" xOffset="270.8333" />
+		<component base="acutecomb.case" xOffset="270.8333" yOffset="154" />
 	</outline>
 	<lib>
 		<dict>

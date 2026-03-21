@@ -1,59 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="z" format="2">
-	<unicode hex="007A"/>
-	<advance width="500"/>
+	<unicode hex="007A" />
+	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="123" y="526" type="line"/>
-			<point x="121" y="515"/>
-			<point x="118" y="503"/>
-			<point x="116" y="492" type="curve" smooth="yes"/>
-			<point x="115" y="486"/>
-			<point x="118" y="481"/>
-			<point x="123" y="481" type="curve" smooth="yes"/>
-			<point x="340" y="481" type="line" smooth="yes"/>
-			<point x="372" y="481"/>
-			<point x="403" y="481"/>
-			<point x="435" y="481" type="curve"/>
-			<point x="432" y="469" type="line"/>
-			<point x="408" y="446"/>
-			<point x="383" y="420"/>
-			<point x="359" y="397" type="curve" smooth="yes"/>
-			<point x="250" y="291"/>
-			<point x="142" y="186"/>
-			<point x="29" y="75" type="curve"/>
-			<point x="16" y="11" type="line" smooth="yes"/>
-			<point x="15" y="5"/>
-			<point x="18" y="0"/>
-			<point x="22" y="0" type="curve" smooth="yes"/>
-			<point x="380" y="0" type="line"/>
-			<point x="382" y="11"/>
-			<point x="385" y="23"/>
-			<point x="388" y="34" type="curve"/>
-			<point x="388" y="40"/>
-			<point x="385" y="45"/>
-			<point x="380" y="45" type="curve" smooth="yes"/>
-			<point x="152" y="45" type="line" smooth="yes"/>
-			<point x="122" y="45"/>
-			<point x="92" y="45"/>
-			<point x="62" y="45" type="curve"/>
-			<point x="64" y="56" type="line"/>
-			<point x="87" y="75"/>
-			<point x="112" y="97"/>
-			<point x="137" y="121" type="curve" smooth="yes"/>
-			<point x="248" y="230"/>
-			<point x="361" y="340"/>
-			<point x="474" y="451" type="curve"/>
-			<point x="488" y="515" type="line" smooth="yes"/>
-			<point x="488" y="521"/>
-			<point x="486" y="526"/>
-			<point x="481" y="526" type="curve" smooth="yes"/>
+			<point x="123.3333" y="526" type="line" />
+			<point x="120.8333" y="515" />
+			<point x="118.3333" y="503" />
+			<point x="115.8333" y="492" type="curve" smooth="yes" />
+			<point x="115" y="486" />
+			<point x="118.3333" y="481" />
+			<point x="123.3333" y="481" type="curve" smooth="yes" />
+			<point x="340" y="481" type="line" smooth="yes" />
+			<point x="371.6667" y="481" />
+			<point x="403.3333" y="481" />
+			<point x="435" y="481" type="curve" />
+			<point x="432.5" y="469" type="line" />
+			<point x="408.3333" y="446" />
+			<point x="383.3333" y="420" />
+			<point x="359.1667" y="397" type="curve" smooth="yes" />
+			<point x="250" y="291" />
+			<point x="142.5" y="186" />
+			<point x="29.1667" y="75" type="curve" />
+			<point x="15.8333" y="11" type="line" smooth="yes" />
+			<point x="15" y="5" />
+			<point x="17.5" y="0" />
+			<point x="22.5" y="0" type="curve" smooth="yes" />
+			<point x="380" y="0" type="line" />
+			<point x="382.5" y="11" />
+			<point x="385" y="23" />
+			<point x="387.5" y="34" type="curve" />
+			<point x="388.3333" y="40" />
+			<point x="385" y="45" />
+			<point x="380" y="45" type="curve" smooth="yes" />
+			<point x="151.6667" y="45" type="line" smooth="yes" />
+			<point x="121.6667" y="45" />
+			<point x="91.6667" y="45" />
+			<point x="61.6667" y="45" type="curve" />
+			<point x="64.1667" y="56" type="line" />
+			<point x="86.6667" y="75" />
+			<point x="112.5" y="97" />
+			<point x="136.6667" y="121" type="curve" smooth="yes" />
+			<point x="247.5" y="230" />
+			<point x="360.8333" y="340" />
+			<point x="474.1667" y="451" type="curve" />
+			<point x="487.5" y="515" type="line" smooth="yes" />
+			<point x="488.3333" y="521" />
+			<point x="485.8333" y="526" />
+			<point x="480.8333" y="526" type="curve" smooth="yes" />
 		</contour>
 	</outline>
-	<anchor name="top" x="307" y="537"/>
-	<anchor name="bottom" x="195" y="0"/>
-	<guideline x="476" y="459" angle="75.9637565321" identifier="b7hp9GpdoT"/>
-	<guideline x="28" y="67" angle="255.9637565321" identifier="KHO7VfsNPo"/>
+	<anchor name="top" x="306.6667" y="537" />
+	<anchor name="bottom" x="195" y="0" />
+	<guideline x="475.8333" y="459" angle="75.9637565321" identifier="b7hp9GpdoT" />
+	<guideline x="27.5" y="67" angle="255.9637565321" identifier="KHO7VfsNPo" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>

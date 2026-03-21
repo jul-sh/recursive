@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="wcircumflex.italic" format="2">
-	<advance width="500"/>
+	<advance width="500" />
 	<outline>
-		<component base="w.italic"/>
-		<component base="circumflexcomb" xOffset="258" yOffset="2"/>
+		<component base="w.italic" />
+		<component base="circumflexcomb" xOffset="257.5" yOffset="2" />
 	</outline>
 	<lib>
 		<dict>

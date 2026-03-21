@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="percent_c.code" format="2">
-	<advance width="1000"/>
+	<advance width="1000" />
 	<outline>
-		<component base="percent" xOffset="17"/>
-		<component base="c" xOffset="492"/>
+		<component base="percent" xOffset="16.6667" />
+		<component base="c" xOffset="491.6667" />
 	</outline>
-	<anchor name="caret_1" x="500" y="0"/>
+	<anchor name="caret_1" x="500" y="0" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scommaaccent.italic" format="2">
-	<advance width="500"/>
+	<advance width="500" />
 	<outline>
-		<component base="s.italic"/>
-		<component base="commaaccentcomb" xOffset="243" yOffset="10"/>
+		<component base="s.italic" />
+		<component base="commaaccentcomb" xOffset="243.3333" yOffset="10" />
 	</outline>
 	<lib>
 		<dict>

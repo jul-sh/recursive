@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ydieresis.italic" format="2">
-	<advance width="500"/>
+	<advance width="500" />
 	<outline>
-		<component base="y.italic"/>
-		<component base="dieresiscomb" xOffset="247" yOffset="-16"/>
+		<component base="y.italic" />
+		<component base="dieresiscomb" xOffset="246.6667" yOffset="-16" />
 	</outline>
 	<lib>
 		<dict>

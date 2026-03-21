@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scarondot" format="2">
-	<unicode hex="1E67"/>
-	<advance width="458"/>
+	<unicode hex="1E67" />
+	<advance width="458" />
 	<outline>
-		<component base="s"/>
-		<component base="caroncomb" xOffset="262"/>
-		<component base="dotaccentcomb" xOffset="306" yOffset="209"/>
+		<component base="s" />
+		<component base="caroncomb" xOffset="261.6667" />
+		<component base="dotaccentcomb" xOffset="305.8333" yOffset="209" />
 	</outline>
 	<lib>
 		<dict>

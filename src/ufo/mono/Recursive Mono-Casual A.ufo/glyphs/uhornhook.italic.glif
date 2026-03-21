@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhornhook.italic" format="2">
-	<advance width="500"/>
+	<advance width="500" />
 	<outline>
-		<component base="u.italic"/>
-		<component base="horncomb" xOffset="383" yOffset="-1"/>
-		<component base="hookcomb" xOffset="249"/>
+		<component base="u.italic" />
+		<component base="horncomb" xOffset="383.3333" yOffset="-1" />
+		<component base="hookcomb" xOffset="249.1667" />
 	</outline>
 	<lib>
 		<dict>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ogravedbl" format="2">
-	<unicode hex="020C"/>
-	<advance width="500"/>
+	<unicode hex="020C" />
+	<advance width="500" />
 	<outline>
-		<component base="O"/>
-		<component base="gravedoublecmb.case" xOffset="250" yOffset="1"/>
+		<component base="O" />
+		<component base="gravedoublecmb.case" xOffset="250" yOffset="1" />
 	</outline>
 	<lib>
 		<dict>

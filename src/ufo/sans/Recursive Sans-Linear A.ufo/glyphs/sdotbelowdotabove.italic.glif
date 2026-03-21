@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sdotbelowdotabove.italic" format="2">
-	<advance width="458"/>
+	<advance width="458" />
 	<outline>
-		<component base="s.italic"/>
-		<component base="dotbelowcomb" xOffset="242"/>
-		<component base="dotaccentcomb" xOffset="248"/>
+		<component base="s.italic" />
+		<component base="dotbelowcomb" xOffset="241.6667" />
+		<component base="dotaccentcomb" xOffset="248.3333" />
 	</outline>
 	<lib>
 		<dict>
