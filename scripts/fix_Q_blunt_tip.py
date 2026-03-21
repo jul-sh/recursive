@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 """
-Fix Q tail: make the inner end blunt with even stroke thickness.
+Fix Q tail tip to have even stroke thickness (blunt, non-pointy end).
 
-The Q tail contour has 26 points. The inner end (point 0) is where the
-inner edge (pts 24→25→0) and outer edge (0→1→2) converge, creating a
-pointed thin tip. This script spreads point 0 and point 1 apart to form
-a flat blunt cap with even stroke width, and adjusts neighboring offcurves.
+The Q tail is a closed contour shaped like a wedge — both edges converge
+at point 0, creating a pointed tip. To make it blunt with even thickness:
 
-Contour flow at the tip:
-  ...23(curve) → 24(off) → 25(off) → 0(curve) → 1(line) → 2(off) → 3(off)...
-  Inner edge approaches from 24-25, outer edge departs via 1-2-3.
+1. Compute the stroke center line from the tail base (point 23/4) to the tip
+2. Offset point 0 and point 1 to opposite sides of the center line
+3. Offset control points 24-25 to the inner edge and 2-3 to the outer edge
+   so the two edges run parallel at the stroke width (~40 units)
+
+The key insight: for parallel edges, the control points must be offset
+by MORE than the desired stroke half-width to compensate for Bézier
+curve behavior (curves are pulled toward the average of control points).
 """
 
 import os
@@ -21,8 +24,9 @@ from xml.etree import ElementTree as ET
 
 UFO_ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src", "ufo")
 
-# Desired stroke half-width (perpendicular to tail direction)
-HALF_WIDTH = 20
+# Offset per side — slightly more than half the stroke width to compensate
+# for Bézier averaging. Results in ~38-40 unit stroke width.
+OFFSET = 27
 
 
 def fmt(value):
@@ -50,73 +54,74 @@ def fix_q(glif_path):
         print(f"  WARNING: Expected 26 points, got {len(points)}, skipping")
         return False
 
-    # Read current positions
     def getxy(i):
         return float(points[i].get('x')), float(points[i].get('y'))
 
-    p0_x, p0_y = getxy(0)   # current tip (both edges converge here)
-    p1_x, p1_y = getxy(1)   # outer edge departure
-    p2_x, p2_y = getxy(2)   # outer edge offcurve
-    p3_x, p3_y = getxy(3)   # outer edge offcurve
-    p23_x, p23_y = getxy(23) # inner edge curve before offcurves
-    p24_x, p24_y = getxy(24) # inner edge offcurve
-    p25_x, p25_y = getxy(25) # inner edge offcurve
+    # Key positions: point 23 (inner edge base) and point 4 (outer edge base)
+    # are where the two edges of the tail meet the decorative curl.
+    # Their midpoint defines the stroke center at the base.
+    p23_x, p23_y = getxy(23)
+    p4_x, p4_y = getxy(4)
+    base_center_x = (p23_x + p4_x) / 2
+    base_center_y = (p23_y + p4_y) / 2
 
-    # Compute the tail direction at the tip using the approach vectors
-    # Average of inner approach (25→0) and outer departure (0→1)
-    inner_dx = p0_x - p25_x
-    inner_dy = p0_y - p25_y
-    outer_dx = p1_x - p0_x
-    outer_dy = p1_y - p0_y
+    # The tip center is the current point 0 position (or midpoint of 0 and 1
+    # if they were already separated by a previous fix attempt).
+    p0_x, p0_y = getxy(0)
+    p1_x, p1_y = getxy(1)
+    tip_center_x = (p0_x + p1_x) / 2
+    tip_center_y = (p0_y + p1_y) / 2
 
-    # Tail center direction (pointing inward, toward the tip)
-    center_dx = inner_dx - outer_dx  # bisector-ish
-    center_dy = inner_dy - outer_dy
-    length = math.sqrt(center_dx**2 + center_dy**2)
+    # Stroke direction from base to tip
+    dx = tip_center_x - base_center_x
+    dy = tip_center_y - base_center_y
+    length = math.sqrt(dx * dx + dy * dy)
     if length < 1:
-        # Fallback: use inner approach direction
-        center_dx, center_dy = inner_dx, inner_dy
-        length = math.sqrt(center_dx**2 + center_dy**2)
+        print(f"  WARNING: degenerate stroke in {os.path.basename(glif_path)}, skipping")
+        return False
 
-    # Normalize
-    cdx = center_dx / length
-    cdy = center_dy / length
+    # Unit direction along stroke
+    udx = dx / length
+    udy = dy / length
 
-    # Perpendicular direction (rotated 90° CCW)
-    perp_x = -cdy
-    perp_y = cdx
+    # Perpendicular direction (90° CW): this points to the RIGHT of the stroke
+    # when looking from base toward tip
+    perp_x = udy
+    perp_y = -udx
 
-    # Create blunt cap: split the tip into two points offset perpendicular
-    # Point 0 becomes the "left" side of the cap (inner edge end)
-    # Point 1 becomes the "right" side of the cap (outer edge start)
-    cap_center_x = p0_x
-    cap_center_y = p0_y
+    # LEFT edge = center - OFFSET * perp (inner edge, points 24→25→0)
+    # RIGHT edge = center + OFFSET * perp (outer edge, points 1→2→3)
+    left_ox = -OFFSET * perp_x
+    left_oy = -OFFSET * perp_y
+    right_ox = OFFSET * perp_x
+    right_oy = OFFSET * perp_y
 
-    # Left side (inner edge end) — offset in perpendicular direction
-    new_p0_x = cap_center_x + perp_x * HALF_WIDTH
-    new_p0_y = cap_center_y + perp_y * HALF_WIDTH
+    # === Cap endpoints ===
+    new_p0_x = tip_center_x + left_ox
+    new_p0_y = tip_center_y + left_oy
+    new_p1_x = tip_center_x + right_ox
+    new_p1_y = tip_center_y + right_oy
 
-    # Right side (outer edge start) — offset in opposite perpendicular
-    new_p1_x = cap_center_x - perp_x * HALF_WIDTH
-    new_p1_y = cap_center_y - perp_y * HALF_WIDTH
+    # === Control points along center line at 1/3 and 2/3 ===
+    # For inner edge (23 → 24 → 25 → 0):
+    #   24 at ~1/3 from base, 25 at ~2/3 from base, offset LEFT
+    center_13_x = base_center_x + dx * 0.33
+    center_13_y = base_center_y + dy * 0.33
+    center_23_x = base_center_x + dx * 0.67
+    center_23_y = base_center_y + dy * 0.67
 
-    # Adjust offcurve 25 to approach the new point 0 position smoothly
-    # Shift it toward the inner edge side
-    new_p25_x = p25_x + perp_x * HALF_WIDTH * 0.6
-    new_p25_y = p25_y + perp_y * HALF_WIDTH * 0.6
+    new_p24_x = center_13_x + left_ox
+    new_p24_y = center_13_y + left_oy
+    new_p25_x = center_23_x + left_ox
+    new_p25_y = center_23_y + left_oy
 
-    # Adjust offcurve 24 slightly
-    new_p24_x = p24_x + perp_x * HALF_WIDTH * 0.3
-    new_p24_y = p24_y + perp_y * HALF_WIDTH * 0.3
-
-    # Adjust offcurve 2 to depart from new point 1 position smoothly
-    # Shift it toward the outer edge side
-    new_p2_x = p2_x - perp_x * HALF_WIDTH * 0.4
-    new_p2_y = p2_y - perp_y * HALF_WIDTH * 0.4
-
-    # Adjust offcurve 3 slightly
-    new_p3_x = p3_x - perp_x * HALF_WIDTH * 0.2
-    new_p3_y = p3_y - perp_y * HALF_WIDTH * 0.2
+    # For outer edge (1 → 2 → 3 → 4):
+    #   2 at ~1/3 from tip toward base, 3 at ~2/3 from tip toward base
+    #   which is 2/3 and 1/3 from base respectively, offset RIGHT
+    new_p2_x = center_23_x + right_ox
+    new_p2_y = center_23_y + right_oy
+    new_p3_x = center_13_x + right_ox
+    new_p3_y = center_13_y + right_oy
 
     # Apply changes
     for pt, x, y in [
@@ -131,8 +136,10 @@ def fix_q(glif_path):
         pt.set('y', fmt(y))
 
     tree.write(glif_path, xml_declaration=True, encoding="UTF-8")
+
+    cap_dist = math.sqrt((new_p1_x - new_p0_x)**2 + (new_p1_y - new_p0_y)**2)
     print(f"  Fixed Q tip in {os.path.basename(glif_path)}: "
-          f"cap width={HALF_WIDTH*2}, center=({fmt(cap_center_x)},{fmt(cap_center_y)})")
+          f"cap width={cap_dist:.0f}, center=({fmt(tip_center_x)},{fmt(tip_center_y)})")
     return True
 
 
@@ -160,7 +167,7 @@ def process_ufo(ufo_path):
 
 def main():
     print("=" * 70)
-    print("Fix Q: Make tail tip blunt with even stroke thickness")
+    print("Fix Q: Even stroke thickness at tail tip (blunt end)")
     print("=" * 70)
 
     mono_ufos = sorted(glob.glob(os.path.join(UFO_ROOT, "mono", "*.ufo")))
