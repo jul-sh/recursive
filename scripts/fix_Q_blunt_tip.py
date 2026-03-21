@@ -89,39 +89,38 @@ def fix_q(glif_path):
     perp_x = udy
     perp_y = -udx
 
-    # LEFT edge = center - OFFSET * perp (inner edge, points 24→25→0)
-    # RIGHT edge = center + OFFSET * perp (outer edge, points 1→2→3)
-    left_ox = -OFFSET * perp_x
-    left_oy = -OFFSET * perp_y
-    right_ox = OFFSET * perp_x
-    right_oy = OFFSET * perp_y
+    # The inner edge (pts 23→24→25→0) starts on the RIGHT at the base
+    # (pt 23 is rightward of pt 4). So the inner edge cap end (pt 0)
+    # must also be on the RIGHT to avoid crossing.
+    # The outer edge (pts 1→2→3→4) starts at the cap and ends LEFT at base.
+    inner_ox = OFFSET * perp_x   # RIGHT offset (same side as pt 23)
+    inner_oy = OFFSET * perp_y
+    outer_ox = -OFFSET * perp_x  # LEFT offset (same side as pt 4)
+    outer_oy = -OFFSET * perp_y
 
     # === Cap endpoints ===
-    new_p0_x = tip_center_x + left_ox
-    new_p0_y = tip_center_y + left_oy
-    new_p1_x = tip_center_x + right_ox
-    new_p1_y = tip_center_y + right_oy
+    new_p0_x = tip_center_x + inner_ox  # inner edge end = RIGHT
+    new_p0_y = tip_center_y + inner_oy
+    new_p1_x = tip_center_x + outer_ox  # outer edge start = LEFT
+    new_p1_y = tip_center_y + outer_oy
 
     # === Control points along center line at 1/3 and 2/3 ===
-    # For inner edge (23 → 24 → 25 → 0):
-    #   24 at ~1/3 from base, 25 at ~2/3 from base, offset LEFT
     center_13_x = base_center_x + dx * 0.33
     center_13_y = base_center_y + dy * 0.33
     center_23_x = base_center_x + dx * 0.67
     center_23_y = base_center_y + dy * 0.67
 
-    new_p24_x = center_13_x + left_ox
-    new_p24_y = center_13_y + left_oy
-    new_p25_x = center_23_x + left_ox
-    new_p25_y = center_23_y + left_oy
+    # Inner edge (23 → 24 → 25 → 0): offset RIGHT
+    new_p24_x = center_13_x + inner_ox
+    new_p24_y = center_13_y + inner_oy
+    new_p25_x = center_23_x + inner_ox
+    new_p25_y = center_23_y + inner_oy
 
-    # For outer edge (1 → 2 → 3 → 4):
-    #   2 at ~1/3 from tip toward base, 3 at ~2/3 from tip toward base
-    #   which is 2/3 and 1/3 from base respectively, offset RIGHT
-    new_p2_x = center_23_x + right_ox
-    new_p2_y = center_23_y + right_oy
-    new_p3_x = center_13_x + right_ox
-    new_p3_y = center_13_y + right_oy
+    # Outer edge (1 → 2 → 3 → 4): offset LEFT
+    new_p2_x = center_23_x + outer_ox
+    new_p2_y = center_23_y + outer_oy
+    new_p3_x = center_13_x + outer_ox
+    new_p3_y = center_13_y + outer_oy
 
     # Apply changes
     for pt, x, y in [
