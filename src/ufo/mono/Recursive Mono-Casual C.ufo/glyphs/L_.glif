@@ -28,24 +28,7 @@
 			<point x="29.1667" y="54" />
 			<point x="65.8333" y="0" />
 		</contour>
-		<contour>
-			<point x="313.3333" y="293" type="curve" />
-			<point x="313.3333" y="188.6494845361" />
-			<point x="313.3333" y="108" />
-			<point x="313.3333" y="52" type="curve" />
-			<point x="313.3333" y="-3" />
-			<point x="361.6667" y="-32" />
-			<point x="457.5" y="-32" type="curve" />
-			<point x="478.3333" y="43" />
-			<point x="485" y="91" />
-			<point x="485" y="220" type="curve" smooth="yes" />
-			<point x="485" y="289" />
-			<point x="465.8333" y="305" />
-			<point x="385" y="305" type="curve" smooth="yes" />
-			<point x="356.6667" y="305" />
-			<point x="333.3333" y="301" />
-		</contour>
-	</outline>
+		</outline>
 	<anchor name="top" x="117.5" y="711" />
 	<anchor name="bottom" x="250.8333" y="-1" />
 	<anchor name="dot" x="375.8333" y="400" />

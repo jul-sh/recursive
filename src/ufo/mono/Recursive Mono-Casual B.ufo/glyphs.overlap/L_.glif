@@ -22,21 +22,7 @@
 			<point x="54.1667" y="119" />
 			<point x="102.5" y="73" />
 		</contour>
-		<contour>
-			<point x="54.1667" y="160" type="line" />
-			<point x="54.1667" y="132" type="line" smooth="yes" />
-			<point x="54.1667" y="73" />
-			<point x="104.1667" y="0" />
-			<point x="144.1667" y="0" type="curve" smooth="yes" />
-			<point x="462.5" y="0" type="line" />
-			<point x="466.3725" y="17.4264073742" />
-			<point x="467.5" y="41.0344827586" />
-			<point x="467.5" y="68" type="curve" smooth="yes" />
-			<point x="467.5" y="134" />
-			<point x="452.5" y="160" />
-			<point x="415.8333" y="160" type="curve" />
-		</contour>
-	</outline>
+		</outline>
 	<anchor name="caronslovak" x="354.1667" y="550" />
 	<anchor name="top" x="121.6667" y="711" />
 	<anchor name="bottom" x="255" y="-1" />

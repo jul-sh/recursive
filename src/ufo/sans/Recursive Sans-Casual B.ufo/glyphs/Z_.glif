@@ -50,24 +50,7 @@
 			<point x="59.1667" y="0" />
 			<point x="117.5" y="0" type="curve" />
 		</contour>
-		<contour>
-			<point x="173.3333" y="500" type="curve" />
-			<point x="173.3333" y="606" />
-			<point x="194.1667" y="648" />
-			<point x="194.1667" y="711" type="curve" smooth="yes" />
-			<point x="194.1667" y="740" />
-			<point x="165.8333" y="760" />
-			<point x="90" y="760" type="curve" />
-			<point x="65.8333" y="701" />
-			<point x="50" y="630" />
-			<point x="50" y="556" type="curve" smooth="yes" />
-			<point x="50" y="510" />
-			<point x="69.1667" y="494" />
-			<point x="125" y="494" type="curve" smooth="yes" />
-			<point x="144.1667" y="494" />
-			<point x="160.8333" y="496" />
-		</contour>
-	</outline>
+		</outline>
 	<anchor name="top" x="250" y="711" />
 	<anchor name="bottom" x="250" y="0" />
 	<lib>
