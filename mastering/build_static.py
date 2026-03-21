@@ -111,7 +111,7 @@ def fillInPanoseValues(font, weight):
 
     names = font.info.postscriptFullName.split()
 
-    if names[1] == "Mono" or names[1] == "Mn":
+    if "Mono" in names or "Mn" in names:
         prop = 9
     else:
         prop = 4
@@ -123,7 +123,7 @@ def fillInPanoseValues(font, weight):
 
     wght = weightMap[weight][1]
 
-    if names[2] == "Csl":
+    if "Csl" in names or "SmCsl" in names:
         font.info.openTypeOS2Panose = [2, 15, wght, prop, 5, 5, 2, form, 3, 4]
     else:
         font.info.openTypeOS2Panose = [2, 11, wght, prop, 4, 2, 2, form, 2, 4]
@@ -460,19 +460,13 @@ def buildInstances(designspacePath, root, name_map):
         font.info.postscriptFullName = fullname
 
         # Get weight value based on fullname
-        # 'Regular' is not part of the fullname so we do a try/except
-        # that will throw an IndexError if the fullname is a Regular
-        # style ("Recursive Mono Csl", "Recursive Mono Lnr",
-        # "Recursive Sans Csl", or "Recursive Sans Lnr"). We know then
-        # that the font weight value should be 400. Likewise, if the
-        # fourth item in the name is "Italic", the weight should be
-        # 400, so we catch that here too.
-        try:
-            weight = fullname.split()[4]
-            if weight == "Italic":
-                weight = "Regular"
-        except IndexError:
-            weight = "Regular"
+        # Search for a known weight token in the fullname. If none is
+        # found, the font is a Regular weight (400).
+        weight = "Regular"
+        for token in fullname.split():
+            if token in weightMap:
+                weight = token
+                break
 
         # Set weight class
         font.info.openTypeOS2WeightClass = weightMap[weight][0]

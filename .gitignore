@@ -28,3 +28,7 @@ master_ttf
 # release prep files
 Recursive*.zip
 *_ignore
+
+# build & comparison outputs
+comparison_output/
+fonts_inspect/
