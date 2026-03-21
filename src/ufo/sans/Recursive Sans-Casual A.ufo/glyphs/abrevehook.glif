@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abrevehook" format="2">
 	<unicode hex="1EB3"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="a"/>
-		<component base="brevecomb" xOffset="284" yOffset="-9"/>
-		<component base="hookcomb.case" xOffset="284" yOffset="23"/>
+		<component base="brevecomb" xOffset="237" yOffset="-9"/>
+		<component base="hookcomb.case" xOffset="237" yOffset="23"/>
 	</outline>
 	<lib>
 		<dict>

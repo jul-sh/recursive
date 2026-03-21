@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Omacrongrave" format="2">
 	<unicode hex="1E50"/>
-	<advance width="650"/>
+	<advance width="542"/>
 	<outline>
 		<component base="O"/>
-		<component base="macroncomb.case" xOffset="324"/>
-		<component base="gravecomb.case" xOffset="373" yOffset="199"/>
+		<component base="macroncomb.case" xOffset="270"/>
+		<component base="gravecomb.case" xOffset="311" yOffset="199"/>
 	</outline>
 	<lib>
 		<dict>

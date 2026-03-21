@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="i.mono" format="2">
-	<advance width="350"/>
+	<advance width="292"/>
 	<outline>
 		<component base="dotlessi.mono"/>
-		<component base="dotaccentcomb" xOffset="206"/>
+		<component base="dotaccentcomb" xOffset="172"/>
 	</outline>
-	<anchor name="bottom" x="175" y="-1"/>
+	<anchor name="bottom" x="146" y="-1"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>

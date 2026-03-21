@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="i" format="2">
 	<unicode hex="0069"/>
-	<advance width="350"/>
+	<advance width="292"/>
 	<outline>
 		<component base="dotlessi"/>
-		<component base="dotaccentcomb" xOffset="185"/>
+		<component base="dotaccentcomb" xOffset="154"/>
 	</outline>
-	<anchor name="bottom" x="175" y="-3"/>
+	<anchor name="bottom" x="146" y="-3"/>
 	<lib>
 		<dict>
 			<key>com.arrowtype.glyphMarkStatus</key>

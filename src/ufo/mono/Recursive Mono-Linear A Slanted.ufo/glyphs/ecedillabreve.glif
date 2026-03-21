@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecedillabreve" format="2">
 	<unicode hex="1E1D"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="e"/>
-		<component base="cedillacomb" xOffset="311.7499303373"/>
-		<component base="brevecomb" xOffset="285"/>
+		<component base="cedillacomb" xOffset="260"/>
+		<component base="brevecomb" xOffset="238"/>
 	</outline>
 	<lib>
 		<dict>

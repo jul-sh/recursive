@@ -3,40 +3,40 @@
 	<unicode hex="0308"/>
 	<outline>
 		<contour>
-			<point x="-88" y="768" type="curve"/>
-			<point x="-125" y="622" type="line" smooth="yes"/>
-			<point x="-127" y="615"/>
-			<point x="-124" y="611"/>
-			<point x="-117" y="611" type="curve" smooth="yes"/>
-			<point x="-69" y="611"/>
+			<point x="-73" y="768" type="curve"/>
+			<point x="-104" y="622" type="line" smooth="yes"/>
+			<point x="-106" y="615"/>
+			<point x="-103" y="611"/>
+			<point x="-98" y="611" type="curve" smooth="yes"/>
+			<point x="-58" y="611"/>
 			<point x="0" y="611"/>
-			<point x="48" y="611" type="curve"/>
-			<point x="85" y="757" type="line" smooth="yes"/>
-			<point x="87" y="764"/>
-			<point x="84" y="768"/>
-			<point x="77" y="768" type="curve" smooth="yes"/>
-			<point x="29" y="768"/>
-			<point x="-40" y="768"/>
+			<point x="40" y="611" type="curve"/>
+			<point x="71" y="757" type="line" smooth="yes"/>
+			<point x="72" y="764"/>
+			<point x="70" y="768"/>
+			<point x="64" y="768" type="curve" smooth="yes"/>
+			<point x="24" y="768"/>
+			<point x="-33" y="768"/>
 		</contour>
 		<contour>
-			<point x="159" y="768" type="curve"/>
-			<point x="122" y="622" type="line" smooth="yes"/>
-			<point x="120" y="615"/>
-			<point x="123" y="611"/>
-			<point x="130" y="611" type="curve" smooth="yes"/>
-			<point x="178" y="611"/>
-			<point x="247" y="611"/>
-			<point x="295" y="611" type="curve"/>
-			<point x="332" y="757" type="line" smooth="yes"/>
-			<point x="334" y="764"/>
-			<point x="331" y="768"/>
-			<point x="324" y="768" type="curve" smooth="yes"/>
+			<point x="132" y="768" type="curve"/>
+			<point x="102" y="622" type="line" smooth="yes"/>
+			<point x="100" y="615"/>
+			<point x="102" y="611"/>
+			<point x="108" y="611" type="curve" smooth="yes"/>
+			<point x="148" y="611"/>
+			<point x="206" y="611"/>
+			<point x="246" y="611" type="curve"/>
+			<point x="277" y="757" type="line" smooth="yes"/>
+			<point x="278" y="764"/>
 			<point x="276" y="768"/>
-			<point x="207" y="768"/>
+			<point x="270" y="768" type="curve" smooth="yes"/>
+			<point x="230" y="768"/>
+			<point x="172" y="768"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="69" y="551"/>
-	<anchor name="top" x="117" y="746"/>
+	<anchor name="_top" x="58" y="551"/>
+	<anchor name="top" x="98" y="746"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>

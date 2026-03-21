@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ecircumflextilde" format="2">
 	<unicode hex="1EC4"/>
-	<advance width="550"/>
+	<advance width="458"/>
 	<outline>
 		<component base="E"/>
-		<component base="circumflexcomb.case" xOffset="256"/>
-		<component base="tildecombviet.case" xOffset="311" yOffset="216"/>
+		<component base="circumflexcomb.case" xOffset="213"/>
+		<component base="tildecombviet.case" xOffset="259" yOffset="216"/>
 	</outline>
 	<lib>
 		<dict>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abrevetilde" format="2">
 	<unicode hex="1EB5"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="a"/>
-		<component base="brevecomb" xOffset="279"/>
-		<component base="tildecombviet.case" xOffset="289" yOffset="40"/>
+		<component base="brevecomb" xOffset="232"/>
+		<component base="tildecombviet.case" xOffset="241" yOffset="40"/>
 	</outline>
 	<lib>
 		<dict>

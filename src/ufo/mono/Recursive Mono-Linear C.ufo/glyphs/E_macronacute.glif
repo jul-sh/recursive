@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Emacronacute" format="2">
 	<unicode hex="1E16"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="E"/>
-		<component base="macroncomb.case" xOffset="287" yOffset="-1"/>
-		<component base="acutecomb.case" xOffset="287" yOffset="198"/>
+		<component base="macroncomb.case" xOffset="239" yOffset="-1"/>
+		<component base="acutecomb.case" xOffset="239" yOffset="198"/>
 	</outline>
 	<lib>
 		<dict>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecircumflexhook" format="2">
 	<unicode hex="1EC3"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="e"/>
-		<component base="circumflexcomb" xOffset="285"/>
-		<component base="hookcomb.case" xOffset="455" yOffset="33"/>
+		<component base="circumflexcomb" xOffset="238"/>
+		<component base="hookcomb.case" xOffset="379" yOffset="33"/>
 	</outline>
 	<lib>
 		<dict>

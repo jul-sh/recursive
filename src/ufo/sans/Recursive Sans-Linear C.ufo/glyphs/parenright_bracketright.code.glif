@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenright_bracketright.code" format="2">
-	<advance width="1200"/>
+	<advance width="1000"/>
 	<outline>
-		<component base="parenright" xOffset="120"/>
-		<component base="bracketright" xOffset="590"/>
+		<component base="parenright" xOffset="100"/>
+		<component base="bracketright" xOffset="492"/>
 	</outline>
-	<anchor name="caret_1" x="600" y="0"/>
+	<anchor name="caret_1" x="500" y="0"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>

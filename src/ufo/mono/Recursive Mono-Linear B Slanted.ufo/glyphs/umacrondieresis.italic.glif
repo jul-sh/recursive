@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="umacrondieresis.italic" format="2">
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="u.italic"/>
-		<component base="macroncomb" xOffset="299" yOffset="-12"/>
-		<component base="dieresiscomb.case" xOffset="309" yOffset="27"/>
+		<component base="macroncomb" xOffset="249" yOffset="-12"/>
+		<component base="dieresiscomb.case" xOffset="258" yOffset="27"/>
 	</outline>
 	<lib>
 		<dict>

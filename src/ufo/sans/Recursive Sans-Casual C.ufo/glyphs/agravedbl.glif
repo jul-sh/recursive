@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="agravedbl" format="2">
 	<unicode hex="0201"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="a"/>
-		<component base="gravedoublecmb" xOffset="306" yOffset="12"/>
+		<component base="gravedoublecmb" xOffset="255" yOffset="12"/>
 	</outline>
 	<lib>
 		<dict>

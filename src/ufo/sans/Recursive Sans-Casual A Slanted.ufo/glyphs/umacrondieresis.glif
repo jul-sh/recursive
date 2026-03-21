@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="umacrondieresis" format="2">
 	<unicode hex="1E7B"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="u"/>
-		<component base="macroncomb" xOffset="300.2874088892" yOffset="2"/>
-		<component base="dieresiscomb.case" xOffset="302.2874088892" yOffset="11"/>
+		<component base="macroncomb" xOffset="250" yOffset="2"/>
+		<component base="dieresiscomb.case" xOffset="252" yOffset="11"/>
 	</outline>
 	<lib>
 		<dict>

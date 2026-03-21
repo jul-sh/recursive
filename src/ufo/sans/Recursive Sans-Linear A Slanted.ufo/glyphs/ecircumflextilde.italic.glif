@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecircumflextilde.italic" format="2">
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="e.italic"/>
-		<component base="circumflexcomb" xOffset="307.2874088892"/>
-		<component base="tildecombviet.case" xOffset="317.2874088892" yOffset="39"/>
+		<component base="circumflexcomb" xOffset="256"/>
+		<component base="tildecombviet.case" xOffset="264" yOffset="39"/>
 	</outline>
 	<lib>
 		<dict>

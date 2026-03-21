@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="w" format="2">
 	<unicode hex="0077"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<contour>
-			<point x="251" y="440" type="line"/>
-			<point x="247" y="284"/>
-			<point x="230" y="181"/>
-			<point x="191" y="80" type="curve"/>
-			<point x="185" y="80" type="line"/>
-			<point x="151" y="151"/>
-			<point x="138" y="245"/>
-			<point x="138" y="491" type="curve" smooth="yes"/>
-			<point x="138" y="526"/>
-			<point x="116" y="543"/>
-			<point x="73" y="543" type="curve"/>
-			<point x="64" y="543"/>
-			<point x="56" y="542"/>
-			<point x="50" y="540" type="curve"/>
-			<point x="51" y="226"/>
-			<point x="74" y="86"/>
-			<point x="143" y="8" type="curve" smooth="yes"/>
-			<point x="154" y="-4"/>
-			<point x="174" y="-10"/>
-			<point x="189" y="-10" type="curve"/>
-			<point x="204" y="-10"/>
-			<point x="219" y="-7"/>
-			<point x="231" y="0" type="curve"/>
-			<point x="272" y="90"/>
-			<point x="291" y="157"/>
-			<point x="296" y="248" type="curve"/>
-			<point x="302" y="248" type="line"/>
-			<point x="308" y="154"/>
-			<point x="327" y="77"/>
-			<point x="362" y="12" type="curve" smooth="yes"/>
-			<point x="370" y="-2"/>
-			<point x="380" y="-10"/>
-			<point x="413" y="-10" type="curve" smooth="yes"/>
-			<point x="426" y="-10"/>
-			<point x="439" y="-7"/>
-			<point x="451" y="0" type="curve"/>
-			<point x="524" y="106"/>
-			<point x="550" y="225"/>
-			<point x="550" y="493" type="curve" smooth="yes"/>
-			<point x="550" y="528"/>
-			<point x="523" y="543"/>
-			<point x="484" y="543" type="curve"/>
-			<point x="476" y="543"/>
-			<point x="469" y="542"/>
-			<point x="464" y="540" type="curve"/>
-			<point x="464" y="249"/>
-			<point x="448" y="165"/>
-			<point x="416" y="80" type="curve"/>
-			<point x="410" y="80" type="line"/>
-			<point x="372" y="174"/>
-			<point x="353" y="275"/>
-			<point x="349" y="394" type="curve" smooth="yes"/>
-			<point x="348" y="432"/>
-			<point x="308" y="440"/>
-			<point x="262" y="440" type="curve"/>
+			<point x="209" y="440" type="line"/>
+			<point x="206" y="284"/>
+			<point x="192" y="181"/>
+			<point x="159" y="80" type="curve"/>
+			<point x="154" y="80" type="line"/>
+			<point x="126" y="151"/>
+			<point x="115" y="245"/>
+			<point x="115" y="491" type="curve" smooth="yes"/>
+			<point x="115" y="526"/>
+			<point x="97" y="543"/>
+			<point x="61" y="543" type="curve"/>
+			<point x="53" y="543"/>
+			<point x="47" y="542"/>
+			<point x="42" y="540" type="curve"/>
+			<point x="42" y="226"/>
+			<point x="62" y="86"/>
+			<point x="119" y="8" type="curve" smooth="yes"/>
+			<point x="128" y="-4"/>
+			<point x="145" y="-10"/>
+			<point x="158" y="-10" type="curve"/>
+			<point x="170" y="-10"/>
+			<point x="182" y="-7"/>
+			<point x="192" y="0" type="curve"/>
+			<point x="227" y="90"/>
+			<point x="242" y="157"/>
+			<point x="247" y="248" type="curve"/>
+			<point x="252" y="248" type="line"/>
+			<point x="257" y="154"/>
+			<point x="272" y="77"/>
+			<point x="302" y="12" type="curve" smooth="yes"/>
+			<point x="308" y="-2"/>
+			<point x="317" y="-10"/>
+			<point x="344" y="-10" type="curve" smooth="yes"/>
+			<point x="355" y="-10"/>
+			<point x="366" y="-7"/>
+			<point x="376" y="0" type="curve"/>
+			<point x="437" y="106"/>
+			<point x="458" y="225"/>
+			<point x="458" y="493" type="curve" smooth="yes"/>
+			<point x="458" y="528"/>
+			<point x="436" y="543"/>
+			<point x="403" y="543" type="curve"/>
+			<point x="397" y="543"/>
+			<point x="391" y="542"/>
+			<point x="387" y="540" type="curve"/>
+			<point x="387" y="249"/>
+			<point x="373" y="165"/>
+			<point x="347" y="80" type="curve"/>
+			<point x="342" y="80" type="line"/>
+			<point x="310" y="174"/>
+			<point x="294" y="275"/>
+			<point x="291" y="394" type="curve" smooth="yes"/>
+			<point x="290" y="432"/>
+			<point x="257" y="440"/>
+			<point x="218" y="440" type="curve"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="298" y="551"/>
+	<anchor name="top" x="248" y="551"/>
 	<lib>
 		<dict>
 			<key>com.rafalbuchner.mirroringDrawingLocal</key>

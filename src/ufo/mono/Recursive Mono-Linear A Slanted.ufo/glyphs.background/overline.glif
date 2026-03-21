@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="overline" format="2">
 	<unicode hex="203E"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<contour>
-			<point x="226" y="850" type="line"/>
-			<point x="223" y="837"/>
-			<point x="219" y="824"/>
-			<point x="216" y="811" type="curve" smooth="yes"/>
-			<point x="214" y="804"/>
-			<point x="217" y="800"/>
-			<point x="225" y="800" type="curve"/>
-			<point x="662" y="800" type="line"/>
-			<point x="665" y="813"/>
-			<point x="669" y="826"/>
-			<point x="672" y="839" type="curve"/>
-			<point x="674" y="846"/>
-			<point x="671" y="850"/>
-			<point x="663" y="850" type="curve"/>
+			<point x="188" y="850" type="line"/>
+			<point x="186" y="837"/>
+			<point x="182" y="824"/>
+			<point x="180" y="811" type="curve" smooth="yes"/>
+			<point x="178" y="804"/>
+			<point x="181" y="800"/>
+			<point x="188" y="800" type="curve"/>
+			<point x="552" y="800" type="line"/>
+			<point x="554" y="813"/>
+			<point x="558" y="826"/>
+			<point x="560" y="839" type="curve"/>
+			<point x="562" y="846"/>
+			<point x="559" y="850"/>
+			<point x="552" y="850" type="curve"/>
 		</contour>
 	</outline>
 </glyph>

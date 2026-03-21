@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohornhook" format="2">
 	<unicode hex="1EDF"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="o"/>
-		<component base="horncomb" xOffset="409" yOffset="-7"/>
-		<component base="hookcomb" xOffset="297"/>
+		<component base="horncomb" xOffset="341" yOffset="-7"/>
+		<component base="hookcomb" xOffset="248"/>
 	</outline>
 	<lib>
 		<dict>

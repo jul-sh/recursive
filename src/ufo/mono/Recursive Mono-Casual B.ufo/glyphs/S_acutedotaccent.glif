@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Sacutedotaccent" format="2">
 	<unicode hex="1E64"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="S"/>
-		<component base="acutecomb.case" xOffset="407" yOffset="4"/>
-		<component base="dotaccentcomb.case" xOffset="215" yOffset="11"/>
+		<component base="acutecomb.case" xOffset="339" yOffset="4"/>
+		<component base="dotaccentcomb.case" xOffset="179" yOffset="11"/>
 	</outline>
 	<lib>
 		<dict>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhornacute" format="2">
 	<unicode hex="1EE9"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="u"/>
-		<component base="horncomb" xOffset="463" yOffset="-20"/>
-		<component base="acutecombviet.case" xOffset="256.2874088892" yOffset="-175"/>
+		<component base="horncomb" xOffset="386" yOffset="-20"/>
+		<component base="acutecombviet.case" xOffset="214" yOffset="-175"/>
 	</outline>
 	<lib>
 		<dict>

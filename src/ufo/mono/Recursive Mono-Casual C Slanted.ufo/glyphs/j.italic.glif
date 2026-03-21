@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="j.italic" format="2">
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="dotlessj.italic"/>
-		<component base="dotaccentcomb" xOffset="401"/>
+		<component base="dotaccentcomb" xOffset="334"/>
 	</outline>
-	<anchor name="bottom" x="300" y="-201"/>
+	<anchor name="bottom" x="250" y="-201"/>
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>

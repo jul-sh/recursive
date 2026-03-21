@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlautcomb" format="2">
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
-		<component base="acutecomb" xOffset="-120"/>
-		<component base="acutecomb" xOffset="90"/>
+		<component base="acutecomb" xOffset="-100"/>
+		<component base="acutecomb" xOffset="75"/>
 	</outline>
 	<anchor name="_top" x="0" y="535"/>
 	<guideline x="0" y="0" angle="90"/>

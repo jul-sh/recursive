@@ -2,9 +2,9 @@
 <glyph name="ringacute" format="2">
 	<outline>
 		<component base="ringcomb"/>
-		<component base="acutecomb.case" xOffset="41" yOffset="47"/>
+		<component base="acutecomb.case" xOffset="34" yOffset="47"/>
 	</outline>
-	<anchor name="_top" x="71" y="561"/>
+	<anchor name="_top" x="59" y="561"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>

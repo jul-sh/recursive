@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhornacute.italic" format="2">
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="u.italic"/>
-		<component base="horncomb" xOffset="464"/>
-		<component base="acutecombviet.case" xOffset="300" yOffset="-161"/>
+		<component base="horncomb" xOffset="387"/>
+		<component base="acutecombviet.case" xOffset="250" yOffset="-161"/>
 	</outline>
 	<lib>
 		<dict>

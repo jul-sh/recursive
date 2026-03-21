@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Sdotbelowdotabove" format="2">
 	<unicode hex="1E68"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="S"/>
-		<component base="dotbelowcomb.case" xOffset="300"/>
-		<component base="dotaccentcomb.case" xOffset="350"/>
+		<component base="dotbelowcomb.case" xOffset="250"/>
+		<component base="dotaccentcomb.case" xOffset="292"/>
 	</outline>
 	<lib>
 		<dict>

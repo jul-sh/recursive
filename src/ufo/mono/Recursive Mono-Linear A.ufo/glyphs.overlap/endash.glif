@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endash" format="2">
 	<unicode hex="2013"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<contour>
-			<point x="50" y="325" type="line"/>
-			<point x="50" y="312"/>
-			<point x="50" y="299"/>
-			<point x="50" y="286" type="curve" smooth="yes"/>
-			<point x="50" y="279"/>
-			<point x="54" y="275"/>
-			<point x="61" y="275" type="curve"/>
-			<point x="550" y="275" type="line"/>
-			<point x="550" y="288"/>
-			<point x="550" y="301"/>
-			<point x="550" y="314" type="curve" smooth="yes"/>
-			<point x="550" y="320"/>
-			<point x="545" y="325"/>
-			<point x="539" y="325" type="curve"/>
+			<point x="42" y="325" type="line"/>
+			<point x="42" y="312"/>
+			<point x="42" y="299"/>
+			<point x="42" y="286" type="curve" smooth="yes"/>
+			<point x="42" y="279"/>
+			<point x="45" y="275"/>
+			<point x="51" y="275" type="curve"/>
+			<point x="458" y="275" type="line"/>
+			<point x="458" y="288"/>
+			<point x="458" y="301"/>
+			<point x="458" y="314" type="curve" smooth="yes"/>
+			<point x="458" y="320"/>
+			<point x="454" y="325"/>
+			<point x="449" y="325" type="curve"/>
 		</contour>
 	</outline>
 	<guideline x="0" y="0" angle="90"/>
-	<guideline x="50" y="0" angle="90"/>
-	<guideline x="100" y="0" angle="90"/>
-	<guideline x="150" y="0" angle="90"/>
-	<guideline x="200" y="0" angle="90"/>
+	<guideline x="42" y="0" angle="90"/>
+	<guideline x="83" y="0" angle="90"/>
+	<guideline x="125" y="0" angle="90"/>
+	<guideline x="167" y="0" angle="90"/>
+	<guideline x="208" y="0" angle="90"/>
 	<guideline x="250" y="0" angle="90"/>
-	<guideline x="300" y="0" angle="90"/>
-	<guideline x="350" y="0" angle="90"/>
-	<guideline x="400" y="0" angle="90"/>
-	<guideline x="450" y="0" angle="90"/>
+	<guideline x="292" y="0" angle="90"/>
+	<guideline x="333" y="0" angle="90"/>
+	<guideline x="375" y="0" angle="90"/>
+	<guideline x="417" y="0" angle="90"/>
+	<guideline x="458" y="0" angle="90"/>
 	<guideline x="500" y="0" angle="90"/>
-	<guideline x="550" y="0" angle="90"/>
-	<guideline x="600" y="0" angle="90"/>
 	<guideline x="0" y="-250" angle="0"/>
 	<guideline x="0" y="-200" angle="0"/>
 	<guideline x="0" y="-150" angle="0"/>

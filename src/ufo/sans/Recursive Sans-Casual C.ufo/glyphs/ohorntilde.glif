@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohorntilde" format="2">
 	<unicode hex="1EE1"/>
-	<advance width="600"/>
+	<advance width="500"/>
 	<outline>
 		<component base="o"/>
-		<component base="horncomb" xOffset="429" yOffset="-17"/>
-		<component base="tildecombviet.case" xOffset="231" yOffset="-149"/>
+		<component base="horncomb" xOffset="358" yOffset="-17"/>
+		<component base="tildecombviet.case" xOffset="192" yOffset="-149"/>
 	</outline>
 	<lib>
 		<dict>

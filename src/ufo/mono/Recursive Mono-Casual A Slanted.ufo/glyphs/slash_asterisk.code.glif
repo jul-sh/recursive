@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slash_asterisk.code" format="2">
-	<advance width="1200"/>
+	<advance width="1000"/>
 	<outline>
-		<component base="slash" xOffset="79"/>
-		<component base="asterisk" xOffset="550"/>
+		<component base="slash" xOffset="66"/>
+		<component base="asterisk" xOffset="458"/>
 	</outline>
-	<anchor name="caret_1" x="600" y="0"/>
+	<anchor name="caret_1" x="500" y="0"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
