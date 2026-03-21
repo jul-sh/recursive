@@ -1,4 +1,5 @@
 """Three-way comparison: Original Recursive Charon vs Modified vs Iosevka Charon."""
+import sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
@@ -17,9 +18,9 @@ def render_text(font_path, text, size=56):
 
 
 def main():
-    original = Path("/home/user/recursive-charon/fonts/ArrowType-Recursive-1.085/Recursive_Desktop/Recursive_VF_1.085.ttf")
-    modified = Path("/tmp/RecursiveCharon_static_test2.ttf")
-    iosevka = Path("/tmp/iosevka-charon-fonts/iosevkacharonmono/IosevkaCharonMono-Regular.ttf")
+    original = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("/tmp/RecursiveCharon_static_original.ttf")
+    modified = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("/tmp/RecursiveCharon_static_current.ttf")
+    iosevka = Path(sys.argv[3]) if len(sys.argv) > 3 else Path("/tmp/iosevka-charon-fonts/iosevkacharonmono/IosevkaCharonMono-Regular.ttf")
     output = Path("/home/user/recursive-charon/comparison_output")
     output.mkdir(exist_ok=True)
 
@@ -28,24 +29,13 @@ def main():
         "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
         "digits": "0123456789",
         "key_chars": "adefgijlrtuvwy ADQVWY",
+        "punctuation": "@&${}[]()<>|/\\",
         "code": "fn main() { let x = 42; }",
     }
 
     for name, text in test_strings.items():
         try:
-            # For the VF, set mono linear regular
-            orig_font = ImageFont.truetype(str(original), 56)
-            orig_font.set_variation_by_axes([1.0, 0.0, 400.0, 0.0, 0.5])
-
-            dummy = Image.new("L", (1, 1))
-            dd = ImageDraw.Draw(dummy)
-            bbox = dd.textbbox((0, 0), text, font=orig_font)
-            w = bbox[2] - bbox[0] + 40
-            h = bbox[3] - bbox[1] + 40
-            orig_img = Image.new("L", (max(w, 1), max(h, 1)), 255)
-            draw = ImageDraw.Draw(orig_img)
-            draw.text((20 - bbox[0], 20 - bbox[1]), text, font=orig_font, fill=0)
-
+            orig_img = render_text(original, text, 56)
             mod_img = render_text(modified, text, 56)
             ios_img = render_text(iosevka, text, 56)
         except Exception as e:
