@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 
-def render_text(font_path, text, size=56):
+def render_text(font_path, text, size=80):
     font = ImageFont.truetype(str(font_path), size)
     dummy = Image.new("L", (1, 1))
     dd = ImageDraw.Draw(dummy)
@@ -35,9 +35,9 @@ def main():
 
     for name, text in test_strings.items():
         try:
-            orig_img = render_text(original, text, 56)
-            mod_img = render_text(modified, text, 56)
-            ios_img = render_text(iosevka, text, 56)
+            orig_img = render_text(original, text, 80)
+            mod_img = render_text(modified, text, 80)
+            ios_img = render_text(iosevka, text, 80)
         except Exception as e:
             print(f"  Skipping {name}: {e}")
             continue
