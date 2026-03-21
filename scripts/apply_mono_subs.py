@@ -18,7 +18,7 @@ from xml.etree import ElementTree as ET
 MONO_SUBS = {
     "dotlessi": "dotlessi.mono",
     "f": "f.mono",
-    "g": "g.mono",
+    # "g": "g.mono",  # Using Linear A base g directly
     "i": "i.mono",
     "iacute": "iacute.mono",
     "ibreve": "ibreve.mono",
@@ -43,11 +43,12 @@ MONO_SUBS = {
 # Applied AFTER mono subs, so these override .mono with .simple where available.
 # The .simple variants have single-story g, simpler f/l/r, etc.
 SIMPLE_SUBS = {
-    "g": "g.simple",
-    "gcircumflex": "gcircumflex.simple",
-    "gbreve": "gbreve.simple",
-    "gdotaccent": "gdotaccent.simple",
-    "gcaron": "gcaron.simple",
+    # g variants: keep g.mono (double-story) from MONO_SUBS, don't override with g.simple
+    # "g": "g.simple",
+    # "gcircumflex": "gcircumflex.simple",
+    # "gbreve": "gbreve.simple",
+    # "gdotaccent": "gdotaccent.simple",
+    # "gcaron": "gcaron.simple",
     "i": "i.simple",
     "igrave": "igrave.simple",
     "iacute": "iacute.simple",
