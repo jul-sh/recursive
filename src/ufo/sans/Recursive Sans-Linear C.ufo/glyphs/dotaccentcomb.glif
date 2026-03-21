@@ -8,20 +8,20 @@
   <anchor x="0" y="773" name="top"/>
   <outline>
     <contour>
-      <point x="-108" y="800" type="curve"/>
-      <point x="-108" y="626" type="line" smooth="yes"/>
-      <point x="-107" y="619"/>
-      <point x="-105" y="617"/>
-      <point x="-99" y="615" type="curve" smooth="yes"/>
-      <point x="-39" y="615"/>
-      <point x="49" y="615"/>
-      <point x="108" y="615" type="curve"/>
-      <point x="108" y="789" type="line" smooth="yes"/>
-      <point x="107" y="796"/>
-      <point x="105" y="798"/>
-      <point x="99" y="800" type="curve" smooth="yes"/>
-      <point x="39" y="800"/>
-      <point x="-49" y="800"/>
+      <point x="-115" y="704.5" type="curve" smooth="yes"/>
+      <point x="-115" y="704.5" type="line"/>
+      <point x="-108" y="642"/>
+      <point x="-63" y="596"/>
+      <point x="0" y="589.5" type="curve" smooth="yes"/>
+      <point x="63" y="596"/>
+      <point x="108" y="642"/>
+      <point x="115" y="704.5" type="curve" smooth="yes"/>
+      <point x="115" y="704.5" type="line"/>
+      <point x="108" y="767"/>
+      <point x="63" y="813"/>
+      <point x="0" y="819.5" type="curve" smooth="yes"/>
+      <point x="-63" y="813"/>
+      <point x="-108" y="767"/>
     </contour>
   </outline>
   <lib>

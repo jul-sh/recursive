@@ -227,18 +227,36 @@ def adjust_Y_curly(glyph, weight="B"):
 
 
 def adjust_e_rounder(glyph, weight="B"):
-    """Make 'e' eye more rounded like Iosevka's rounded variant.
+    """Make 'e' aperture more open like Iosevka's rounded variant.
 
-    Pull the rightmost points of the eye inward slightly to make it rounder.
+    The main difference between Recursive's e and Iosevka's e is the
+    aperture (opening on the right side). Iosevka's is much more open —
+    the terminal stays low instead of curving back up.
+
+    We achieve this by:
+    1. Pulling the terminal cap points downward (opening the aperture)
+    2. Pulling inward slightly on the right side for a rounder shape
     """
-    adj = {"A": 6, "B": 10, "C": 14}.get(weight, 10)
+    # How much to drop the terminal (the part that curves up on the right)
+    drop = {"A": 30, "B": 45, "C": 55}.get(weight, 45)
+    # How much to pull rightmost bowl points inward
+    inward = {"A": 8, "B": 12, "C": 16}.get(weight, 12)
 
     changed = False
     for contour in glyph:
         for pt in contour:
-            # The e's crossbar right end — rightmost point around y=250-320
-            if pt.x > 380 and 200 <= pt.y <= 340:
-                pt.x -= adj
+            # Terminal area: right side, below the crossbar (y < 120),
+            # where the stroke end curves up. Pull these DOWN.
+            if pt.x > 380 and 40 <= pt.y <= 120:
+                pt.y -= drop
+                changed = True
+            # Also drop the off-curve points leading into the terminal
+            elif pt.x > 350 and 30 <= pt.y <= 100 and pt.segmentType is None:
+                pt.y -= drop // 2
+                changed = True
+            # Pull rightmost bowl points inward for rounder shape
+            elif pt.x > 400 and 200 <= pt.y <= 340:
+                pt.x -= inward
                 changed = True
     return changed
 
