@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="a.italic" format="2">
 	<advance width="500" />
+	<guideline x="77.5" y="337" angle="256.3858172552" identifier="ZVvliPpM5l" />
+	<guideline x="92.5" y="208" angle="75.6299984848" identifier="RwG7vH4o8v" />
 	<outline>
 		<contour>
 			<point x="259.1667" y="536" type="curve" smooth="yes" />
@@ -78,8 +80,6 @@
 	<anchor name="bottom" x="193.3333" y="-1" />
 	<anchor name="ogonek" x="410.8333" y="0" />
 	<anchor name="hook" x="299.1667" y="584" />
-	<guideline x="77.5" y="337" angle="256.3858172552" identifier="ZVvliPpM5l" />
-	<guideline x="92.5" y="208" angle="75.6299984848" identifier="RwG7vH4o8v" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>
