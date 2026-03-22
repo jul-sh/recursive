@@ -27,41 +27,52 @@ jobs:
         working-directory: mastering
         run: uv run python build.py --all --version "0.000" --out "../fonts_build"
 
-      - name: Collect font files
-        id: collect
+      - name: Package build artifacts
+        id: package
         run: |
-          mkdir -p release_assets
-          FOUND=""
+          FONTS_DIR="fonts_build"
+          if [ ! -d "$FONTS_DIR" ]; then
+            echo "No fonts output directory found"
+            ls -la
+            exit 1
+          fi
 
-          # Variable font (TTF)
-          for f in fonts_build/Variable_TTF/*.ttf; do
-            [ -f "$f" ] && cp "$f" release_assets/ && FOUND="yes"
-          done
+          FOUND=""
+          cd "$FONTS_DIR"
+
+          # Variable font
+          if [ -d "Variable_TTF" ] && ls Variable_TTF/*.ttf 1>/dev/null 2>&1; then
+            zip -r "../Variable_TTF.zip" Variable_TTF -x "*/makeotf_output.txt" "*/autohint_output.txt"
+            FOUND="yes"
+          fi
 
           # Static OTF
-          for f in fonts_build/Static_OTF/*.otf; do
-            [ -f "$f" ] && cp "$f" release_assets/ && FOUND="yes"
-          done
+          if [ -d "Static_OTF" ] && ls Static_OTF/*.otf 1>/dev/null 2>&1; then
+            zip -r "../Static_OTF.zip" Static_OTF -x "*/makeotf_output.txt" "*/autohint_output.txt"
+            FOUND="yes"
+          fi
 
           # Static TTF
-          for f in fonts_build/Static_TTF/*.ttf; do
-            [ -f "$f" ] && cp "$f" release_assets/ && FOUND="yes"
-          done
+          if [ -d "Static_TTF" ] && ls Static_TTF/*.ttf 1>/dev/null 2>&1; then
+            zip -r "../Static_TTF.zip" Static_TTF -x "*/makeotf_output.txt" "*/autohint_output.txt"
+            FOUND="yes"
+          fi
 
+          cd ..
           echo "found=$FOUND" >> "$GITHUB_OUTPUT"
 
-          echo "== Font files collected =="
-          ls -lh release_assets/
+          echo "== Zip files =="
+          ls -lh *.zip 2>/dev/null || echo "No zips created"
 
       - name: Upload font artifacts
         uses: actions/upload-artifact@v4
         with:
           name: recursive-charon-fonts
-          path: release_assets/*
+          path: "*.zip"
           if-no-files-found: warn
 
       - name: Create prerelease
-        if: steps.collect.outputs.found == 'yes'
+        if: steps.package.outputs.found == 'yes'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -73,4 +84,4 @@ jobs:
             --title "Build ${SHORT_SHA}" \
             --notes "Automated prerelease from commit ${GITHUB_SHA}" \
             --prerelease \
-            release_assets/*
+            ./*.zip
