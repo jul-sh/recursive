@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f_quotesingle.code" format="2">
-	<advance width="1200"/>
+	<advance width="1000" />
 	<outline>
-		<component base="f" xOffset="250"/>
-		<component base="quotesingle" xOffset="680"/>
+		<component base="f" xOffset="208.3333" />
+		<component base="quotesingle" xOffset="566.6667" />
 	</outline>
-	<anchor name="caret_1" x="600" y="0"/>
+	<anchor name="caret_1" x="500" y="0" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>

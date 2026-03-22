@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ugrave.italic" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
-		<component base="u.italic"/>
-		<component base="gravecomb" xOffset="298" yOffset="-11"/>
+		<component base="u.italic" />
+		<component base="gravecomb" xOffset="248.3333" yOffset="-11" />
 	</outline>
 	<lib>
 		<dict>

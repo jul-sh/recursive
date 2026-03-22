@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rinvertedbreve.mono" format="2">
-	<advance width="600"/>
+	<advance width="500" />
 	<outline>
-		<component base="r.mono"/>
-		<component base="invertedbrevecmb" xOffset="305"/>
+		<component base="r.mono" />
+		<component base="invertedbrevecmb" xOffset="254.1667" />
 	</outline>
 	<lib>
 		<dict>

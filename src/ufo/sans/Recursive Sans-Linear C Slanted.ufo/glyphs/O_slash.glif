@@ -1,61 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Oslash" format="2">
-	<unicode hex="00D8"/>
-	<advance width="650"/>
+	<unicode hex="00D8" />
+	<advance width="542" />
 	<outline>
 		<contour>
-			<point x="736" y="776" type="curve"/>
-			<point x="696" y="776"/>
-			<point x="627" y="776"/>
-			<point x="586" y="776" type="curve" smooth="yes"/>
-			<point x="573" y="776"/>
-			<point x="569" y="774"/>
-			<point x="557" y="757" type="curve" smooth="yes"/>
-			<point x="535" y="726"/>
-			<point x="503" y="681"/>
-			<point x="467" y="628" type="curve"/>
-			<point x="442" y="572"/>
-			<point x="429" y="540"/>
-			<point x="410" y="507" type="curve"/>
-			<point x="390" y="496"/>
-			<point x="374" y="483"/>
-			<point x="360" y="469" type="curve" smooth="yes"/>
-			<point x="328" y="436"/>
-			<point x="309" y="392"/>
-			<point x="297" y="333" type="curve"/>
-			<point x="320" y="356" type="line"/>
-			<point x="273" y="356" type="line"/>
-			<point x="74" y="90" type="line"/>
-			<point x="50" y="57"/>
-			<point x="-14" y="-31"/>
-			<point x="-47" y="-76" type="curve"/>
-			<point x="-36" y="-76"/>
-			<point x="91" y="-76"/>
-			<point x="105" y="-76" type="curve" smooth="yes"/>
-			<point x="114" y="-76"/>
-			<point x="116" y="-76"/>
-			<point x="125" y="-64" type="curve"/>
-			<point x="154" y="-24"/>
-			<point x="205" y="46"/>
-			<point x="232" y="84" type="curve"/>
-			<point x="248" y="130"/>
-			<point x="261" y="169"/>
-			<point x="271" y="198" type="curve"/>
-			<point x="290" y="208"/>
-			<point x="306" y="219"/>
-			<point x="320" y="232" type="curve" smooth="yes"/>
-			<point x="356" y="266"/>
-			<point x="377" y="312"/>
-			<point x="392" y="378" type="curve"/>
-			<point x="370" y="355" type="line"/>
-			<point x="494" y="355" type="line"/>
-			<point x="577" y="565" type="line"/>
-			<point x="628" y="632"/>
-			<point x="681" y="703"/>
+			<point x="613.3333" y="776" type="curve" />
+			<point x="580" y="776" />
+			<point x="522.5" y="776" />
+			<point x="488.3333" y="776" type="curve" smooth="yes" />
+			<point x="477.5" y="776" />
+			<point x="474.1667" y="774" />
+			<point x="464.1667" y="757" type="curve" smooth="yes" />
+			<point x="445.8333" y="726" />
+			<point x="419.1667" y="681" />
+			<point x="389.1667" y="628" type="curve" />
+			<point x="368.3333" y="572" />
+			<point x="357.5" y="540" />
+			<point x="341.6667" y="507" type="curve" />
+			<point x="325" y="496" />
+			<point x="311.6667" y="483" />
+			<point x="300" y="469" type="curve" smooth="yes" />
+			<point x="273.3333" y="436" />
+			<point x="257.5" y="392" />
+			<point x="247.5" y="333" type="curve" />
+			<point x="266.6667" y="356" type="line" />
+			<point x="227.5" y="356" type="line" />
+			<point x="61.6667" y="90" type="line" />
+			<point x="41.6667" y="57" />
+			<point x="-11.6667" y="-31" />
+			<point x="-39.1667" y="-76" type="curve" />
+			<point x="-30" y="-76" />
+			<point x="75.8333" y="-76" />
+			<point x="87.5" y="-76" type="curve" smooth="yes" />
+			<point x="95" y="-76" />
+			<point x="96.6667" y="-76" />
+			<point x="104.1667" y="-64" type="curve" />
+			<point x="128.3333" y="-24" />
+			<point x="170.8333" y="46" />
+			<point x="193.3333" y="84" type="curve" />
+			<point x="206.6667" y="130" />
+			<point x="217.5" y="169" />
+			<point x="225.8333" y="198" type="curve" />
+			<point x="241.6667" y="208" />
+			<point x="255" y="219" />
+			<point x="266.6667" y="232" type="curve" smooth="yes" />
+			<point x="296.6667" y="266" />
+			<point x="314.1667" y="312" />
+			<point x="326.6667" y="378" type="curve" />
+			<point x="308.3333" y="355" type="line" />
+			<point x="411.6667" y="355" type="line" />
+			<point x="480.8333" y="565" type="line" />
+			<point x="523.3333" y="632" />
+			<point x="567.5" y="703" />
 		</contour>
-		<component base="O"/>
+		<component base="O" />
 	</outline>
-	<anchor name="top" x="410" y="711"/>
+	<anchor name="top" x="341.6667" y="711" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>
