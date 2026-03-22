@@ -1,0 +1,76 @@
+name: PR Font Build
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  build-fonts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Install dependencies
+        run: |
+          uv venv --python 3.10
+          uv pip install fontTools[lxml,ufo,unicode,woff] "afdko>=3.2.0" "fontmake==2.0.5" \
+            defcon cu2qu brotli "fontParts>=0.9.2" "psautohint>=2.0.0" "ttfautohint-py>=0.4.3" \
+            ufonormalizer fontPens "ufoProcessor>=1.9" opentype-feature-freezer \
+            "designspaceProblems @ git+https://github.com/LettError/designSpaceProblems"
+
+      - name: Build fonts
+        working-directory: mastering
+        run: uv run python build.py --all --version "0.000" --out "../fonts_build"
+
+      - name: Package build artifacts
+        id: package
+        run: |
+          FONTS_DIR="fonts_build"
+          if [ ! -d "$FONTS_DIR" ]; then
+            echo "No fonts output directory found"
+            ls -la
+            exit 1
+          fi
+
+          echo "== Build output contents =="
+          ls -la "$FONTS_DIR"
+
+          FOUND=""
+
+          for dir_name in Variable_TTF Static_OTF Static_TTF; do
+            dir="$FONTS_DIR/$dir_name"
+            if [ -d "$dir" ] && find "$dir" -maxdepth 1 \( -name '*.ttf' -o -name '*.otf' \) | grep -q .; then
+              zip -r "${dir_name}.zip" "$dir" -x "*/makeotf_output.txt" "*/autohint_output.txt"
+              FOUND="yes"
+            fi
+          done
+
+          echo "found=$FOUND" >> "$GITHUB_OUTPUT"
+
+          echo "== Zip files =="
+          ls -lh *.zip 2>/dev/null || echo "No zips created"
+
+      - name: Upload font artifacts
+        if: steps.package.outputs.found == 'yes'
+        uses: actions/upload-artifact@v4
+        with:
+          name: recursive-charon-fonts-pr${{ github.event.pull_request.number }}
+          path: "*.zip"
+          if-no-files-found: warn
+
+      - name: Comment on PR
+        if: steps.package.outputs.found == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SHORT_SHA="${{ github.event.pull_request.head.sha }}"
+          SHORT_SHA="${SHORT_SHA::7}"
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          gh pr comment "${{ github.event.pull_request.number }}" \
+            --body "Font build succeeded for ${SHORT_SHA}. [Download artifacts](${RUN_URL})."
