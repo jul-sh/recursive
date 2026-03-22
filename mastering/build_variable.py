@@ -144,9 +144,15 @@ def build_variable(designspacePath,
 
     print("🏗  Constructing variable font")
     fp = FontProject(verbose=verbose)
+
+    # Disable the default KernFeatureWriter to avoid GPOS LookupCount
+    # mismatches across masters. Kerning (if any) is already handled
+    # in the feature files.
+    from ufo2ft.featureWriters import KernFeatureWriter, MarkFeatureWriter
     fp.build_variable_font(designspacePath,
                            output_path=out,
-                           useProductionNames=True)
+                           useProductionNames=True,
+                           feature_writers=[MarkFeatureWriter])
 
     print("🏗  Adding STAT table")
     ds = DesignSpaceDocument.fromfile(designspacePath)
