@@ -357,8 +357,8 @@ def buildFamilyFeatures(root, features, version):
         f.write("".join(feature_sans_italic))
 
     head = ("table head {\n"
-            f"    FontRevision {version};\n}}"
-            "head;\n")
+            f"    FontRevision {version};\n"
+            "} head;\n")
     base = (
             "table BASE {\n"
             "    HorizAxis.BaseTagList       ideo  romn;\n"
