@@ -515,7 +515,7 @@ def makeCompatible(fonts):
         removeGlyphs(font, [name for name, _ in nonCompatible])
 
     if nonCompatible != []:
-        local_report.append(nonCompatible)
+        local_report.extend(nonCompatible)
 
     report["Removed non-compatible glyphs"] = local_report
 
