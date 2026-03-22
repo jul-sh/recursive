@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="w.italic" format="2">
 	<advance width="500" />
+	<guideline x="111.6667" y="107" angle="0" identifier="OraDXlsKeS" />
 	<outline>
 		<contour>
 			<point x="221.6667" y="420" type="curve" />
@@ -85,7 +86,6 @@
 	</outline>
 	<anchor name="top" x="248.3333" y="551" />
 	<anchor name="bottom" x="250" y="-1" />
-	<guideline x="111.6667" y="107" angle="0" identifier="OraDXlsKeS" />
 	<lib>
 		<dict>
 			<key>com.arrowtype.glyphMarkStatus</key>

@@ -3,10 +3,10 @@
 	<unicode hex="0069" />
 	<advance width="500" />
 	<outline>
-		<component base="dotlessi" />
-		<component base="dotaccentcomb" xOffset="285" />
+		<component base="dotlessi.italic" />
+		<component base="dotaccentcomb" xOffset="260" />
 	</outline>
-	<anchor name="bottom" x="250" y="-11" />
+	<anchor name="bottom" x="250" y="-12" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>

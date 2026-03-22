@@ -2,6 +2,10 @@
 <glyph name="l" format="2">
 	<unicode hex="006C" />
 	<advance width="500" />
+	<guideline x="235.8333" y="152" angle="76.0011071001" identifier="K98INXHs7K" />
+	<guideline x="274.1667" y="536" angle="0" identifier="RKEWfOALzy" />
+	<guideline x="274.1667" y="536" angle="255.9637565321" identifier="1S0rq0Palr" />
+	<guideline x="346.6667" y="760" angle="0" identifier="BjLp7JKgr9" />
 	<outline>
 		<contour>
 			<point x="125.8333" y="719" type="curve" />
@@ -11,11 +15,11 @@
 			<point x="115" y="683" />
 			<point x="120" y="669" />
 			<point x="132.5" y="669" type="curve" smooth="yes" />
-			<point x="166.6667" y="669" />
-			<point x="209.1667" y="708" />
+			<point x="166.3021" y="669" />
+			<point x="209.1895" y="708.3877734038" />
 			<point x="329.1667" y="725" type="curve" />
 			<point x="333.3333" y="722" type="line" />
-			<point x="311.6667" y="529" />
+			<point x="311.7005" y="529.3017614147" />
 			<point x="192.5" y="367" />
 			<point x="160" y="175" type="curve" smooth="yes" />
 			<point x="138.3333" y="47" />
@@ -41,13 +45,13 @@
 			<point x="192.5" y="134" />
 			<point x="201.6667" y="183" type="curve" smooth="yes" />
 			<point x="230" y="336" />
-			<point x="358.3333" y="550" />
+			<point x="358.3459" y="550.145907155" />
 			<point x="371.6667" y="705" type="curve" smooth="yes" />
 			<point x="374.1667" y="740" />
 			<point x="357.5" y="760" />
 			<point x="331.6667" y="760" type="curve" smooth="yes" />
-			<point x="256.6667" y="760" />
-			<point x="185" y="743" />
+			<point x="256.8883" y="760" />
+			<point x="184.9197" y="743.2564909071" />
 		</contour>
 	</outline>
 	<anchor name="top" x="328.3333" y="730" />
@@ -55,11 +59,7 @@
 	<anchor name="dot" x="417.5" y="400" />
 	<anchor name="caronslovak" x="495.8333" y="711" />
 	<anchor name="slash" x="244.1667" y="359" />
-	<guideline x="235.8333" y="152" angle="76.0011071001" identifier="K98INXHs7K" />
-	<guideline x="274.1667" y="536" angle="0" identifier="RKEWfOALzy" />
-	<guideline x="274.1667" y="536" angle="255.9637565321" identifier="1S0rq0Palr" />
-	<guideline x="346.6667" y="760" angle="0" identifier="BjLp7JKgr9" />
-	<lib>
+<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>
 			<integer>0</integer>

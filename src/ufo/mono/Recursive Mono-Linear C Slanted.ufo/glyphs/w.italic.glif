@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="w.italic" format="2">
 	<advance width="500" />
+	<guideline x="114.1667" y="29" angle="0" identifier="tlMHyreimJ" />
+	<guideline x="120.8333" y="-6" angle="0" identifier="fFKr3bjRr5" />
+	<guideline x="754.1667" y="190" angle="0" identifier="u5VtJVHzch" />
+	<guideline x="49.1667" y="449" angle="255.7232719862" identifier="RVWLkyBnfx" />
 	<outline>
 		<contour>
 			<point x="228.3333" y="425" type="curve" />
@@ -85,10 +89,6 @@
 	</outline>
 	<anchor name="top" x="304.1667" y="537" />
 	<anchor name="bottom" x="250" y="-1" />
-	<guideline x="114.1667" y="29" angle="0" identifier="tlMHyreimJ" />
-	<guideline x="120.8333" y="-6" angle="0" identifier="fFKr3bjRr5" />
-	<guideline x="754.1667" y="190" angle="0" identifier="u5VtJVHzch" />
-	<guideline x="49.1667" y="449" angle="255.7232719862" identifier="RVWLkyBnfx" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>
