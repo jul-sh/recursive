@@ -43,8 +43,7 @@ jobs:
           FOUND=""
 
           # Only package Recursive font directories — skip iosevka-charon-*, built-fonts, etc.
-          # Static_OTF and Static_TTF are not yet producing fonts, so only Variable_TTF for now.
-          for dir_name in Variable_TTF; do
+          for dir_name in Variable_TTF Static_OTF Static_TTF; do
             dir="$FONTS_DIR/$dir_name"
             if [ -d "$dir" ] && find "$dir" -maxdepth 1 \( -name '*.ttf' -o -name '*.otf' \) | grep -q .; then
               zip -r "${dir_name}.zip" "$dir" -x "*/makeotf_output.txt" "*/autohint_output.txt"
