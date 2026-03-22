@@ -4,46 +4,6 @@
 	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="412.5" y="0" type="curve" />
-			<point x="412.5" y="35" />
-			<point x="412.5" y="70" />
-			<point x="412.5" y="106" type="curve" smooth="yes" />
-			<point x="412.5" y="201" />
-			<point x="412.5" y="297" />
-			<point x="412.5" y="393" type="curve" smooth="yes" />
-			<point x="412.5" y="472" />
-			<point x="373.3333" y="536" />
-			<point x="296.6667" y="536" type="curve" />
-			<point x="234.1667" y="536" />
-			<point x="186.6667" y="496" />
-			<point x="143.3333" y="435" type="curve" />
-			<point x="122.5" y="435" type="line" />
-			<point x="122.5" y="363" type="line" />
-			<point x="185.8333" y="450" />
-			<point x="235" y="489" />
-			<point x="288.3333" y="489" type="curve" smooth="yes" />
-			<point x="338.3333" y="489" />
-			<point x="370.8333" y="455" />
-			<point x="370.8333" y="383" type="curve" smooth="yes" />
-			<point x="370.8333" y="259" />
-			<point x="370.8333" y="135" />
-			<point x="370.8333" y="11" type="curve" smooth="yes" />
-			<point x="370.8333" y="4" />
-			<point x="374.1667" y="0" />
-			<point x="380" y="0" type="curve" smooth="yes" />
-			<point x="390.8333" y="0" />
-			<point x="401.6667" y="0" />
-		</contour>
-		<contour>
-			<point x="133.3333" y="0" type="curve" />
-			<point x="133.3333" y="171" />
-			<point x="133.3333" y="344" />
-			<point x="133.3333" y="515" type="curve" smooth="yes" />
-			<point x="133.3333" y="522" />
-			<point x="130" y="526" />
-			<point x="124.1667" y="526" type="curve" />
-			<point x="113.3333" y="526" />
-			<point x="102.5" y="526" />
 			<point x="91.6667" y="526" type="curve" />
 			<point x="91.6667" y="510" />
 			<point x="91.6667" y="474" />
@@ -56,11 +16,64 @@
 			<point x="100.8333" y="0" type="curve" smooth="yes" />
 			<point x="111.6667" y="0" />
 			<point x="122.5" y="0" />
+			<point x="133.3333" y="0" type="curve" />
+			<point x="133.3333" y="171" />
+			<point x="133.3333" y="344" />
+			<point x="133.3333" y="515" type="curve" smooth="yes" />
+			<point x="133.3333" y="522" />
+			<point x="130" y="526" />
+			<point x="124.1667" y="526" type="curve" smooth="yes" />
+			<point x="113.3333" y="526" />
+			<point x="102.5" y="526" />
+		</contour>
+		<contour>
+			<point x="296.6667" y="536" type="curve" smooth="yes" />
+			<point x="234.1667" y="536" />
+			<point x="186.6667" y="496" />
+			<point x="143.3333" y="435" type="curve" />
+			<point x="122.5" y="435" type="line" />
+			<point x="122.5" y="358" type="line" />
+			<point x="185.8333" y="445" />
+			<point x="235" y="489" />
+			<point x="288.3333" y="489" type="curve" smooth="yes" />
+			<point x="335.8333" y="489" />
+			<point x="366.6667" y="461" />
+			<point x="366.6667" y="389" type="curve" smooth="yes" />
+			<point x="366.6667" y="293" />
+			<point x="366.6667" y="192" />
+			<point x="366.6667" y="101" type="curve" smooth="yes" />
+			<point x="366.6667" y="29" />
+			<point x="397.5" y="0" />
+			<point x="449.1667" y="0" type="curve" smooth="yes" />
+			<point x="453.3333" y="0" />
+			<point x="455.8333" y="0" />
+			<point x="461.6667" y="0" type="curve" smooth="yes" />
+			<point x="467.5" y="0" />
+			<point x="470.8333" y="3" />
+			<point x="470.8333" y="11" type="curve" smooth="yes" />
+			<point x="470.8333" y="23" />
+			<point x="470.8333" y="34" />
+			<point x="470.8333" y="46" type="curve" />
+			<point x="460.8333" y="46" type="line" />
+			<point x="456.6667" y="46" />
+			<point x="453.3333" y="46" />
+			<point x="449.1667" y="46" type="curve" smooth="yes" />
+			<point x="435.8333" y="46" />
+			<point x="424.1667" y="50" />
+			<point x="417.5" y="58" type="curve" smooth="yes" />
+			<point x="410.8333" y="66" />
+			<point x="408.3333" y="80" />
+			<point x="408.3333" y="101" type="curve" smooth="yes" />
+			<point x="408.3333" y="198" />
+			<point x="408.3333" y="296" />
+			<point x="408.3333" y="395" type="curve" smooth="yes" />
+			<point x="408.3333" y="476" />
+			<point x="371.6667" y="536" />
 		</contour>
 	</outline>
-	<anchor name="top" x="250" y="537" />
-	<anchor name="bottom" x="251.6667" y="-1" />
-	<anchor name="caronslovak" x="55.8333" y="711" />
+	<anchor name="top" x="249.1667" y="537" />
+	<anchor name="bottom" x="257.5" y="-1" />
+	<anchor name="caronslovak" x="85" y="711" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>

@@ -43,7 +43,6 @@
       </conditionset>
       <sub name="dotlessi" with="dotlessi.mono" />
       <sub name="f" with="f.mono" />
-      <sub name="g" with="g.mono" />
       <sub name="i" with="i.mono" />
       <sub name="iacute" with="iacute.mono" />
       <sub name="ibreve" with="ibreve.mono" />
@@ -86,36 +85,7 @@
         <condition name="Monospace" minimum="0.500000" maximum="1" />
         <condition name="Cursive" minimum="0.900000" maximum="1" />
       </conditionset>
-      <sub name="a" with="a.italic" />
-      <sub name="aacute" with="aacute.italic" />
-      <sub name="abreve" with="abreve.italic" />
-      <sub name="abreveacute" with="abreveacute.italic" />
-      <sub name="abrevedot" with="abrevedot.italic" />
-      <sub name="abrevegrave" with="abrevegrave.italic" />
-      <sub name="abrevehook" with="abrevehook.italic" />
-      <sub name="abrevetilde" with="abrevetilde.italic" />
-      <sub name="acircumflex" with="acircumflex.italic" />
-      <sub name="acircumflexacute" with="acircumflexacute.italic" />
-      <sub name="acircumflexdot" with="acircumflexdot.italic" />
-      <sub name="acircumflexgrave" with="acircumflexgrave.italic" />
-      <sub name="acircumflexhook" with="acircumflexhook.italic" />
-      <sub name="acircumflextilde" with="acircumflextilde.italic" />
-      <sub name="adieresis" with="adieresis.italic" />
-      <sub name="adotbelow" with="adotbelow.italic" />
-      <sub name="agrave" with="agrave.italic" />
-      <sub name="ahook" with="ahook.italic" />
-      <sub name="amacron" with="amacron.italic" />
-      <sub name="aogonek" with="aogonek.italic" />
-      <sub name="aring" with="aring.italic" />
-      <sub name="aringacute" with="aringacute.italic" />
-      <sub name="atilde" with="atilde.italic" />
       <sub name="b" with="b.italic" />
-      <sub name="c" with="c.italic" />
-      <sub name="cacute" with="cacute.italic" />
-      <sub name="ccaron" with="ccaron.italic" />
-      <sub name="ccedilla" with="ccedilla.italic" />
-      <sub name="ccircumflex" with="ccircumflex.italic" />
-      <sub name="cdotaccent" with="cdotaccent.italic" />
       <sub name="d" with="d.italic" />
       <sub name="dcaron" with="dcaron.italic" />
       <sub name="dotlessi" with="dotlessi.italic" />
@@ -141,14 +111,6 @@
       <sub name="eogonek" with="eogonek.italic" />
       <sub name="etilde" with="etilde.italic" />
       <sub name="f" with="f.italic" />
-      <sub name="g" with="g.italic" />
-      <sub name="gbreve" with="gbreve.italic" />
-      <sub name="gcaron" with="gcaron.italic" />
-      <sub name="gcircumflex" with="gcircumflex.italic" />
-      <sub name="gcommaaccent" with="gcommaaccent.italic" />
-      <sub name="gdotaccent" with="gdotaccent.italic" />
-      <sub name="h" with="h.italic" />
-      <sub name="hcircumflex" with="hcircumflex.italic" />
       <sub name="i" with="i.italic" />
       <sub name="iacute" with="iacute.italic" />
       <sub name="ibreve" with="ibreve.italic" />
@@ -160,23 +122,12 @@
       <sub name="imacron" with="imacron.italic" />
       <sub name="iogonek" with="iogonek.italic" />
       <sub name="itilde" with="itilde.italic" />
-      <sub name="j" with="j.italic" />
-      <sub name="jcircumflex" with="jcircumflex.italic" />
-      <sub name="k" with="k.italic" />
-      <sub name="kcommaaccent" with="kcommaaccent.italic" />
       <sub name="l" with="l.italic" />
       <sub name="ldot" with="ldot.italic" />
       <sub name="lcaron" with="lcaron.italic" />
       <sub name="lacute" with="lacute.italic" />
       <sub name="lcommaaccent" with="lcommaaccent.italic" />
       <sub name="lslash" with="lslash.italic" />
-      <sub name="m" with="m.italic" />
-      <sub name="n" with="n.italic" />
-      <sub name="nacute" with="nacute.italic" />
-      <sub name="napostrophe" with="napostrophe.italic" />
-      <sub name="ncaron" with="ncaron.italic" />
-      <sub name="ncommaaccent" with="ncommaaccent.italic" />
-      <sub name="ntilde" with="ntilde.italic" />
       <sub name="r" with="r.italic" />
       <sub name="racute" with="racute.italic" />
       <sub name="rcaron" with="rcaron.italic" />
@@ -185,12 +136,6 @@
       <sub name="rgravedbl" with="rgravedbl.italic" />
       <sub name="rinvertedbreve" with="rinvertedbreve.italic" />
       <sub name="rlinebelow" with="rlinebelow.italic" />
-      <sub name="s" with="s.italic" />
-      <sub name="sacute" with="sacute.italic" />
-      <sub name="scaron" with="scaron.italic" />
-      <sub name="scedilla" with="scedilla.italic" />
-      <sub name="scircumflex" with="scircumflex.italic" />
-      <sub name="scommaaccent" with="scommaaccent.italic" />
       <sub name="u" with="u.italic" />
       <sub name="uacute" with="uacute.italic" />
       <sub name="ubreve" with="ubreve.italic" />
@@ -216,28 +161,9 @@
       <sub name="wcircumflex" with="wcircumflex.italic" />
       <sub name="wdieresis" with="wdieresis.italic" />
       <sub name="wgrave" with="wgrave.italic" />
-      <sub name="x" with="x.italic" />
-      <sub name="y" with="y.italic" />
-      <sub name="yacute" with="yacute.italic" />
-      <sub name="ycircumflex" with="ycircumflex.italic" />
-      <sub name="ydieresis" with="ydieresis.italic" />
-      <sub name="ydotbelow" with="ydotbelow.italic" />
-      <sub name="ygrave" with="ygrave.italic" />
       <sub name="yhookabove" with="yhookabove.italic" />
-      <sub name="ymacron" with="ymacron.italic" />
-      <sub name="ytilde" with="ytilde.italic" />
-      <sub name="z" with="z.italic" />
-      <sub name="zacute" with="zacute.italic" />
-      <sub name="zcaron" with="zcaron.italic" />
-      <sub name="zdotaccent" with="zdotaccent.italic" />
-      <sub name="agravedbl" with="agravedbl.italic" />
       <sub name="ddotbelow" with="ddotbelow.italic" />
       <sub name="dlinebelow" with="dlinebelow.italic" />
-      <sub name="sdot" with="sdot.italic" />
-      <sub name="sdotbelow" with="sdotbelow.italic" />
-      <sub name="sacutedotaccent" with="sacutedotaccent.italic" />
-      <sub name="scarondot" with="scarondot.italic" />
-      <sub name="sdotbelowdotabove" with="sdotbelowdotabove.italic" />
       <sub name="utildeacute" with="utildeacute.italic" />
       <sub name="umacrondieresis" with="umacrondieresis.italic" />
       <sub name="rlinebelow" with="rlinebelow.italic" />
@@ -246,21 +172,12 @@
       <sub name="rdotbelow" with="rdotbelow.italic" />
       <sub name="idieresisacute" with="idieresisacute.italic" />
       <sub name="ecedillabreve" with="ecedillabreve.italic" />
-      <sub name="ccedillaacute" with="ccedillaacute.italic" />
       <sub name="egravedbl" with="egravedbl.italic" />
       <sub name="einvertedbreve" with="einvertedbreve.italic" />
       <sub name="igravedbl" with="igravedbl.italic" />
       <sub name="iinvertedbreve" with="iinvertedbreve.italic" />
       <sub name="ugravedbl" with="ugravedbl.italic" />
       <sub name="uinvertedbreve" with="uinvertedbreve.italic" />
-      <sub name="ydot" with="ydot.italic" />
-      <sub name="zdotbelow" with="zdotbelow.italic" />
-      <sub name="mdotbelow" with="mdotbelow.italic" />
-      <sub name="ndot" with="ndot.italic" />
-      <sub name="ndotbelow" with="ndotbelow.italic" />
-      <sub name="nlinebelow" with="nlinebelow.italic" />
-      <sub name="gmacron" with="gmacron.italic" />
-      <sub name="hdotbelow" with="hdotbelow.italic" />
     </rule>
     <rule name="sans">
       <conditionset>
@@ -298,31 +215,6 @@
         <condition name="Monospace" minimum="0" maximum="0.500000" />
         <condition name="Cursive" minimum="0.900000" maximum="1" />
       </conditionset>
-      <sub name="a" with="a.italic" />
-      <sub name="aacute" with="aacute.italic" />
-      <sub name="abreve" with="abreve.italic" />
-      <sub name="abreveacute" with="abreveacute.italic" />
-      <sub name="abrevedot" with="abrevedot.italic" />
-      <sub name="abrevegrave" with="abrevegrave.italic" />
-      <sub name="abrevehook" with="abrevehook.italic" />
-      <sub name="abrevetilde" with="abrevetilde.italic" />
-      <sub name="acircumflex" with="acircumflex.italic" />
-      <sub name="acircumflexacute" with="acircumflexacute.italic" />
-      <sub name="acircumflexdot" with="acircumflexdot.italic" />
-      <sub name="acircumflexgrave" with="acircumflexgrave.italic" />
-      <sub name="acircumflexhook" with="acircumflexhook.italic" />
-      <sub name="acircumflextilde" with="acircumflextilde.italic" />
-      <sub name="adieresis" with="adieresis.italic" />
-      <sub name="adotbelow" with="adotbelow.italic" />
-      <sub name="agrave" with="agrave.italic" />
-      <sub name="agravedbl" with="agravedbl.italic" />
-      <sub name="ahook" with="ahook.italic" />
-      <sub name="ainvertedbreve" with="ainvertedbreve.italic" />
-      <sub name="amacron" with="amacron.italic" />
-      <sub name="aogonek" with="aogonek.italic" />
-      <sub name="aring" with="aring.italic" />
-      <sub name="aringacute" with="aringacute.italic" />
-      <sub name="atilde" with="atilde.italic" />
       <sub name="b" with="b.italic" />
       <sub name="d" with="d.italic" />
       <sub name="dcaron" with="dcaron.italic" />
@@ -352,17 +244,7 @@
       <sub name="emacrongrave" with="emacrongrave.italic" />
       <sub name="eogonek" with="eogonek.italic" />
       <sub name="etilde" with="etilde.italic" />
-      <sub name="g" with="g.italic" />
-      <sub name="gbreve" with="gbreve.italic" />
-      <sub name="gcaron" with="gcaron.italic" />
-      <sub name="gcircumflex" with="gcircumflex.italic" />
-      <sub name="gcommaaccent" with="gcommaaccent.italic" />
-      <sub name="gdotaccent" with="gdotaccent.italic" />
-      <sub name="gmacron" with="gmacron.italic" />
-      <sub name="h" with="h.italic" />
       <sub name="hbrevebelow" with="hbrevebelow.italic" />
-      <sub name="hcircumflex" with="hcircumflex.italic" />
-      <sub name="hdotbelow" with="hdotbelow.italic" />
       <sub name="i" with="i.italic" />
       <sub name="iacute" with="iacute.italic" />
       <sub name="ibreve" with="ibreve.italic" />
@@ -378,19 +260,6 @@
       <sub name="imacron" with="imacron.italic" />
       <sub name="iogonek" with="iogonek.italic" />
       <sub name="itilde" with="itilde.italic" />
-      <sub name="k" with="k.italic" />
-      <sub name="kcommaaccent" with="kcommaaccent.italic" />
-      <sub name="m" with="m.italic" />
-      <sub name="mdotbelow" with="mdotbelow.italic" />
-      <sub name="n" with="n.italic" />
-      <sub name="nacute" with="nacute.italic" />
-      <sub name="napostrophe" with="napostrophe.italic" />
-      <sub name="ncaron" with="ncaron.italic" />
-      <sub name="ncommaaccent" with="ncommaaccent.italic" />
-      <sub name="ndot" with="ndot.italic" />
-      <sub name="ndotbelow" with="ndotbelow.italic" />
-      <sub name="nlinebelow" with="nlinebelow.italic" />
-      <sub name="ntilde" with="ntilde.italic" />
       <sub name="u" with="u.italic" />
       <sub name="uacute" with="uacute.italic" />
       <sub name="ubreve" with="ubreve.italic" />
@@ -420,18 +289,7 @@
       <sub name="wcircumflex" with="wcircumflex.italic" />
       <sub name="wdieresis" with="wdieresis.italic" />
       <sub name="wgrave" with="wgrave.italic" />
-      <sub name="x" with="x.italic" />
-      <sub name="y" with="y.italic" />
-      <sub name="yacute" with="yacute.italic" />
-      <sub name="ycircumflex" with="ycircumflex.italic" />
-      <sub name="ydieresis" with="ydieresis.italic" />
-      <sub name="ydot" with="ydot.italic" />
-      <sub name="ydotbelow" with="ydotbelow.italic" />
-      <sub name="ygrave" with="ygrave.italic" />
       <sub name="yhookabove" with="yhookabove.italic" />
-      <sub name="ymacron" with="ymacron.italic" />
-      <sub name="ytilde" with="ytilde.italic" />
-      <sub name="agravedbl" with="agravedbl.italic" />
       <sub name="ddotbelow" with="ddotbelow.italic" />
       <sub name="dlinebelow" with="dlinebelow.italic" />
       <sub name="utildeacute" with="utildeacute.italic" />
@@ -444,20 +302,9 @@
       <sub name="iinvertedbreve" with="iinvertedbreve.italic" />
       <sub name="ugravedbl" with="ugravedbl.italic" />
       <sub name="uinvertedbreve" with="uinvertedbreve.italic" />
-      <sub name="ydot" with="ydot.italic" />
-      <sub name="mdotbelow" with="mdotbelow.italic" />
-      <sub name="ndot" with="ndot.italic" />
-      <sub name="ndotbelow" with="ndotbelow.italic" />
-      <sub name="nlinebelow" with="nlinebelow.italic" />
-      <sub name="gmacron" with="gmacron.italic" />
-      <sub name="hdotbelow" with="hdotbelow.italic" />
       <sub name="zero" with="zero.sans" />
       <sub name="zerosuperior" with="zerosuperior.sans" />
       <sub name="zeroinferior" with="zeroinferior.sans" />
-      <sub name="z" with="z.italic" />
-      <sub name="zacute" with="zacute.italic" />
-      <sub name="zcaron" with="zcaron.italic" />
-      <sub name="zdotaccent" with="zdotaccent.italic" />
       <sub name="dz" with="dz.italic" />
       <sub name="dzcaron" with="dzcaron.italic" />
       <sub name="q" with="q.italic" />

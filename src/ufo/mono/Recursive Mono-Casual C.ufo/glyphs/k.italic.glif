@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="k.italic" format="2">
 	<advance width="500" />
+	<guideline x="480.8333" y="536" angle="90" identifier="1gabkFG3Ij" />
+	<guideline x="270" y="198" angle="0" identifier="KsokfdL7Ib" />
 	<outline>
 		<contour>
 			<point x="14.1667" y="750" type="curve" />
@@ -93,8 +95,6 @@
 	</outline>
 	<anchor name="bottom" x="245.8333" y="0" />
 	<anchor name="top" x="250" y="730" />
-	<guideline x="480.8333" y="536" angle="90" identifier="1gabkFG3Ij" />
-	<guideline x="270" y="198" angle="0" identifier="KsokfdL7Ib" />
 	<lib>
 		<dict>
 			<key>public.markColor</key>
