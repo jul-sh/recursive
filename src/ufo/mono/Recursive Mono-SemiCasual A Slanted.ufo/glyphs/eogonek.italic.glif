@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eogonek.italic" format="2">
+  <advance width="500.0"/>
+  <outline>
+    <contour>
+      <point x="179.58335" y="-143.5" type="curve" smooth="yes"/>
+      <point x="167.5" y="-208.0"/>
+      <point x="197.08335" y="-250.0"/>
+      <point x="252.08335" y="-250.0" type="curve" smooth="yes"/>
+      <point x="291.25" y="-250.0"/>
+      <point x="323.3333" y="-232.5"/>
+      <point x="327.5" y="-207.0" type="curve" smooth="yes"/>
+      <point x="329.16665" y="-200.0"/>
+      <point x="331.25" y="-183.5"/>
+      <point x="330.4167" y="-176.5" type="curve"/>
+      <point x="330.4167" y="-176.5"/>
+      <point x="322.9167" y="-176.5"/>
+      <point x="322.9167" y="-176.5" type="curve"/>
+      <point x="302.9167" y="-194.0"/>
+      <point x="283.33335" y="-201.0"/>
+      <point x="259.1667" y="-201.0" type="curve" smooth="yes"/>
+      <point x="228.75" y="-201.0"/>
+      <point x="214.58335" y="-181.0"/>
+      <point x="221.66665" y="-141.5" type="curve" smooth="yes"/>
+      <point x="232.9167" y="-83.0"/>
+      <point x="275.41665" y="-38.5"/>
+      <point x="352.5" y="8.5" type="curve" smooth="yes"/>
+      <point x="374.58335" y="22.5"/>
+      <point x="381.6667" y="35.5"/>
+      <point x="387.91665" y="66.0" type="curve"/>
+      <point x="384.58335" y="65.5"/>
+      <point x="380.83335" y="60.5"/>
+      <point x="357.5" y="45.5" type="curve"/>
+      <point x="259.58335" y="-8.5"/>
+      <point x="193.75" y="-67.0"/>
+    </contour>
+    <component base="e.italic"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
+</glyph>

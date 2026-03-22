@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asterisk_equal.code" format="2">
+  <advance width="1000.0"/>
+  <anchor x="500.0" y="0.0" name="caret_1"/>
+  <outline>
+    <component base="asterisk" xOffset="14.58335"/>
+    <component base="equal" xOffset="485.41665"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash.sans" format="2">
+  <advance width="500.0"/>
+  <outline>
+    <component base="L.sans"/>
+    <component base="slashcomb.case" xOffset="116.6667" yOffset="-56.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4229,0,0.8271,1</string>
+    </dict>
+  </lib>
+</glyph>

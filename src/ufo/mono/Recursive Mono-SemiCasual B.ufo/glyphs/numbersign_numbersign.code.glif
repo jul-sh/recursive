@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numbersign_numbersign.code" format="2">
+  <advance width="1000.0"/>
+  <anchor x="500.0" y="0.0" name="caret_1"/>
+  <outline>
+    <contour>
+      <point x="404.16665" y="427.5" type="curve"/>
+      <point x="404.16665" y="427.5"/>
+      <point x="646.66665" y="427.5"/>
+      <point x="646.66665" y="427.5" type="curve"/>
+      <point x="646.66665" y="427.5"/>
+      <point x="646.66665" y="550.0"/>
+      <point x="646.66665" y="550.0" type="curve"/>
+      <point x="646.66665" y="550.0"/>
+      <point x="404.16665" y="550.0"/>
+      <point x="404.16665" y="550.0" type="curve"/>
+      <point x="404.16665" y="550.0"/>
+      <point x="404.16665" y="427.5"/>
+    </contour>
+    <contour>
+      <point x="358.33335" y="150.0" type="curve"/>
+      <point x="358.33335" y="150.0"/>
+      <point x="600.83335" y="150.0"/>
+      <point x="600.83335" y="150.0" type="curve"/>
+      <point x="600.83335" y="150.0"/>
+      <point x="600.83335" y="267.5"/>
+      <point x="600.83335" y="267.5" type="curve"/>
+      <point x="600.83335" y="267.5"/>
+      <point x="358.33335" y="267.5"/>
+      <point x="358.33335" y="267.5" type="curve"/>
+      <point x="358.33335" y="267.5"/>
+      <point x="358.33335" y="150.0"/>
+    </contour>
+    <component base="numbersign" xOffset="23.75"/>
+    <component base="numbersign" xOffset="477.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.25,1,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

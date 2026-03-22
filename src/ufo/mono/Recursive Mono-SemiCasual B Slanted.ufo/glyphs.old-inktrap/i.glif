@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i" format="2">
+  <advance width="500"/>
+  <unicode hex="0069"/>
+  <anchor x="193.1249" y="-1" name="bottom"/>
+  <anchor x="393.1249" y="-1" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="124.1667" y="540" type="curve"/>
+      <point x="115.629" y="500.7266578313"/>
+      <point x="107.7043" y="463.2733421687"/>
+      <point x="99.1667" y="424" type="curve" smooth="yes"/>
+      <point x="97.5" y="418"/>
+      <point x="100.8333" y="413"/>
+      <point x="105.8333" y="413" type="curve" smooth="yes"/>
+      <point x="147.5" y="413"/>
+      <point x="189.1667" y="413"/>
+      <point x="230.8333" y="413" type="curve"/>
+      <point x="206.8662" y="304.3487834082"/>
+      <point x="184.7461" y="194.6508478659"/>
+      <point x="161.6667" y="86" type="curve" smooth="yes"/>
+      <point x="156.6667" y="62"/>
+      <point x="213.3333" y="57"/>
+      <point x="280.8333" y="57" type="curve"/>
+      <point x="314.1667" y="214"/>
+      <point x="346.8041" y="371.7023757152"/>
+      <point x="380" y="529" type="curve"/>
+      <point x="381.6667" y="534"/>
+      <point x="379.1667" y="540"/>
+      <point x="373.3333" y="540" type="curve" smooth="yes"/>
+      <point x="290" y="540"/>
+      <point x="207.5" y="540"/>
+    </contour>
+    <contour>
+      <point x="20" y="127" type="line"/>
+      <point x="11.6667" y="85"/>
+      <point x="4.1667" y="53"/>
+      <point x="-4.1667" y="11" type="curve" smooth="yes"/>
+      <point x="-5.8333" y="6"/>
+      <point x="-3.3333" y="0"/>
+      <point x="2.5" y="0" type="curve"/>
+      <point x="393.3333" y="0" type="line"/>
+      <point x="402.5554" y="42.4213860322"/>
+      <point x="409.1667" y="74"/>
+      <point x="417.5" y="116" type="curve" smooth="yes"/>
+      <point x="419.1667" y="122"/>
+      <point x="415.8333" y="127"/>
+      <point x="410.8333" y="127" type="curve"/>
+    </contour>
+    <contour>
+      <point x="409.1667" y="650" type="curve"/>
+      <point x="438.3333" y="789" type="line" smooth="yes"/>
+      <point x="440" y="795"/>
+      <point x="436.6667" y="800"/>
+      <point x="431.6667" y="800" type="curve" smooth="yes"/>
+      <point x="385" y="800"/>
+      <point x="337.5" y="800"/>
+      <point x="290.8333" y="800" type="curve"/>
+      <point x="261.6667" y="661" type="line" smooth="yes"/>
+      <point x="260" y="655"/>
+      <point x="263.3333" y="650"/>
+      <point x="268.3333" y="650" type="curve" smooth="yes"/>
+      <point x="315" y="650"/>
+      <point x="362.5" y="650"/>
+    </contour>
+    <contour>
+      <point x="246.6667" y="403" type="line"/>
+      <point x="262.5" y="459" type="line"/>
+      <point x="250" y="462" type="line"/>
+      <point x="226.6667" y="425" type="line"/>
+    </contour>
+    <contour>
+      <point x="172.5" y="111" type="line"/>
+      <point x="214.1667" y="92" type="line"/>
+      <point x="216.6667" y="107" type="line"/>
+      <point x="184.1667" y="138" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.rafalbuchner.mirroringDrawingLocal</key>
+      <dict>
+        <key>mirroringOptions</key>
+        <integer>3</integer>
+        <key>offset</key>
+        <array>
+          <integer>0</integer>
+          <integer>0</integer>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

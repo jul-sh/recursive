@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnedabovecomb.case" format="2">
+  <anchor x="0.0" y="711.5" name="_top"/>
+  <outline>
+    <contour>
+      <point x="84.1667" y="938.0" type="curve"/>
+      <point x="54.166700000000006" y="944.0"/>
+      <point x="27.5" y="947.0"/>
+      <point x="2.0833499999999994" y="947.0" type="curve" smooth="yes"/>
+      <point x="-10.0" y="947.0"/>
+      <point x="-15.833300000000001" y="943.0"/>
+      <point x="-22.08335" y="934.5" type="curve"/>
+      <point x="-46.25" y="890.0"/>
+      <point x="-59.166650000000004" y="856.0"/>
+      <point x="-69.58335" y="809.5" type="curve" smooth="yes"/>
+      <point x="-70.83335" y="786.0"/>
+      <point x="-58.333349999999996" y="774.5"/>
+      <point x="-28.333299999999994" y="774.5" type="curve" smooth="yes"/>
+      <point x="-1.25" y="774.5"/>
+      <point x="22.91665" y="775.5"/>
+      <point x="55.4167" y="779.0" type="curve"/>
+      <point x="60.4167" y="834.5"/>
+      <point x="68.75" y="883.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="umacrondieresis" format="2">
+  <advance width="500.0"/>
+  <unicode hex="1E7B"/>
+  <outline>
+    <component base="u.italic"/>
+    <component base="macroncomb" xOffset="246.25" yOffset="-5.0"/>
+    <component base="dieresiscomb.case" xOffset="251.25" yOffset="19.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.1505</string>
+    </dict>
+  </lib>
+</glyph>
