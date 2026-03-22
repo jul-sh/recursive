@@ -25,17 +25,12 @@ jobs:
 
       - name: Build fonts
         working-directory: mastering
-        run: uv run python build.py --all --version "${{ github.sha }}"
+        run: uv run python build.py --all --version "0.000" --out "../fonts_build"
 
       - name: Package build artifacts
         run: |
-          VERSION="fonts_${{ github.sha }}"
-          if [ -d "$VERSION" ]; then
-            FONTS_DIR="$VERSION"
-          else
-            FONTS_DIR=$(ls -d fonts_* 2>/dev/null | head -1)
-          fi
-          if [ -z "$FONTS_DIR" ]; then
+          FONTS_DIR="fonts_build"
+          if [ ! -d "$FONTS_DIR" ]; then
             echo "No fonts output directory found"
             ls -la
             exit 1
