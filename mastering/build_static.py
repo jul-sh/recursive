@@ -689,7 +689,8 @@ def makeSFNT(root, outputPath, kind="otf"):
             f.write(run.stdout)
         if run.returncode != 0:
             print(f"\n⚠️  makeotf failed for {file} (exit code {run.returncode})")
-            print(run.stdout[-500:] if len(run.stdout) > 500 else run.stdout)
+            # Print first 2000 chars to capture the actual error details
+            print(run.stdout[:2000])
 
         printProgressBar(i + 1, len(files), prefix='  ',
                          suffix='Complete', length=50)
