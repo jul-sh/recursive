@@ -57,6 +57,9 @@ def printProgressBar(iteration, total, prefix='', suffix='',
     Nabbed, of course, from Stack Overflow
     (https://stackoverflow.com/questions/3173320/text-progress-bar-in-the-console)
     """
+    if total == 0:
+        print('\r%s |%s| %s%% %s' % (prefix, '-' * length, '0.0', suffix))
+        return
     percent = ("{0:."+str(decimals)+"f}").format(100*(iteration/float(total)))
     filledLength = int(length * iteration // total)
     bar = fill * filledLength + '-' * (length - filledLength)
