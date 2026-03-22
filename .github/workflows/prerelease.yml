@@ -37,28 +37,20 @@ jobs:
             exit 1
           fi
 
+          echo "== Build output contents =="
+          ls -la "$FONTS_DIR"
+
           FOUND=""
-          cd "$FONTS_DIR"
 
-          # Variable font
-          if [ -d "Variable_TTF" ] && ls Variable_TTF/*.ttf 1>/dev/null 2>&1; then
-            zip -r "../Variable_TTF.zip" Variable_TTF -x "*/makeotf_output.txt" "*/autohint_output.txt"
-            FOUND="yes"
-          fi
+          # Only package Recursive font directories — skip iosevka-charon-*, built-fonts, etc.
+          for dir_name in Variable_TTF Static_OTF Static_TTF; do
+            dir="$FONTS_DIR/$dir_name"
+            if [ -d "$dir" ] && find "$dir" -maxdepth 1 \( -name '*.ttf' -o -name '*.otf' \) | grep -q .; then
+              zip -r "${dir_name}.zip" "$dir" -x "*/makeotf_output.txt" "*/autohint_output.txt"
+              FOUND="yes"
+            fi
+          done
 
-          # Static OTF
-          if [ -d "Static_OTF" ] && ls Static_OTF/*.otf 1>/dev/null 2>&1; then
-            zip -r "../Static_OTF.zip" Static_OTF -x "*/makeotf_output.txt" "*/autohint_output.txt"
-            FOUND="yes"
-          fi
-
-          # Static TTF
-          if [ -d "Static_TTF" ] && ls Static_TTF/*.ttf 1>/dev/null 2>&1; then
-            zip -r "../Static_TTF.zip" Static_TTF -x "*/makeotf_output.txt" "*/autohint_output.txt"
-            FOUND="yes"
-          fi
-
-          cd ..
           echo "found=$FOUND" >> "$GITHUB_OUTPUT"
 
           echo "== Zip files =="
