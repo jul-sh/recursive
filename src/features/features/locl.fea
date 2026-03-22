@@ -28,7 +28,7 @@ feature locl {
                 sub @iacute_for_ij @j_for_ij acutecomb by ijacute;
                 
                 # dotless forms
-                sub [dotlessi dotlessi.italic dotlessi.mono] acutecomb [dotlessj dotlessj.italic] acutecomb by ijacute;
+                sub [dotlessi dotlessi.mono] acutecomb [dotlessj dotlessj.italic] acutecomb by ijacute;
                 sub @iacute_for_ij [dotlessj dotlessj.italic] acutecomb by ijacute;
                 
                 # simple case of IJ/ij

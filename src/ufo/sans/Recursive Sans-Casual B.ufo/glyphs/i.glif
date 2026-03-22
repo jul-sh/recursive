@@ -4,13 +4,13 @@
 	<advance width="292" />
 	<outline>
 		<component base="dotlessi" />
-		<component base="dotaccentcomb" xOffset="162.5" />
+		<component base="dotaccentcomb" xOffset="145.8333" />
 	</outline>
-	<anchor name="bottom" x="145.8333" y="-7" />
+	<anchor name="bottom" x="145.8333" y="-11" />
 	<lib>
 		<dict>
 			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>finished</string>
+			<string>needsFixing</string>
 			<key>com.typemytype.robofont.Image.Brightness</key>
 			<integer>0</integer>
 			<key>com.typemytype.robofont.Image.Contrast</key>

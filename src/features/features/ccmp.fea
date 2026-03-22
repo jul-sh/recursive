@@ -1,7 +1,7 @@
 feature ccmp {
 
     @base_uc = [ A AE B C D E F G H I J K L L.sans M N O Oslash P Q R S T U V W X Y Z Z.sans Ldotbelow Rdotbelow ];
-    @base_lc = [ a a.italic ae b b.italic c c.italic d d.italic dotlessi dotlessi.italic dotlessi.mono dotlessj dotlessj.italic e e.italic f f.italic f.mono g g.italic g.mono h h.italic i i.italic i.mono j j.italic k k.italic l l.italic l.mono l.sans m m.italic n n.italic o oslash p q q.italic r r.italic r.mono s s.italic t u u.italic v v.italic w w.italic x x.italic y y.italic z z.italic ];
+    @base_lc = [a a.italic ae b c c.italic d dotlessi dotlessi.mono dotlessj dotlessj.italic e f f.mono g g.italic g.mono h h.italic i i.mono j j.italic k k.italic l l.mono l.sans m m.italic n n.italic o oslash p q r r.mono s s.italic t u v w x x.italic y y.italic z z.italic];
 
     @marks_below = [ belowbrevecmb macronbelowcmb verticallinelowmod ringbelowcomb ];
     @lc_marks = [ acutecomb      brevecomb      caroncomb      circumflexcomb      commaaboverightcomb      commaturnedabovecomb      dieresiscomb      dotaccentcomb      gravecomb      gravedoublecmb      hookcomb      horncomb      hungarumlautcomb      invertedbrevecmb      macroncomb      ringcomb      tildecomb      ];
@@ -19,12 +19,12 @@ feature ccmp {
     } CmbMarks;
 
     lookup Dotless {
-        sub [i i.italic i.mono j j.italic]' [ @lc_marks_below @marks_below ] @lc_marks by [ dotlessi dotlessi.italic dotlessi.mono dotlessj dotlessj.italic ];
-        sub [i i.italic i.mono j j.italic]' @lc_marks by [ dotlessi dotlessi.italic dotlessi.mono dotlessj dotlessj.italic ];
+        sub [i i.mono j j.italic]' [ @lc_marks_below @marks_below ] @lc_marks by [ dotlessi dotlessi.mono dotlessj dotlessj.italic ];
+        sub [i i.mono j j.italic]' @lc_marks by [ dotlessi dotlessi.mono dotlessj dotlessj.italic ];
     } Dotless;
     
     lookup caron {
-        sub [l l.italic l.mono l.simple l.sans] caroncomb' by caronslovakcomb;
+        sub [l l.mono l.simple l.sans] caroncomb' by caronslovakcomb;
     } caron;
 
     lookup replacements {
@@ -38,14 +38,11 @@ feature ccmp {
         sub a.italic ogonekcomb by aogonek.italic;
         sub a.simple ogonekcomb by aogonek.simple;
         sub e ogonekcomb by eogonek;
-        sub e.italic ogonekcomb by eogonek.italic;
         sub i ogonekcomb by iogonek;
-        sub i.italic ogonekcomb by iogonek.italic;
         sub i.simple ogonekcomb by iogonek.simple;
         sub i.mono ogonekcomb by iogonek.mono;
         sub o ogonekcomb by oogonek;
         sub u ogonekcomb by uogonek;
-        sub u.italic ogonekcomb by uogonek.italic;
 
         sub C acutecomb.case cedillacomb.case by Ccedillaacute;
         sub C cedillacomb.case acutecomb.case by Ccedillaacute;
@@ -61,8 +58,6 @@ feature ccmp {
         sub c.italic cedillacomb acutecomb by ccedillaacute.italic;
         sub e brevecomb cedillacomb by ecedillabreve;
         sub e cedillacomb brevecomb by ecedillabreve;
-        sub e.italic brevecomb cedillacomb by ecedillabreve.italic;
-        sub e.italic cedillacomb brevecomb by ecedillabreve.italic;
         sub c cedillacomb by ccedilla;
         sub c.italic cedillacomb by ccedilla.italic;
         sub s cedillacomb by scedilla;
@@ -77,7 +72,6 @@ feature ccmp {
         sub L slashcomb.case by Lslash;
         sub L.sans slashcomb.case by Lslash.sans;
         sub l slashcomb by lslash;
-        sub l.italic slashcomb by lslash.italic;
         sub l.mono slashcomb by lslash.mono;
         sub l.simple slashcomb by lslash.simple;
         sub l.sans slashcomb by lslash.sans;

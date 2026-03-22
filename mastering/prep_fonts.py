@@ -36,10 +36,8 @@ def removeGlyphs(font, names):
                 if component.baseGlyph in names:
                     glyph.removeComponent(component)
 
-    glyphOrder = font.glyphOrder
-    for name in glyphOrder:
-        if name in names:
-            glyphOrder.remove(name)
+    glyphOrder = list(font.glyphOrder)
+    glyphOrder = [name for name in glyphOrder if name not in names]
     font.glyphOrder = glyphOrder
 
     for left, right in font.kerning.keys():

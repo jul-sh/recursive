@@ -4,12 +4,10 @@
 	<advance width="500" />
 	<outline>
 		<component base="e" />
-		<component base="brevecomb" xOffset="250" yOffset="12" />
+		<component base="brevecomb" xOffset="260.8333" yOffset="12" />
 	</outline>
 	<lib>
 		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>fromComponents</string>
 			<key>public.markColor</key>
 			<string>0,0,0,0.5</string>
 		</dict>

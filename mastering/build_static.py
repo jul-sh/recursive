@@ -409,9 +409,9 @@ def buildInstances(designspacePath, root, name_map):
                      "aringacute", "aringacute.italic", "aringacute.simple",
                      "ccedilla", "ccedilla.italic", "ccedillaacute",
                      "ccedillaacute.italic", "dcroat", "ecedillabreve",
-                     "ecedillabreve.italic", "eogonek", "equal_equal.code",
-                     "hbar", "iogonek", "iogonek.italic", "iogonek.mono",
-                     "iogonek.simple", "lslash", "lslash.italic",
+                     "eogonek", "equal_equal.code",
+                     "hbar", "iogonek", "iogonek.mono",
+                     "iogonek.simple", "lslash",
                      "lslash.mono", "lslash.sans", "lslash.simple",
                      "nhookleft", "notequal", "notequal.case",
                      "numbersign_numbersign.code",
@@ -421,11 +421,10 @@ def buildInstances(designspacePath, root, name_map):
                      "ohornhook", "ohorntilde", "oogonek", "oslash",
                      "oslashacute", "ringacute", "ringacute.case", "scedilla",
                      "scedilla.italic", "tbar", "tcedilla", "uhorn",
-                     "uhorn.italic", "uhornacute", "uhornacute.italic",
-                     "uhorndot", "uhorndot.italic", "uhorngrave",
-                     "uhorngrave.italic", "uhornhook", "uhornhook.italic",
-                     "uhorntilde", "uhorntilde.italic", "uogonek",
-                     "uogonek.italic"]
+                     "uhornacute",
+                     "uhorndot", "uhorngrave",
+                     "uhornhook",
+                     "uhorntilde", "uogonek"]
 
     doc = DesignSpaceProcessor()
     doc.useVarlib = True

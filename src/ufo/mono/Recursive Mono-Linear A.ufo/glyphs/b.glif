@@ -4,11 +4,8 @@
 	<advance width="500" />
 	<outline>
 		<contour>
-			<point x="120.8333" y="0" type="curve" smooth="yes" />
-			<point x="121.6667" y="0" />
-			<point x="133.3333" y="81" />
-			<point x="133.3333" y="82" type="curve" />
-			<point x="133.3333" y="301" />
+			<point x="133.3333" y="30" type="line" />
+			<point x="133.3333" y="249" />
 			<point x="133.3333" y="520" />
 			<point x="133.3333" y="739" type="curve" />
 			<point x="133.3333" y="746" />
@@ -21,23 +18,17 @@
 			<point x="91.6667" y="684" />
 			<point x="91.6667" y="649" type="curve" />
 			<point x="91.6667" y="436" />
-			<point x="91.6667" y="224" />
-			<point x="91.6667" y="11" type="curve" smooth="yes" />
-			<point x="91.6667" y="4" />
-			<point x="95" y="0" />
-			<point x="100.8333" y="0" type="curve" smooth="yes" />
-			<point x="108.3333" y="0" />
-			<point x="112.5" y="0" />
-		</contour>
-		<contour>
-			<point x="120.8333" y="80" type="line" />
-			<point x="142.5" y="80" type="line" />
-			<point x="179.1667" y="18" />
-			<point x="221.6667" y="-10" />
-			<point x="282.5" y="-10" type="curve" smooth="yes" />
-			<point x="373.3333" y="-10" />
-			<point x="437.5" y="68" />
-			<point x="437.5" y="196" type="curve" smooth="yes" />
+			<point x="91.6667" y="252" />
+			<point x="91.6667" y="39" type="curve" smooth="yes" />
+			<point x="91.6667" y="32" />
+			<point x="92.5" y="30" />
+			<point x="96.6667" y="25" type="curve" smooth="yes" />
+			<point x="107.5" y="12" />
+			<point x="153.3333" y="-8" />
+			<point x="226.6667" y="-8" type="curve" smooth="yes" />
+			<point x="355.8333" y="-8" />
+			<point x="437.5" y="76.456928839" />
+			<point x="437.5" y="267" type="curve" smooth="yes" />
 			<point x="437.5" y="340" type="line" smooth="yes" />
 			<point x="437.5" y="462" />
 			<point x="373.3333" y="536" />
@@ -56,93 +47,15 @@
 			<point x="383.3333" y="425" />
 			<point x="395.8333" y="385" />
 			<point x="395.8333" y="333" type="curve" smooth="yes" />
-			<point x="395.8333" y="203" type="line" smooth="yes" />
-			<point x="395.8333" y="96" />
-			<point x="350" y="37" />
-			<point x="278.3333" y="37" type="curve" smooth="yes" />
-			<point x="220" y="37" />
-			<point x="168.3333" y="70" />
-			<point x="120.8333" y="174" type="curve" />
+			<point x="395.8333" y="274" type="line" smooth="yes" />
+			<point x="395.8333" y="102.1497797357" />
+			<point x="335.8333" y="39" />
+			<point x="222.5" y="39" type="curve" smooth="yes" />
+			<point x="179.1667" y="39" />
+			<point x="147.5" y="45" />
+			<point x="111.6667" y="66" type="curve" />
 		</contour>
 	</outline>
 	<anchor name="top" x="250" y="730" />
 	<anchor name="bottom" x="250" y="-1" />
-	<lib>
-		<dict>
-			<key>com.typemytype.robofont.Image.Brightness</key>
-			<integer>0</integer>
-			<key>com.typemytype.robofont.Image.Contrast</key>
-			<integer>1</integer>
-			<key>com.typemytype.robofont.Image.Saturation</key>
-			<integer>1</integer>
-			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.4</real>
-			<key>com.typemytype.robofont.guideline.magnetic.1RpMXFHHkk</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.53jZXGG3if</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.5Hx4llpsDi</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.5YjSiuLI8K</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.95xum06QnE</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.CVRQiJdE3u</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.DM53QtyBX7</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.GGjqsmmaaI</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.IMBpWHCdoB</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.IcJtAvdUf2</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.NFDRLiOU3I</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.NimOuye5l0</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.RHBv1n6QYM</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.RTHzS3F8IA</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.RVeBM1FnA1</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.Tdp0zgpFWp</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.UEqjA7KU5G</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.W5j1EB2TId</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.YfFzPf2pDD</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.ZFezH6o5j8</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.ZtpmYXipSf</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.ak7NuSpjjm</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.gnJ8jJIKpS</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.hltYHvSafV</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.lTuuEOphrR</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.mwQkOBEA7E</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.sYiH104Ako</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.taE818uJIl</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.tnu9xeEPaU</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.vdlKSau6Q5</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.wrfL0MwBRC</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.wz0XQGmYjY</key>
-			<integer>10</integer>
-			<key>com.typemytype.robofont.guideline.magnetic.yIvziLMBjz</key>
-			<integer>10</integer>
-		</dict>
-	</lib>
 </glyph>

@@ -4,12 +4,10 @@
 	<advance width="500" />
 	<outline>
 		<component base="u" />
-		<component base="hungarumlautcomb" xOffset="250" yOffset="10" />
+		<component base="hungarumlautcomb" xOffset="240.8333" yOffset="-14" />
 	</outline>
 	<lib>
 		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>fromComponents</string>
 			<key>public.markColor</key>
 			<string>0,0,0,0.5</string>
 		</dict>

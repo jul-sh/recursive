@@ -4,13 +4,11 @@
 	<advance width="500" />
 	<outline>
 		<component base="dotlessi" />
-		<component base="ogonekcomb" xOffset="316.6667" />
+		<component base="ogonekcomb" xOffset="340.8333" yOffset="-1" />
 		<component base="dotaccentcomb" xOffset="257.5" />
 	</outline>
 	<lib>
 		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>fromComponents</string>
 			<key>public.markColor</key>
 			<string>0,0,0,0.5</string>
 		</dict>

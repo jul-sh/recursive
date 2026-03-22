@@ -4,12 +4,10 @@
 	<advance width="500" />
 	<outline>
 		<component base="u" />
-		<component base="tildecomb" xOffset="250" yOffset="1" />
+		<component base="tildecomb" xOffset="240.8333" yOffset="-23" />
 	</outline>
 	<lib>
 		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>fromComponents</string>
 			<key>public.markColor</key>
 			<string>0,0,0,0.5</string>
 		</dict>
