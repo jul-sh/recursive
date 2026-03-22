@@ -27,22 +27,41 @@ jobs:
         working-directory: mastering
         run: uv run python build.py --all --version "0.000" --out "../fonts_build"
 
-      - name: Package build artifacts
+      - name: Collect font files
+        id: collect
         run: |
-          FONTS_DIR="fonts_build"
-          if [ ! -d "$FONTS_DIR" ]; then
-            echo "No fonts output directory found"
-            ls -la
-            exit 1
-          fi
-          cd "$FONTS_DIR"
-          for dir in Variable_TTF Static_OTF Static_TTF; do
-            if [ -d "$dir" ]; then
-              zip -r "../${dir}.zip" "$dir"
-            fi
+          mkdir -p release_assets
+          FOUND=""
+
+          # Variable font (TTF)
+          for f in fonts_build/Variable_TTF/*.ttf; do
+            [ -f "$f" ] && cp "$f" release_assets/ && FOUND="yes"
           done
 
+          # Static OTF
+          for f in fonts_build/Static_OTF/*.otf; do
+            [ -f "$f" ] && cp "$f" release_assets/ && FOUND="yes"
+          done
+
+          # Static TTF
+          for f in fonts_build/Static_TTF/*.ttf; do
+            [ -f "$f" ] && cp "$f" release_assets/ && FOUND="yes"
+          done
+
+          echo "found=$FOUND" >> "$GITHUB_OUTPUT"
+
+          echo "== Font files collected =="
+          ls -lh release_assets/
+
+      - name: Upload font artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: recursive-charon-fonts
+          path: release_assets/*
+          if-no-files-found: warn
+
       - name: Create prerelease
+        if: steps.collect.outputs.found == 'yes'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -54,4 +73,4 @@ jobs:
             --title "Build ${SHORT_SHA}" \
             --notes "Automated prerelease from commit ${GITHUB_SHA}" \
             --prerelease \
-            ./*.zip
+            release_assets/*
