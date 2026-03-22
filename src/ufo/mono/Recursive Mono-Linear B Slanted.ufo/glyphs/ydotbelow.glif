@@ -3,10 +3,10 @@
 	<unicode hex="1EF5" />
 	<advance width="500" />
 	<outline>
-		<component base="y.italic" />
-		<component base="dotbelowcomb" xOffset="226.6667" yOffset="-155" />
+		<component base="y" />
+		<component base="dotbelowcomb" xOffset="467.5" />
 	</outline>
-<lib>
+	<lib>
 		<dict>
 			<key>public.markColor</key>
 			<string>0,0,0,0.5</string>

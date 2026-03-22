@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="y.italic" format="2">
 	<advance width="500" />
-	<guideline x="460.8333" y="-200" angle="0" identifier="EoGy79eScB" />
 	<outline>
 		<contour>
 			<point x="87.5" y="550" type="curve" />
@@ -75,6 +74,7 @@
 	<anchor name="hook" x="315" y="584" />
 	<anchor name="dot" x="110.8333" y="-350" />
 	<anchor name="bottom" x="250" y="-201" />
+	<guideline x="460.8333" y="-200" angle="0" identifier="EoGy79eScB" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>
