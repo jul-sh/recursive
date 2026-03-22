@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ldot" format="2">
+  <advance width="458.0"/>
+  <unicode hex="013F"/>
+  <outline>
+    <contour>
+      <point x="270.0" y="552.0" type="curve"/>
+      <point x="270.0" y="552.0"/>
+      <point x="270.0" y="429.0"/>
+      <point x="270.0" y="429.0" type="curve" smooth="yes"/>
+      <point x="270.0" y="388.5"/>
+      <point x="288.75" y="377.0"/>
+      <point x="316.25" y="377.0" type="curve" smooth="yes"/>
+      <point x="355.0" y="377.0"/>
+      <point x="413.75" y="379.0"/>
+      <point x="449.16665" y="385.0" type="curve"/>
+      <point x="449.16665" y="385.0"/>
+      <point x="449.16665" y="512.0"/>
+      <point x="449.16665" y="512.0" type="curve" smooth="yes"/>
+      <point x="449.16665" y="545.5"/>
+      <point x="432.5" y="557.0"/>
+      <point x="402.9167" y="557.0" type="curve" smooth="yes"/>
+      <point x="367.5" y="557.0"/>
+      <point x="305.0" y="555.0"/>
+    </contour>
+    <component base="L"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.glyphMarkStatus</key>
+      <string>fromComponents</string>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
+</glyph>

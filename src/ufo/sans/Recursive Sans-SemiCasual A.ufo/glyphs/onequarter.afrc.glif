@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onequarter.afrc" format="2">
+  <advance width="667.0"/>
+  <outline>
+    <contour>
+      <point x="373.33335" y="409.0" type="curve"/>
+      <point x="380.41315" y="406.5026417775"/>
+      <point x="395.90774999999996" y="405.0"/>
+      <point x="403.75" y="405.0" type="curve" smooth="yes"/>
+      <point x="411.25" y="405.0"/>
+      <point x="417.08335" y="408.5"/>
+      <point x="422.0833" y="416.0" type="curve" smooth="yes"/>
+      <point x="471.66665" y="495.0"/>
+      <point x="520.83335" y="606.0"/>
+      <point x="547.5" y="687.5" type="curve" smooth="yes"/>
+      <point x="550.0007499999999" y="699.5150998129"/>
+      <point x="545.05205" y="708.0"/>
+      <point x="533.75" y="708.0" type="curve" smooth="yes"/>
+      <point x="524.7024" y="708.0"/>
+      <point x="513.4177500000001" y="706.8227961310499"/>
+      <point x="506.25" y="705.0" type="curve"/>
+      <point x="472.91665" y="599.5"/>
+      <point x="430.83335" y="507.0"/>
+    </contour>
+    <contour>
+      <point x="311.25" y="291.5" type="curve"/>
+      <point x="304.4193" y="293.81052197765"/>
+      <point x="288.67560000000003" y="295.5"/>
+      <point x="280.83335" y="295.5" type="curve" smooth="yes"/>
+      <point x="273.3333" y="295.5"/>
+      <point x="267.5" y="292.0"/>
+      <point x="262.5" y="284.5" type="curve" smooth="yes"/>
+      <point x="212.5" y="205.5"/>
+      <point x="163.75" y="94.5"/>
+      <point x="137.08335" y="13.0" type="curve" smooth="yes"/>
+      <point x="134.58339999999998" y="1.00113163385"/>
+      <point x="139.45985" y="-7.5"/>
+      <point x="150.41665" y="-7.5" type="curve" smooth="yes"/>
+      <point x="159.76670000000001" y="-7.5"/>
+      <point x="171.0511" y="-6.38387563615"/>
+      <point x="178.33335" y="-4.5" type="curve"/>
+      <point x="211.6667" y="101.0"/>
+      <point x="253.75" y="194.0"/>
+    </contour>
+    <component base="onesuperior.afrc"/>
+    <component base="fourinferior.afrc" xOffset="333.3333"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

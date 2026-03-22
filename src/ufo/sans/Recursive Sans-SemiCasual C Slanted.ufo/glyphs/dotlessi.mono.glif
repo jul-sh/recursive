@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotlessi.mono" format="2">
+  <advance width="292.0"/>
+  <anchor x="100.8333" y="0.0" name="bottom"/>
+  <anchor x="224.5833" y="0.0" name="ogonek"/>
+  <anchor x="198.3333" y="549.5" name="top"/>
+  <anchor x="206.25" y="584.0" name="hook"/>
+  <outline>
+    <contour>
+      <point x="37.5" y="187.0" type="curve"/>
+      <point x="37.5" y="187.0"/>
+      <point x="213.33335" y="164.5"/>
+      <point x="213.33335" y="164.5" type="curve"/>
+      <point x="237.08335" y="297.0"/>
+      <point x="267.054" y="376.8274283145"/>
+      <point x="289.5833" y="494.0" type="curve"/>
+      <point x="295.41665" y="526.5"/>
+      <point x="274.58335" y="555.0"/>
+      <point x="225.4167" y="555.0" type="curve" smooth="yes"/>
+      <point x="168.19344999999998" y="555.0"/>
+      <point x="116.84705" y="553.5"/>
+      <point x="65.83335" y="550.0" type="curve"/>
+      <point x="53.75" y="505.0"/>
+      <point x="41.25" y="454.0"/>
+      <point x="31.25" y="406.5" type="curve"/>
+      <point x="22.5" y="367.0"/>
+      <point x="25.41665" y="333.0"/>
+      <point x="37.9167" y="333.0" type="curve" smooth="yes"/>
+      <point x="45.144949999999994" y="333.0"/>
+      <point x="52.916650000000004" y="336.0"/>
+      <point x="60.833349999999996" y="341.5" type="curve" smooth="yes"/>
+      <point x="60.833349999999996" y="341.5"/>
+      <point x="68.75" y="339.5"/>
+      <point x="68.75" y="339.5" type="curve"/>
+      <point x="64.16665" y="318.0"/>
+      <point x="55.0" y="297.0"/>
+      <point x="50.0" y="270.5" type="curve" smooth="yes"/>
+      <point x="45.4167" y="248.5"/>
+      <point x="44.1667" y="230.5"/>
+      <point x="45.8333" y="214.5" type="curve" smooth="yes"/>
+      <point x="45.8333" y="214.5"/>
+      <point x="37.5" y="187.0"/>
+    </contour>
+    <contour>
+      <point x="-7.91665" y="201.5" type="curve"/>
+      <point x="-19.58335" y="157.0"/>
+      <point x="-29.58335" y="113.5"/>
+      <point x="-39.166650000000004" y="70.0" type="curve"/>
+      <point x="-48.75" y="22.5"/>
+      <point x="-35.4167" y="0.0"/>
+      <point x="2.9166999999999987" y="0.0" type="curve"/>
+      <point x="2.9166999999999987" y="0.0"/>
+      <point x="223.75" y="0.0"/>
+      <point x="223.75" y="0.0" type="curve"/>
+      <point x="234.5833" y="40.5"/>
+      <point x="245.41665" y="84.0"/>
+      <point x="254.58335" y="128.5" type="curve"/>
+      <point x="264.04290000000003" y="176.85640322310002"/>
+      <point x="257.0833" y="201.5"/>
+      <point x="234.58335" y="201.5" type="curve"/>
+      <point x="234.58335" y="201.5"/>
+      <point x="-7.91665" y="201.5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equal_equal.code" format="2">
+  <advance width="1000.0"/>
+  <anchor x="500.0" y="0.0" name="caret_1"/>
+  <outline>
+    <contour>
+      <point x="356.6667" y="354.0" type="curve"/>
+      <point x="356.6667" y="354.0"/>
+      <point x="660.83335" y="354.0"/>
+      <point x="660.83335" y="354.0" type="curve"/>
+      <point x="660.83335" y="354.0"/>
+      <point x="660.83335" y="500.0"/>
+      <point x="660.83335" y="500.0" type="curve"/>
+      <point x="660.83335" y="500.0"/>
+      <point x="356.6667" y="500.0"/>
+      <point x="356.6667" y="500.0" type="curve"/>
+      <point x="356.6667" y="500.0"/>
+      <point x="356.6667" y="354.0"/>
+    </contour>
+    <contour>
+      <point x="356.6667" y="99.0" type="curve"/>
+      <point x="356.6667" y="99.0"/>
+      <point x="660.83335" y="99.0"/>
+      <point x="660.83335" y="99.0" type="curve"/>
+      <point x="660.83335" y="99.0"/>
+      <point x="660.83335" y="245.0"/>
+      <point x="660.83335" y="245.0" type="curve"/>
+      <point x="660.83335" y="245.0"/>
+      <point x="356.6667" y="245.0"/>
+      <point x="356.6667" y="245.0" type="curve"/>
+      <point x="356.6667" y="245.0"/>
+      <point x="356.6667" y="99.0"/>
+    </contour>
+    <component base="equal"/>
+    <component base="equal" xOffset="500.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

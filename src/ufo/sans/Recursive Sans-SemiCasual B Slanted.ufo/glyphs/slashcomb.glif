@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slashcomb" format="2">
+  <anchor x="30.0" y="414.0" name="_slash"/>
+  <outline>
+    <contour>
+      <point x="207.91665" y="559.0" type="curve"/>
+      <point x="207.91665" y="559.0"/>
+      <point x="83.75" y="486.5"/>
+      <point x="83.75" y="486.5" type="curve" smooth="yes"/>
+      <point x="55.833299999999994" y="470.5"/>
+      <point x="33.3333" y="475.0"/>
+      <point x="3.749999999999999" y="458.5" type="curve" smooth="yes"/>
+      <point x="3.749999999999999" y="458.5"/>
+      <point x="-74.16665" y="414.5"/>
+      <point x="-74.16665" y="414.5" type="curve" smooth="yes"/>
+      <point x="-102.9167" y="399.0"/>
+      <point x="-110.83335" y="385.5"/>
+      <point x="-118.33335" y="355.0" type="curve" smooth="yes"/>
+      <point x="-127.5" y="312.0"/>
+      <point x="-130.83335" y="290.0"/>
+      <point x="-132.5" y="269.0" type="curve"/>
+      <point x="-132.5" y="269.0"/>
+      <point x="-25.83335" y="330.0"/>
+      <point x="-25.83335" y="330.0" type="curve" smooth="yes"/>
+      <point x="7.916650000000001" y="349.5"/>
+      <point x="31.66665" y="346.0"/>
+      <point x="62.083349999999996" y="362.0" type="curve" smooth="yes"/>
+      <point x="62.083349999999996" y="362.0"/>
+      <point x="135.8333" y="403.0"/>
+      <point x="135.8333" y="403.0" type="curve" smooth="yes"/>
+      <point x="179.16665" y="424.5"/>
+      <point x="188.75" y="444.0"/>
+      <point x="196.25" y="482.0" type="curve" smooth="yes"/>
+      <point x="203.33335" y="514.5"/>
+      <point x="207.5" y="544.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>
