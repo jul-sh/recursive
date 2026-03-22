@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="v.italic" format="2">
 	<advance width="500" />
+	<guideline x="486.6667" y="339" angle="90" identifier="ywDPL7wVRW" />
 	<outline>
 		<contour>
 			<point x="9.1667" y="550" type="curve" />
@@ -62,7 +63,6 @@
 	</outline>
 	<anchor name="top" x="250" y="561" />
 	<anchor name="bottom" x="250" y="-1" />
-	<guideline x="486.6667" y="339" angle="90" identifier="ywDPL7wVRW" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>
