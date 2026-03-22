@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate comparison images showing italic shapes used as default across all variants."""
+"""Generate comparison images showing italic-default shapes (b,d,e,f,i,l,r,u,v,w) across all variants."""
 
 from fontTools.ttLib import TTFont
 from fontTools.pens.recordingPen import RecordingPen
@@ -23,7 +23,8 @@ FONTS = {
     "Mono Casual Slanted": "fonts_inspect/Static_OTF/Recursive Mono-Casual A Slanted.otf",
 }
 
-TARGET_CHARS = "yasghj kzxcnm"
+ITALIC_DEFAULT_CHARS = "bdefi lruvw"  # chars using italic as default (space for visual grouping)
+UPRIGHT_DEFAULT_CHARS = "yasghj kzxcnm"  # chars keeping upright as default
 ALL_CHARS = "abcdefghijklmnopqrstuvwxyz"
 SAMPLE_TEXT = "the quick brown fox jumps"
 
@@ -60,7 +61,7 @@ def create_grid_comparison():
     row_height = 90
     label_width = 250
 
-    chars_to_show = list("yasghj kzxcnm")
+    chars_to_show = list(ITALIC_DEFAULT_CHARS)
     # Remove space for display
     chars_display = [c for c in chars_to_show if c != ' ']
 
@@ -166,7 +167,7 @@ def create_upright_vs_slanted():
         ("Mono Casual Slanted", "fonts_inspect/Static_OTF/Recursive Mono-Casual A Slanted.otf"),
     ]
 
-    text = "yasghj kzxcnm"
+    text = ITALIC_DEFAULT_CHARS
     row_height = 110
     width = 1000
     height = 30 + len(pairs) * row_height + 20

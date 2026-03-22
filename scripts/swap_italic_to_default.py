@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-Swap italic glyph outlines into base glyphs for specified characters and their accented forms.
+Swap italic glyph outlines into base glyphs for all characters EXCEPT specified exclusions.
 
-For each target character and its accented variants, this script:
+For each non-excluded character and its accented variants, this script:
 1. Reads the .italic.glif file (italic letterform shape)
 2. Copies its <outline> and <anchor> elements into the base .glif file
 3. Preserves the base glyph's name, unicode, advance width, and lib metadata
 4. Makes the .italic.glif have the same outline (substitution becomes no-op)
+
+Characters in EXCLUDE_CHARS keep their upright forms as the default base glyph.
 """
 
 import os
@@ -16,8 +18,8 @@ import glob
 import copy
 import re
 
-# Base characters to swap
-TARGET_CHARS = ['a', 's', 'g', 'h', 'j', 'k', 'z', 'x', 'c', 'n', 'm', 'y']
+# Characters that KEEP their upright forms as default (NOT swapped to italic)
+EXCLUDE_CHARS = ['y', 'a', 's', 'g', 'h', 'j', 'k', 'z', 'x', 'c', 'n', 'm']
 
 # Find all UFO directories
 UFO_DIRS = []
@@ -25,8 +27,21 @@ for pattern in ['src/ufo/mono/*.ufo', 'src/ufo/sans/*.ufo']:
     UFO_DIRS.extend(sorted(glob.glob(pattern)))
 
 
+def is_excluded(glyph_name):
+    """Check if a glyph name belongs to an excluded base character or its accented variant."""
+    for ec in EXCLUDE_CHARS:
+        if glyph_name == ec:
+            return True
+        if glyph_name.startswith(ec) and len(glyph_name) > len(ec):
+            suffix = glyph_name[len(ec):]
+            # The suffix should start with a lowercase letter (accent name)
+            if suffix[0].islower():
+                return True
+    return False
+
+
 def find_all_italic_variants(ufo_dir):
-    """Find all .italic.glif files that correspond to target chars or their accented forms."""
+    """Find all .italic.glif files that are NOT in the exclusion list."""
     glyphs_dir = os.path.join(ufo_dir, 'glyphs')
     variants = []
 
@@ -35,19 +50,9 @@ def find_all_italic_variants(ufo_dir):
         # Extract the glyph name without .italic.glif
         glyph_name = basename.replace('.italic.glif', '')
 
-        # Check if this is one of our target chars or an accented variant
-        for tc in TARGET_CHARS:
-            if glyph_name == tc or (glyph_name.startswith(tc) and len(glyph_name) > len(tc)):
-                # Make sure it's not a false match (e.g., "zero" starting with "z")
-                if glyph_name == tc:
-                    variants.append(glyph_name)
-                    break
-                # For accented forms, verify the suffix looks like an accent
-                suffix = glyph_name[len(tc):]
-                # The suffix should start with a lowercase letter (accent name)
-                if suffix[0].islower():
-                    variants.append(glyph_name)
-                    break
+        # Include this glyph unless it belongs to an excluded character
+        if not is_excluded(glyph_name):
+            variants.append(glyph_name)
 
     return variants
 
