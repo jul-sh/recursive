@@ -687,12 +687,18 @@ def makeSFNT(root, outputPath, kind="otf"):
                              universal_newlines=True)
         with open(outputFile, "a") as f:
             f.write(run.stdout)
+        if run.returncode != 0:
+            print(f"\n⚠️  makeotf failed for {file} (exit code {run.returncode})")
+            print(run.stdout[-500:] if len(run.stdout) > 500 else run.stdout)
 
         printProgressBar(i + 1, len(files), prefix='  ',
                          suffix='Complete', length=50)
 
     print(f"🏗  {kind.upper()} table fixing")
     files = getFiles(outputPath, kind)
+    if len(files) == 0:
+        print(f"⚠️  No {kind.upper()} files were generated. Skipping table fixing and autohinting.")
+        return
     printProgressBar(0, len(files), prefix='  ', suffix='Complete', length=50)
     for i, file in enumerate(files):
         font = TTFont(file)
