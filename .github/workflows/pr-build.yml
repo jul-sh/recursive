@@ -1,14 +1,11 @@
-name: Prerelease
+name: PR Build
 
 on:
-  push:
+  pull_request:
     branches: [main]
 
-permissions:
-  contents: write
-
 jobs:
-  build-and-release:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -62,18 +59,3 @@ jobs:
           name: recursive-charon-fonts
           path: "*.zip"
           if-no-files-found: warn
-
-      - name: Create prerelease
-        if: steps.package.outputs.found == 'yes'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          SHORT_SHA="${GITHUB_SHA::7}"
-          TAG="build-${SHORT_SHA}"
-          git tag "$TAG"
-          git push origin "$TAG"
-          gh release create "$TAG" \
-            --title "Build ${SHORT_SHA}" \
-            --notes "Automated prerelease from commit ${GITHUB_SHA}" \
-            --prerelease \
-            ./*.zip
