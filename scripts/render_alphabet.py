@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Render full alphabet comparison images across Linear, SemiCasual, Casual variants."""
+"""Render full alphabet comparison images across Linear, SemiCasual, Casual variants.
+
+Applies OpenType feature substitutions: ss03, ss04, ss05, ss06, ss08, ss12, liga.
+"""
 
 import os
 import sys
@@ -19,8 +22,35 @@ LINE_HEIGHT = (CAP_HEIGHT + 300) * SCALE  # room for ascenders/descenders
 UPPERCASE = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 LOWERCASE = list("abcdefghijklmnopqrstuvwxyz")
 DIGITS = list("0123456789")
-ROWS = [UPPERCASE, LOWERCASE, DIGITS]
-ROW_LABELS = ["Uppercase", "Lowercase", "Digits"]
+PUNCT = ["at", "fi"]  # @ and fi ligature
+ROWS = [UPPERCASE, LOWERCASE, DIGITS, PUNCT]
+ROW_LABELS = ["Uppercase", "Lowercase", "Digits", "Punct/Liga"]
+
+# OpenType feature substitutions (ss03, ss04, ss05, ss06, ss08, ss12, liga)
+# Maps: original glyph name -> alternate glyph name
+FEATURE_SUBS = {
+    # ss03: simplified f
+    "f": "f.simple",
+    # ss04: simplified i
+    "i": "i.simple",
+    # ss05: simplified l
+    "l": "l.simple",
+    # ss06: simplified r
+    "r": "r.simple",
+    # ss08: no-serif L and Z
+    "L": "L.sans",
+    "Z": "Z.sans",
+    # ss12: simplified @
+    "at": "at.alt",
+}
+
+
+def apply_features(glyph_name, font):
+    """Apply feature substitutions if alternate glyph exists in font."""
+    alt = FEATURE_SUBS.get(glyph_name)
+    if alt and alt in font:
+        return alt
+    return glyph_name
 
 
 def glyph_to_svg_path(glyph, font, scale, x_offset, y_offset):
@@ -61,8 +91,9 @@ def render_alphabet_svg(family, weight, slant, variants):
 
     svg_parts = []
 
-    # Title
-    title = f"{fam_cap} {weight} {slant_label}"
+    # Features label
+    features_label = "ss03 ss04 ss05 ss06 ss08 ss12 liga"
+    title = f"{fam_cap} {weight} {slant_label}  [{features_label}]"
     svg_parts.append(
         f'<text x="{total_width/2}" y="{margin}" text-anchor="middle" '
         f'font-size="14" font-family="sans-serif" font-weight="bold" fill="#333">{title}</text>'
@@ -82,7 +113,15 @@ def render_alphabet_svg(family, weight, slant, variants):
             row_y = block_y + 20 + ri * LINE_HEIGHT
 
             for ci, char in enumerate(row_chars):
-                glyph_name = char
+                # char can be a single character or a glyph name (e.g., "at", "fi")
+                if len(char) == 1:
+                    glyph_name = char
+                else:
+                    glyph_name = char  # already a glyph name
+
+                # Apply feature substitutions
+                glyph_name = apply_features(glyph_name, font)
+
                 if glyph_name not in font:
                     continue
 
@@ -116,7 +155,10 @@ def render_alphabet_svg(family, weight, slant, variants):
 
 
 def render_closeup_svg(family, weight, slant, variants, chars, label):
-    """Render close-up of specific characters."""
+    """Render close-up of specific characters.
+
+    chars: list of (display_label, glyph_name) tuples
+    """
     slant_label = "Slanted" if slant else "Upright"
     fam_cap = "Mono" if family == "mono" else "Sans"
 
@@ -154,11 +196,11 @@ def render_closeup_svg(family, weight, slant, variants, chars, label):
     )
 
     # Column headers
-    for ci, char in enumerate(chars):
+    for ci, (display, gname) in enumerate(chars):
         x = label_w + ci * glyph_w + glyph_w / 2
         svg_parts.append(
             f'<text x="{x}" y="{margin + 28}" text-anchor="middle" '
-            f'font-size="10" font-family="sans-serif" fill="#999">{char}</text>'
+            f'font-size="10" font-family="sans-serif" fill="#999">{display}</text>'
         )
 
     for vi, variant in enumerate(variant_names):
@@ -171,10 +213,12 @@ def render_closeup_svg(family, weight, slant, variants, chars, label):
             f'font-size="11" font-family="sans-serif" font-weight="bold" fill="#555">{variant}</text>'
         )
 
-        for ci, char in enumerate(chars):
-            if char not in font:
+        for ci, (display, glyph_name) in enumerate(chars):
+            # Apply feature substitutions
+            resolved = apply_features(glyph_name, font)
+            if resolved not in font:
                 continue
-            glyph = font[char]
+            glyph = font[resolved]
             x = label_w + ci * glyph_w
             baseline_y = row_y + cap_h * close_scale
 
@@ -205,6 +249,13 @@ def main():
 
     variants = ["Linear", "SemiCasual", "Casual"]
 
+    # Close-up characters: (display_label, glyph_name)
+    key_glyphs = [
+        ("J", "J"), ("S", "S"), ("L", "L"), ("Z", "Z"),
+        ("f", "f"), ("i", "i"), ("l", "l"), ("r", "r"),
+        ("@", "at"), ("fi", "fi"),
+    ]
+
     count = 0
     for family in ["mono", "sans"]:
         for weight in ["A", "B", "C"]:
@@ -223,11 +274,11 @@ def main():
                     print(f"  {filename} ({w:.0f}x{h:.0f})")
                     count += 1
 
-                # Close-up of key glyphs (S, J and neighbors)
+                # Close-up of key glyphs (feature alternates)
                 result = render_closeup_svg(
                     family, weight, slant, variants,
-                    list("HIJKLMRS"),
-                    "Key glyphs close-up"
+                    key_glyphs,
+                    "Key glyphs + features"
                 )
                 if result:
                     svg, w, h = result
