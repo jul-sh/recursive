@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f_f_l" format="2">
-	<unicode hex="FB04" />
-	<advance width="1000" />
-	<outline>
-		<component base="f.italic" />
-		<component base="f.italic" xOffset="295" />
-		<component base="l.italic" xOffset="666.6667" />
-	</outline>
-	<anchor name="caret_1" x="333.3333" y="0" />
-	<anchor name="caret_2" x="666.6667" y="0" />
-	</glyph>
+  <advance width="1000"/>
+  <unicode hex="FB04"/>
+  <anchor x="333.3333" y="0" name="caret_1"/>
+  <anchor x="666.6667" y="0" name="caret_2"/>
+  <outline>
+    <component base="f.italic"/>
+    <component base="f.italic" xOffset="295"/>
+    <component base="l.italic" xOffset="666.6667"/>
+  </outline>
+</glyph>

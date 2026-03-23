@@ -1,37 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acutecomb" format="2">
-	<unicode hex="0301" />
-	<outline>
-		<contour>
-			<point x="10.8333" y="805" type="curve" />
-			<point x="-19.1667" y="741" />
-			<point x="-48.3333" y="679" />
-			<point x="-77.5" y="617" type="curve" />
-			<point x="-38.3333" y="617" />
-			<point x="12.5" y="617" />
-			<point x="55" y="617" type="curve" smooth="yes" />
-			<point x="64.1667" y="617" />
-			<point x="69.1667" y="619" />
-			<point x="72.5" y="624" type="curve" smooth="yes" />
-			<point x="121.6667" y="689" />
-			<point x="154.1667" y="732" />
-			<point x="196.6667" y="789" type="curve" smooth="yes" />
-			<point x="201.6667" y="796" />
-			<point x="197.5" y="805" />
-			<point x="190.8333" y="805" type="curve" smooth="yes" />
-			<point x="130.8333" y="805" />
-			<point x="72.5" y="805" />
-		</contour>
-	</outline>
-	<anchor name="_top" x="0" y="549" />
-	<anchor name="_dot" x="0" y="560" />
-	<anchor name="dot" x="-211.6667" y="710" />
-	<lib>
-		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>fromComponents</string>
-			<key>public.markColor</key>
-			<string>0,0,0,0.25</string>
-		</dict>
-	</lib>
+  <unicode hex="0301"/>
+  <anchor x="0" y="549" name="_top"/>
+  <anchor x="0" y="560" name="_dot"/>
+  <anchor x="-211.6667" y="710" name="dot"/>
+  <outline>
+    <contour>
+      <point x="10.8333" y="805" type="curve"/>
+      <point x="-19.1667" y="741"/>
+      <point x="-48.3333" y="679"/>
+      <point x="-77.5" y="617" type="curve"/>
+      <point x="-38.3333" y="617"/>
+      <point x="12.5" y="617"/>
+      <point x="55" y="617" type="curve" smooth="yes"/>
+      <point x="64.1667" y="617"/>
+      <point x="69.1667" y="619"/>
+      <point x="72.5" y="624" type="curve" smooth="yes"/>
+      <point x="121.6667" y="689"/>
+      <point x="154.1667" y="732"/>
+      <point x="196.6667" y="789" type="curve" smooth="yes"/>
+      <point x="201.6667" y="796"/>
+      <point x="197.5" y="805"/>
+      <point x="190.8333" y="805" type="curve" smooth="yes"/>
+      <point x="130.8333" y="805"/>
+      <point x="72.5" y="805"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.glyphMarkStatus</key>
+      <string>fromComponents</string>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
 </glyph>

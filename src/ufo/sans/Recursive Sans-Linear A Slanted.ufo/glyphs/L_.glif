@@ -1,45 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L" format="2">
-	<unicode hex="004C" />
-	<advance width="458" />
-	<outline>
-		<contour>
-			<point x="29.1667" y="0" type="curve" smooth="yes" />
-			<point x="351.6667" y="0" type="line" />
-			<point x="355.8333" y="18" />
-			<point x="350" y="45" />
-			<point x="335" y="45" type="curve" smooth="yes" />
-			<point x="70.8333" y="45" type="line" />
-			<point x="115.8333" y="259" />
-			<point x="160" y="475" />
-			<point x="205" y="689" type="curve" smooth="yes" />
-			<point x="206.6667" y="694" />
-			<point x="205" y="700" />
-			<point x="198.3333" y="700" type="curve" smooth="yes" />
-			<point x="187.5" y="700" />
-			<point x="176.6667" y="700" />
-			<point x="165.8333" y="700" type="curve" />
-			<point x="159.1667" y="667" />
-			<point x="152.5" y="634" />
-			<point x="145" y="601" type="curve" />
-			<point x="104.1667" y="405" />
-			<point x="63.3333" y="207" />
-			<point x="22.5" y="11" type="curve" smooth="yes" />
-			<point x="20.8333" y="4" />
-			<point x="23.3333" y="0" />
-		</contour>
-		</outline>
-	<anchor name="caronslovak" x="393.3333" y="628" />
-	<anchor name="top" x="190.8333" y="711" />
-	<anchor name="dot" x="395" y="400" />
-	<anchor name="bottom" x="186.6667" y="-1" />
-	<anchor name="slash" x="111.6667" y="340" />
-	<lib>
-		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>check</string>
-			<key>public.markColor</key>
-			<string>1,1,0,0.5</string>
-		</dict>
-	</lib>
+  <advance width="458"/>
+  <unicode hex="004C"/>
+  <anchor x="393.3333" y="628" name="caronslovak"/>
+  <anchor x="190.8333" y="711" name="top"/>
+  <anchor x="395" y="400" name="dot"/>
+  <anchor x="186.6667" y="-1" name="bottom"/>
+  <anchor x="111.6667" y="340" name="slash"/>
+  <outline>
+    <contour>
+      <point x="29.1667" y="0" type="curve" smooth="yes"/>
+      <point x="351.6667" y="0" type="line"/>
+      <point x="355.8333" y="18"/>
+      <point x="350" y="45"/>
+      <point x="335" y="45" type="curve" smooth="yes"/>
+      <point x="70.8333" y="45" type="line"/>
+      <point x="115.8333" y="259"/>
+      <point x="160" y="475"/>
+      <point x="205" y="689" type="curve" smooth="yes"/>
+      <point x="206.6667" y="694"/>
+      <point x="205" y="700"/>
+      <point x="198.3333" y="700" type="curve" smooth="yes"/>
+      <point x="187.5" y="700"/>
+      <point x="176.6667" y="700"/>
+      <point x="165.8333" y="700" type="curve"/>
+      <point x="159.1667" y="667"/>
+      <point x="152.5" y="634"/>
+      <point x="145" y="601" type="curve"/>
+      <point x="104.1667" y="405"/>
+      <point x="63.3333" y="207"/>
+      <point x="22.5" y="11" type="curve" smooth="yes"/>
+      <point x="20.8333" y="4"/>
+      <point x="23.3333" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.glyphMarkStatus</key>
+      <string>check</string>
+      <key>public.markColor</key>
+      <string>1,1,0,0.5</string>
+    </dict>
+  </lib>
 </glyph>

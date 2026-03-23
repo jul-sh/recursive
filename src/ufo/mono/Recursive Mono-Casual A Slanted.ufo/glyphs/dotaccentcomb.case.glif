@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccentcomb.case" format="2">
-	<outline>
-		<component base="dotaccentcomb" xOffset="28.3333" yOffset="138" />
-	</outline>
-	<anchor name="_top" x="93.3333" y="711" />
-	<anchor name="top" x="122.5" y="850" />
-	<anchor name="_dot" x="121.6667" y="848" />
+  <anchor x="93.3333" y="711" name="_top"/>
+  <anchor x="122.5" y="850" name="top"/>
+  <anchor x="121.6667" y="848" name="_dot"/>
+  <outline>
+    <component base="dotaccentcomb" xOffset="28.3333" yOffset="138"/>
+  </outline>
 </glyph>

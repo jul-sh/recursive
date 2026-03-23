@@ -1,8 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l" format="2">
-	<advance width="500" />
-	<anchor name="top" x="250" y="730" />
-	<anchor name="bottom" x="250" y="-1" />
-	<anchor name="dot" x="375" y="400" />
-	<anchor name="caronslovak" x="441.6667" y="671" />
+  <advance width="500"/>
+  <anchor x="250" y="730" name="top"/>
+  <anchor x="250" y="-1" name="bottom"/>
+  <anchor x="375" y="400" name="dot"/>
+  <anchor x="441.6667" y="671" name="caronslovak"/>
+  <outline>
+  </outline>
 </glyph>

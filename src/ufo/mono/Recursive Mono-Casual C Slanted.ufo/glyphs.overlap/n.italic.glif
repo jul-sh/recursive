@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="n.italic" format="2">
-	<advance width="500" />
-	<anchor name="top" x="250" y="551" />
-	<anchor name="bottom" x="252.5" y="-1" />
-	<anchor name="caronslovak" x="81.6667" y="711" />
+  <advance width="500"/>
+  <anchor x="250" y="551" name="top"/>
+  <anchor x="252.5" y="-1" name="bottom"/>
+  <anchor x="81.6667" y="711" name="caronslovak"/>
+  <outline>
+  </outline>
 </glyph>

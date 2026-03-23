@@ -1,48 +1,48 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaturnedabovecomb.case" format="2">
-	<advance width="500" />
-	<outline>
-		<contour>
-			<point x="31.6667" y="932" type="curve" smooth="yes" />
-			<point x="22.0833" y="932" />
-			<point x="18.9815" y="928.7777901786" />
-			<point x="12.5" y="921" type="curve" smooth="yes" />
-			<point x="-10.0589" y="893.9292888863" />
-			<point x="-27.5" y="853.2769230769" />
-			<point x="-27.5" y="797" type="curve" smooth="yes" />
-			<point x="-27.5" y="775" />
-			<point x="-17.5" y="771" />
-			<point x="-5" y="771" type="curve" smooth="yes" />
-			<point x="5" y="771" />
-			<point x="11.6667" y="773" />
-			<point x="18.3333" y="777" type="curve" />
-			<point x="18.3333" y="847.472972973" />
-			<point x="23.3333" y="871" />
-			<point x="51.6667" y="927" type="curve" />
-			<point x="45" y="931" />
-			<point x="39.6667" y="932" />
-		</contour>
-	</outline>
-	<anchor name="_top" x="0" y="711" />
-	<guideline x="0" y="0" angle="90" />
-	<guideline x="0" y="-250" angle="0" />
-	<guideline x="0" y="-200" angle="0" />
-	<guideline x="0" y="-150" angle="0" />
-	<guideline x="0" y="-100" angle="0" />
-	<guideline x="0" y="-50" angle="0" />
-	<guideline x="0" y="0" angle="0" />
-	<guideline x="0" y="50" angle="0" />
-	<guideline x="0" y="100" angle="0" />
-	<guideline x="0" y="150" angle="0" />
-	<guideline x="0" y="200" angle="0" />
-	<guideline x="0" y="250" angle="0" />
-	<guideline x="0" y="300" angle="0" />
-	<guideline x="0" y="350" angle="0" />
-	<guideline x="0" y="400" angle="0" />
-	<guideline x="0" y="450" angle="0" />
-	<guideline x="0" y="500" angle="0" />
-	<guideline x="0" y="550" angle="0" />
-	<guideline x="0" y="600" angle="0" />
-	<guideline x="0" y="650" angle="0" />
-	<guideline x="0" y="700" angle="0" />
+  <advance width="500"/>
+  <guideline x="0" y="0" angle="90"/>
+  <guideline x="0" y="-250" angle="0"/>
+  <guideline x="0" y="-200" angle="0"/>
+  <guideline x="0" y="-150" angle="0"/>
+  <guideline x="0" y="-100" angle="0"/>
+  <guideline x="0" y="-50" angle="0"/>
+  <guideline x="0" y="0" angle="0"/>
+  <guideline x="0" y="50" angle="0"/>
+  <guideline x="0" y="100" angle="0"/>
+  <guideline x="0" y="150" angle="0"/>
+  <guideline x="0" y="200" angle="0"/>
+  <guideline x="0" y="250" angle="0"/>
+  <guideline x="0" y="300" angle="0"/>
+  <guideline x="0" y="350" angle="0"/>
+  <guideline x="0" y="400" angle="0"/>
+  <guideline x="0" y="450" angle="0"/>
+  <guideline x="0" y="500" angle="0"/>
+  <guideline x="0" y="550" angle="0"/>
+  <guideline x="0" y="600" angle="0"/>
+  <guideline x="0" y="650" angle="0"/>
+  <guideline x="0" y="700" angle="0"/>
+  <anchor x="0" y="711" name="_top"/>
+  <outline>
+    <contour>
+      <point x="31.6667" y="932" type="curve" smooth="yes"/>
+      <point x="22.0833" y="932"/>
+      <point x="18.9815" y="928.7777901786"/>
+      <point x="12.5" y="921" type="curve" smooth="yes"/>
+      <point x="-10.0589" y="893.9292888863"/>
+      <point x="-27.5" y="853.2769230769"/>
+      <point x="-27.5" y="797" type="curve" smooth="yes"/>
+      <point x="-27.5" y="775"/>
+      <point x="-17.5" y="771"/>
+      <point x="-5" y="771" type="curve" smooth="yes"/>
+      <point x="5" y="771"/>
+      <point x="11.6667" y="773"/>
+      <point x="18.3333" y="777" type="curve"/>
+      <point x="18.3333" y="847.472972973"/>
+      <point x="23.3333" y="871"/>
+      <point x="51.6667" y="927" type="curve"/>
+      <point x="45" y="931"/>
+      <point x="39.6667" y="932"/>
+    </contour>
+  </outline>
 </glyph>

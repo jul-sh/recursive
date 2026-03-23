@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="IJacute" format="2">
-	<unicode hex="E133" />
-	<advance width="500" />
-	<outline>
-		<component base="IJ" />
-		<component base="acutecomb.case" xOffset="83.3333" />
-		<component base="acutecomb.case" xOffset="375" />
-	</outline>
+  <advance width="500"/>
+  <unicode hex="E133"/>
+  <outline>
+    <component base="IJ"/>
+    <component base="acutecomb.case" xOffset="83.3333"/>
+    <component base="acutecomb.case" xOffset="375"/>
+  </outline>
 </glyph>

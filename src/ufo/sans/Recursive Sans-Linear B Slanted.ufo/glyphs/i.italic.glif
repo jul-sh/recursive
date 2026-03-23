@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="i.italic" format="2">
-	<advance width="292" />
-	<outline>
-		<component base="dotlessi.italic" />
-		<component base="dotaccentcomb" xOffset="143.3333" />
-	</outline>
-	<anchor name="bottom" x="145.8333" y="-1" />
-	<lib>
-		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>needsFixing</string>
-			<key>com.typemytype.robofont.Image.Brightness</key>
-			<integer>0</integer>
-			<key>com.typemytype.robofont.Image.Contrast</key>
-			<integer>1</integer>
-			<key>com.typemytype.robofont.Image.Saturation</key>
-			<integer>1</integer>
-			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.4</real>
-			<key>public.markColor</key>
-			<string>0,0,0,0.5</string>
-		</dict>
-	</lib>
+  <advance width="292"/>
+  <anchor x="145.8333" y="-1" name="bottom"/>
+  <outline>
+    <component base="dotlessi.italic"/>
+    <component base="dotaccentcomb" xOffset="143.3333"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.glyphMarkStatus</key>
+      <string>needsFixing</string>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+      <key>public.markColor</key>
+      <string>0,0,0,0.5</string>
+    </dict>
+  </lib>
 </glyph>

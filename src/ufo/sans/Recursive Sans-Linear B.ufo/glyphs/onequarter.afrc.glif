@@ -1,54 +1,54 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onequarter.afrc" format="2">
-	<advance width="667" />
-	<outline>
-		<contour>
-			<point x="354.1667" y="415" type="curve" />
-			<point x="363.3333" y="415" />
-			<point x="440.8333" y="415" />
-			<point x="449.1667" y="415" type="curve" smooth="yes" />
-			<point x="453.3333" y="415" />
-			<point x="455.8333" y="416" />
-			<point x="458.3333" y="422" type="curve" smooth="yes" />
-			<point x="463.9695" y="436.4929483677" />
-			<point x="562.6704" y="682.5112790034" />
-			<point x="567.5" y="697" type="curve" smooth="yes" />
-			<point x="570.8333" y="705" />
-			<point x="569.1667" y="710" />
-			<point x="562.5" y="710" type="curve" smooth="yes" />
-			<point x="554.1667" y="710" />
-			<point x="457.5" y="710" />
-			<point x="449.1667" y="710" type="curve" />
-			<point x="445.9423" y="699.3595613917" />
-			<point x="359.0033" y="428.5426488669" />
-		</contour>
-		<contour>
-			<point x="312.5" y="286" type="curve" />
-			<point x="303.3333" y="286" />
-			<point x="225.8333" y="286" />
-			<point x="217.5" y="286" type="curve" smooth="yes" />
-			<point x="213.3333" y="286" />
-			<point x="210.8333" y="285" />
-			<point x="208.3333" y="279" type="curve" smooth="yes" />
-			<point x="202.6972" y="264.5070516323" />
-			<point x="103.9962" y="18.4887209966" />
-			<point x="99.1667" y="4" type="curve" smooth="yes" />
-			<point x="95.8333" y="-4" />
-			<point x="97.5" y="-9" />
-			<point x="104.1667" y="-9" type="curve" smooth="yes" />
-			<point x="112.5" y="-9" />
-			<point x="209.1667" y="-9" />
-			<point x="217.5" y="-9" type="curve" />
-			<point x="220.7244" y="1.6404386083" />
-			<point x="307.6633" y="272.4573511331" />
-		</contour>
-		<component base="onesuperior.afrc" />
-		<component base="fourinferior.afrc" xOffset="333.3333" />
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.5</string>
-		</dict>
-	</lib>
+  <advance width="667"/>
+  <outline>
+    <contour>
+      <point x="354.1667" y="415" type="curve"/>
+      <point x="363.3333" y="415"/>
+      <point x="440.8333" y="415"/>
+      <point x="449.1667" y="415" type="curve" smooth="yes"/>
+      <point x="453.3333" y="415"/>
+      <point x="455.8333" y="416"/>
+      <point x="458.3333" y="422" type="curve" smooth="yes"/>
+      <point x="463.9695" y="436.4929483677"/>
+      <point x="562.6704" y="682.5112790034"/>
+      <point x="567.5" y="697" type="curve" smooth="yes"/>
+      <point x="570.8333" y="705"/>
+      <point x="569.1667" y="710"/>
+      <point x="562.5" y="710" type="curve" smooth="yes"/>
+      <point x="554.1667" y="710"/>
+      <point x="457.5" y="710"/>
+      <point x="449.1667" y="710" type="curve"/>
+      <point x="445.9423" y="699.3595613917"/>
+      <point x="359.0033" y="428.5426488669"/>
+    </contour>
+    <contour>
+      <point x="312.5" y="286" type="curve"/>
+      <point x="303.3333" y="286"/>
+      <point x="225.8333" y="286"/>
+      <point x="217.5" y="286" type="curve" smooth="yes"/>
+      <point x="213.3333" y="286"/>
+      <point x="210.8333" y="285"/>
+      <point x="208.3333" y="279" type="curve" smooth="yes"/>
+      <point x="202.6972" y="264.5070516323"/>
+      <point x="103.9962" y="18.4887209966"/>
+      <point x="99.1667" y="4" type="curve" smooth="yes"/>
+      <point x="95.8333" y="-4"/>
+      <point x="97.5" y="-9"/>
+      <point x="104.1667" y="-9" type="curve" smooth="yes"/>
+      <point x="112.5" y="-9"/>
+      <point x="209.1667" y="-9"/>
+      <point x="217.5" y="-9" type="curve"/>
+      <point x="220.7244" y="1.6404386083"/>
+      <point x="307.6633" y="272.4573511331"/>
+    </contour>
+    <component base="onesuperior.afrc"/>
+    <component base="fourinferior.afrc" xOffset="333.3333"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.5</string>
+    </dict>
+  </lib>
 </glyph>

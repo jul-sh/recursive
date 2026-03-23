@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iogonek" format="2">
-	<unicode hex="012F" />
-	<advance width="500" />
-	<outline>
-		<component base="dotlessi.italic" />
-		<component base="ogonekcomb" xOffset="422.5" yOffset="-1" />
-		<component base="dotaccentcomb" xOffset="261.6667" />
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.5</string>
-		</dict>
-	</lib>
+  <advance width="500"/>
+  <unicode hex="012F"/>
+  <outline>
+    <component base="dotlessi.italic"/>
+    <component base="ogonekcomb" xOffset="422.5" yOffset="-1"/>
+    <component base="dotaccentcomb" xOffset="261.6667"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.5</string>
+    </dict>
+  </lib>
 </glyph>

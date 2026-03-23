@@ -1,9 +1,79 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="S" format="2">
-  <advance width="500" />
-  <unicode hex="0053" />
+  <advance width="500"/>
+  <unicode hex="0053"/>
+  <anchor x="357.3329" y="711" name="top"/>
+  <anchor x="204.1667" y="-1" name="bottom"/>
+  <anchor x="443.3333" y="700" name="dot"/>
   <outline>
-    <contour><point x="367.9167" y="720" type="curve" smooth="yes" /><point x="222.5" y="720" /><point x="105.4167" y="637" /><point x="78.3333" y="508.5" type="curve" smooth="yes" /><point x="72.0833" y="479.5" type="line" smooth="yes" /><point x="55.4167" y="398" /><point x="75" y="322" /><point x="204.5833" y="273.5" type="curve" smooth="yes" /><point x="247.0833" y="257.5" type="line" smooth="yes" /><point x="274.1667" y="247" /><point x="293.3333" y="234.5" /><point x="290" y="206.5" type="curve" smooth="yes" /><point x="289.1667" y="201" type="line" smooth="yes" /><point x="275.8333" y="186.5" /><point x="249.5833" y="182" /><point x="210" y="182" type="curve" smooth="yes" /><point x="133.3333" y="182" /><point x="81.25" y="210" /><point x="39.5833" y="255.5" type="curve" /><point x="28.75" y="255.5" type="line" /><point x="14.5833" y="213.5" /><point x="0.4166" y="153.5" /><point x="-7.5" y="108" type="curve" /><point x="-12.5" y="78" /><point x="-9.5833" y="54" /><point x="5" y="38.5" type="curve" smooth="yes" /><point x="34.1666" y="6" /><point x="100.4167" y="-20" /><point x="199.1667" y="-20" type="curve" smooth="yes" /><point x="341.6667" y="-20" /><point x="425.4167" y="34" /><point x="451.25" y="157.5" type="curve" smooth="yes" /><point x="457.0833" y="186.5" type="line" smooth="yes" /><point x="475.8333" y="276" /><point x="445.8333" y="345.5" /><point x="338.3333" y="388" type="curve" smooth="yes" /><point x="272.0833" y="414" type="line" smooth="yes" /><point x="247.5" y="424" /><point x="237.9167" y="438.5" /><point x="242.5" y="459" type="curve" smooth="yes" /><point x="244.1667" y="467" type="line" smooth="yes" /><point x="250.4167" y="497.5" /><point x="284.1667" y="515" /><point x="335.4167" y="515" type="curve" /><point x="350.4167" y="515" /><point x="368.3333" y="511.5" /><point x="380" y="506.5" type="curve" /><point x="365.8333" y="548" type="line" /><point x="357.0833" y="523.5" /><point x="349.5833" y="497" /><point x="345.8333" y="475.5" type="curve" smooth="yes" /><point x="340.4167" y="442" /><point x="355" y="427" /><point x="392.9167" y="427" type="curve" smooth="yes" /><point x="429.5833" y="427" /><point x="469.1667" y="429" /><point x="504.1667" y="433" type="curve" /><point x="511.25" y="481.5" /><point x="520.8333" y="535.5" /><point x="532.0833" y="588" type="curve" smooth="yes" /><point x="538.75" y="622" /><point x="532.9167" y="645" /><point x="517.9167" y="665.5" type="curve" smooth="yes" /><point x="493.75" y="696" /><point x="438.3333" y="720" /></contour></outline>
+    <contour>
+      <point x="367.9167" y="720" type="curve" smooth="yes"/>
+      <point x="222.5" y="720"/>
+      <point x="105.4167" y="637"/>
+      <point x="78.3333" y="508.5" type="curve" smooth="yes"/>
+      <point x="72.0833" y="479.5" type="line" smooth="yes"/>
+      <point x="55.4167" y="398"/>
+      <point x="75" y="322"/>
+      <point x="204.5833" y="273.5" type="curve" smooth="yes"/>
+      <point x="247.0833" y="257.5" type="line" smooth="yes"/>
+      <point x="274.1667" y="247"/>
+      <point x="293.3333" y="234.5"/>
+      <point x="290" y="206.5" type="curve" smooth="yes"/>
+      <point x="289.1667" y="201" type="line" smooth="yes"/>
+      <point x="275.8333" y="186.5"/>
+      <point x="249.5833" y="182"/>
+      <point x="210" y="182" type="curve" smooth="yes"/>
+      <point x="133.3333" y="182"/>
+      <point x="81.25" y="210"/>
+      <point x="39.5833" y="255.5" type="curve"/>
+      <point x="28.75" y="255.5" type="line"/>
+      <point x="14.5833" y="213.5"/>
+      <point x="0.4166" y="153.5"/>
+      <point x="-7.5" y="108" type="curve"/>
+      <point x="-12.5" y="78"/>
+      <point x="-9.5833" y="54"/>
+      <point x="5" y="38.5" type="curve" smooth="yes"/>
+      <point x="34.1666" y="6"/>
+      <point x="100.4167" y="-20"/>
+      <point x="199.1667" y="-20" type="curve" smooth="yes"/>
+      <point x="341.6667" y="-20"/>
+      <point x="425.4167" y="34"/>
+      <point x="451.25" y="157.5" type="curve" smooth="yes"/>
+      <point x="457.0833" y="186.5" type="line" smooth="yes"/>
+      <point x="475.8333" y="276"/>
+      <point x="445.8333" y="345.5"/>
+      <point x="338.3333" y="388" type="curve" smooth="yes"/>
+      <point x="272.0833" y="414" type="line" smooth="yes"/>
+      <point x="247.5" y="424"/>
+      <point x="237.9167" y="438.5"/>
+      <point x="242.5" y="459" type="curve" smooth="yes"/>
+      <point x="244.1667" y="467" type="line" smooth="yes"/>
+      <point x="250.4167" y="497.5"/>
+      <point x="284.1667" y="515"/>
+      <point x="335.4167" y="515" type="curve"/>
+      <point x="350.4167" y="515"/>
+      <point x="368.3333" y="511.5"/>
+      <point x="380" y="506.5" type="curve"/>
+      <point x="365.8333" y="548" type="line"/>
+      <point x="357.0833" y="523.5"/>
+      <point x="349.5833" y="497"/>
+      <point x="345.8333" y="475.5" type="curve" smooth="yes"/>
+      <point x="340.4167" y="442"/>
+      <point x="355" y="427"/>
+      <point x="392.9167" y="427" type="curve" smooth="yes"/>
+      <point x="429.5833" y="427"/>
+      <point x="469.1667" y="429"/>
+      <point x="504.1667" y="433" type="curve"/>
+      <point x="511.25" y="481.5"/>
+      <point x="520.8333" y="535.5"/>
+      <point x="532.0833" y="588" type="curve" smooth="yes"/>
+      <point x="538.75" y="622"/>
+      <point x="532.9167" y="645"/>
+      <point x="517.9167" y="665.5" type="curve" smooth="yes"/>
+      <point x="493.75" y="696"/>
+      <point x="438.3333" y="720"/>
+    </contour>
+  </outline>
   <lib>
     <dict>
       <key>com.arrowtype.glyphMarkStatus</key>
@@ -20,4 +90,4 @@
       <string>0,0,0,0.25</string>
     </dict>
   </lib>
-<anchor x="357.3329" y="711" name="top" /><anchor x="204.1667" y="-1" name="bottom" /><anchor x="443.3333" y="700" name="dot" /></glyph>
+</glyph>

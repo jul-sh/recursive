@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tcommaaccent" format="2">
-	<unicode hex="021B" />
-	<advance width="417" />
-	<outline>
-		<component base="t" />
-		<component base="commaaccentcomb.case" xOffset="231.6667" yOffset="10" />
-	</outline>
-	<lib>
-		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>fromComponents</string>
-			<key>public.markColor</key>
-			<string>0,0,0,0.5</string>
-		</dict>
-	</lib>
-	<note>
-		t comma below
-	</note>
+  <advance width="417"/>
+  <unicode hex="021B"/>
+  <note>
+t comma below
+</note>
+  <outline>
+    <component base="t"/>
+    <component base="commaaccentcomb.case" xOffset="231.6667" yOffset="10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.glyphMarkStatus</key>
+      <string>fromComponents</string>
+      <key>public.markColor</key>
+      <string>0,0,0,0.5</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="apostrophemod" format="2">
-	<unicode hex="02BC" />
-	<advance width="250" />
-	<outline>
-		<component base="commaaboverightcomb" xOffset="118.3333" />
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.5</string>
-		</dict>
-	</lib>
+  <advance width="250"/>
+  <unicode hex="02BC"/>
+  <outline>
+    <component base="commaaboverightcomb" xOffset="118.3333"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.5</string>
+    </dict>
+  </lib>
 </glyph>

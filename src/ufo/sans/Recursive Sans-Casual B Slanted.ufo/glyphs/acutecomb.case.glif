@@ -1,34 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acutecomb.case" format="2">
-	<outline>
-		<contour>
-			<point x="150.8333" y="934" type="curve" />
-			<point x="119.1667" y="866" />
-			<point x="81.6667" y="824" />
-			<point x="20.8333" y="776" type="curve" />
-			<point x="41.6667" y="764" />
-			<point x="65" y="758" />
-			<point x="100.8333" y="758" type="curve" smooth="yes" />
-			<point x="131.6667" y="758" />
-			<point x="149.1667" y="762" />
-			<point x="172.5" y="777" type="curve" smooth="yes" />
-			<point x="209.1667" y="801" />
-			<point x="231.6667" y="826" />
-			<point x="255.8333" y="873" type="curve" smooth="yes" />
-			<point x="265.8333" y="894" />
-			<point x="264.1667" y="915" />
-			<point x="248.3333" y="921" type="curve" smooth="yes" />
-			<point x="224.1667" y="930" />
-			<point x="190" y="934" />
-		</contour>
-	</outline>
-	<anchor name="_top" x="91.6667" y="712" />
-	<anchor name="_dot" x="90" y="705" />
-	<anchor name="dot" x="-70.8333" y="862" />
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.5,0,1</string>
-		</dict>
-	</lib>
+  <anchor x="91.6667" y="712" name="_top"/>
+  <anchor x="90" y="705" name="_dot"/>
+  <anchor x="-70.8333" y="862" name="dot"/>
+  <outline>
+    <contour>
+      <point x="150.8333" y="934" type="curve"/>
+      <point x="119.1667" y="866"/>
+      <point x="81.6667" y="824"/>
+      <point x="20.8333" y="776" type="curve"/>
+      <point x="41.6667" y="764"/>
+      <point x="65" y="758"/>
+      <point x="100.8333" y="758" type="curve" smooth="yes"/>
+      <point x="131.6667" y="758"/>
+      <point x="149.1667" y="762"/>
+      <point x="172.5" y="777" type="curve" smooth="yes"/>
+      <point x="209.1667" y="801"/>
+      <point x="231.6667" y="826"/>
+      <point x="255.8333" y="873" type="curve" smooth="yes"/>
+      <point x="265.8333" y="894"/>
+      <point x="264.1667" y="915"/>
+      <point x="248.3333" y="921" type="curve" smooth="yes"/>
+      <point x="224.1667" y="930"/>
+      <point x="190" y="934"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.5,0,1</string>
+    </dict>
+  </lib>
 </glyph>

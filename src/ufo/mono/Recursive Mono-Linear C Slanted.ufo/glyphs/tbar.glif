@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tbar" format="2">
-	<unicode hex="0167" />
-	<advance width="500" />
-	<outline>
-		<contour>
-			<point x="45" y="305" type="line" />
-			<point x="41.6667" y="289" />
-			<point x="38.3333" y="273" />
-			<point x="35" y="257" type="curve" smooth="yes" />
-			<point x="33.3333" y="250" />
-			<point x="35.8333" y="246" />
-			<point x="41.6667" y="246" type="curve" smooth="yes" />
-			<point x="451.6667" y="246" type="line" />
-			<point x="455" y="262" />
-			<point x="459.1667" y="278" />
-			<point x="462.5" y="294" type="curve" smooth="yes" />
-			<point x="463.3333" y="301" />
-			<point x="460.8333" y="305" />
-			<point x="455" y="305" type="curve" smooth="yes" />
-		</contour>
-		<component base="t" />
-	</outline>
+  <advance width="500"/>
+  <unicode hex="0167"/>
+  <outline>
+    <contour>
+      <point x="45" y="305" type="line"/>
+      <point x="41.6667" y="289"/>
+      <point x="38.3333" y="273"/>
+      <point x="35" y="257" type="curve" smooth="yes"/>
+      <point x="33.3333" y="250"/>
+      <point x="35.8333" y="246"/>
+      <point x="41.6667" y="246" type="curve" smooth="yes"/>
+      <point x="451.6667" y="246" type="line"/>
+      <point x="455" y="262"/>
+      <point x="459.1667" y="278"/>
+      <point x="462.5" y="294" type="curve" smooth="yes"/>
+      <point x="463.3333" y="301"/>
+      <point x="460.8333" y="305"/>
+      <point x="455" y="305" type="curve" smooth="yes"/>
+    </contour>
+    <component base="t"/>
+  </outline>
 </glyph>

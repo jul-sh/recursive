@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflexacute" format="2">
-	<unicode hex="1EBE" />
-	<advance width="458" />
-	<outline>
-		<component base="E" />
-		<component base="circumflexcomb.case" xOffset="228.9996" />
-		<component base="acutecombviet.case" xOffset="391.4996" yOffset="123" />
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.5</string>
-		</dict>
-	</lib>
+  <advance width="458"/>
+  <unicode hex="1EBE"/>
+  <outline>
+    <component base="E"/>
+    <component base="circumflexcomb.case" xOffset="228.9996"/>
+    <component base="acutecombviet.case" xOffset="391.4996" yOffset="123"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.5</string>
+    </dict>
+  </lib>
 </glyph>

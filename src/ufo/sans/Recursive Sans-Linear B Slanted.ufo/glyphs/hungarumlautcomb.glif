@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hungarumlautcomb" format="2">
-	<unicode hex="030B" />
-	<outline>
-		<component base="acutecomb" xOffset="-100" />
-		<component base="acutecomb" xOffset="91.6667" />
-	</outline>
-	<anchor name="_top" x="58.3333" y="551" />
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.25</string>
-		</dict>
-	</lib>
+  <unicode hex="030B"/>
+  <anchor x="58.3333" y="551" name="_top"/>
+  <outline>
+    <component base="acutecomb" xOffset="-100"/>
+    <component base="acutecomb" xOffset="91.6667"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
 </glyph>

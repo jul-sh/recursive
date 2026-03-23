@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccentcomb.case" format="2">
-	<outline>
-		<component base="dotaccentcomb" xOffset="34.1667" yOffset="165" />
-	</outline>
-	<anchor name="_top" x="91.6667" y="712" />
-	<anchor name="top" x="129.1667" y="894" />
-	<anchor name="_dot" x="121.6667" y="855" />
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.25</string>
-		</dict>
-	</lib>
+  <anchor x="91.6667" y="712" name="_top"/>
+  <anchor x="129.1667" y="894" name="top"/>
+  <anchor x="121.6667" y="855" name="_dot"/>
+  <outline>
+    <component base="dotaccentcomb" xOffset="34.1667" yOffset="165"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
 </glyph>

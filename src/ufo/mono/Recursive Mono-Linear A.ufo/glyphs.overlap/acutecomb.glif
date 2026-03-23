@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acutecomb" format="2">
-	<advance width="500" />
-	<outline>
-		<contour>
-			<point x="-15" y="647" />
-			<point x="-0.8333" y="647" />
-			<point x="10.8333" y="647" type="curve" smooth="yes" />
-			<point x="17.5" y="647" />
-			<point x="22.5" y="651" />
-			<point x="25" y="655" type="curve" smooth="yes" />
-			<point x="70" y="724" />
-			<point x="90.8333" y="756" />
-			<point x="130" y="817" type="curve" />
-			<point x="135" y="825" />
-			<point x="133.3333" y="835" />
-			<point x="125" y="835" type="curve" smooth="yes" />
-			<point x="109.1667" y="835" />
-			<point x="96.6667" y="835" />
-			<point x="77.5" y="835" type="curve" />
-			<point x="43.3333" y="772" />
-			<point x="7.5" y="707" />
-			<point x="-25" y="647" type="curve" />
-		</contour>
-	</outline>
-	<anchor name="_top" x="0" y="537" />
+  <advance width="500"/>
+  <anchor x="0" y="537" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-15" y="647"/>
+      <point x="-0.8333" y="647"/>
+      <point x="10.8333" y="647" type="curve" smooth="yes"/>
+      <point x="17.5" y="647"/>
+      <point x="22.5" y="651"/>
+      <point x="25" y="655" type="curve" smooth="yes"/>
+      <point x="70" y="724"/>
+      <point x="90.8333" y="756"/>
+      <point x="130" y="817" type="curve"/>
+      <point x="135" y="825"/>
+      <point x="133.3333" y="835"/>
+      <point x="125" y="835" type="curve" smooth="yes"/>
+      <point x="109.1667" y="835"/>
+      <point x="96.6667" y="835"/>
+      <point x="77.5" y="835" type="curve"/>
+      <point x="43.3333" y="772"/>
+      <point x="7.5" y="707"/>
+      <point x="-25" y="647" type="curve"/>
+    </contour>
+  </outline>
 </glyph>

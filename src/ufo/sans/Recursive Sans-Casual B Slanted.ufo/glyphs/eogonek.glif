@@ -1,38 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eogonek" format="2">
-	<unicode hex="0119" />
-	<advance width="500" />
-	<outline>
-		<contour>
-			<point x="190" y="-123" type="curve" />
-			<point x="176.6667" y="-203" />
-			<point x="210.8333" y="-250" />
-			<point x="275" y="-250" type="curve" />
-			<point x="327.5" y="-250" />
-			<point x="357.5" y="-224" />
-			<point x="370" y="-161" type="curve" />
-			<point x="375.8333" y="-134" />
-			<point x="373.3333" y="-114" />
-			<point x="365" y="-93" type="curve" />
-			<point x="360" y="-93" type="line" />
-			<point x="349.1667" y="-104" />
-			<point x="340" y="-106" />
-			<point x="324.1667" y="-106" type="curve" />
-			<point x="303.3333" y="-106" />
-			<point x="292.5" y="-95" />
-			<point x="295.8333" y="-76" type="curve" />
-			<point x="303.3333" y="-43" />
-			<point x="330.8333" y="-14" />
-			<point x="370.8333" y="8" type="curve" />
-			<point x="390.8333" y="18" />
-			<point x="425.8333" y="49" />
-			<point x="441.6667" y="147" type="curve" />
-			<point x="412.5" y="94" />
-			<point x="380.8333" y="41" />
-			<point x="356.6667" y="31" type="curve" />
-			<point x="257.5" y="-10" />
-			<point x="203.3333" y="-53" />
-		</contour>
-		<component base="e.italic" />
-	</outline>
-	</glyph>
+  <advance width="500"/>
+  <unicode hex="0119"/>
+  <outline>
+    <contour>
+      <point x="190" y="-123" type="curve"/>
+      <point x="176.6667" y="-203"/>
+      <point x="210.8333" y="-250"/>
+      <point x="275" y="-250" type="curve"/>
+      <point x="327.5" y="-250"/>
+      <point x="357.5" y="-224"/>
+      <point x="370" y="-161" type="curve"/>
+      <point x="375.8333" y="-134"/>
+      <point x="373.3333" y="-114"/>
+      <point x="365" y="-93" type="curve"/>
+      <point x="360" y="-93" type="line"/>
+      <point x="349.1667" y="-104"/>
+      <point x="340" y="-106"/>
+      <point x="324.1667" y="-106" type="curve"/>
+      <point x="303.3333" y="-106"/>
+      <point x="292.5" y="-95"/>
+      <point x="295.8333" y="-76" type="curve"/>
+      <point x="303.3333" y="-43"/>
+      <point x="330.8333" y="-14"/>
+      <point x="370.8333" y="8" type="curve"/>
+      <point x="390.8333" y="18"/>
+      <point x="425.8333" y="49"/>
+      <point x="441.6667" y="147" type="curve"/>
+      <point x="412.5" y="94"/>
+      <point x="380.8333" y="41"/>
+      <point x="356.6667" y="31" type="curve"/>
+      <point x="257.5" y="-10"/>
+      <point x="203.3333" y="-53"/>
+    </contour>
+    <component base="e.italic"/>
+  </outline>
+</glyph>

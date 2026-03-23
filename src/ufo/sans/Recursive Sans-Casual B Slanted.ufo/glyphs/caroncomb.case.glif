@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="caroncomb.case" format="2">
-	<outline>
-		<component base="circumflexcomb.case" xScale="-1" yScale="-1" xOffset="246.6667" yOffset="1720" />
-	</outline>
-	<anchor name="_top" x="91.6667" y="712" />
-	<anchor name="dot" x="140" y="1025" />
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.25</string>
-		</dict>
-	</lib>
+  <anchor x="91.6667" y="712" name="_top"/>
+  <anchor x="140" y="1025" name="dot"/>
+  <outline>
+    <component base="circumflexcomb.case" xScale="-1" yScale="-1" xOffset="246.6667" yOffset="1720"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
 </glyph>

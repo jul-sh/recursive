@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ringacute" format="2">
-	<outline>
-		<component base="ringcomb" />
-		<component base="acutecomb.case" xOffset="66.6667" yOffset="73" />
-	</outline>
-	<anchor name="_top" x="55" y="537" />
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.25</string>
-		</dict>
-	</lib>
+  <anchor x="55" y="537" name="_top"/>
+  <outline>
+    <component base="ringcomb"/>
+    <component base="acutecomb.case" xOffset="66.6667" yOffset="73"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="otildedieresis" format="2">
-	<unicode hex="1E4F" />
-	<advance width="500" />
-	<outline>
-		<component base="o" />
-		<component base="tildecomb" xOffset="248.3333" yOffset="2" />
-		<component base="dieresiscomb" xOffset="280.8333" yOffset="157" />
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.1505</string>
-		</dict>
-	</lib>
+  <advance width="500"/>
+  <unicode hex="1E4F"/>
+  <outline>
+    <component base="o"/>
+    <component base="tildecomb" xOffset="248.3333" yOffset="2"/>
+    <component base="dieresiscomb" xOffset="280.8333" yOffset="157"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.1505</string>
+    </dict>
+  </lib>
 </glyph>

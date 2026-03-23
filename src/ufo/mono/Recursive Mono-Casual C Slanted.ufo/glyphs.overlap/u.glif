@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="u" format="2">
-	<advance width="500" />
-	<anchor name="top" x="250" y="561" />
-	<anchor name="bottom" x="250" y="-1" />
-	<anchor name="ogonek" x="481.6667" y="0" />
+  <advance width="500"/>
+  <anchor x="250" y="561" name="top"/>
+  <anchor x="250" y="-1" name="bottom"/>
+  <anchor x="481.6667" y="0" name="ogonek"/>
+  <outline>
+  </outline>
 </glyph>

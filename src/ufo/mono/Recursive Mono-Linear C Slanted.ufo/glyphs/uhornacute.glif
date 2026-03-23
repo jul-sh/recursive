@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhornacute" format="2">
-	<unicode hex="1EE9" />
-	<advance width="500" />
-	<outline>
-		<component base="u.italic" />
-		<component base="horncomb" xOffset="387.5" yOffset="-7" />
-		<component base="acutecombviet.case" xOffset="210.8333" yOffset="-162" />
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0,0,0,0.5</string>
-		</dict>
-	</lib>
+  <advance width="500"/>
+  <unicode hex="1EE9"/>
+  <outline>
+    <component base="u.italic"/>
+    <component base="horncomb" xOffset="387.5" yOffset="-7"/>
+    <component base="acutecombviet.case" xOffset="210.8333" yOffset="-162"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,0,0.5</string>
+    </dict>
+  </lib>
 </glyph>

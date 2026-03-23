@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ijacute" format="2">
-	<unicode hex="E132" />
-	<advance width="500" />
-	<outline>
-		<component base="dotlessij" />
-		<component base="acutecomb" xOffset="107.5" />
-		<component base="acutecomb" xOffset="362.5" />
-	</outline>
-	<lib>
-		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>fromComponents</string>
-			<key>public.markColor</key>
-			<string>0,0,0,0.25</string>
-		</dict>
-	</lib>
+  <advance width="500"/>
+  <unicode hex="E132"/>
+  <outline>
+    <component base="dotlessij"/>
+    <component base="acutecomb" xOffset="107.5"/>
+    <component base="acutecomb" xOffset="362.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.glyphMarkStatus</key>
+      <string>fromComponents</string>
+      <key>public.markColor</key>
+      <string>0,0,0,0.25</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,57 +1,57 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="threeeighths" format="2">
-	<unicode hex="215C" />
-	<advance width="667" />
-	<outline>
-		<contour>
-			<point x="343.3333" y="401" type="curve" />
-			<point x="375.8333" y="401" />
-			<point x="427.5" y="401" />
-			<point x="460" y="401" type="curve" smooth="yes" />
-			<point x="464.1667" y="401" />
-			<point x="467.5" y="402" />
-			<point x="470" y="409" type="curve" smooth="yes" />
-			<point x="502.5" y="508" />
-			<point x="534.1667" y="597" />
-			<point x="565.8333" y="697" type="curve" smooth="yes" />
-			<point x="568.3333" y="705" />
-			<point x="567.5" y="710" />
-			<point x="560.8333" y="710" type="curve" smooth="yes" />
-			<point x="515.8333" y="710" />
-			<point x="460" y="710" />
-			<point x="400.8333" y="710" type="curve" />
-			<point x="381.6667" y="604" />
-			<point x="362.5" y="507" />
-		</contour>
-		<contour>
-			<point x="323.3333" y="299" type="curve" />
-			<point x="290.8333" y="299" />
-			<point x="239.1667" y="299" />
-			<point x="206.6667" y="299" type="curve" smooth="yes" />
-			<point x="202.5" y="299" />
-			<point x="199.1667" y="298" />
-			<point x="196.6667" y="291" type="curve" smooth="yes" />
-			<point x="164.1667" y="192" />
-			<point x="132.5" y="103" />
-			<point x="100.8333" y="3" type="curve" smooth="yes" />
-			<point x="98.3333" y="-5" />
-			<point x="99.1667" y="-10" />
-			<point x="105.8333" y="-10" type="curve" smooth="yes" />
-			<point x="150.8333" y="-10" />
-			<point x="206.6667" y="-10" />
-			<point x="265.8333" y="-10" type="curve" />
-			<point x="285" y="96" />
-			<point x="304.1667" y="193" />
-		</contour>
-		<component base="threesuperior" />
-		<component base="eightinferior" xOffset="333.3333" />
-	</outline>
-	<lib>
-		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>fromComponents</string>
-			<key>public.markColor</key>
-			<string>0,0,0,0.5</string>
-		</dict>
-	</lib>
+  <advance width="667"/>
+  <unicode hex="215C"/>
+  <outline>
+    <contour>
+      <point x="343.3333" y="401" type="curve"/>
+      <point x="375.8333" y="401"/>
+      <point x="427.5" y="401"/>
+      <point x="460" y="401" type="curve" smooth="yes"/>
+      <point x="464.1667" y="401"/>
+      <point x="467.5" y="402"/>
+      <point x="470" y="409" type="curve" smooth="yes"/>
+      <point x="502.5" y="508"/>
+      <point x="534.1667" y="597"/>
+      <point x="565.8333" y="697" type="curve" smooth="yes"/>
+      <point x="568.3333" y="705"/>
+      <point x="567.5" y="710"/>
+      <point x="560.8333" y="710" type="curve" smooth="yes"/>
+      <point x="515.8333" y="710"/>
+      <point x="460" y="710"/>
+      <point x="400.8333" y="710" type="curve"/>
+      <point x="381.6667" y="604"/>
+      <point x="362.5" y="507"/>
+    </contour>
+    <contour>
+      <point x="323.3333" y="299" type="curve"/>
+      <point x="290.8333" y="299"/>
+      <point x="239.1667" y="299"/>
+      <point x="206.6667" y="299" type="curve" smooth="yes"/>
+      <point x="202.5" y="299"/>
+      <point x="199.1667" y="298"/>
+      <point x="196.6667" y="291" type="curve" smooth="yes"/>
+      <point x="164.1667" y="192"/>
+      <point x="132.5" y="103"/>
+      <point x="100.8333" y="3" type="curve" smooth="yes"/>
+      <point x="98.3333" y="-5"/>
+      <point x="99.1667" y="-10"/>
+      <point x="105.8333" y="-10" type="curve" smooth="yes"/>
+      <point x="150.8333" y="-10"/>
+      <point x="206.6667" y="-10"/>
+      <point x="265.8333" y="-10" type="curve"/>
+      <point x="285" y="96"/>
+      <point x="304.1667" y="193"/>
+    </contour>
+    <component base="threesuperior"/>
+    <component base="eightinferior" xOffset="333.3333"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.glyphMarkStatus</key>
+      <string>fromComponents</string>
+      <key>public.markColor</key>
+      <string>0,0,0,0.5</string>
+    </dict>
+  </lib>
 </glyph>

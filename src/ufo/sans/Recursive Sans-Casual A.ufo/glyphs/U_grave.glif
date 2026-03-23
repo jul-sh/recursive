@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ugrave" format="2">
-	<unicode hex="00D9" />
-	<advance width="542" />
-	<outline>
-		<component base="U" />
-		<component base="gravecomb.case" xOffset="265.8333" />
-	</outline>
-	<lib>
-		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>fromComponents</string>
-			<key>public.markColor</key>
-			<string>0,0,0,0.5</string>
-		</dict>
-	</lib>
+  <advance width="542"/>
+  <unicode hex="00D9"/>
+  <outline>
+    <component base="U"/>
+    <component base="gravecomb.case" xOffset="265.8333"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.glyphMarkStatus</key>
+      <string>fromComponents</string>
+      <key>public.markColor</key>
+      <string>0,0,0,0.5</string>
+    </dict>
+  </lib>
 </glyph>

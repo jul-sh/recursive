@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="period" format="2">
-	<unicode hex="002E" />
-	<advance width="500" />
-	<outline>
-		<contour>
-			<point x="145.0225" y="55" type="curve" smooth="yes" />
-			<point x="145.0225" y="55" type="line" />
-			<point x="145.0225" y="20.9539" />
-			<point x="172.6206" y="-6.6441" />
-			<point x="206.6667" y="-6.6441" type="curve" smooth="yes" />
-			<point x="240.7127" y="-6.6441" />
-			<point x="268.3108" y="20.9539" />
-			<point x="268.3108" y="55" type="curve" smooth="yes" />
-			<point x="268.3108" y="55" type="line" />
-			<point x="268.3108" y="89.0461" />
-			<point x="240.7127" y="116.6441" />
-			<point x="206.6667" y="116.6441" type="curve" smooth="yes" />
-			<point x="172.6206" y="116.6441" />
-			<point x="145.0225" y="89.0461" />
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,1,0,1</string>
-		</dict>
-	</lib>
+  <advance width="500"/>
+  <unicode hex="002E"/>
+  <outline>
+    <contour>
+      <point x="145.0225" y="55" type="curve" smooth="yes"/>
+      <point x="145.0225" y="55" type="line"/>
+      <point x="145.0225" y="20.9539"/>
+      <point x="172.6206" y="-6.6441"/>
+      <point x="206.6667" y="-6.6441" type="curve" smooth="yes"/>
+      <point x="240.7127" y="-6.6441"/>
+      <point x="268.3108" y="20.9539"/>
+      <point x="268.3108" y="55" type="curve" smooth="yes"/>
+      <point x="268.3108" y="55" type="line"/>
+      <point x="268.3108" y="89.0461"/>
+      <point x="240.7127" y="116.6441"/>
+      <point x="206.6667" y="116.6441" type="curve" smooth="yes"/>
+      <point x="172.6206" y="116.6441"/>
+      <point x="145.0225" y="89.0461"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

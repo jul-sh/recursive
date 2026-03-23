@@ -1,117 +1,117 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="m" format="2">
-	<unicode hex="006D" />
-	<advance width="500" />
-	<outline>
-		<contour>
-			<point x="29.1667" y="-2" type="curve" />
-			<point x="37.5" y="146" />
-			<point x="99.1667" y="304" />
-			<point x="119.1667" y="459" type="curve" smooth="yes" />
-			<point x="125.8333" y="509" />
-			<point x="115.8333" y="532" />
-			<point x="95" y="532" type="curve" smooth="yes" />
-			<point x="86.6667" y="532" />
-			<point x="80.8333" y="531" />
-			<point x="75" y="527" type="curve" />
-			<point x="78.3333" y="503" />
-			<point x="79.1667" y="483" />
-			<point x="73.3333" y="435" type="curve" smooth="yes" />
-			<point x="56.6667" y="296" />
-			<point x="5" y="157" />
-			<point x="-7.5" y="41" type="curve" smooth="yes" />
-			<point x="-10.8333" y="10" />
-			<point x="-3.3333" y="-5" />
-			<point x="16.6667" y="-5" type="curve" smooth="yes" />
-			<point x="20.8333" y="-5" />
-			<point x="25" y="-4" />
-		</contour>
-		<contour>
-			<point x="223.3333" y="0" type="curve" />
-			<point x="229.1667" y="132" />
-			<point x="275.8333" y="286" />
-			<point x="306.6667" y="430" type="curve" smooth="yes" />
-			<point x="315" y="468" />
-			<point x="296.6667" y="536" />
-			<point x="245" y="536" type="curve" smooth="yes" />
-			<point x="200.8333" y="536" />
-			<point x="145.8333" y="495" />
-			<point x="100.8333" y="380" type="curve" smooth="yes" />
-			<point x="87.5" y="346" />
-			<point x="85" y="323" />
-			<point x="85" y="311" type="curve" />
-			<point x="155" y="450" />
-			<point x="197.5" y="488" />
-			<point x="235.8333" y="488" type="curve" smooth="yes" />
-			<point x="262.5" y="488" />
-			<point x="273.3333" y="473" />
-			<point x="272.5" y="438" type="curve" />
-			<point x="238.3333" y="304" />
-			<point x="220" y="230" />
-			<point x="196.6667" y="120" type="curve" smooth="yes" />
-			<point x="174.1667" y="15" />
-			<point x="185.8333" y="-3" />
-			<point x="206.6667" y="-3" type="curve" smooth="yes" />
-			<point x="212.5" y="-3" />
-			<point x="217.5" y="-2" />
-		</contour>
-		<contour>
-			<point x="427.5" y="0" type="curve" />
-			<point x="420.8333" y="43" />
-			<point x="421.6667" y="77" />
-			<point x="427.5" y="123" type="curve" smooth="yes" />
-			<point x="440" y="225" />
-			<point x="475" y="308" />
-			<point x="487.5" y="409" type="curve" smooth="yes" />
-			<point x="496.6667" y="478" />
-			<point x="478.3333" y="536" />
-			<point x="425.8333" y="536" type="curve" smooth="yes" />
-			<point x="380" y="536" />
-			<point x="326.6667" y="482" />
-			<point x="290" y="377" type="curve" smooth="yes" />
-			<point x="274.1667" y="331" />
-			<point x="272.5" y="327" />
-			<point x="273.3333" y="311" type="curve" />
-			<point x="330" y="421" />
-			<point x="378.3333" y="488" />
-			<point x="415.8333" y="488" type="curve" smooth="yes" />
-			<point x="446.6667" y="488" />
-			<point x="455.8333" y="464" />
-			<point x="454.1667" y="416" type="curve" />
-			<point x="421.6667" y="291" />
-			<point x="395" y="218" />
-			<point x="382.5" y="120" type="curve" smooth="yes" />
-			<point x="370.8333" y="26" />
-			<point x="380.8333" y="-5" />
-			<point x="408.3333" y="-5" type="curve" smooth="yes" />
-			<point x="415.8333" y="-5" />
-			<point x="421.6667" y="-3" />
-		</contour>
-		<contour>
-			<point x="108.3333" y="427" type="line" />
-			<point x="85.8333" y="374" type="line" />
-			<point x="105" y="372" type="line" />
-			<point x="126.6667" y="417" type="line" />
-		</contour>
-		<contour>
-			<point x="301.6667" y="436" type="line" />
-			<point x="279.1667" y="383" type="line" />
-			<point x="298.3333" y="381" type="line" />
-			<point x="320" y="426" type="line" />
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.rafalbuchner.mirroringDrawingLocal</key>
-			<dict>
-				<key>mirroringOptions</key>
-				<integer>3</integer>
-				<key>offset</key>
-				<array>
-					<integer>0</integer>
-					<integer>0</integer>
-				</array>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="500"/>
+  <unicode hex="006D"/>
+  <outline>
+    <contour>
+      <point x="29.1667" y="-2" type="curve"/>
+      <point x="37.5" y="146"/>
+      <point x="99.1667" y="304"/>
+      <point x="119.1667" y="459" type="curve" smooth="yes"/>
+      <point x="125.8333" y="509"/>
+      <point x="115.8333" y="532"/>
+      <point x="95" y="532" type="curve" smooth="yes"/>
+      <point x="86.6667" y="532"/>
+      <point x="80.8333" y="531"/>
+      <point x="75" y="527" type="curve"/>
+      <point x="78.3333" y="503"/>
+      <point x="79.1667" y="483"/>
+      <point x="73.3333" y="435" type="curve" smooth="yes"/>
+      <point x="56.6667" y="296"/>
+      <point x="5" y="157"/>
+      <point x="-7.5" y="41" type="curve" smooth="yes"/>
+      <point x="-10.8333" y="10"/>
+      <point x="-3.3333" y="-5"/>
+      <point x="16.6667" y="-5" type="curve" smooth="yes"/>
+      <point x="20.8333" y="-5"/>
+      <point x="25" y="-4"/>
+    </contour>
+    <contour>
+      <point x="223.3333" y="0" type="curve"/>
+      <point x="229.1667" y="132"/>
+      <point x="275.8333" y="286"/>
+      <point x="306.6667" y="430" type="curve" smooth="yes"/>
+      <point x="315" y="468"/>
+      <point x="296.6667" y="536"/>
+      <point x="245" y="536" type="curve" smooth="yes"/>
+      <point x="200.8333" y="536"/>
+      <point x="145.8333" y="495"/>
+      <point x="100.8333" y="380" type="curve" smooth="yes"/>
+      <point x="87.5" y="346"/>
+      <point x="85" y="323"/>
+      <point x="85" y="311" type="curve"/>
+      <point x="155" y="450"/>
+      <point x="197.5" y="488"/>
+      <point x="235.8333" y="488" type="curve" smooth="yes"/>
+      <point x="262.5" y="488"/>
+      <point x="273.3333" y="473"/>
+      <point x="272.5" y="438" type="curve"/>
+      <point x="238.3333" y="304"/>
+      <point x="220" y="230"/>
+      <point x="196.6667" y="120" type="curve" smooth="yes"/>
+      <point x="174.1667" y="15"/>
+      <point x="185.8333" y="-3"/>
+      <point x="206.6667" y="-3" type="curve" smooth="yes"/>
+      <point x="212.5" y="-3"/>
+      <point x="217.5" y="-2"/>
+    </contour>
+    <contour>
+      <point x="427.5" y="0" type="curve"/>
+      <point x="420.8333" y="43"/>
+      <point x="421.6667" y="77"/>
+      <point x="427.5" y="123" type="curve" smooth="yes"/>
+      <point x="440" y="225"/>
+      <point x="475" y="308"/>
+      <point x="487.5" y="409" type="curve" smooth="yes"/>
+      <point x="496.6667" y="478"/>
+      <point x="478.3333" y="536"/>
+      <point x="425.8333" y="536" type="curve" smooth="yes"/>
+      <point x="380" y="536"/>
+      <point x="326.6667" y="482"/>
+      <point x="290" y="377" type="curve" smooth="yes"/>
+      <point x="274.1667" y="331"/>
+      <point x="272.5" y="327"/>
+      <point x="273.3333" y="311" type="curve"/>
+      <point x="330" y="421"/>
+      <point x="378.3333" y="488"/>
+      <point x="415.8333" y="488" type="curve" smooth="yes"/>
+      <point x="446.6667" y="488"/>
+      <point x="455.8333" y="464"/>
+      <point x="454.1667" y="416" type="curve"/>
+      <point x="421.6667" y="291"/>
+      <point x="395" y="218"/>
+      <point x="382.5" y="120" type="curve" smooth="yes"/>
+      <point x="370.8333" y="26"/>
+      <point x="380.8333" y="-5"/>
+      <point x="408.3333" y="-5" type="curve" smooth="yes"/>
+      <point x="415.8333" y="-5"/>
+      <point x="421.6667" y="-3"/>
+    </contour>
+    <contour>
+      <point x="108.3333" y="427" type="line"/>
+      <point x="85.8333" y="374" type="line"/>
+      <point x="105" y="372" type="line"/>
+      <point x="126.6667" y="417" type="line"/>
+    </contour>
+    <contour>
+      <point x="301.6667" y="436" type="line"/>
+      <point x="279.1667" y="383" type="line"/>
+      <point x="298.3333" y="381" type="line"/>
+      <point x="320" y="426" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.rafalbuchner.mirroringDrawingLocal</key>
+      <dict>
+        <key>mirroringOptions</key>
+        <integer>3</integer>
+        <key>offset</key>
+        <array>
+          <integer>0</integer>
+          <integer>0</integer>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

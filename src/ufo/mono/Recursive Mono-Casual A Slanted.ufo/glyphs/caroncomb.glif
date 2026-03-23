@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="caroncomb" format="2">
-	<unicode hex="030C" />
-	<outline>
-		<component base="circumflexcomb" xScale="-1" yScale="-1" xOffset="194.1667" yOffset="1459" />
-	</outline>
-	<anchor name="_top" x="56.6667" y="535" />
-	<anchor name="dot" x="120.8333" y="844" />
+  <unicode hex="030C"/>
+  <anchor x="56.6667" y="535" name="_top"/>
+  <anchor x="120.8333" y="844" name="dot"/>
+  <outline>
+    <component base="circumflexcomb" xScale="-1" yScale="-1" xOffset="194.1667" yOffset="1459"/>
+  </outline>
 </glyph>

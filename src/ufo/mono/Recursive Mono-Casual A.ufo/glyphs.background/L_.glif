@@ -1,45 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L" format="2">
-	<unicode hex="004C" />
-	<advance width="500" />
-	<outline>
-		<contour>
-			<point x="113.3333" y="0" type="curve" />
-			<point x="440" y="0" type="line" />
-			<point x="440.8333" y="3" />
-			<point x="441.6667" y="11" />
-			<point x="441.6667" y="16" type="curve" />
-			<point x="441.6667" y="40" />
-			<point x="435" y="50" />
-			<point x="415" y="50" type="curve" />
-			<point x="125" y="50" type="line" />
-			<point x="125" y="222" />
-			<point x="125" y="418" />
-			<point x="125" y="589" type="curve" />
-			<point x="125" y="616" />
-			<point x="121.6667" y="632" />
-			<point x="113.3333" y="646" type="curve" />
-			<point x="125.8333" y="675" type="line" />
-			<point x="83.3333" y="675" type="line" />
-			<point x="83.3333" y="501" />
-			<point x="83.3333" y="254" />
-			<point x="83.3333" y="53" type="curve" />
-			<point x="83.3333" y="24" />
-			<point x="95" y="0" />
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.rafalbuchner.mirroringDrawingLocal</key>
-			<dict>
-				<key>mirroringOptions</key>
-				<integer>3</integer>
-				<key>offset</key>
-				<array>
-					<integer>0</integer>
-					<integer>0</integer>
-				</array>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="500"/>
+  <unicode hex="004C"/>
+  <outline>
+    <contour>
+      <point x="113.3333" y="0" type="curve"/>
+      <point x="440" y="0" type="line"/>
+      <point x="440.8333" y="3"/>
+      <point x="441.6667" y="11"/>
+      <point x="441.6667" y="16" type="curve"/>
+      <point x="441.6667" y="40"/>
+      <point x="435" y="50"/>
+      <point x="415" y="50" type="curve"/>
+      <point x="125" y="50" type="line"/>
+      <point x="125" y="222"/>
+      <point x="125" y="418"/>
+      <point x="125" y="589" type="curve"/>
+      <point x="125" y="616"/>
+      <point x="121.6667" y="632"/>
+      <point x="113.3333" y="646" type="curve"/>
+      <point x="125.8333" y="675" type="line"/>
+      <point x="83.3333" y="675" type="line"/>
+      <point x="83.3333" y="501"/>
+      <point x="83.3333" y="254"/>
+      <point x="83.3333" y="53" type="curve"/>
+      <point x="83.3333" y="24"/>
+      <point x="95" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.rafalbuchner.mirroringDrawingLocal</key>
+      <dict>
+        <key>mirroringOptions</key>
+        <integer>3</integer>
+        <key>offset</key>
+        <array>
+          <integer>0</integer>
+          <integer>0</integer>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

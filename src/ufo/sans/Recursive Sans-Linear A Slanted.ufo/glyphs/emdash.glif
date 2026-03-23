@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="emdash" format="2">
-	<unicode hex="2014" />
-	<advance width="500" />
-	<outline>
-		<contour>
-			<point x="3.5605" y="325" type="line" />
-			<point x="0.8514" y="312" />
-			<point x="-1.8576" y="299" />
-			<point x="-4.5667" y="286" type="curve" smooth="yes" />
-			<point x="-6.0255" y="279" />
-			<point x="-3.5257" y="275" />
-			<point x="2.3076" y="275" type="curve" smooth="yes" />
-			<point x="511.4743" y="275" type="line" />
-			<point x="514.1834" y="288" />
-			<point x="516.8925" y="301" />
-			<point x="519.6016" y="314" type="curve" smooth="yes" />
-			<point x="521.0603" y="321" />
-			<point x="518.5605" y="325" />
-			<point x="512.7272" y="325" type="curve" />
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.arrowtype.glyphMarkStatus</key>
-			<string>fix</string>
-			<key>public.markColor</key>
-			<string>1,0.65,0.65,0.5</string>
-		</dict>
-	</lib>
+  <advance width="500"/>
+  <unicode hex="2014"/>
+  <outline>
+    <contour>
+      <point x="3.5605" y="325" type="line"/>
+      <point x="0.8514" y="312"/>
+      <point x="-1.8576" y="299"/>
+      <point x="-4.5667" y="286" type="curve" smooth="yes"/>
+      <point x="-6.0255" y="279"/>
+      <point x="-3.5257" y="275"/>
+      <point x="2.3076" y="275" type="curve" smooth="yes"/>
+      <point x="511.4743" y="275" type="line"/>
+      <point x="514.1834" y="288"/>
+      <point x="516.8925" y="301"/>
+      <point x="519.6016" y="314" type="curve" smooth="yes"/>
+      <point x="521.0603" y="321"/>
+      <point x="518.5605" y="325"/>
+      <point x="512.7272" y="325" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.glyphMarkStatus</key>
+      <string>fix</string>
+      <key>public.markColor</key>
+      <string>1,0.65,0.65,0.5</string>
+    </dict>
+  </lib>
 </glyph>
