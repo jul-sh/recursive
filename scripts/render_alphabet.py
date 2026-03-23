@@ -30,8 +30,8 @@ ROW_LABELS = ["Uppercase", "Lowercase", "Digits", "Punct/Liga"]
 # OpenType feature substitutions (ss03, ss04, ss05, ss06, ss08, ss12, liga)
 # Maps: original glyph name -> alternate glyph name
 FEATURE_SUBS = {
-    # ss03: simplified f
-    "f": "f.simple",
+    # ss03: use non-descending mono f
+    "f": "f.mono",
     # ss04: simplified i
     "i": "i.simple",
     # ss05: simplified l
