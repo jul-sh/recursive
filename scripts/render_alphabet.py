@@ -15,7 +15,8 @@ UFO_ROOT = os.path.join(ROOT, "src", "ufo")
 OUT_DIR = os.path.join(ROOT, "proofs")
 
 SCALE = 0.12  # scale factor for rendering
-GLYPH_ADVANCE = 500 * SCALE  # each glyph cell width
+GLYPH_GAP = 8  # extra pixels between glyphs to prevent M/N joining
+GLYPH_ADVANCE = 500 * SCALE + GLYPH_GAP  # each glyph cell width
 CAP_HEIGHT = 700
 LINE_HEIGHT = (CAP_HEIGHT + 300) * SCALE  # room for ascenders/descenders
 
