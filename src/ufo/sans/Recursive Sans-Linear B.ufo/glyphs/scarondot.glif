@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scarondot" format="2">
-  <advance width="458"/>
-  <unicode hex="1E67"/>
-  <outline>
-    <component base="s"/>
-    <component base="caroncomb" xOffset="230.8333"/>
-    <component base="dotaccentcomb" xOffset="230.8333" yOffset="209"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,0,0.1505</string>
-    </dict>
-  </lib>
+	<unicode hex="1E67" />
+	<advance width="458" />
+	<outline>
+		<component base="s" />
+		<component base="caroncomb" xOffset="230.8333" />
+		<component base="dotaccentcomb" xOffset="230.8333" yOffset="209" />
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0,0,0.1505</string>
+		</dict>
+	</lib>
 </glyph>

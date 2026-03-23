@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sdotbelowdotabove" format="2">
-  <advance width="500"/>
-  <unicode hex="1E69"/>
-  <outline>
-    <component base="s"/>
-    <component base="dotbelowcomb" xOffset="266.6667"/>
-    <component base="dotaccentcomb" xOffset="261.6667"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,0,0.1505</string>
-    </dict>
-  </lib>
+	<unicode hex="1E69" />
+	<advance width="500" />
+	<outline>
+		<component base="s" />
+		<component base="dotbelowcomb" xOffset="266.6667" />
+		<component base="dotaccentcomb" xOffset="261.6667" />
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0,0,0.1505</string>
+		</dict>
+	</lib>
 </glyph>

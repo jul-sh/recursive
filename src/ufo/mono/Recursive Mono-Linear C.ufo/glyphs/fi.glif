@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fi" format="2">
-  <advance width="500"/>
-  <unicode hex="FB01"/>
-  <guideline x="470.8333" y="318" angle="90" color="0.999,0.001,0.001,0.3996" identifier="W6Dwa4RflK"/>
-  <guideline x="0" y="662" angle="0" identifier="QAIeWFCzE5"/>
-  <anchor x="500" y="0" name="caret_1"/>
-  <outline>
-    <component base="f.italic"/>
-    <component base="i.italic" xOffset="500"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.5,0,1</string>
-    </dict>
-  </lib>
+	<unicode hex="FB01" />
+	<advance width="500" />
+	<guideline x="470.8333" y="318" angle="90" color="0.999,0.001,0.001,0.3996" identifier="W6Dwa4RflK" />
+	<guideline x="0" y="662" angle="0" identifier="QAIeWFCzE5" />
+	<outline>
+		<component base="f.italic" />
+		<component base="i.italic" xOffset="500" />
+	</outline>
+	<anchor name="caret_1" x="500" y="0" />
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0.5,0,1</string>
+		</dict>
+	</lib>
 </glyph>

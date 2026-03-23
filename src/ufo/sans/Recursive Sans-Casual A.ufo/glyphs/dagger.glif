@@ -1,57 +1,57 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dagger" format="2">
-  <advance width="500"/>
-  <unicode hex="2020"/>
-  <outline>
-    <contour>
-      <point x="280" y="-150" type="curve"/>
-      <point x="271.6667" y="-102"/>
-      <point x="270" y="-61"/>
-      <point x="270" y="1" type="curve" smooth="yes"/>
-      <point x="270" y="460" type="line"/>
-      <point x="270" y="670" type="line" smooth="yes"/>
-      <point x="270" y="701"/>
-      <point x="260.8333" y="710"/>
-      <point x="240.8333" y="710" type="curve" smooth="yes"/>
-      <point x="233.3333" y="710"/>
-      <point x="227.5" y="709"/>
-      <point x="222.5" y="707" type="curve"/>
-      <point x="227.5" y="672"/>
-      <point x="228.3333" y="637"/>
-      <point x="228.3333" y="600" type="curve" smooth="yes"/>
-      <point x="228.3333" y="283" type="line" smooth="yes"/>
-      <point x="228.3333" y="-85"/>
-      <point x="238.3333" y="-127"/>
-      <point x="253.3333" y="-145" type="curve" smooth="yes"/>
-      <point x="258.3333" y="-151"/>
-      <point x="262.5" y="-153"/>
-      <point x="268.3333" y="-153" type="curve" smooth="yes"/>
-      <point x="272.5" y="-153"/>
-      <point x="276.6667" y="-152"/>
-    </contour>
-    <contour>
-      <point x="50" y="450" type="curve"/>
-      <point x="450" y="450" type="line"/>
-      <point x="450" y="453"/>
-      <point x="450" y="457"/>
-      <point x="450" y="460" type="curve" smooth="yes"/>
-      <point x="450" y="482"/>
-      <point x="445.8333" y="500"/>
-      <point x="430.8333" y="500" type="curve" smooth="yes"/>
-      <point x="69.1667" y="500" type="line" smooth="yes"/>
-      <point x="53.8889" y="500"/>
-      <point x="50" y="482"/>
-      <point x="50" y="460" type="curve"/>
-      <point x="50" y="457"/>
-      <point x="50" y="453"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.arrowtype.glyphMarkStatus</key>
-      <string>fromComponents</string>
-      <key>public.markColor</key>
-      <string>0,0,0,0.25</string>
-    </dict>
-  </lib>
+	<unicode hex="2020" />
+	<advance width="500" />
+	<outline>
+		<contour>
+			<point x="280" y="-150" type="curve" />
+			<point x="271.6667" y="-102" />
+			<point x="270" y="-61" />
+			<point x="270" y="1" type="curve" smooth="yes" />
+			<point x="270" y="460" type="line" />
+			<point x="270" y="670" type="line" smooth="yes" />
+			<point x="270" y="701" />
+			<point x="260.8333" y="710" />
+			<point x="240.8333" y="710" type="curve" smooth="yes" />
+			<point x="233.3333" y="710" />
+			<point x="227.5" y="709" />
+			<point x="222.5" y="707" type="curve" />
+			<point x="227.5" y="672" />
+			<point x="228.3333" y="637" />
+			<point x="228.3333" y="600" type="curve" smooth="yes" />
+			<point x="228.3333" y="283" type="line" smooth="yes" />
+			<point x="228.3333" y="-85" />
+			<point x="238.3333" y="-127" />
+			<point x="253.3333" y="-145" type="curve" smooth="yes" />
+			<point x="258.3333" y="-151" />
+			<point x="262.5" y="-153" />
+			<point x="268.3333" y="-153" type="curve" smooth="yes" />
+			<point x="272.5" y="-153" />
+			<point x="276.6667" y="-152" />
+		</contour>
+		<contour>
+			<point x="50" y="450" type="curve" />
+			<point x="450" y="450" type="line" />
+			<point x="450" y="453" />
+			<point x="450" y="457" />
+			<point x="450" y="460" type="curve" smooth="yes" />
+			<point x="450" y="482" />
+			<point x="445.8333" y="500" />
+			<point x="430.8333" y="500" type="curve" smooth="yes" />
+			<point x="69.1667" y="500" type="line" smooth="yes" />
+			<point x="53.8889" y="500" />
+			<point x="50" y="482" />
+			<point x="50" y="460" type="curve" />
+			<point x="50" y="457" />
+			<point x="50" y="453" />
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.arrowtype.glyphMarkStatus</key>
+			<string>fromComponents</string>
+			<key>public.markColor</key>
+			<string>0,0,0,0.25</string>
+		</dict>
+	</lib>
 </glyph>

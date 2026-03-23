@@ -1,50 +1,50 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hookcomb" format="2">
-  <unicode hex="0309"/>
-  <anchor x="64.1667" y="584" name="_hook"/>
-  <outline>
-    <contour>
-      <point x="12.5" y="607" type="curve" smooth="yes"/>
-      <point x="7.5" y="600"/>
-      <point x="4.1667" y="594"/>
-      <point x="12.5" y="594" type="curve" smooth="yes"/>
-      <point x="35" y="594"/>
-      <point x="112.5" y="594"/>
-      <point x="143.3333" y="594" type="curve"/>
-      <point x="159.1667" y="613"/>
-      <point x="175" y="632"/>
-      <point x="188.3333" y="648" type="curve" smooth="yes"/>
-      <point x="209.1667" y="672"/>
-      <point x="223.3333" y="691"/>
-      <point x="224.1667" y="693" type="curve" smooth="yes"/>
-      <point x="249.1667" y="813" type="line" smooth="yes"/>
-      <point x="250.8333" y="821"/>
-      <point x="247.5" y="824"/>
-      <point x="241.6667" y="824" type="curve" smooth="yes"/>
-      <point x="197.5" y="824"/>
-      <point x="40.8333" y="824"/>
-      <point x="10" y="824" type="curve" smooth="yes"/>
-      <point x="4.1667" y="824"/>
-      <point x="0" y="820"/>
-      <point x="-1.6667" y="813" type="curve" smooth="yes"/>
-      <point x="-6.6667" y="790"/>
-      <point x="-17.5" y="736"/>
-      <point x="-25.8333" y="699" type="curve"/>
-      <point x="-7.5" y="699" type="line"/>
-      <point x="6.6667" y="699"/>
-      <point x="37.5" y="699"/>
-      <point x="47.5" y="699" type="curve" smooth="yes"/>
-      <point x="57.5" y="699"/>
-      <point x="62.5" y="699"/>
-      <point x="70.8333" y="699" type="curve"/>
-      <point x="70" y="693"/>
-      <point x="69.1667" y="689"/>
-      <point x="68.3333" y="687" type="curve"/>
-      <point x="58.3333" y="673"/>
-      <point x="49.1667" y="660"/>
-      <point x="40.8333" y="648" type="curve" smooth="yes"/>
-      <point x="30.8333" y="634"/>
-      <point x="21.6667" y="620"/>
-    </contour>
-  </outline>
+	<unicode hex="0309" />
+	<outline>
+		<contour>
+			<point x="12.5" y="607" type="curve" smooth="yes" />
+			<point x="7.5" y="600" />
+			<point x="4.1667" y="594" />
+			<point x="12.5" y="594" type="curve" smooth="yes" />
+			<point x="35" y="594" />
+			<point x="112.5" y="594" />
+			<point x="143.3333" y="594" type="curve" />
+			<point x="159.1667" y="613" />
+			<point x="175" y="632" />
+			<point x="188.3333" y="648" type="curve" smooth="yes" />
+			<point x="209.1667" y="672" />
+			<point x="223.3333" y="691" />
+			<point x="224.1667" y="693" type="curve" smooth="yes" />
+			<point x="249.1667" y="813" type="line" smooth="yes" />
+			<point x="250.8333" y="821" />
+			<point x="247.5" y="824" />
+			<point x="241.6667" y="824" type="curve" smooth="yes" />
+			<point x="197.5" y="824" />
+			<point x="40.8333" y="824" />
+			<point x="10" y="824" type="curve" smooth="yes" />
+			<point x="4.1667" y="824" />
+			<point x="0" y="820" />
+			<point x="-1.6667" y="813" type="curve" smooth="yes" />
+			<point x="-6.6667" y="790" />
+			<point x="-17.5" y="736" />
+			<point x="-25.8333" y="699" type="curve" />
+			<point x="-7.5" y="699" type="line" />
+			<point x="6.6667" y="699" />
+			<point x="37.5" y="699" />
+			<point x="47.5" y="699" type="curve" smooth="yes" />
+			<point x="57.5" y="699" />
+			<point x="62.5" y="699" />
+			<point x="70.8333" y="699" type="curve" />
+			<point x="70" y="693" />
+			<point x="69.1667" y="689" />
+			<point x="68.3333" y="687" type="curve" />
+			<point x="58.3333" y="673" />
+			<point x="49.1667" y="660" />
+			<point x="40.8333" y="648" type="curve" smooth="yes" />
+			<point x="30.8333" y="634" />
+			<point x="21.6667" y="620" />
+		</contour>
+	</outline>
+	<anchor name="_hook" x="64.1667" y="584" />
 </glyph>

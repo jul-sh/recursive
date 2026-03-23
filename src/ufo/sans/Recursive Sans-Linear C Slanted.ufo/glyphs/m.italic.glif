@@ -1,119 +1,119 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="m.italic" format="2">
-  <advance width="708"/>
-  <anchor x="301.6667" y="0" name="bottom"/>
-  <anchor x="354.1667" y="561" name="top"/>
-  <outline>
-    <contour>
-      <point x="82.5" y="550" type="curve"/>
-      <point x="76.6667" y="522"/>
-      <point x="69.1667" y="488"/>
-      <point x="61.6667" y="452" type="curve" smooth="yes"/>
-      <point x="30.8333" y="305"/>
-      <point x="0" y="158"/>
-      <point x="-30" y="11" type="curve" smooth="yes"/>
-      <point x="-31.6667" y="4"/>
-      <point x="-29.1667" y="0"/>
-      <point x="-23.3333" y="0" type="curve" smooth="yes"/>
-      <point x="7.5" y="0"/>
-      <point x="107.5" y="0"/>
-      <point x="138.3333" y="0" type="curve"/>
-      <point x="169.1667" y="149"/>
-      <point x="200.8333" y="299"/>
-      <point x="231.6667" y="448" type="curve"/>
-      <point x="232.5" y="450"/>
-      <point x="237.5" y="550"/>
-      <point x="236.6667" y="550" type="curve" smooth="yes"/>
-      <point x="231.6667" y="550"/>
-      <point x="122.5" y="550"/>
-    </contour>
-    <contour>
-      <point x="377.5" y="560" type="curve"/>
-      <point x="336.6667" y="560"/>
-      <point x="293.3333" y="522"/>
-      <point x="252.5" y="465" type="curve"/>
-      <point x="210.8333" y="465" type="line"/>
-      <point x="192.5" y="328" type="line"/>
-      <point x="219.1667" y="347"/>
-      <point x="234.1667" y="355"/>
-      <point x="261.6667" y="355" type="curve" smooth="yes"/>
-      <point x="280" y="355"/>
-      <point x="285" y="350"/>
-      <point x="280" y="326" type="curve" smooth="yes"/>
-      <point x="257.5" y="221"/>
-      <point x="238.3333" y="127"/>
-      <point x="214.1667" y="11" type="curve" smooth="yes"/>
-      <point x="212.5" y="4"/>
-      <point x="215" y="0"/>
-      <point x="220.8333" y="0" type="curve"/>
-      <point x="256.6667" y="0"/>
-      <point x="337.5" y="0"/>
-      <point x="373.3333" y="0" type="curve"/>
-      <point x="404.1667" y="148"/>
-      <point x="441.6667" y="326"/>
-      <point x="455" y="390" type="curve" smooth="yes"/>
-      <point x="481.6667" y="521"/>
-      <point x="432.5" y="560"/>
-    </contour>
-    <contour>
-      <point x="612.5" y="560" type="curve" smooth="yes"/>
-      <point x="566.6667" y="560"/>
-      <point x="524.1667" y="525"/>
-      <point x="484.1667" y="465" type="curve"/>
-      <point x="456.6667" y="465" type="line"/>
-      <point x="428.3333" y="329" type="line"/>
-      <point x="452.5" y="346"/>
-      <point x="474.1667" y="355"/>
-      <point x="496.6667" y="355" type="curve" smooth="yes"/>
-      <point x="515.8333" y="355"/>
-      <point x="519.1667" y="349"/>
-      <point x="515" y="327" type="curve" smooth="yes"/>
-      <point x="500" y="258"/>
-      <point x="488.3333" y="198"/>
-      <point x="471.6667" y="122" type="curve" smooth="yes"/>
-      <point x="456.6667" y="55"/>
-      <point x="485" y="-5"/>
-      <point x="537.5" y="-5" type="curve"/>
-      <point x="568.3333" y="-5"/>
-      <point x="600.8333" y="-5"/>
-      <point x="631.6667" y="-5" type="curve" smooth="yes"/>
-      <point x="637.5" y="-5"/>
-      <point x="641.6667" y="-1"/>
-      <point x="643.3333" y="6" type="curve" smooth="yes"/>
-      <point x="655.8333" y="65"/>
-      <point x="667.5" y="125"/>
-      <point x="680" y="184" type="curve"/>
-      <point x="673.3333" y="184" type="line"/>
-      <point x="670" y="184"/>
-      <point x="668.3333" y="184"/>
-      <point x="665" y="184" type="curve"/>
-      <point x="661.6667" y="184"/>
-      <point x="660" y="185"/>
-      <point x="659.1667" y="187" type="curve"/>
-      <point x="657.5" y="189"/>
-      <point x="657.5" y="192"/>
-      <point x="658.3333" y="196" type="curve"/>
-      <point x="674.1667" y="273"/>
-      <point x="690.8333" y="350"/>
-      <point x="699.1667" y="391" type="curve" smooth="yes"/>
-      <point x="723.3333" y="509"/>
-      <point x="672.5" y="560"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.arrowtype.glyphMarkStatus</key>
-      <string>needsFixing</string>
-      <key>com.typemytype.robofont.Image.Brightness</key>
-      <integer>0</integer>
-      <key>com.typemytype.robofont.Image.Contrast</key>
-      <integer>1</integer>
-      <key>com.typemytype.robofont.Image.Saturation</key>
-      <integer>1</integer>
-      <key>com.typemytype.robofont.Image.Sharpness</key>
-      <real>0.4</real>
-      <key>public.markColor</key>
-      <string>1,0.45,0.45,0.75</string>
-    </dict>
-  </lib>
+	<advance width="708" />
+	<outline>
+		<contour>
+			<point x="82.5" y="550" type="curve" />
+			<point x="76.6667" y="522" />
+			<point x="69.1667" y="488" />
+			<point x="61.6667" y="452" type="curve" smooth="yes" />
+			<point x="30.8333" y="305" />
+			<point x="0" y="158" />
+			<point x="-30" y="11" type="curve" smooth="yes" />
+			<point x="-31.6667" y="4" />
+			<point x="-29.1667" y="0" />
+			<point x="-23.3333" y="0" type="curve" smooth="yes" />
+			<point x="7.5" y="0" />
+			<point x="107.5" y="0" />
+			<point x="138.3333" y="0" type="curve" />
+			<point x="169.1667" y="149" />
+			<point x="200.8333" y="299" />
+			<point x="231.6667" y="448" type="curve" />
+			<point x="232.5" y="450" />
+			<point x="237.5" y="550" />
+			<point x="236.6667" y="550" type="curve" smooth="yes" />
+			<point x="231.6667" y="550" />
+			<point x="122.5" y="550" />
+		</contour>
+		<contour>
+			<point x="377.5" y="560" type="curve" />
+			<point x="336.6667" y="560" />
+			<point x="293.3333" y="522" />
+			<point x="252.5" y="465" type="curve" />
+			<point x="210.8333" y="465" type="line" />
+			<point x="192.5" y="328" type="line" />
+			<point x="219.1667" y="347" />
+			<point x="234.1667" y="355" />
+			<point x="261.6667" y="355" type="curve" smooth="yes" />
+			<point x="280" y="355" />
+			<point x="285" y="350" />
+			<point x="280" y="326" type="curve" smooth="yes" />
+			<point x="257.5" y="221" />
+			<point x="238.3333" y="127" />
+			<point x="214.1667" y="11" type="curve" smooth="yes" />
+			<point x="212.5" y="4" />
+			<point x="215" y="0" />
+			<point x="220.8333" y="0" type="curve" />
+			<point x="256.6667" y="0" />
+			<point x="337.5" y="0" />
+			<point x="373.3333" y="0" type="curve" />
+			<point x="404.1667" y="148" />
+			<point x="441.6667" y="326" />
+			<point x="455" y="390" type="curve" smooth="yes" />
+			<point x="481.6667" y="521" />
+			<point x="432.5" y="560" />
+		</contour>
+		<contour>
+			<point x="612.5" y="560" type="curve" smooth="yes" />
+			<point x="566.6667" y="560" />
+			<point x="524.1667" y="525" />
+			<point x="484.1667" y="465" type="curve" />
+			<point x="456.6667" y="465" type="line" />
+			<point x="428.3333" y="329" type="line" />
+			<point x="452.5" y="346" />
+			<point x="474.1667" y="355" />
+			<point x="496.6667" y="355" type="curve" smooth="yes" />
+			<point x="515.8333" y="355" />
+			<point x="519.1667" y="349" />
+			<point x="515" y="327" type="curve" smooth="yes" />
+			<point x="500" y="258" />
+			<point x="488.3333" y="198" />
+			<point x="471.6667" y="122" type="curve" smooth="yes" />
+			<point x="456.6667" y="55" />
+			<point x="485" y="-5" />
+			<point x="537.5" y="-5" type="curve" />
+			<point x="568.3333" y="-5" />
+			<point x="600.8333" y="-5" />
+			<point x="631.6667" y="-5" type="curve" smooth="yes" />
+			<point x="637.5" y="-5" />
+			<point x="641.6667" y="-1" />
+			<point x="643.3333" y="6" type="curve" smooth="yes" />
+			<point x="655.8333" y="65" />
+			<point x="667.5" y="125" />
+			<point x="680" y="184" type="curve" />
+			<point x="673.3333" y="184" type="line" />
+			<point x="670" y="184" />
+			<point x="668.3333" y="184" />
+			<point x="665" y="184" type="curve" />
+			<point x="661.6667" y="184" />
+			<point x="660" y="185" />
+			<point x="659.1667" y="187" type="curve" />
+			<point x="657.5" y="189" />
+			<point x="657.5" y="192" />
+			<point x="658.3333" y="196" type="curve" />
+			<point x="674.1667" y="273" />
+			<point x="690.8333" y="350" />
+			<point x="699.1667" y="391" type="curve" smooth="yes" />
+			<point x="723.3333" y="509" />
+			<point x="672.5" y="560" />
+		</contour>
+	</outline>
+	<anchor name="bottom" x="301.6667" y="0" />
+	<anchor name="top" x="354.1667" y="561" />
+	<lib>
+		<dict>
+			<key>com.arrowtype.glyphMarkStatus</key>
+			<string>needsFixing</string>
+			<key>com.typemytype.robofont.Image.Brightness</key>
+			<integer>0</integer>
+			<key>com.typemytype.robofont.Image.Contrast</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Saturation</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>1,0.45,0.45,0.75</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,43 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevecomb.case" format="2">
-  <anchor x="0" y="712" name="_top"/>
-  <anchor x="0" y="902" name="top"/>
-  <anchor x="0" y="919" name="hook"/>
-  <outline>
-    <contour>
-      <point x="60" y="951" type="curve"/>
-      <point x="50.8333" y="912"/>
-      <point x="33.3333" y="897"/>
-      <point x="0" y="897" type="curve"/>
-      <point x="-33.3333" y="897"/>
-      <point x="-50.8333" y="912"/>
-      <point x="-60" y="951" type="curve"/>
-      <point x="-90" y="951"/>
-      <point x="-120" y="951"/>
-      <point x="-150" y="951" type="curve" smooth="yes"/>
-      <point x="-160.8333" y="951"/>
-      <point x="-163.3333" y="948"/>
-      <point x="-161.6667" y="932" type="curve" smooth="yes"/>
-      <point x="-150.8333" y="840"/>
-      <point x="-100.8333" y="776"/>
-      <point x="-22.5" y="776" type="curve" smooth="yes"/>
-      <point x="22.5" y="776" type="line" smooth="yes"/>
-      <point x="97.5" y="776"/>
-      <point x="150.8333" y="840"/>
-      <point x="161.6667" y="932" type="curve" smooth="yes"/>
-      <point x="163.3333" y="948"/>
-      <point x="160.8333" y="951"/>
-      <point x="150" y="951" type="curve" smooth="yes"/>
-      <point x="120" y="951"/>
-      <point x="90" y="951"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.arrowtype.glyphMarkStatus</key>
-      <string>fromComponents</string>
-      <key>public.markColor</key>
-      <string>0,0,0,0.25</string>
-    </dict>
-  </lib>
+	<outline>
+		<contour>
+			<point x="60" y="951" type="curve" />
+			<point x="50.8333" y="912" />
+			<point x="33.3333" y="897" />
+			<point x="0" y="897" type="curve" />
+			<point x="-33.3333" y="897" />
+			<point x="-50.8333" y="912" />
+			<point x="-60" y="951" type="curve" />
+			<point x="-90" y="951" />
+			<point x="-120" y="951" />
+			<point x="-150" y="951" type="curve" smooth="yes" />
+			<point x="-160.8333" y="951" />
+			<point x="-163.3333" y="948" />
+			<point x="-161.6667" y="932" type="curve" smooth="yes" />
+			<point x="-150.8333" y="840" />
+			<point x="-100.8333" y="776" />
+			<point x="-22.5" y="776" type="curve" smooth="yes" />
+			<point x="22.5" y="776" type="line" smooth="yes" />
+			<point x="97.5" y="776" />
+			<point x="150.8333" y="840" />
+			<point x="161.6667" y="932" type="curve" smooth="yes" />
+			<point x="163.3333" y="948" />
+			<point x="160.8333" y="951" />
+			<point x="150" y="951" type="curve" smooth="yes" />
+			<point x="120" y="951" />
+			<point x="90" y="951" />
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="712" />
+	<anchor name="top" x="0" y="902" />
+	<anchor name="hook" x="0" y="919" />
+	<lib>
+		<dict>
+			<key>com.arrowtype.glyphMarkStatus</key>
+			<string>fromComponents</string>
+			<key>public.markColor</key>
+			<string>0,0,0,0.25</string>
+		</dict>
+	</lib>
 </glyph>

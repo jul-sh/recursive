@@ -1,63 +1,63 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L" format="2">
-  <advance width="500"/>
-  <unicode hex="004C"/>
-  <guideline x="0" y="0" angle="90"/>
-  <guideline x="41.6667" y="0" angle="90"/>
-  <guideline x="83.3333" y="0" angle="90"/>
-  <guideline x="125" y="0" angle="90"/>
-  <guideline x="166.6667" y="0" angle="90"/>
-  <guideline x="208.3333" y="0" angle="90"/>
-  <guideline x="250" y="0" angle="90"/>
-  <guideline x="291.6667" y="0" angle="90"/>
-  <guideline x="333.3333" y="0" angle="90"/>
-  <guideline x="375" y="0" angle="90"/>
-  <guideline x="416.6667" y="0" angle="90"/>
-  <guideline x="458.3333" y="0" angle="90"/>
-  <guideline x="500" y="0" angle="90"/>
-  <guideline x="0" y="-250" angle="0"/>
-  <guideline x="0" y="-200" angle="0"/>
-  <guideline x="0" y="-150" angle="0"/>
-  <guideline x="0" y="-100" angle="0"/>
-  <guideline x="0" y="-50" angle="0"/>
-  <guideline x="0" y="0" angle="0"/>
-  <guideline x="0" y="50" angle="0"/>
-  <guideline x="0" y="100" angle="0"/>
-  <guideline x="0" y="150" angle="0"/>
-  <guideline x="0" y="200" angle="0"/>
-  <guideline x="0" y="250" angle="0"/>
-  <guideline x="0" y="300" angle="0"/>
-  <guideline x="0" y="350" angle="0"/>
-  <guideline x="0" y="400" angle="0"/>
-  <guideline x="0" y="450" angle="0"/>
-  <guideline x="0" y="500" angle="0"/>
-  <guideline x="0" y="550" angle="0"/>
-  <guideline x="0" y="600" angle="0"/>
-  <guideline x="0" y="650" angle="0"/>
-  <guideline x="0" y="700" angle="0"/>
-  <anchor x="105" y="711" name="top"/>
-  <anchor x="338.3333" y="550" name="caronslovak"/>
-  <anchor x="259.1667" y="-1" name="bottom"/>
-  <anchor x="300.8333" y="400" name="dot"/>
-  <outline>
-    <contour>
-      <point x="125" y="20" type="curve"/>
-      <point x="125" y="650" type="line" smooth="yes"/>
-      <point x="125" y="672"/>
-      <point x="123.3333" y="690"/>
-      <point x="113.3333" y="702" type="curve" smooth="yes"/>
-      <point x="109.1667" y="707"/>
-      <point x="103.3333" y="710"/>
-      <point x="91.6667" y="710" type="curve" smooth="yes"/>
-      <point x="86.6667" y="710"/>
-      <point x="82.5" y="709"/>
-      <point x="77.5" y="707" type="curve"/>
-      <point x="82.5" y="672"/>
-      <point x="83.3333" y="637"/>
-      <point x="83.3333" y="600" type="curve" smooth="yes"/>
-      <point x="83.3333" y="50" type="line" smooth="yes"/>
-      <point x="83.3333" y="30"/>
-      <point x="104.1667" y="20"/>
-    </contour>
-  </outline>
+	<unicode hex="004C" />
+	<advance width="500" />
+	<outline>
+		<contour>
+			<point x="125" y="20" type="curve" />
+			<point x="125" y="650" type="line" smooth="yes" />
+			<point x="125" y="672" />
+			<point x="123.3333" y="690" />
+			<point x="113.3333" y="702" type="curve" smooth="yes" />
+			<point x="109.1667" y="707" />
+			<point x="103.3333" y="710" />
+			<point x="91.6667" y="710" type="curve" smooth="yes" />
+			<point x="86.6667" y="710" />
+			<point x="82.5" y="709" />
+			<point x="77.5" y="707" type="curve" />
+			<point x="82.5" y="672" />
+			<point x="83.3333" y="637" />
+			<point x="83.3333" y="600" type="curve" smooth="yes" />
+			<point x="83.3333" y="50" type="line" smooth="yes" />
+			<point x="83.3333" y="30" />
+			<point x="104.1667" y="20" />
+		</contour>
+		</outline>
+	<anchor name="top" x="105" y="711" />
+	<anchor name="caronslovak" x="338.3333" y="550" />
+	<anchor name="bottom" x="259.1667" y="-1" />
+	<anchor name="dot" x="300.8333" y="400" />
+	<guideline x="0" y="0" angle="90" />
+	<guideline x="41.6667" y="0" angle="90" />
+	<guideline x="83.3333" y="0" angle="90" />
+	<guideline x="125" y="0" angle="90" />
+	<guideline x="166.6667" y="0" angle="90" />
+	<guideline x="208.3333" y="0" angle="90" />
+	<guideline x="250" y="0" angle="90" />
+	<guideline x="291.6667" y="0" angle="90" />
+	<guideline x="333.3333" y="0" angle="90" />
+	<guideline x="375" y="0" angle="90" />
+	<guideline x="416.6667" y="0" angle="90" />
+	<guideline x="458.3333" y="0" angle="90" />
+	<guideline x="500" y="0" angle="90" />
+	<guideline x="0" y="-250" angle="0" />
+	<guideline x="0" y="-200" angle="0" />
+	<guideline x="0" y="-150" angle="0" />
+	<guideline x="0" y="-100" angle="0" />
+	<guideline x="0" y="-50" angle="0" />
+	<guideline x="0" y="0" angle="0" />
+	<guideline x="0" y="50" angle="0" />
+	<guideline x="0" y="100" angle="0" />
+	<guideline x="0" y="150" angle="0" />
+	<guideline x="0" y="200" angle="0" />
+	<guideline x="0" y="250" angle="0" />
+	<guideline x="0" y="300" angle="0" />
+	<guideline x="0" y="350" angle="0" />
+	<guideline x="0" y="400" angle="0" />
+	<guideline x="0" y="450" angle="0" />
+	<guideline x="0" y="500" angle="0" />
+	<guideline x="0" y="550" angle="0" />
+	<guideline x="0" y="600" angle="0" />
+	<guideline x="0" y="650" angle="0" />
+	<guideline x="0" y="700" angle="0" />
 </glyph>

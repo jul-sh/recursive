@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ecedillabreve.italic" format="2">
-  <advance width="500"/>
-  <outline>
-    <component base="e.italic"/>
-    <component base="cedillacomb" xOffset="259.7916"/>
-    <component base="brevecomb" xOffset="256.0728"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,0,0.1505</string>
-    </dict>
-  </lib>
+	<advance width="500" />
+	<outline>
+		<component base="e.italic" />
+		<component base="cedillacomb" xOffset="259.7916" />
+		<component base="brevecomb" xOffset="256.0728" />
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0,0,0.1505</string>
+		</dict>
+	</lib>
 </glyph>

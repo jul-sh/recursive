@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idotbelow" format="2">
-  <advance width="292"/>
-  <unicode hex="1ECB"/>
-  <outline>
-    <component base="dotlessi.italic"/>
-    <component base="dotbelowcomb" xOffset="178.3333"/>
-    <component base="dotaccentcomb" xOffset="178.3333"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,0,0.5</string>
-    </dict>
-  </lib>
+	<unicode hex="1ECB" />
+	<advance width="292" />
+	<outline>
+		<component base="dotlessi.italic" />
+		<component base="dotbelowcomb" xOffset="178.3333" />
+		<component base="dotaccentcomb" xOffset="178.3333" />
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0,0,0.5</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="u.italic" format="2">
-  <advance width="500"/>
-  <anchor x="250" y="551" name="top"/>
-  <anchor x="454.1667" y="0" name="ogonek"/>
-  <anchor x="252.5" y="-1" name="bottom"/>
-  <outline>
-  </outline>
+	<advance width="500" />
+	<anchor name="top" x="250" y="551" />
+	<anchor name="ogonek" x="454.1667" y="0" />
+	<anchor name="bottom" x="252.5" y="-1" />
 </glyph>

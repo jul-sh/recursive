@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L" format="2">
-  <advance width="500"/>
-  <anchor x="216.4996" y="711" name="top"/>
-  <anchor x="180.6249" y="-1" name="bottom"/>
-  <anchor x="389.1899" y="400" name="dot"/>
-  <anchor x="403.7819" y="550" name="caronslovak"/>
-  <outline>
-    <contour>
-      <point x="155.8391" y="100" type="curve"/>
-      <point x="278.5817" y="689" type="line"/>
-      <point x="279.2068" y="692"/>
-      <point x="278.9987" y="695"/>
-      <point x="277.7488" y="697" type="curve" smooth="yes"/>
-      <point x="276.4989" y="699"/>
-      <point x="274.2073" y="700"/>
-      <point x="271.7073" y="700" type="curve"/>
-      <point x="230.0406" y="700"/>
-      <point x="189.2073" y="700"/>
-      <point x="147.5406" y="700" type="curve"/>
-      <point x="140.6637" y="667"/>
-      <point x="133.5784" y="633"/>
-      <point x="126.7015" y="600" type="curve" smooth="yes"/>
-      <point x="24.7981" y="111" type="line" smooth="yes"/>
-      <point x="23.5478" y="105"/>
-      <point x="26.6725" y="100"/>
-    </contour>
-  </outline>
+	<advance width="500" />
+	<outline>
+		<contour>
+			<point x="155.8391" y="100" type="curve" />
+			<point x="278.5817" y="689" type="line" />
+			<point x="279.2068" y="692" />
+			<point x="278.9987" y="695" />
+			<point x="277.7488" y="697" type="curve" smooth="yes" />
+			<point x="276.4989" y="699" />
+			<point x="274.2073" y="700" />
+			<point x="271.7073" y="700" type="curve" />
+			<point x="230.0406" y="700" />
+			<point x="189.2073" y="700" />
+			<point x="147.5406" y="700" type="curve" />
+			<point x="140.6637" y="667" />
+			<point x="133.5784" y="633" />
+			<point x="126.7015" y="600" type="curve" smooth="yes" />
+			<point x="24.7981" y="111" type="line" smooth="yes" />
+			<point x="23.5478" y="105" />
+			<point x="26.6725" y="100" />
+		</contour>
+		</outline>
+	<anchor name="top" x="216.4996" y="711" />
+	<anchor name="bottom" x="180.6249" y="-1" />
+	<anchor name="dot" x="389.1899" y="400" />
+	<anchor name="caronslovak" x="403.7819" y="550" />
 </glyph>

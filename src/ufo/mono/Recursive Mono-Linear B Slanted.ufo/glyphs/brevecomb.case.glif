@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevecomb.case" format="2">
-  <anchor x="92.5" y="712" name="_top"/>
-  <anchor x="131.6667" y="902" name="top"/>
-  <anchor x="135" y="919" name="hook"/>
-  <outline>
-    <contour>
-      <point x="210" y="950" type="curve"/>
-      <point x="193.3333" y="910"/>
-      <point x="164.1667" y="896"/>
-      <point x="126.6667" y="896" type="curve"/>
-      <point x="89.1667" y="896"/>
-      <point x="67.5" y="910"/>
-      <point x="65" y="950" type="curve"/>
-      <point x="39.1667" y="950"/>
-      <point x="16.6667" y="950"/>
-      <point x="-9.1667" y="950" type="curve" smooth="yes"/>
-      <point x="-20" y="950"/>
-      <point x="-23.3333" y="947"/>
-      <point x="-24.1667" y="931" type="curve" smooth="yes"/>
-      <point x="-30.8333" y="834"/>
-      <point x="7.5" y="779"/>
-      <point x="92.5" y="779" type="curve" smooth="yes"/>
-      <point x="115.8333" y="779" type="line" smooth="yes"/>
-      <point x="205" y="779"/>
-      <point x="262.5" y="821"/>
-      <point x="299.1667" y="931" type="curve" smooth="yes"/>
-      <point x="304.1667" y="947"/>
-      <point x="301.6667" y="950"/>
-      <point x="290.8333" y="950" type="curve" smooth="yes"/>
-      <point x="265" y="950"/>
-      <point x="235.8333" y="950"/>
-    </contour>
-  </outline>
+	<outline>
+		<contour>
+			<point x="210" y="950" type="curve" />
+			<point x="193.3333" y="910" />
+			<point x="164.1667" y="896" />
+			<point x="126.6667" y="896" type="curve" />
+			<point x="89.1667" y="896" />
+			<point x="67.5" y="910" />
+			<point x="65" y="950" type="curve" />
+			<point x="39.1667" y="950" />
+			<point x="16.6667" y="950" />
+			<point x="-9.1667" y="950" type="curve" smooth="yes" />
+			<point x="-20" y="950" />
+			<point x="-23.3333" y="947" />
+			<point x="-24.1667" y="931" type="curve" smooth="yes" />
+			<point x="-30.8333" y="834" />
+			<point x="7.5" y="779" />
+			<point x="92.5" y="779" type="curve" smooth="yes" />
+			<point x="115.8333" y="779" type="line" smooth="yes" />
+			<point x="205" y="779" />
+			<point x="262.5" y="821" />
+			<point x="299.1667" y="931" type="curve" smooth="yes" />
+			<point x="304.1667" y="947" />
+			<point x="301.6667" y="950" />
+			<point x="290.8333" y="950" type="curve" smooth="yes" />
+			<point x="265" y="950" />
+			<point x="235.8333" y="950" />
+		</contour>
+	</outline>
+	<anchor name="_top" x="92.5" y="712" />
+	<anchor name="top" x="131.6667" y="902" />
+	<anchor name="hook" x="135" y="919" />
 </glyph>

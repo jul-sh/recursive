@@ -1,59 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="J" format="2">
-  <advance width="417"/>
-  <unicode hex="004A"/>
-  <anchor x="305.8333" y="711" name="top"/>
-  <anchor x="208.3333" y="0" name="bottom"/>
+  <advance width="417" />
+  <unicode hex="004A" />
   <outline>
-    <contour>
-      <point x="118.3333" y="195" type="curve" smooth="yes"/>
-      <point x="83.3333" y="195"/>
-      <point x="51.6667" y="206.5"/>
-      <point x="14.5833" y="240.5" type="curve"/>
-      <point x="3.75" y="240.5" type="line"/>
-      <point x="-6.6667" y="202"/>
-      <point x="-15.8333" y="166"/>
-      <point x="-26.25" y="117" type="curve"/>
-      <point x="-35.4167" y="74"/>
-      <point x="-35.4167" y="55"/>
-      <point x="-23.75" y="35.5" type="curve" smooth="yes"/>
-      <point x="-5" y="6"/>
-      <point x="41.25" y="-20"/>
-      <point x="119.5833" y="-20" type="curve"/>
-      <point x="256.6667" y="-20"/>
-      <point x="343.3333" y="46"/>
-      <point x="382.5" y="203" type="curve" smooth="yes"/>
-      <point x="415.9486" y="367.01"/>
-      <point x="450.4107" y="535.99"/>
-      <point x="483.8593" y="700" type="curve" smooth="yes"/>
-      <point x="483.8593" y="708"/>
-      <point x="464.5882" y="712"/>
-      <point x="416.4105" y="712" type="curve" smooth="yes"/>
-      <point x="397.1395" y="712"/>
-      <point x="377.8684" y="712"/>
-      <point x="358.5974" y="712" type="curve"/>
-      <point x="310.4197" y="712"/>
-      <point x="291.1486" y="708"/>
-      <point x="291.1486" y="700" type="curve"/>
-      <point x="291.1486" y="700"/>
-      <point x="291.1486" y="700"/>
-      <point x="291.1486" y="700" type="curve"/>
-      <point x="291.1486" y="700"/>
-      <point x="291.1486" y="700"/>
-      <point x="291.1486" y="700" type="curve"/>
-      <point x="291.1486" y="700" type="line"/>
-      <point x="291.1486" y="700" type="line"/>
-      <point x="291.1486" y="700" type="line"/>
-      <point x="262.7196" y="559.75"/>
-      <point x="233.4291" y="415.25"/>
-      <point x="205" y="275" type="curve"/>
-      <point x="199.5833" y="250.5"/>
-      <point x="193.3333" y="230"/>
-      <point x="184.5833" y="216.5" type="curve" smooth="yes"/>
-      <point x="165.8333" y="200"/>
-      <point x="149.1667" y="195"/>
-    </contour>
-  </outline>
+    <contour><point x="118.3333" y="195" type="curve" smooth="yes" /><point x="83.3333" y="195" /><point x="51.6667" y="206.5" /><point x="14.5833" y="240.5" type="curve" /><point x="3.75" y="240.5" type="line" /><point x="-6.6667" y="202" /><point x="-15.8333" y="166" /><point x="-26.25" y="117" type="curve" /><point x="-35.4167" y="74" /><point x="-35.4167" y="55" /><point x="-23.75" y="35.5" type="curve" smooth="yes" /><point x="-5" y="6" /><point x="41.25" y="-20" /><point x="119.5833" y="-20" type="curve" /><point x="256.6667" y="-20" /><point x="343.3333" y="46" /><point x="382.5" y="203" type="curve" smooth="yes" /><point x="415.9486" y="367.01" /><point x="450.4107" y="535.99" /><point x="483.8593" y="700" type="curve" smooth="yes" /><point x="483.8593" y="708" /><point x="464.5882" y="712" /><point x="416.4105" y="712" type="curve" smooth="yes" /><point x="397.1395" y="712" /><point x="377.8684" y="712" /><point x="358.5974" y="712" type="curve" /><point x="310.4197" y="712" /><point x="291.1486" y="708" /><point x="291.1486" y="700" type="curve" /><point x="291.1486" y="700" /><point x="291.1486" y="700" /><point x="291.1486" y="700" type="curve" /><point x="291.1486" y="700" /><point x="291.1486" y="700" /><point x="291.1486" y="700" type="curve" /><point x="291.1486" y="700" type="line" /><point x="291.1486" y="700" type="line" /><point x="291.1486" y="700" type="line" /><point x="262.7196" y="559.75" /><point x="233.4291" y="415.25" /><point x="205" y="275" type="curve" /><point x="199.5833" y="250.5" /><point x="193.3333" y="230" /><point x="184.5833" y="216.5" type="curve" smooth="yes" /><point x="165.8333" y="200" /><point x="149.1667" y="195" /></contour></outline>
   <lib>
     <dict>
       <key>com.arrowtype.glyphMarkStatus</key>
@@ -70,4 +20,4 @@
       <string>1,0.45,0.45,0.75</string>
     </dict>
   </lib>
-</glyph>
+<anchor x="305.8333" y="711" name="top" /><anchor x="208.3333" y="0" name="bottom" /></glyph>

@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gravecomb.case" format="2">
-  <advance width="500"/>
-  <anchor x="0" y="711" name="_top"/>
-  <outline>
-    <contour>
-      <point x="9.1667" y="791"/>
-      <point x="18.3333" y="793"/>
-      <point x="25.8333" y="802" type="curve"/>
-      <point x="-27.5" y="843"/>
-      <point x="-64.1667" y="886"/>
-      <point x="-76.6667" y="936" type="curve"/>
-      <point x="-88.3333" y="936"/>
-      <point x="-95" y="935"/>
-      <point x="-105" y="930" type="curve" smooth="yes"/>
-      <point x="-115.8333" y="925"/>
-      <point x="-117.5" y="914"/>
-      <point x="-114.1667" y="905" type="curve" smooth="yes"/>
-      <point x="-101.6667" y="867"/>
-      <point x="-69.1667" y="827"/>
-      <point x="-30" y="802" type="curve"/>
-      <point x="-18.3333" y="794"/>
-      <point x="-6.6667" y="791"/>
-      <point x="1.6667" y="791" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
+	<advance width="500" />
+	<outline>
+		<contour>
+			<point x="9.1667" y="791" />
+			<point x="18.3333" y="793" />
+			<point x="25.8333" y="802" type="curve" />
+			<point x="-27.5" y="843" />
+			<point x="-64.1667" y="886" />
+			<point x="-76.6667" y="936" type="curve" />
+			<point x="-88.3333" y="936" />
+			<point x="-95" y="935" />
+			<point x="-105" y="930" type="curve" smooth="yes" />
+			<point x="-115.8333" y="925" />
+			<point x="-117.5" y="914" />
+			<point x="-114.1667" y="905" type="curve" smooth="yes" />
+			<point x="-101.6667" y="867" />
+			<point x="-69.1667" y="827" />
+			<point x="-30" y="802" type="curve" />
+			<point x="-18.3333" y="794" />
+			<point x="-6.6667" y="791" />
+			<point x="1.6667" y="791" type="curve" smooth="yes" />
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="711" />
 </glyph>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="parenright" format="2">
-  <advance width="333"/>
-  <unicode hex="0029"/>
-  <outline>
-    <component base="parenleft" xScale="-1" yScale="-1" xOffset="333.3333" yOffset="601"/>
-    <component base="parenleft" xScale="-1" yScale="-1" xOffset="333.3333" yOffset="601"/>
-    <component base="parenleft" xScale="-1" yScale="-1" xOffset="333.3333" yOffset="601"/>
-  </outline>
+	<unicode hex="0029" />
+	<advance width="333" />
+	<outline>
+		<component base="parenleft" xScale="-1" yScale="-1" xOffset="333.3333" yOffset="601" />
+		<component base="parenleft" xScale="-1" yScale="-1" xOffset="333.3333" yOffset="601" />
+		<component base="parenleft" xScale="-1" yScale="-1" xOffset="333.3333" yOffset="601" />
+	</outline>
 </glyph>

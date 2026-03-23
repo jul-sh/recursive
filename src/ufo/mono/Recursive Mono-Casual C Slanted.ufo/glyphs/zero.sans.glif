@@ -1,52 +1,52 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero.sans" format="2">
-  <advance width="500"/>
-  <outline>
-    <contour>
-      <point x="331.6667" y="720" type="curve" smooth="yes"/>
-      <point x="195.8333" y="720"/>
-      <point x="101.6667" y="611"/>
-      <point x="55" y="404" type="curve" smooth="yes"/>
-      <point x="35" y="316" type="line" smooth="yes"/>
-      <point x="-3.3333" y="139"/>
-      <point x="44.1667" y="-20"/>
-      <point x="185.8333" y="-20" type="curve" smooth="yes"/>
-      <point x="327.5" y="-20"/>
-      <point x="439.1667" y="81"/>
-      <point x="482.5" y="321" type="curve" smooth="yes"/>
-      <point x="486.6667" y="344" type="line" smooth="yes"/>
-      <point x="525" y="555"/>
-      <point x="481.6667" y="720"/>
-    </contour>
-    <contour>
-      <point x="311.6667" y="537" type="curve" smooth="yes"/>
-      <point x="319.1667" y="537"/>
-      <point x="324.1667" y="537"/>
-      <point x="330.8333" y="537" type="curve"/>
-      <point x="330.8333" y="501"/>
-      <point x="320.8333" y="444"/>
-      <point x="305.8333" y="368" type="curve" smooth="yes"/>
-      <point x="299.1667" y="334" type="line" smooth="yes"/>
-      <point x="270" y="185"/>
-      <point x="244.1667" y="163"/>
-      <point x="210" y="163" type="curve" smooth="yes"/>
-      <point x="205" y="163"/>
-      <point x="197.5" y="163"/>
-      <point x="193.3333" y="163" type="curve"/>
-      <point x="194.1667" y="200"/>
-      <point x="202.5" y="253"/>
-      <point x="218.3333" y="330" type="curve" smooth="yes"/>
-      <point x="225.8333" y="366" type="line" smooth="yes"/>
-      <point x="256.6667" y="515"/>
-      <point x="278.3333" y="537"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.arrowtype.glyphMarkStatus</key>
-      <string>check</string>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-    </dict>
-  </lib>
+	<advance width="500" />
+	<outline>
+		<contour>
+			<point x="331.6667" y="720" type="curve" smooth="yes" />
+			<point x="195.8333" y="720" />
+			<point x="101.6667" y="611" />
+			<point x="55" y="404" type="curve" smooth="yes" />
+			<point x="35" y="316" type="line" smooth="yes" />
+			<point x="-3.3333" y="139" />
+			<point x="44.1667" y="-20" />
+			<point x="185.8333" y="-20" type="curve" smooth="yes" />
+			<point x="327.5" y="-20" />
+			<point x="439.1667" y="81" />
+			<point x="482.5" y="321" type="curve" smooth="yes" />
+			<point x="486.6667" y="344" type="line" smooth="yes" />
+			<point x="525" y="555" />
+			<point x="481.6667" y="720" />
+		</contour>
+		<contour>
+			<point x="311.6667" y="537" type="curve" smooth="yes" />
+			<point x="319.1667" y="537" />
+			<point x="324.1667" y="537" />
+			<point x="330.8333" y="537" type="curve" />
+			<point x="330.8333" y="501" />
+			<point x="320.8333" y="444" />
+			<point x="305.8333" y="368" type="curve" smooth="yes" />
+			<point x="299.1667" y="334" type="line" smooth="yes" />
+			<point x="270" y="185" />
+			<point x="244.1667" y="163" />
+			<point x="210" y="163" type="curve" smooth="yes" />
+			<point x="205" y="163" />
+			<point x="197.5" y="163" />
+			<point x="193.3333" y="163" type="curve" />
+			<point x="194.1667" y="200" />
+			<point x="202.5" y="253" />
+			<point x="218.3333" y="330" type="curve" smooth="yes" />
+			<point x="225.8333" y="366" type="line" smooth="yes" />
+			<point x="256.6667" y="515" />
+			<point x="278.3333" y="537" />
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.arrowtype.glyphMarkStatus</key>
+			<string>check</string>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+		</dict>
+	</lib>
 </glyph>

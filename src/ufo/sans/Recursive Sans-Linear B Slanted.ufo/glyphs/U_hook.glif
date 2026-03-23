@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Uhook" format="2">
-  <advance width="542"/>
-  <unicode hex="1EE6"/>
-  <outline>
-    <component base="U"/>
-    <component base="hookcomb.case" xOffset="275.8333" yOffset="20"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,0,0.5</string>
-    </dict>
-  </lib>
+	<unicode hex="1EE6" />
+	<advance width="542" />
+	<outline>
+		<component base="U" />
+		<component base="hookcomb.case" xOffset="275.8333" yOffset="20" />
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0,0,0.5</string>
+		</dict>
+	</lib>
 </glyph>

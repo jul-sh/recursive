@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ncommaaccent" format="2">
-  <advance width="542"/>
-  <unicode hex="0145"/>
-  <outline>
-    <component base="N"/>
-    <component base="commaaccentcomb.case" xOffset="291.6667" yOffset="10"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.arrowtype.glyphMarkStatus</key>
-      <string>fromComponents</string>
-      <key>public.markColor</key>
-      <string>0,0,0,0.5</string>
-    </dict>
-  </lib>
+	<unicode hex="0145" />
+	<advance width="542" />
+	<outline>
+		<component base="N" />
+		<component base="commaaccentcomb.case" xOffset="291.6667" yOffset="10" />
+	</outline>
+	<lib>
+		<dict>
+			<key>com.arrowtype.glyphMarkStatus</key>
+			<string>fromComponents</string>
+			<key>public.markColor</key>
+			<string>0,0,0,0.5</string>
+		</dict>
+	</lib>
 </glyph>

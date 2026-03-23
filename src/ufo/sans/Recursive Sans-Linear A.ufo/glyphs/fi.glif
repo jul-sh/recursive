@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fi" format="2">
-  <advance width="625"/>
-  <unicode hex="FB01"/>
-  <guideline x="365.8333" y="689" angle="0" color="0.999,0.001,0.001,0.39962" identifier="I3nVVfEzuM"/>
-  <anchor x="333.3333" y="0" name="caret_1"/>
-  <outline>
-    <component base="f.italic"/>
-    <component base="i.italic" xOffset="333.3333"/>
-  </outline>
-</glyph>
+	<unicode hex="FB01" />
+	<advance width="625" />
+	<guideline x="365.8333" y="689" angle="0" color="0.999,0.001,0.001,0.39962" identifier="I3nVVfEzuM" />
+<outline>
+		<component base="f.italic" />
+		<component base="i.italic" xOffset="333.3333" />
+	</outline>
+	<anchor name="caret_1" x="333.3333" y="0" />
+	</glyph>

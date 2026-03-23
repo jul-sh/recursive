@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccentcomb.case" format="2">
-  <advance width="500"/>
-  <guideline x="191.6667" y="791" angle="0"/>
-  <anchor x="0" y="711" name="_top"/>
-  <outline>
-    <component base="dotaccentcomb" yOffset="138"/>
-  </outline>
+	<advance width="500" />
+	<outline>
+		<component base="dotaccentcomb" yOffset="138" />
+	</outline>
+	<anchor name="_top" x="0" y="711" />
+	<guideline x="191.6667" y="791" angle="0" />
 </glyph>

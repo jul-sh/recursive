@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohornhook" format="2">
-  <advance width="500"/>
-  <unicode hex="1EDF"/>
-  <outline>
-    <component base="o"/>
-    <component base="horncomb" xOffset="340.8333" yOffset="-7"/>
-    <component base="hookcomb" xOffset="247.5"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,0,0.5</string>
-    </dict>
-  </lib>
+	<unicode hex="1EDF" />
+	<advance width="500" />
+	<outline>
+		<component base="o" />
+		<component base="horncomb" xOffset="340.8333" yOffset="-7" />
+		<component base="hookcomb" xOffset="247.5" />
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0,0,0.5</string>
+		</dict>
+	</lib>
 </glyph>

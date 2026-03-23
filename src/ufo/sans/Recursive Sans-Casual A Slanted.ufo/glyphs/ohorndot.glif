@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohorndot" format="2">
-  <advance width="500"/>
-  <unicode hex="1EE3"/>
-  <outline>
-    <component base="o"/>
-    <component base="horncomb" xOffset="324.1667" yOffset="-32"/>
-    <component base="dotbelowcomb" xOffset="270"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,0,0.5</string>
-    </dict>
-  </lib>
+	<unicode hex="1EE3" />
+	<advance width="500" />
+	<outline>
+		<component base="o" />
+		<component base="horncomb" xOffset="324.1667" yOffset="-32" />
+		<component base="dotbelowcomb" xOffset="270" />
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0,0,0.5</string>
+		</dict>
+	</lib>
 </glyph>

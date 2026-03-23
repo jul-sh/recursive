@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="numbersign_numbersign.code" format="2">
-  <advance width="1000"/>
-  <anchor x="500" y="0" name="caret_1"/>
-  <outline>
-    <contour>
-      <point x="426.6667" y="450" type="line"/>
-      <point x="703.3333" y="450" type="line"/>
-      <point x="703.3333" y="496" type="line"/>
-      <point x="426.6667" y="496" type="line"/>
-    </contour>
-    <contour>
-      <point x="318.3333" y="200" type="line"/>
-      <point x="611.6667" y="200" type="line"/>
-      <point x="611.6667" y="246" type="line"/>
-      <point x="318.3333" y="246" type="line"/>
-    </contour>
-    <component base="numbersign"/>
-    <component base="numbersign" xOffset="500"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.25,1,1,0.5</string>
-    </dict>
-  </lib>
+	<advance width="1000" />
+	<outline>
+		<contour>
+			<point x="426.6667" y="450" type="line" />
+			<point x="703.3333" y="450" type="line" />
+			<point x="703.3333" y="496" type="line" />
+			<point x="426.6667" y="496" type="line" />
+		</contour>
+		<contour>
+			<point x="318.3333" y="200" type="line" />
+			<point x="611.6667" y="200" type="line" />
+			<point x="611.6667" y="246" type="line" />
+			<point x="318.3333" y="246" type="line" />
+		</contour>
+		<component base="numbersign" />
+		<component base="numbersign" xOffset="500" />
+	</outline>
+	<anchor name="caret_1" x="500" y="0" />
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.25,1,1,0.5</string>
+		</dict>
+	</lib>
 </glyph>

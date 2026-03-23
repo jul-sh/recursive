@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="egravedbl" format="2">
-  <advance width="500"/>
-  <unicode hex="0205"/>
-  <outline>
-    <component base="e.italic"/>
-    <component base="gravedoublecmb" xOffset="245.8333" yOffset="12"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,0,0.1505</string>
-    </dict>
-  </lib>
+	<unicode hex="0205" />
+	<advance width="500" />
+	<outline>
+		<component base="e.italic" />
+		<component base="gravedoublecmb" xOffset="245.8333" yOffset="12" />
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0,0,0.1505</string>
+		</dict>
+	</lib>
 </glyph>

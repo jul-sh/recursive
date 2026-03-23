@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lslash" format="2">
-  <advance width="500"/>
-  <unicode hex="0141"/>
-  <outline>
-    <contour>
-      <point x="473.3333" y="20" type="move"/>
-      <point x="479.1667" y="37"/>
-      <point x="483.3333" y="63"/>
-      <point x="483.3333" y="85" type="curve" smooth="yes"/>
-      <point x="483.3333" y="175"/>
-      <point x="440.8333" y="220"/>
-      <point x="355.8333" y="220" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
+	<unicode hex="0141" />
+	<advance width="500" />
+	<outline>
+		<contour>
+			<point x="473.3333" y="20" type="move" />
+			<point x="479.1667" y="37" />
+			<point x="483.3333" y="63" />
+			<point x="483.3333" y="85" type="curve" smooth="yes" />
+			<point x="483.3333" y="175" />
+			<point x="440.8333" y="220" />
+			<point x="355.8333" y="220" type="curve" smooth="yes" />
+		</contour>
+	</outline>
 </glyph>

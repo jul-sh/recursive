@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotsidecomb" format="2">
-  <anchor x="0" y="410" name="_dot"/>
-  <outline>
-    <contour>
-      <point x="54.1667" y="336" type="curve"/>
-      <point x="54.1667" y="480" type="line" smooth="yes"/>
-      <point x="54.1667" y="486"/>
-      <point x="50" y="491"/>
-      <point x="45" y="491" type="curve" smooth="yes"/>
-      <point x="7.5" y="491"/>
-      <point x="-16.6667" y="491"/>
-      <point x="-54.1667" y="491" type="curve"/>
-      <point x="-54.1667" y="347" type="line" smooth="yes"/>
-      <point x="-54.1667" y="341"/>
-      <point x="-50" y="336"/>
-      <point x="-45" y="336" type="curve" smooth="yes"/>
-      <point x="-7.5" y="336"/>
-      <point x="16.6667" y="336"/>
-    </contour>
-  </outline>
+	<outline>
+		<contour>
+			<point x="54.1667" y="336" type="curve" />
+			<point x="54.1667" y="480" type="line" smooth="yes" />
+			<point x="54.1667" y="486" />
+			<point x="50" y="491" />
+			<point x="45" y="491" type="curve" smooth="yes" />
+			<point x="7.5" y="491" />
+			<point x="-16.6667" y="491" />
+			<point x="-54.1667" y="491" type="curve" />
+			<point x="-54.1667" y="347" type="line" smooth="yes" />
+			<point x="-54.1667" y="341" />
+			<point x="-50" y="336" />
+			<point x="-45" y="336" type="curve" smooth="yes" />
+			<point x="-7.5" y="336" />
+			<point x="16.6667" y="336" />
+		</contour>
+	</outline>
+	<anchor name="_dot" x="0" y="410" />
 </glyph>

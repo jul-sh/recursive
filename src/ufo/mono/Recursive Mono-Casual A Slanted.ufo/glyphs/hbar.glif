@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hbar" format="2">
-  <advance width="500"/>
-  <unicode hex="0127"/>
-  <outline>
-    <contour>
-      <point x="102.5" y="658" type="line"/>
-      <point x="100.8333" y="653"/>
-      <point x="98.3333" y="645"/>
-      <point x="97.5" y="642" type="curve" smooth="yes"/>
-      <point x="92.5" y="620"/>
-      <point x="95" y="608"/>
-      <point x="115" y="608" type="curve" smooth="yes"/>
-      <point x="388.3333" y="608" type="line"/>
-      <point x="391.6667" y="613"/>
-      <point x="393.3333" y="620"/>
-      <point x="394.1667" y="623" type="curve" smooth="yes"/>
-      <point x="399.1667" y="645"/>
-      <point x="396.6667" y="658"/>
-      <point x="381.6667" y="658" type="curve" smooth="yes"/>
-    </contour>
-    <component base="h"/>
-  </outline>
+	<unicode hex="0127" />
+	<advance width="500" />
+	<outline>
+		<contour>
+			<point x="102.5" y="658" type="line" />
+			<point x="100.8333" y="653" />
+			<point x="98.3333" y="645" />
+			<point x="97.5" y="642" type="curve" smooth="yes" />
+			<point x="92.5" y="620" />
+			<point x="95" y="608" />
+			<point x="115" y="608" type="curve" smooth="yes" />
+			<point x="388.3333" y="608" type="line" />
+			<point x="391.6667" y="613" />
+			<point x="393.3333" y="620" />
+			<point x="394.1667" y="623" type="curve" smooth="yes" />
+			<point x="399.1667" y="645" />
+			<point x="396.6667" y="658" />
+			<point x="381.6667" y="658" type="curve" smooth="yes" />
+		</contour>
+		<component base="h" />
+	</outline>
 </glyph>

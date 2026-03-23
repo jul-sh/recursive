@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotbelowcomb.case" format="2">
-  <advance width="500"/>
-  <anchor x="0" y="-1" name="_bottom"/>
-  <outline>
-    <component base="dotaccentcomb" yOffset="-858"/>
-  </outline>
+	<advance width="500" />
+	<outline>
+		<component base="dotaccentcomb" yOffset="-858" />
+	</outline>
+	<anchor name="_bottom" x="0" y="-1" />
 </glyph>

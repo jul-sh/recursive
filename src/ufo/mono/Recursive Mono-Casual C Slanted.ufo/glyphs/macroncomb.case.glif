@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macroncomb.case" format="2">
-  <anchor x="90.8333" y="712" name="_top"/>
-  <anchor x="131.6667" y="911" name="top"/>
-  <outline>
-    <contour>
-      <point x="-38.3333" y="933" type="line"/>
-      <point x="-44.1667" y="919"/>
-      <point x="-48.3333" y="903"/>
-      <point x="-51.6667" y="880" type="curve" smooth="yes"/>
-      <point x="-62.5" y="807"/>
-      <point x="-41.6667" y="780"/>
-      <point x="32.5" y="780" type="curve" smooth="yes"/>
-      <point x="270.8333" y="780" type="line"/>
-      <point x="280" y="794"/>
-      <point x="288.3333" y="811"/>
-      <point x="297.5" y="847" type="curve" smooth="yes"/>
-      <point x="310" y="895"/>
-      <point x="293.3333" y="933"/>
-      <point x="246.6667" y="933" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
+	<outline>
+		<contour>
+			<point x="-38.3333" y="933" type="line" />
+			<point x="-44.1667" y="919" />
+			<point x="-48.3333" y="903" />
+			<point x="-51.6667" y="880" type="curve" smooth="yes" />
+			<point x="-62.5" y="807" />
+			<point x="-41.6667" y="780" />
+			<point x="32.5" y="780" type="curve" smooth="yes" />
+			<point x="270.8333" y="780" type="line" />
+			<point x="280" y="794" />
+			<point x="288.3333" y="811" />
+			<point x="297.5" y="847" type="curve" smooth="yes" />
+			<point x="310" y="895" />
+			<point x="293.3333" y="933" />
+			<point x="246.6667" y="933" type="curve" smooth="yes" />
+		</contour>
+	</outline>
+	<anchor name="_top" x="90.8333" y="712" />
+	<anchor name="top" x="131.6667" y="911" />
 </glyph>

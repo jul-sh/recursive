@@ -1,39 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresiscomb.case" format="2">
-  <anchor x="0" y="711" name="_top"/>
-  <anchor x="0" y="880" name="top"/>
-  <outline>
-    <contour>
-      <point x="-116.6667" y="890" type="curve"/>
-      <point x="-116.6667" y="838" type="line" smooth="yes"/>
-      <point x="-116.6667" y="816"/>
-      <point x="-100.8333" y="803"/>
-      <point x="-75" y="803" type="curve" smooth="yes"/>
-      <point x="-65" y="803"/>
-      <point x="-56.6667" y="804"/>
-      <point x="-50" y="806" type="curve"/>
-      <point x="-50" y="858" type="line" smooth="yes"/>
-      <point x="-50" y="880"/>
-      <point x="-65" y="893"/>
-      <point x="-91.6667" y="893" type="curve" smooth="yes"/>
-      <point x="-101.6667" y="893"/>
-      <point x="-110" y="892"/>
-    </contour>
-    <contour>
-      <point x="50" y="890" type="curve"/>
-      <point x="50" y="838" type="line" smooth="yes"/>
-      <point x="50" y="816"/>
-      <point x="65.8333" y="803"/>
-      <point x="91.6667" y="803" type="curve" smooth="yes"/>
-      <point x="101.6667" y="803"/>
-      <point x="110" y="804"/>
-      <point x="116.6667" y="806" type="curve"/>
-      <point x="116.6667" y="858" type="line" smooth="yes"/>
-      <point x="116.6667" y="880"/>
-      <point x="101.6667" y="893"/>
-      <point x="75" y="893" type="curve" smooth="yes"/>
-      <point x="65" y="893"/>
-      <point x="56.6667" y="892"/>
-    </contour>
-  </outline>
+	<outline>
+		<contour>
+			<point x="-116.6667" y="890" type="curve" />
+			<point x="-116.6667" y="838" type="line" smooth="yes" />
+			<point x="-116.6667" y="816" />
+			<point x="-100.8333" y="803" />
+			<point x="-75" y="803" type="curve" smooth="yes" />
+			<point x="-65" y="803" />
+			<point x="-56.6667" y="804" />
+			<point x="-50" y="806" type="curve" />
+			<point x="-50" y="858" type="line" smooth="yes" />
+			<point x="-50" y="880" />
+			<point x="-65" y="893" />
+			<point x="-91.6667" y="893" type="curve" smooth="yes" />
+			<point x="-101.6667" y="893" />
+			<point x="-110" y="892" />
+		</contour>
+		<contour>
+			<point x="50" y="890" type="curve" />
+			<point x="50" y="838" type="line" smooth="yes" />
+			<point x="50" y="816" />
+			<point x="65.8333" y="803" />
+			<point x="91.6667" y="803" type="curve" smooth="yes" />
+			<point x="101.6667" y="803" />
+			<point x="110" y="804" />
+			<point x="116.6667" y="806" type="curve" />
+			<point x="116.6667" y="858" type="line" smooth="yes" />
+			<point x="116.6667" y="880" />
+			<point x="101.6667" y="893" />
+			<point x="75" y="893" type="curve" smooth="yes" />
+			<point x="65" y="893" />
+			<point x="56.6667" y="892" />
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="711" />
+	<anchor name="top" x="0" y="880" />
 </glyph>

@@ -1,39 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L.sans" format="2">
-  <advance width="458"/>
-  <anchor x="208.3333" y="711" name="top"/>
-  <anchor x="172.5" y="-1" name="bottom"/>
-  <anchor x="368.3333" y="400" name="dot"/>
-  <anchor x="420.8333" y="600" name="caronslovak"/>
-  <anchor x="140.8333" y="391" name="slash"/>
-  <outline>
-    <contour>
-      <point x="-19.1667" y="0" type="curve" smooth="yes"/>
-      <point x="384.1667" y="0" type="line"/>
-      <point x="402.5" y="87"/>
-      <point x="408.3333" y="113"/>
-      <point x="425" y="195" type="curve" smooth="yes"/>
-      <point x="427.5" y="206"/>
-      <point x="425" y="210"/>
-      <point x="417.5" y="210" type="curve" smooth="yes"/>
-      <point x="203.3333" y="210" type="line"/>
-      <point x="235.8333" y="366"/>
-      <point x="270.8333" y="533"/>
-      <point x="303.3333" y="689" type="curve" smooth="yes"/>
-      <point x="305" y="696"/>
-      <point x="302.5" y="700"/>
-      <point x="296.6667" y="700" type="curve" smooth="yes"/>
-      <point x="234.1667" y="700"/>
-      <point x="180.8333" y="700"/>
-      <point x="118.3333" y="700" type="curve"/>
-      <point x="110.8333" y="667"/>
-      <point x="104.1667" y="634"/>
-      <point x="97.5" y="601" type="curve" smooth="yes"/>
-      <point x="56.6667" y="405"/>
-      <point x="15" y="207"/>
-      <point x="-25.8333" y="11" type="curve" smooth="yes"/>
-      <point x="-26.6667" y="5"/>
-      <point x="-24.1667" y="0"/>
-    </contour>
-  </outline>
+	<advance width="458" />
+	<outline>
+		<contour>
+			<point x="-19.1667" y="0" type="curve" smooth="yes" />
+			<point x="384.1667" y="0" type="line" />
+			<point x="402.5" y="87" />
+			<point x="408.3333" y="113" />
+			<point x="425" y="195" type="curve" smooth="yes" />
+			<point x="427.5" y="206" />
+			<point x="425" y="210" />
+			<point x="417.5" y="210" type="curve" smooth="yes" />
+			<point x="203.3333" y="210" type="line" />
+			<point x="235.8333" y="366" />
+			<point x="270.8333" y="533" />
+			<point x="303.3333" y="689" type="curve" smooth="yes" />
+			<point x="305" y="696" />
+			<point x="302.5" y="700" />
+			<point x="296.6667" y="700" type="curve" smooth="yes" />
+			<point x="234.1667" y="700" />
+			<point x="180.8333" y="700" />
+			<point x="118.3333" y="700" type="curve" />
+			<point x="110.8333" y="667" />
+			<point x="104.1667" y="634" />
+			<point x="97.5" y="601" type="curve" smooth="yes" />
+			<point x="56.6667" y="405" />
+			<point x="15" y="207" />
+			<point x="-25.8333" y="11" type="curve" smooth="yes" />
+			<point x="-26.6667" y="5" />
+			<point x="-24.1667" y="0" />
+		</contour>
+	</outline>
+	<anchor name="top" x="208.3333" y="711" />
+	<anchor name="bottom" x="172.5" y="-1" />
+	<anchor name="dot" x="368.3333" y="400" />
+	<anchor name="caronslovak" x="420.8333" y="600" />
+	<anchor name="slash" x="140.8333" y="391" />
 </glyph>

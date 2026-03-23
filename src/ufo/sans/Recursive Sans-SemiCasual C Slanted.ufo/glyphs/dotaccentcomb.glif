@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccentcomb" format="2">
-  <unicode hex="0307"/>
-  <anchor x="57.5" y="549.0" name="_top"/>
-  <anchor x="86.6667" y="701.5" name="_dot"/>
-  <anchor x="-57.5" y="0.0" name="bottom"/>
-  <anchor x="57.5" y="0.0" name="ogonek"/>
-  <anchor x="103.3333" y="773.0" name="top"/>
+  <unicode hex="0307" />
+  <anchor x="57.5" y="549.0" name="_top" />
+  <anchor x="86.6667" y="701.5" name="_dot" />
+  <anchor x="-57.5" y="0.0" name="bottom" />
+  <anchor x="57.5" y="0.0" name="ogonek" />
+  <anchor x="103.3333" y="773.0" name="top" />
   <outline>
     <contour>
-      <point x="-46.6333" y="703.5" type="curve" smooth="yes"/>
-      <point x="-46.6333" y="703.5"/>
-      <point x="-46.6333" y="703.5"/>
-      <point x="-46.6333" y="703.5" type="curve"/>
-      <point x="-46.6333" y="629.1881"/>
-      <point x="13.6047" y="568.95"/>
-      <point x="87.9167" y="568.95" type="curve" smooth="yes"/>
-      <point x="162.2286" y="568.95"/>
-      <point x="222.4667" y="629.1881"/>
-      <point x="222.4667" y="703.5" type="curve" smooth="yes"/>
-      <point x="222.4667" y="703.5"/>
-      <point x="222.4667" y="703.5"/>
-      <point x="222.4667" y="703.5" type="curve"/>
-      <point x="222.4667" y="777.8119"/>
-      <point x="162.2286" y="838.05"/>
-      <point x="87.9167" y="838.05" type="curve" smooth="yes"/>
-      <point x="13.6047" y="838.05"/>
-      <point x="-46.6333" y="777.8119"/>
+      <point x="-46.6333" y="703.5" type="curve" smooth="yes" />
+      <point x="-46.6333" y="703.5" />
+      <point x="-46.6333" y="703.5" />
+      <point x="-46.6333" y="703.5" type="curve" />
+      <point x="-46.6333" y="629.1881" />
+      <point x="13.6047" y="568.95" />
+      <point x="87.9167" y="568.95" type="curve" smooth="yes" />
+      <point x="162.2286" y="568.95" />
+      <point x="222.4667" y="629.1881" />
+      <point x="222.4667" y="703.5" type="curve" smooth="yes" />
+      <point x="222.4667" y="703.5" />
+      <point x="222.4667" y="703.5" />
+      <point x="222.4667" y="703.5" type="curve" />
+      <point x="222.4667" y="777.8119" />
+      <point x="162.2286" y="838.05" />
+      <point x="87.9167" y="838.05" type="curve" smooth="yes" />
+      <point x="13.6047" y="838.05" />
+      <point x="-46.6333" y="777.8119" />
     </contour>
   </outline>
   <lib>

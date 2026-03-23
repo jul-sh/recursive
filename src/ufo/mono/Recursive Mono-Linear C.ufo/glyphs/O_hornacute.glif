@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ohornacute" format="2">
-  <advance width="500"/>
-  <unicode hex="1EDA"/>
-  <outline>
-    <component base="O"/>
-    <component base="horncomb.case" xOffset="375" yOffset="-25"/>
-    <component base="acutecombviet.case" xOffset="247.5" yOffset="-1"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,0,0.5</string>
-    </dict>
-  </lib>
+	<unicode hex="1EDA" />
+	<advance width="500" />
+	<outline>
+		<component base="O" />
+		<component base="horncomb.case" xOffset="375" yOffset="-25" />
+		<component base="acutecombviet.case" xOffset="247.5" yOffset="-1" />
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0,0,0.5</string>
+		</dict>
+	</lib>
 </glyph>
