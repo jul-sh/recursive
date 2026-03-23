@@ -109,9 +109,9 @@ def replace_contour_with_circle(contour, radius_override=None):
 # Radius overrides per weight for dotaccentcomb (i/j dots)
 # These are in source units — the built font scales them down
 DOTACCENT_RADII = {
-    "A": 40,
-    "B": 95,
-    "C": 115,
+    "A": 32,
+    "B": 68,
+    "C": 82,
 }
 
 # Period/ellipsis dots use auto-radius (preserve existing size)
