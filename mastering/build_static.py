@@ -693,6 +693,9 @@ def makeSFNT(root, outputPath, kind="otf"):
 
     print(f"🏗  {kind.upper()} table fixing")
     files = getFiles(outputPath, kind)
+    if not files:
+        print(f"⚠️  No {kind.upper()} files were produced by makeotf")
+        return
     printProgressBar(0, len(files), prefix='  ', suffix='Complete', length=50)
     for i, file in enumerate(files):
         font = TTFont(file)

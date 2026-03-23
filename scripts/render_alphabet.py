@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Render full alphabet comparison images across Linear and Casual variants.
 
-Applies OpenType feature substitutions: ss03, ss04, ss05, ss06, ss08, ss12, liga.
+Applies OpenType feature substitutions: ss04, ss05, ss06, ss08, ss12.
+Uses descending italic f and j.
 """
 
 import os
@@ -23,15 +24,16 @@ LINE_HEIGHT = (CAP_HEIGHT + 300) * SCALE  # room for ascenders/descenders
 UPPERCASE = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 LOWERCASE = list("abcdefghijklmnopqrstuvwxyz")
 DIGITS = list("0123456789")
-PUNCT = ["at", "fi"]  # @ and fi ligature
+PUNCT = ["at"]  # @
 ROWS = [UPPERCASE, LOWERCASE, DIGITS, PUNCT]
 ROW_LABELS = ["Uppercase", "Lowercase", "Digits", "Punct/Liga"]
 
 # OpenType feature substitutions (ss03, ss04, ss05, ss06, ss08, ss12, liga)
 # Maps: original glyph name -> alternate glyph name
 FEATURE_SUBS = {
-    # ss03: use non-descending mono f
-    "f": "f.mono",
+    # use descending italic f and j
+    "f": "f.italic",
+    "j": "j.italic",
     # ss04: simplified i
     "i": "i.simple",
     # ss05: simplified l
@@ -112,7 +114,7 @@ def render_alphabet_svg(family, weight, slant, variants):
     svg_parts = []
 
     # Features label
-    features_label = "ss03 ss04 ss05 ss06 ss08 ss12 liga"
+    features_label = "ss04 ss05 ss06 ss08 ss12"
     title = f"{fam_cap} {weight} {slant_label}  [{features_label}]"
     svg_parts.append(
         f'<text x="{total_width/2}" y="{margin}" text-anchor="middle" '
@@ -272,8 +274,8 @@ def main():
     # Close-up characters: (display_label, glyph_name)
     key_glyphs = [
         ("J", "J"), ("S", "S"), ("L", "L"), ("Z", "Z"),
-        ("f", "f"), ("i", "i"), ("l", "l"), ("r", "r"),
-        ("@", "at"), ("fi", "fi"),
+        ("f", "f"), ("j", "j"), ("i", "i"), ("l", "l"), ("r", "r"),
+        ("@", "at"),
     ]
 
     count = 0
