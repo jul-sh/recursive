@@ -1,11 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fi" format="2">
-	<unicode hex="FB01" />
 	<advance width="625" />
-	<guideline x="466.6667" y="695" angle="0" color="0.999,0.001,0.001,0.39962" identifier="Wvykq8bh34" />
-<outline>
-		<component base="f.italic" />
-		<component base="i.italic" xOffset="333.3333" />
+	<outline>
+		<component base="f" />
+		<component base="i" xOffset="333.3333" />
 	</outline>
 	<anchor name="caret_1" x="333.3333" y="0" />
-	</glyph>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.25,1,1,0.5</string>
+		</dict>
+	</lib>
+</glyph>
