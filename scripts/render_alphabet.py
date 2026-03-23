@@ -267,7 +267,7 @@ def render_closeup_svg(family, weight, slant, variants, chars, label):
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
 
-    variants = ["Linear", "SemiCasual", "Casual"]
+    variants = ["Linear", "Casual"]
 
     # Close-up characters: (display_label, glyph_name)
     key_glyphs = [
