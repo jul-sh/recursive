@@ -37,6 +37,13 @@ FEATURE_SUBS = {
     "l": "l.simple",
     # ss06: simplified r
     "r": "r.simple",
+    # ss07: roman diagonals (use non-italic k,v,w,x,y,z)
+    "k": "k",  # identity in upright, but k.italic -> k in italic
+    "v": "v",
+    "w": "w",
+    "x": "x",
+    "y": "y",
+    "z": "z",
     # ss08: no-serif L and Z
     "L": "L.sans",
     "Z": "Z.sans",
@@ -44,9 +51,21 @@ FEATURE_SUBS = {
     "at": "at.alt",
 }
 
+# ss07 italic-to-roman substitutions (applied when .italic variant exists)
+SS07_ITALIC_SUBS = {
+    "k.italic": "k", "v.italic": "v", "w.italic": "w",
+    "x.italic": "x", "y.italic": "y", "z.italic": "z",
+}
+
 
 def apply_features(glyph_name, font):
     """Apply feature substitutions if alternate glyph exists in font."""
+    # ss07: if the glyph has an .italic variant in the font, use the roman version
+    italic_name = glyph_name + ".italic"
+    if italic_name in SS07_ITALIC_SUBS and italic_name in font:
+        # Font has italic variant — ss07 would sub it to roman, so use roman
+        return SS07_ITALIC_SUBS[italic_name]
+    # Other feature subs
     alt = FEATURE_SUBS.get(glyph_name)
     if alt and alt in font:
         return alt
