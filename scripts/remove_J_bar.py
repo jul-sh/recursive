@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Remove the horizontal bar from capital J across ALL masters (Linear, Casual, SemiCasual).
+Remove the horizontal bar from capital J across ALL masters (Linear, Casual).
 
 The J contour has 46 points. The bar occupies points 19-37:
   - pt 19: top of outer stem (will become cap height)
@@ -149,7 +149,7 @@ def main():
     fixed = 0
     for family in ['mono', 'sans']:
         fam = 'Mono' if family == 'mono' else 'Sans'
-        for variant in ['Linear', 'Casual', 'SemiCasual']:
+        for variant in ['Linear', 'Casual']:
             for weight in ['A', 'B', 'C']:
                 for slant in ['', ' Slanted']:
                     ufo = f"Recursive {fam}-{variant} {weight}{slant}.ufo"

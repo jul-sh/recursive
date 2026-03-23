@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render full alphabet comparison images across Linear, SemiCasual, Casual variants.
+"""Render full alphabet comparison images across Linear and Casual variants.
 
 Applies OpenType feature substitutions: ss03, ss04, ss05, ss06, ss08, ss12, liga.
 """
