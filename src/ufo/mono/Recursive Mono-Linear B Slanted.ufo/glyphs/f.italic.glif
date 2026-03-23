@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f.italic" format="2">
 	<advance width="500" />
-	<guideline x="194.1667" y="-189" angle="75.8565281242" identifier="7FUL23BTbp" />
 	<outline>
 		<contour>
 			<point x="-6.6667" y="-67" type="line" />
@@ -81,6 +80,7 @@
 	</outline>
 	<anchor name="top" x="250" y="551" />
 	<anchor name="bottom" x="250" y="-1" />
+	<guideline x="194.1667" y="-189" angle="75.8565281242" identifier="7FUL23BTbp" />
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>
