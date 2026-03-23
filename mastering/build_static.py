@@ -357,8 +357,8 @@ def buildFamilyFeatures(root, features, version):
         f.write("".join(feature_sans_italic))
 
     head = ("table head {\n"
-            f"    FontRevision {version};\n"
-            "} head;\n")
+            f"    FontRevision {version};\n}}"
+            "head;\n")
     base = (
             "table BASE {\n"
             "    HorizAxis.BaseTagList       ideo  romn;\n"
@@ -687,18 +687,14 @@ def makeSFNT(root, outputPath, kind="otf"):
                              universal_newlines=True)
         with open(outputFile, "a") as f:
             f.write(run.stdout)
-        if run.returncode != 0:
-            print(f"\n⚠️  makeotf failed for {file} (exit code {run.returncode})")
-            # Print first 2000 chars to capture the actual error details
-            print(run.stdout[:2000])
 
         printProgressBar(i + 1, len(files), prefix='  ',
                          suffix='Complete', length=50)
 
     print(f"🏗  {kind.upper()} table fixing")
     files = getFiles(outputPath, kind)
-    if len(files) == 0:
-        print(f"⚠️  No {kind.upper()} files were generated. Skipping table fixing and autohinting.")
+    if not files:
+        print(f"⚠️  No {kind.upper()} files were produced by makeotf")
         return
     printProgressBar(0, len(files), prefix='  ', suffix='Complete', length=50)
     for i, file in enumerate(files):

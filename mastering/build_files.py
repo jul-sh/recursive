@@ -26,7 +26,7 @@ def getFolders(ds):
     ttf_root = os.path.join(static_root, "TTF")
     var_root = os.path.join(root, "var")
     src = os.path.join(root, "src")
-    designspacePath = os.path.join(src, ds)
+    designspacePath = os.path.join(src, os.path.basename(ds))
 
     paths = {"root": root,
              "static": static_root,
@@ -67,14 +67,15 @@ def makeSources(ds, src, version):
     shutil.copy("../src/features/features.fea",
                 os.path.join(src, 'features.fea'))
 
-    prep(os.path.join(src, ds), version)
+    ds_basename = os.path.basename(ds)
+    prep(os.path.join(src, ds_basename), version)
     buildFeatures(src)
 
 
 def buildFiles(sources=True,
                static=True,
                variable=True,
-               ds="recursive-MONO_CASL_wght_slnt_ital--full_gsub.designspace",
+               ds="mono/recursive_mono.designspace",
                version="0.000"):
 
     print("🚚 Building files for mastering")

@@ -75,8 +75,9 @@ def copyFiles(designspacePath, outRoot):
     for fontPath in sources:
         f = os.path.split(fontPath)[1]
         newPath = os.path.join(outRoot, f)
-        paths[f] = newPath
-        shutil.copytree(fontPath, newPath, ignore=ignore)
+        if f not in paths:
+            paths[f] = newPath
+            shutil.copytree(fontPath, newPath, ignore=ignore)
 
     ds = DesignSpaceDocument.fromfile(newDesignspacePath)
     for source in ds.sources:

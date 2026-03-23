@@ -83,6 +83,9 @@ def makeWOFF(files, destination):
         os.mkdir(destination)
 
     print("🏗  Making WOFF2")
+    if not files:
+        print("⚠️  No font files to convert to WOFF2")
+        return
     printProgressBar(0, len(files), prefix='  ', suffix='Complete', length=50)
     for i, file in enumerate(files):
         outfilename = makeOutputFileName(file,

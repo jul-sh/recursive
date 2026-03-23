@@ -67,6 +67,16 @@ def makeSTAT(font, designspace):
             0: "Linear",
             1: "Casual"
         },
+        "Expression":
+        {
+            0: "Linear",
+            1: "Casual"
+        },
+        "Italic":
+        {
+            0: "Roman",
+            1: "Italic"
+        },
         "Slant":
         {
             (0, 0.5): "Upright",
@@ -83,7 +93,7 @@ def makeSTAT(font, designspace):
         #
         # Recursive is unusual in that it has both a Italic and Slant
         # axis that need to be linked. This is dealt with at the end.
-        if axis.name not in ["Cursive", "Slant"]:
+        if axis.name not in ["Cursive", "Slant", "Italic"]:
             a = {}
             a["tag"] = axis.tag
             a["name"] = axis.name
@@ -106,17 +116,31 @@ def makeSTAT(font, designspace):
             a = {"name": axis.name, "tag": axis.tag}
         axes.append(a)
 
+    # Check if the font has CRSV or ital axis for linked Slant locations
+    axis_tags = {axis.tag for axis in designspace.axes}
     locations = []
-    for values, name in styles["Slant"].items():
-        location = {}
-        location["name"] = name
-        axis_values = {}
-        axis_values["slnt"] = values[0]
-        axis_values["CRSV"] = values[1]
-        location["location"] = axis_values
-        if values[0] == 0:
-            location["flags"] = 0x2
-        locations.append(location)
+    if "CRSV" in axis_tags:
+        for values, name in styles["Slant"].items():
+            location = {}
+            location["name"] = name
+            axis_values = {}
+            axis_values["slnt"] = values[0]
+            axis_values["CRSV"] = values[1]
+            location["location"] = axis_values
+            if values[0] == 0:
+                location["flags"] = 0x2
+            locations.append(location)
+    elif "ital" in axis_tags:
+        for values, name in styles["Slant"].items():
+            location = {}
+            location["name"] = name
+            axis_values = {}
+            axis_values["slnt"] = values[0]
+            axis_values["ital"] = values[1]
+            location["location"] = axis_values
+            if values[0] == 0:
+                location["flags"] = 0x2
+            locations.append(location)
 
     buildStatTable(font, axes, locations)
 
