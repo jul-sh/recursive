@@ -1,11 +1,14 @@
-name: Prerelease
+name: Build Fonts
 
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   build-and-release:
@@ -59,12 +62,23 @@ jobs:
       - name: Upload font artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: recursive-charon-fonts
+          name: recursive-charon-fonts-${{ github.event_name == 'pull_request' && format('pr{0}', github.event.pull_request.number) || github.sha }}
           path: "*.zip"
           if-no-files-found: warn
 
+      - name: Comment on PR
+        if: github.event_name == 'pull_request' && steps.package.outputs.found == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SHORT_SHA="${{ github.event.pull_request.head.sha }}"
+          SHORT_SHA="${SHORT_SHA::7}"
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          gh pr comment "${{ github.event.pull_request.number }}" \
+            --body "Font build succeeded for ${SHORT_SHA}. [Download artifacts](${RUN_URL})."
+
       - name: Create prerelease
-        if: steps.package.outputs.found == 'yes'
+        if: github.event_name == 'push' && steps.package.outputs.found == 'yes'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
