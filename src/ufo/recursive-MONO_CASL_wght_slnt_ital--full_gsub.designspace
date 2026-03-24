@@ -26,7 +26,7 @@
       <map input="-7.020000" output="-7.500000" />
       <map input="0.000000" output="0.000000" />
     </axis>
-    <axis tag="CRSV" name="Cursive" minimum="0" maximum="1" default="0.500000">
+    <axis tag="CRSV" name="Cursive" minimum="0" maximum="1" default="1">
       <labelname xml:lang="en">Cursive</labelname>
     </axis>
   </axes>

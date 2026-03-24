@@ -1,0 +1,32 @@
+# Default-on substitutions (ss02, ss04, ss05, ss06, ss07, ss08, ss12)
+# These are applied via calt so they're active without users enabling stylistic sets.
+
+feature calt {
+    # ss02: Single-story g
+    sub @dfltG by @simpleG;
+    sub g.mono by g.simple;
+
+    # ss04: Simplified i
+    sub @sansI by @smplI;
+    sub @monoI by @smplI;
+    sub fi by f i.simple;
+
+    # ss05: Simplified l
+    sub @sansL by @simpleL;
+    sub @monoL by @simpleL;
+
+    # ss06: Simplified r
+    sub @sansR by @simpleR;
+    sub @monoR by @simpleR;
+
+    # ss07: Simplified italic diagonals
+    sub @curvyDiagonals by @romanDiagonals;
+
+    # ss08: No-serif L & Z
+    sub @dfltCapL by @sansCapL;
+    sub @dfltCapZ by @sansCapZ;
+
+    # ss12: Simplified at
+    sub at by at.alt;
+    sub at.case by at.alt_case;
+} calt;
