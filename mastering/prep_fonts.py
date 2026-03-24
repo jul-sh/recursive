@@ -477,17 +477,47 @@ def setProductionNames(fonts):
 
 def kerningCompatibility(fonts):
     """
-    Adds dummy kerning to a font that has no kerning.
+    Makes kerning compatible across all fonts by ensuring every font has
+    the same set of kerning groups and pairs. Missing groups are copied and
+    missing pairs are filled with zero values.
 
     *fonts* is a `list` of font objects (Defcon or FontParts).
     """
 
     local_report = report.get("Added blank kerning", [])
 
+    # Collect all kerning groups across all fonts
+    allGroups = {}
     for font in fonts:
-        if len(font.kerning) == 0:
-            font.kerning[("A", "A")] = 0
+        for name, members in font.groups.items():
+            if name.startswith("public.kern"):
+                if name not in allGroups:
+                    allGroups[name] = list(members)
+
+    # Ensure every font has every kerning group
+    for font in fonts:
+        for name, members in allGroups.items():
+            if name not in font.groups:
+                font.groups[name] = members
+
+    # Collect all kerning pairs across all fonts
+    allPairs = set()
+    for font in fonts:
+        allPairs.update(font.kerning.keys())
+
+    # If no font has any kerning, add a dummy pair
+    if not allPairs:
+        allPairs.add(("A", "A"))
+
+    # Ensure every font has every pair
+    for font in fonts:
+        existing = set(font.kerning.keys())
+        missing = allPairs - existing
+        if missing:
+            for pair in missing:
+                font.kerning[pair] = 0
             local_report.append(font.info.familyName + " " + font.info.styleName)
+
     report["Added blank kerning"] = local_report
 
 
@@ -515,7 +545,7 @@ def makeCompatible(fonts):
         removeGlyphs(font, [name for name, _ in nonCompatible])
 
     if nonCompatible != []:
-        local_report.append(nonCompatible)
+        local_report.extend(nonCompatible)
 
     report["Removed non-compatible glyphs"] = local_report
 

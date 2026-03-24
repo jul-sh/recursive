@@ -265,10 +265,9 @@ feature aalt {
     sub etilde.italic from [etilde.italic etilde];
     sub exclamdown from [exclamdown exclamdown.case];
     sub exclamdown.case from [exclamdown.case exclamdown];
-    sub f from [f f.simple f.italic f.mono];
-    sub f.mono from [f.mono f f.simple f.italic];
-    sub f.italic from [f.italic f.mono f f.simple];
-    sub f.simple from [f.simple f.italic f.mono f];
+    sub f from [f f.simple f.mono];
+    sub f.mono from [f.mono f f.simple];
+    sub f.simple from [f.simple f.mono f];
     sub fiveeighths from [fiveeighths fiveeighths.afrc];
     sub fiveeighths.afrc from [fiveeighths.afrc fiveeighths];
     sub fiveinferior from [fiveinferior fiveinferior.afrc];

@@ -1,6 +1,5 @@
 import os
 import shutil
-import pync
 from pathlib import Path
 from build_files import buildFiles, getFolders
 from build_variable import build_variable
@@ -33,6 +32,9 @@ if __name__ == "__main__":
                         help="Get pinged with Mac notifications when the build has completed. Mac only.")
 
     args = parser.parse_args()
+
+    if args.pync:
+        import pync
 
     if args.version:
         version = args.version

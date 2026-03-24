@@ -28,6 +28,8 @@
     </axis>
     <axis tag="CRSV" name="Cursive" minimum="0" maximum="1" default="1">
       <labelname xml:lang="en">Cursive</labelname>
+      <map input="0" output="0" />
+      <map input="1" output="0.5" />
     </axis>
   </axes>
   <rules>
@@ -140,7 +142,6 @@
       <sub name="emacrongrave" with="emacrongrave.italic" />
       <sub name="eogonek" with="eogonek.italic" />
       <sub name="etilde" with="etilde.italic" />
-      <sub name="f" with="f.italic" />
       <sub name="g" with="g.italic" />
       <sub name="gbreve" with="gbreve.italic" />
       <sub name="gcaron" with="gcaron.italic" />
