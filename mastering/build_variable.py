@@ -149,9 +149,14 @@ def build_variable(designspacePath,
 
     print("🏗  Constructing variable font")
     fp = FontProject(verbose=verbose)
-    fp.build_variable_font(designspacePath,
-                           output_path=out,
-                           useProductionNames=True)
+    if hasattr(fp, 'build_variable_font'):
+        fp.build_variable_font(designspacePath,
+                               output_path=out,
+                               useProductionNames=True)
+    else:
+        fp.build_variable_fonts(designspacePath,
+                                output=[out],
+                                useProductionNames=True)
 
     print("🏗  Adding STAT table")
     ds = DesignSpaceDocument.fromfile(designspacePath)
