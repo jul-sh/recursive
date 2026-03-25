@@ -462,8 +462,8 @@ def buildInstances(designspacePath, root, name_map):
         # Get weight value based on fullname
         # 'Regular' is not part of the fullname so we do a try/except
         # that will throw an IndexError if the fullname is a Regular
-        # style ("Recursive Mono Csl", "Recursive Mono Lnr",
-        # "Recursive Sans Csl", or "Recursive Sans Lnr"). We know then
+        # style ("Recursive Charon Mono Csl", "Recursive Charon Mono Lnr",
+        # "Recursive Charon Sans Csl", or "Recursive Charon Sans Lnr"). We know then
         # that the font weight value should be 400. Likewise, if the
         # fourth item in the name is "Italic", the weight should be
         # 400, so we catch that here too.
