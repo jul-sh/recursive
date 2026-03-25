@@ -67,7 +67,7 @@ if __name__ == "__main__":
     if args.variable:
         build_variable(designspacePath=files["designspace"],
                        out=os.path.join(outPaths[0],
-                                        f"Recursive_VF_{version}.ttf"))
+                                        f"RecursiveCharon_VF_{version}.ttf"))
         if args.pync:
             pync.notify('Variable files built!', title='Recursive Build')
 
