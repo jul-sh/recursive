@@ -100,7 +100,12 @@ def makeSTAT(font, designspace):
                                           })
             else:
                 for value, name in styles[axis.name].items():
-                    locations.append({"name": name, "value": value})
+                    if value == axis.default:
+                        locations.append({"name": name,
+                                          "value": value,
+                                          "flags": 0x2})
+                    else:
+                        locations.append({"name": name, "value": value})
             a["values"] = locations
         else:
             a = {"name": axis.name, "tag": axis.tag}
