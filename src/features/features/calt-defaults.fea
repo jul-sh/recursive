@@ -2,10 +2,9 @@
 # These are applied via calt so they're active without users enabling stylistic sets.
 
 feature calt {
-    # Italic f and j
+    # Italic f (j.italic is only applied in mono via designspace rules)
     sub f by f.italic;
     sub f.mono by f.italic;
-    sub j by j.italic;
 
     # ss02: Single-story g
     sub @dfltG by @simpleG;

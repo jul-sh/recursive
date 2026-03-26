@@ -40,6 +40,14 @@ Same as the original Recursive, with the noted default change on the Cursive axi
 | Slant     | `slnt` | 0 to -15    | 0       | Upright to Slanted (~15 degrees)     |
 | Cursive   | `CRSV` | 0, 0.5, 1   | **1**   | Roman (0), auto (0.5), cursive (1)   |
 
+## Installing
+
+On macOS, fonts downloaded from GitHub (including CI artifacts) are flagged by Gatekeeper. After unzipping, strip the quarantine attribute before installing:
+
+```bash
+xattr -dr com.apple.quarantine ~/Downloads/recursive-charon-fonts-*/
+```
+
 ## Building
 
 Fonts are built automatically via GitHub Actions on push to `main`. To build locally:
