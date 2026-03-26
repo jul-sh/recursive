@@ -1,9 +1,10 @@
-# Default-on substitutions (ss02, ss04, ss05, ss06, ss07, ss08, ss12 + italic j)
+# Default-on substitutions (ss02, ss04, ss05, ss06, ss07, ss08, ss12 + italic f/j)
 # These are applied via calt so they're active without users enabling stylistic sets.
-# Note: f.italic is excluded because it is incompatible across mono/sans masters.
 
 feature calt {
-    # Italic j
+    # Italic f and j
+    sub f by f.italic;
+    sub f.mono by f.italic;
     sub j by j.italic;
 
     # ss02: Single-story g
