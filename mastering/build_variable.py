@@ -65,6 +65,7 @@ def makeSTAT(font, designspace):
         "Casual":
         {
             0: "Linear",
+            0.7: "SemiCasual",
             1: "Casual"
         },
         "Slant":
