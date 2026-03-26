@@ -90,14 +90,14 @@ def makeSTAT(font, designspace):
             locations = []
             if axis.name == "Weight":
                 for value, name in styles["Weight"].items():
-                    if value != 400:
-                        locations.append({"name": name, "value": value})
-                    else:
-                        locations.append({"name": name,
-                                          "value": value,
-                                          "linkedValue": 700,
-                                          "flags": 0x2
-                                          })
+                    entry = {"name": name, "value": value}
+                    if value == 300:
+                        # Elidable flag must be on the axis default (300)
+                        # for macOS CoreText to resolve the default style
+                        entry["flags"] = 0x2
+                    if value == 400:
+                        entry["linkedValue"] = 700
+                    locations.append(entry)
             else:
                 for value, name in styles[axis.name].items():
                     if value == axis.default:
