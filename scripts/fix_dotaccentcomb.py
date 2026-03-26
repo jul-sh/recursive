@@ -164,9 +164,9 @@ def replace_dotaccentcomb(glyph_path, radius):
 # Iosevka's i dot: 125x125 = radius 62.5
 # For Recursive, the Regular weight is B.
 WEIGHT_RADII = {
-    "A": 40,    # Light weight
-    "B": 95,    # Regular weight (~190 diameter source -> ~125 output, matching Iosevka)
-    "C": 115,   # Heavy weight
+    "A": 55,    # Light weight
+    "B": 114,   # Regular weight
+    "C": 136,   # Heavy weight
 }
 
 
