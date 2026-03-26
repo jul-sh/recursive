@@ -6,6 +6,23 @@ feature calt {
     sub f by f.italic;
     sub f.mono by f.italic;
 
+    # Italic w, v, y (curvy diagonals)
+    sub v by v.italic;
+    sub w by w.italic;
+    sub wacute by wacute.italic;
+    sub wcircumflex by wcircumflex.italic;
+    sub wdieresis by wdieresis.italic;
+    sub wgrave by wgrave.italic;
+    sub y by y.italic;
+    sub yacute by yacute.italic;
+    sub ycircumflex by ycircumflex.italic;
+    sub ydieresis by ydieresis.italic;
+    sub ydotbelow by ydotbelow.italic;
+    sub ygrave by ygrave.italic;
+    sub yhookabove by yhookabove.italic;
+    sub ymacron by ymacron.italic;
+    sub ytilde by ytilde.italic;
+
     # ss02: Single-story g
     sub @dfltG by @simpleG;
     sub g.mono by g.simple;
