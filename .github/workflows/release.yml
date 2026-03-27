@@ -1,0 +1,52 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Install dependencies
+        run: |
+          uv venv --python 3.10
+          uv pip install fontTools[lxml,ufo,unicode,woff] "afdko>=3.2.0" "fontmake==2.0.5" \
+            defcon cu2qu brotli "fontParts>=0.9.2" "psautohint>=2.0.0" "ttfautohint-py>=0.4.3" \
+            ufonormalizer fontPens "ufoProcessor>=1.9" opentype-feature-freezer
+
+      - name: Build fonts
+        working-directory: mastering
+        run: uv run python build.py --all --version "${GITHUB_REF_NAME#v}"
+
+      - name: Package build artifacts
+        run: |
+          FONTS_DIR=$(ls -d fonts_* 2>/dev/null | head -1)
+          if [ -z "$FONTS_DIR" ]; then
+            echo "No fonts output directory found"
+            ls -la
+            exit 1
+          fi
+          cd "$FONTS_DIR"
+          for dir in Variable_TTF Static_OTF Static_TTF; do
+            if [ -d "$dir" ]; then
+              zip -r "../${dir}.zip" "$dir"
+            fi
+          done
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            --title "Recursive Charon ${GITHUB_REF_NAME}" \
+            --generate-notes \
+            ./*.zip
