@@ -21,7 +21,9 @@ jobs:
           uv venv --python 3.10
           uv pip install fontTools[lxml,ufo,unicode,woff] "afdko>=3.2.0" "fontmake==2.0.5" \
             defcon cu2qu brotli "fontParts>=0.9.2" "psautohint>=2.0.0" "ttfautohint-py>=0.4.3" \
-            ufonormalizer fontPens "ufoProcessor>=1.9" opentype-feature-freezer
+            ufonormalizer fontPens "ufoProcessor>=1.9" opentype-feature-freezer \
+            typing_extensions \
+            "designspaceProblems @ git+https://github.com/LettError/designSpaceProblems"
 
       - name: Build fonts
         working-directory: mastering
