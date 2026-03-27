@@ -1,11 +1,7 @@
-# Default-on substitutions (ss02, ss04, ss05, ss06, ss07, ss08, ss12 + italic f/j)
+# Default-on substitutions (ss02, ss04, ss05, ss06, ss07, ss08, ss12)
 # These are applied via calt so they're active without users enabling stylistic sets.
 
 feature calt {
-    # Italic f (j.italic is only applied in mono via designspace rules)
-    sub f by f.italic;
-    sub f.mono by f.italic;
-
     # Italic w, v, y (curvy diagonals)
     sub v by v.italic;
     sub w by w.italic;
